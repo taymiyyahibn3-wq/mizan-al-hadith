@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mīzān al-Ḥadīth (ميزان الحديث) — Interactive Documentation & Architecture Portal</title>
+  <meta name="description" content="Research-grade interactive documentation, system architecture visualizers, and dataset provenance register for Mīzān al-Ḥadīth.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0d3826;
+      --primary-light: #165b3e;
+      --primary-dark: #072217;
+      --gold: #c5a059;
+      --gold-light: #dfc285;
+      --bg-page: #f8f6f0;
+      --bg-surface: #ffffff;
+      --bg-card: #fdfbf7;
+      --border: #e6dfd1;
+      --border-dark: #cfc5b0;
+      --text-main: #1f2923;
+      --text-muted: #57655d;
+      --text-light: #87958d;
+      --accent-green: #10b981;
+      --accent-amber: #f59e0b;
+      --accent-rose: #f43f5e;
+      --accent-blue: #3b82f6;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-arabic: 'Amiri', serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Header & Navigation */
+    header {
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+      color: #fff;
+      border-bottom: 2px solid var(--gold);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .header-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+      color: #fff;
+    }
+    .brand-logo {
+      width: 42px;
+      height: 42px;
+      background: var(--gold);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: var(--primary-dark);
+      font-family: var(--font-arabic);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .brand-text h1 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .brand-text .arabic-sub {
+      font-family: var(--font-arabic);
+      font-size: 1.15rem;
+      color: var(--gold-light);
+      margin-left: 0.5rem;
+    }
+    .header-nav {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .nav-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #fff;
+      padding: 0.5rem 0.9rem;
+      border-radius: 6px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .nav-btn:hover, .nav-btn.active {
+      background: var(--gold);
+      color: var(--primary-dark);
+      border-color: var(--gold);
+    }
+
+    /* Main Container */
+    main {
+      flex: 1;
+      max-width: 1400px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    /* Hero Banner */
+    .hero-banner {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+    .hero-content h2 {
+      font-size: 1.8rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+    .hero-content p {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 1.25rem;
+    }
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.25rem 0.65rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .badge-green { background: #d1fae5; color: #065f46; }
+    .badge-blue { background: #dbeafe; color: #1e40af; }
+    .badge-gold { background: #fef3c7; color: #92400e; }
+
+    /* Stat Cards Grid */
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .stat-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      text-align: center;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .stat-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--gold);
+    }
+    .stat-val {
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: var(--primary);
+      line-height: 1.1;
+      margin-bottom: 0.25rem;
+    }
+    .stat-lbl {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+    }
+
+    /* Interactive Graph Section */
+    .visualizer-section {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+    }
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 1.25rem;
+      gap: 1rem;
+    }
+    .section-header h3 {
+      font-size: 1.35rem;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .graph-tabs {
+      display: flex;
+      gap: 0.4rem;
+      background: var(--bg-page);
+      padding: 0.25rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .graph-tab-btn {
+      border: none;
+      background: transparent;
+      padding: 0.45rem 0.85rem;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .graph-tab-btn:hover { color: var(--text-main); }
+    .graph-tab-btn.active {
+      background: var(--primary);
+      color: #fff;
+      box-shadow: 0 2px 6px rgba(13, 56, 38, 0.25);
+    }
+
+    /* Graph Canvas & Layout */
+    .graph-canvas-container {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 1.25rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      min-height: 520px;
+      overflow: hidden;
+    }
+    .graph-viewport {
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: auto;
+      background: radial-gradient(#e6dfd1 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+    svg.graph-svg {
+      width: 100%;
+      height: 100%;
+      min-height: 480px;
+    }
+
+    /* Node Inspector Drawer */
+    .node-inspector {
+      background: #fff;
+      border-left: 1px solid var(--border);
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      overflow-y: auto;
+      max-height: 580px;
+    }
+    .inspector-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--primary);
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.5rem;
+    }
+    .inspector-meta {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+    .meta-item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px dotted var(--border);
+      padding-bottom: 0.25rem;
+    }
+    .meta-label { font-weight: 600; color: var(--text-main); }
+    .meta-val { font-family: var(--font-mono); font-size: 0.8rem; }
+    .inspector-desc {
+      font-size: 0.88rem;
+      color: var(--text-main);
+      background: var(--bg-page);
+      padding: 0.75rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      line-height: 1.5;
+    }
+
+    /* SVG Interactive Node Styling */
+    .graph-node {
+      cursor: pointer;
+      transition: filter 0.2s ease, transform 0.2s ease;
+    }
+    .graph-node:hover {
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+    }
+    .graph-node.active rect, .graph-node.active circle {
+      stroke: var(--gold) !important;
+      stroke-width: 3.5px !important;
+    }
+    .graph-edge {
+      stroke: var(--border-dark);
+      stroke-width: 2px;
+      stroke-dasharray: 4;
+      animation: dash 20s linear infinite;
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -100; }
+    }
+
+    /* Search & Filter Bar */
+    .filter-bar {
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      align-items: center;
+    }
+    .search-input {
+      flex: 1;
+      padding: 0.6rem 1rem;
+      border: 1px solid var(--border-dark);
+      border-radius: 8px;
+      font-size: 0.9rem;
+      outline: none;
+      background: #fff;
+    }
+    .search-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(13,56,38,0.1);
+    }
+
+    /* API Explorer Section */
+    .endpoint-table-container {
+      max-height: 480px;
+      overflow-y: auto;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      text-align: left;
+    }
+    table.data-table th {
+      background: var(--primary);
+      color: #fff;
+      padding: 0.75rem 1rem;
+      position: sticky;
+      top: 0;
+      font-weight: 600;
+    }
+    table.data-table td {
+      padding: 0.65rem 1rem;
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+    }
+    table.data-table tr:nth-child(even) td { background: var(--bg-card); }
+    table.data-table tr:hover td { background: #fefce8; }
+    .method-badge {
+      display: inline-block;
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 0.75rem;
+      font-family: var(--font-mono);
+    }
+    .method-get { background: #dbeafe; color: #1e40af; }
+    .method-post { background: #d1fae5; color: #065f46; }
+    .method-put { background: #fef3c7; color: #92400e; }
+    .method-delete { background: #fee2e2; color: #991b1b; }
+
+    /* Footer */
+    footer {
+      background: var(--primary-dark);
+      color: var(--border);
+      padding: 2rem;
+      border-top: 2px solid var(--gold);
+      margin-top: auto;
+    }
+    .footer-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      font-size: 0.88rem;
+    }
+    .footer-links a {
+      color: var(--gold-light);
+      text-decoration: none;
+      margin-right: 1.25rem;
+    }
+    .footer-links a:hover { text-decoration: underline; }
+
+    @media (max-width: 900px) {
+      .hero-banner { grid-template-columns: 1fr; }
+      .graph-canvas-container { grid-template-columns: 1fr; }
+      .node-inspector { border-left: none; border-top: 1px solid var(--border); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header>
+    <div class="header-inner">
+      <a href="#" class="brand-title">
+        <div class="brand-logo">م</div>
+        <div class="brand-text">
+          <h1>Mīzān al-Ḥadīth <span class="arabic-sub">ميزان الحديث</span></h1>
+        </div>
+      </a>
+      <nav class="header-nav" id="topNav">
+        <button class="nav-btn active" onclick="switchMainView('visualizer')">📊 Graph Explorer</button>
+        <button class="nav-btn" onclick="switchMainView('api')">⚡ API Reference (95)</button>
+        <button class="nav-btn" onclick="switchMainView('provenance')">📜 Dataset Provenance</button>
+        <button class="nav-btn" onclick="switchMainView('docs')">📖 Documentation Portal</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main>
+
+    <!-- Hero Overview & Verification Badges -->
+    <section class="hero-banner">
+      <div class="hero-content">
+        <div style="display:flex; gap:0.5rem; margin-bottom:0.75rem; flex-wrap:wrap;">
+          <span class="badge-pill badge-green">✓ Verified Relational Graph</span>
+          <span class="badge-pill badge-gold">Immutable Canonical Corpus</span>
+          <span class="badge-pill badge-blue">OpenAPI 3.1 Certified</span>
+        </div>
+        <h2>Interactive Computational Hadith Architecture</h2>
+        <p>
+          Welcome to the official interactive architecture portal and documentation explorer for <strong>Mīzān al-Ḥadīth</strong>.
+          Every component, graph edge, and database metric is connected bit-for-bit to verified production implementations.
+        </p>
+        <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
+          <a href="#graphs" class="nav-btn" style="background:var(--primary); color:#fff; border-color:var(--primary);">Explore Interactive Visualizers</a>
+          <a href="overview/vision-and-scope.md" class="nav-btn" style="color:var(--primary); background:#fff; border-color:var(--border-dark);">Read Research Scope</a>
+        </div>
+      </div>
+
+      <!-- Live Verified Metrics Grid -->
+      <div class="stat-grid">
+        <div class="stat-card">
+          <div class="stat-val" id="statHadiths">715,790</div>
+          <div class="stat-lbl">Canonical Hadiths</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val" id="statRawis">49,844</div>
+          <div class="stat-lbl">Transmitter Biographies</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val" id="statEdges">298,655</div>
+          <div class="stat-lbl">Isnād Transmission Edges</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val" id="statCrosswalks">95,598</div>
+          <div class="stat-lbl">Numbering Concordances</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 1: Interactive Graph Explorer (Default View) -->
+    <section id="viewVisualizer" class="visualizer-section">
+      <div class="section-header">
+        <div>
+          <h3 id="currentGraphTitle">System Architecture Visualizer</h3>
+          <p style="font-size:0.85rem; color:var(--text-muted);" id="currentGraphDesc">Select any node in the interactive diagram to inspect its exact inputs, outputs, source files, and dependencies.</p>
+        </div>
+        <div class="graph-tabs">
+          <button class="graph-tab-btn active" onclick="loadGraph('architecture')">Architecture Graph</button>
+          <button class="graph-tab-btn" onclick="loadGraph('features')">Feature Dependency</button>
+          <button class="graph-tab-btn" onclick="loadGraph('lifecycle')">Request Lifecycle</button>
+          <button class="graph-tab-btn" onclick="loadGraph('lineage')">Data Lineage</button>
+          <button class="graph-tab-btn" onclick="loadGraph('askmizan')">Ask Mīzān Pipeline</button>
+          <button class="graph-tab-btn" onclick="loadGraph('workspace')">Workspace Model</button>
+          <button class="graph-tab-btn" onclick="loadGraph('metrics')">Data Capacity</button>
+        </div>
+      </div>
+
+      <!-- Graph Canvas + Node Inspector Drawer -->
+      <div class="graph-canvas-container" id="graphs">
+        <div class="graph-viewport" id="viewport">
+          <!-- Interactive SVG injected dynamically -->
+          <svg class="graph-svg" id="graphSvg" viewBox="0 0 850 500"></svg>
+        </div>
+        <div class="node-inspector" id="inspector">
+          <div class="inspector-title" id="nodeTitle">Select a Node</div>
+          <div class="inspector-meta" id="nodeMeta">
+            <div class="meta-item"><span class="meta-label">Subsystem</span><span class="meta-val" id="nodeSubsystem">—</span></div>
+            <div class="meta-item"><span class="meta-label">File Path</span><span class="meta-val" id="nodePath">—</span></div>
+            <div class="meta-item"><span class="meta-label">Access Mode</span><span class="meta-val" id="nodeAccess">—</span></div>
+            <div class="meta-item"><span class="meta-label">Verified Status</span><span class="meta-val" id="nodeStatus">—</span></div>
+          </div>
+          <div class="inspector-desc" id="nodeDesc">
+            Click on any architectural node, database file, or service in the diagram to view its verified implementation details and responsibilities.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: API Reference Explorer (Searchable 95 Endpoints) -->
+    <section id="viewApi" class="visualizer-section" style="display:none;">
+      <div class="section-header">
+        <div>
+          <h3>REST API Reference Explorer</h3>
+          <p style="font-size:0.85rem; color:var(--text-muted);">95 verified FastAPI endpoints extracted directly from the live OpenAPI 3.1 specification.</p>
+        </div>
+      </div>
+      <div class="filter-bar">
+        <input type="text" id="apiSearch" class="search-input" placeholder="Filter endpoints by path, method, or summary (e.g. 'workspace', 'isnad', 'grades', 'POST')..." oninput="filterApiTable()">
+      </div>
+      <div class="endpoint-table-container">
+        <table class="data-table" id="apiTable">
+          <thead>
+            <tr>
+              <th style="width:90px;">Method</th>
+              <th style="width:280px;">Endpoint Path</th>
+              <th>Summary & Purpose</th>
+              <th style="width:160px;">Category</th>
+            </tr>
+          </thead>
+          <tbody id="apiTableBody">
+            <!-- Dynamically populated from openapi_extracted.json -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Dataset Provenance & Attribution Register -->
+    <section id="viewProvenance" class="visualizer-section" style="display:none;">
+      <div class="section-header">
+        <div>
+          <h3>Dataset Provenance & Attribution Register</h3>
+          <p style="font-size:0.85rem; color:var(--text-muted);">Exhaustive attribution and licensing records for all primary corpora, crosswalks, and commentary sources.</p>
+        </div>
+      </div>
+      <div class="endpoint-table-container">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Dataset / Resource</th>
+              <th>Local Path</th>
+              <th>Size</th>
+              <th>Upstream Source & URL</th>
+              <th>License & Permission</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Canonical Hadith KG</strong></td>
+              <td><code>data/hadith-kg.db</code></td>
+              <td>1.64 GB</td>
+              <td>Al-Maktaba al-Shamelah & Open IKG (<a href="https://al-maktaba.org" target="_blank">al-maktaba.org</a>)</td>
+              <td>Public Domain (Classical Islamic Heritage)</td>
+            </tr>
+            <tr>
+              <td><strong>Numbering Concordance</strong></td>
+              <td><code>data/hadith_numbering.db</code></td>
+              <td>35.09 MB</td>
+              <td>Darussalam, Fu'ad 'Abd al-Baqi, Wensinck (<a href="https://sunnah.com" target="_blank">sunnah.com</a>)</td>
+              <td>Open Scholarly Concordance Metadata</td>
+            </tr>
+            <tr>
+              <td><strong>Isnād Topology Graph</strong></td>
+              <td><code>data/isnad_network.db</code></td>
+              <td>52.09 MB</td>
+              <td>Computed Multigraph (298,655 directed edges)</td>
+              <td>Mīzān Scholarly Topology Model</td>
+            </tr>
+            <tr>
+              <td><strong>English Translation Corpus</strong></td>
+              <td><code>data/hadith_translations.db</code></td>
+              <td>24.05 MB</td>
+              <td>Academic translations via Sunnah.com</td>
+              <td>Academic & Educational Fair Use</td>
+            </tr>
+            <tr>
+              <td><strong>Classical Commentary Corpus</strong></td>
+              <td><code>data/hadith_commentaries.db</code></td>
+              <td>9.05 MB</td>
+              <td>*Fatḥ al-Bārī*, *Sharḥ Muslim*, *ʿAwn al-Maʿbūd*</td>
+              <td>Public Domain (Historical Classical Texts)</td>
+            </tr>
+            <tr>
+              <td><strong>Master Scholar Judgments</strong></td>
+              <td><code>data/classical_scholar_evidence.db</code></td>
+              <td>2.43 MB</td>
+              <td>Primary verdicts of al-Tirmidhi, al-Bukhari, Ibn Hajar</td>
+              <td>Public Domain (Classical Historical Rulings)</td>
+            </tr>
+            <tr>
+              <td><strong>Modern Takhrij References</strong></td>
+              <td><code>data/citation_enrichment.db</code></td>
+              <td>9.25 MB</td>
+              <td>Zubair Ali Zai & al-Albani verified citations</td>
+              <td>Research Data / Educational Fair Use</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Documentation Markdown Portal Links -->
+    <section id="viewDocs" class="visualizer-section" style="display:none;">
+      <div class="section-header">
+        <div>
+          <h3>Mīzān Documentation Hierarchy</h3>
+          <p style="font-size:0.85rem; color:var(--text-muted);">Navigate detailed technical markdown specifications included in the repository.</p>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1.25rem;">
+        <div class="stat-card" style="text-align:left;">
+          <h4 style="color:var(--primary); margin-bottom:0.5rem;">🏗️ Architecture</h4>
+          <ul style="font-size:0.88rem; list-style-position:inside; color:var(--text-muted); line-height:1.7;">
+            <li><a href="architecture/system-overview.md">System Overview</a></li>
+            <li><a href="architecture/frontend-architecture.md">Frontend Architecture</a></li>
+            <li><a href="architecture/backend-architecture.md">Backend Architecture</a></li>
+            <li><a href="architecture/data-architecture.md">Data & Schemas</a></li>
+            <li><a href="architecture/retrieval-and-rag.md">Grounded RAG Pipeline</a></li>
+            <li><a href="architecture/security-and-integrity.md">Scholarly Safeguards</a></li>
+          </ul>
+        </div>
+        <div class="stat-card" style="text-align:left;">
+          <h4 style="color:var(--primary); margin-bottom:0.5rem;">✨ Core Features</h4>
+          <ul style="font-size:0.88rem; list-style-position:inside; color:var(--text-muted); line-height:1.7;">
+            <li><a href="features/hadith-library.md">Hadith Library</a></li>
+            <li><a href="features/search-and-retrieval.md">Multi-Modal Search</a></li>
+            <li><a href="features/ask-mizan.md">Ask Mīzān Assistant</a></li>
+            <li><a href="features/narrator-research.md">Narrator Biographies</a></li>
+            <li><a href="features/isnad-explorer.md">Isnād Topology Explorer</a></li>
+            <li><a href="features/matn-analysis.md">Matn Variant Diff Viewer</a></li>
+            <li><a href="features/research-workspace.md">Scholarly Workspace</a></li>
+          </ul>
+        </div>
+        <div class="stat-card" style="text-align:left;">
+          <h4 style="color:var(--primary); margin-bottom:0.5rem;">🛠️ Development & Audits</h4>
+          <ul style="font-size:0.88rem; list-style-position:inside; color:var(--text-muted); line-height:1.7;">
+            <li><a href="development/local-setup.md">Local Setup Guide</a></li>
+            <li><a href="development/testing.md">Automated Test Suites</a></li>
+            <li><a href="development/deployment.md">Deployment Topologies</a></li>
+            <li><a href="github-publication/REPOSITORY_AUDIT.md">Repository Audit Report</a></li>
+            <li><a href="github-publication/SECURITY_AND_PRIVACY_AUDIT.md">Security & Privacy Audit</a></li>
+            <li><a href="github-publication/PUBLICATION_REPORT.md">Publication Report</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <strong>Mīzān al-Ḥadīth (ميزان الحديث)</strong> — Research-Grade Computational Hadith Platform.<br>
+        Preserving Classical Scholarly Heritage with Modern Mathematical Rigor.
+      </div>
+      <div class="footer-links">
+        <a href="index.md">Documentation Portal</a>
+        <a href="data/licensing-and-redistribution.md">Licensing & Redistribution</a>
+        <a href="overview/vision-and-scope.md">Research Scope</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Embedded Client-Side Graph & API Data Engine -->
+  <script>
+    // ---------------------------------------------------------------------------
+    // Graph Definitions & Node Data
+    // ---------------------------------------------------------------------------
+    const GRAPHS = {
+      architecture: {
+        title: "System Architecture Visualizer",
+        desc: "High-level topology linking the Next.js presentation tier, FastAPI services, and immutable SQLite canonical databases.",
+        nodes: [
+          { id: "fe", label: "Next.js 16 Web Client", x: 80, y: 120, w: 180, h: 55, color: "#165b3e", text: "#fff", sub: "Frontend", path: "mizan-web/frontend", access: "Client Browser", status: "VERIFIED", desc: "Next.js 16 App Router interface styled with Tailwind CSS 4.0. Connects to backend via typed REST calls." },
+          { id: "api", label: "FastAPI 0.141 Application", x: 340, y: 120, w: 200, h: 55, color: "#0d3826", text: "#fff", sub: "Backend", path: "mizan-web/backend/main.py", access: "ASGI Server :8000", status: "VERIFIED", desc: "Asynchronous REST API service hosting 95 endpoints with strict Pydantic v2 validation." },
+          { id: "dbm", label: "DB Lifecycle Manager", x: 340, y: 220, w: 200, h: 55, color: "#c5a059", text: "#072217", sub: "Core Service", path: "mizan-web/backend/db_manager.py", access: "ConnectionTracker", status: "VERIFIED", desc: "Enforces strict read-only mode (mode=ro) on canonical databases and zero connection handle leaks." },
+          { id: "kg", label: "Canonical Hadith KG (1.64 GB)", x: 620, y: 80, w: 200, h: 50, color: "#072217", text: "#fff", sub: "Database", path: "data/hadith-kg.db", access: "Read-Only (mode=ro)", status: "VERIFIED", desc: "715,790 hadiths, 49,844 rawis, 577,024 sanads, 4.4M narrator transmission links." },
+          { id: "num", label: "Concordance Crosswalk (35 MB)", x: 620, y: 150, w: 200, h: 50, color: "#072217", text: "#fff", sub: "Database", path: "data/hadith_numbering.db", access: "Read-Only (mode=ro)", status: "VERIFIED", desc: "95,598 numbering mappings across 18 international printed editions (Darussalam, Fu'ad 'Abd al-Baqi, etc.)." },
+          { id: "net", label: "Isnād Topology Cache (52 MB)", x: 620, y: 220, w: 200, h: 50, color: "#072217", text: "#fff", sub: "Database", path: "data/isnad_network.db", access: "Read-Only (mode=ro)", status: "VERIFIED", desc: "298,655 directed transmission edges precomputed for real-time 2D/3D graph visualization." },
+          { id: "work", label: "Research Workspace (User Store)", x: 620, y: 290, w: 200, h: 50, color: "#3b82f6", text: "#fff", sub: "User Database", path: "data/research_workspace.db", access: "Read/Write (WAL)", status: "VERIFIED", desc: "Isolated storage for user research projects, private notes, and claim-evidence matrices." },
+          { id: "llm", label: "External LLM Providers", x: 340, y: 350, w: 200, h: 50, color: "#6366f1", text: "#fff", sub: "AI Integration", path: "mizan-web/backend/ask_mizan", access: "Gemini / OpenAI / Ollama", status: "VERIFIED", desc: "Grounded natural language synthesis strictly constrained by canonical evidence packs." }
+        ],
+        edges: [
+          { from: "fe", to: "api", label: "HTTP / REST" },
+          { from: "api", to: "dbm", label: "Handle Request" },
+          { from: "dbm", to: "kg", label: "mode=ro" },
+          { from: "dbm", to: "num", label: "mode=ro" },
+          { from: "dbm", to: "net", label: "mode=ro" },
+          { from: "api", to: "work", label: "WAL Isolated" },
+          { from: "api", to: "llm", label: "Grounded Prompt" }
+        ]
+      },
+      features: {
+        title: "Feature Dependency Graph",
+        desc: "Maps user-facing features to their underlying API endpoints and backing database tables.",
+        nodes: [
+          { id: "f_lib", label: "Hadith Library", x: 80, y: 80, w: 160, h: 45, color: "#0d3826", text: "#fff", sub: "Feature", path: "/books, /hadith/[id]", access: "GET /api/hadith/{id}", status: "VERIFIED", desc: "Browse 6 Canonical Books, chapters, pagination, Arabic matn and English translations." },
+          { id: "f_search", label: "Multi-Modal Search", x: 80, y: 150, w: 160, h: 45, color: "#0d3826", text: "#fff", sub: "Feature", path: "/search", access: "GET /api/search", status: "VERIFIED", desc: "Simultaneous resolution across Arabic FTS5, English translations, and rawi names." },
+          { id: "f_ask", label: "Ask Mīzān Assistant", x: 80, y: 220, w: 160, h: 45, color: "#0d3826", text: "#fff", sub: "Feature", path: "/ask", access: "POST /api/ask", status: "VERIFIED", desc: "Multi-turn grounded research assistant with citation verification guard." },
+          { id: "f_isnad", label: "Isnād Topology Explorer", x: 80, y: 290, w: 160, h: 45, color: "#0d3826", text: "#fff", sub: "Feature", path: "/isnad", access: "GET /api/isnad/{id}", status: "VERIFIED", desc: "Interactive 2D graph, timeline, geographical atlas, and 3D spatial visualizer." },
+          { id: "f_work", label: "Research Workspace", x: 80, y: 360, w: 160, h: 45, color: "#0d3826", text: "#fff", sub: "Feature", path: "/workspace", access: "25 Workspace Endpoints", status: "VERIFIED", desc: "Project organization, evidence libraries, notes, claims, and dossier export." },
+          { id: "ep_hadith", label: "/api/hadith & /api/books", x: 350, y: 80, w: 180, h: 45, color: "#c5a059", text: "#072217", sub: "Backend API", path: "main.py", access: "REST Endpoint", status: "VERIFIED", desc: "Retrieves canonical matn, isnād, grades, and commentaries." },
+          { id: "ep_search", label: "/api/search & /numbering", x: 350, y: 150, w: 180, h: 45, color: "#c5a059", text: "#072217", sub: "Backend API", path: "main.py", access: "REST Endpoint", status: "VERIFIED", desc: "Executes FTS5 queries and deterministic edition crosswalks." },
+          { id: "ep_ask", label: "/api/ask & /api/ask/stream", x: 350, y: 220, w: 180, h: 45, color: "#c5a059", text: "#072217", sub: "Backend API", path: "ask_mizan/router.py", access: "REST / SSE", status: "VERIFIED", desc: "Multi-turn query parsing, evidence assembly, and LLM streaming." },
+          { id: "ep_isnad", label: "/api/isnad & /api/narrators", x: 350, y: 290, w: 180, h: 45, color: "#c5a059", text: "#072217", sub: "Backend API", path: "main.py", access: "REST Endpoint", status: "VERIFIED", desc: "Traverses isnad sequences and narrator biographical dictionaries." },
+          { id: "ep_work", label: "/api/workspace/*", x: 350, y: 360, w: 180, h: 45, color: "#c5a059", text: "#072217", sub: "Backend API", path: "research_workspace.py", access: "25 Endpoints", status: "VERIFIED", desc: "Isolated workspace CRUD and dossier export generation." },
+          { id: "db_kg", label: "hadith-kg.db", x: 620, y: 120, w: 170, h: 45, color: "#072217", text: "#fff", sub: "Database", path: "data/hadith-kg.db", access: "Canonical", status: "VERIFIED", desc: "Primary text, narrator, and chain repository." },
+          { id: "db_fts", label: "FTS5 & Concordances", x: 620, y: 220, w: 170, h: 45, color: "#072217", text: "#fff", sub: "Database", path: "data/hadith_numbering.db", access: "Indices", status: "VERIFIED", desc: "Full-text indices and 18-edition concordances." },
+          { id: "db_work", label: "research_workspace.db", x: 620, y: 360, w: 170, h: 45, color: "#3b82f6", text: "#fff", sub: "Database", path: "data/research_workspace.db", access: "User Isolated", status: "VERIFIED", desc: "Private workspace state." }
+        ],
+        edges: [
+          { from: "f_lib", to: "ep_hadith", label: "Calls" },
+          { from: "f_search", to: "ep_search", label: "Calls" },
+          { from: "f_ask", to: "ep_ask", label: "Calls" },
+          { from: "f_isnad", to: "ep_isnad", label: "Calls" },
+          { from: "f_work", to: "ep_work", label: "Calls" },
+          { from: "ep_hadith", to: "db_kg", label: "Reads" },
+          { from: "ep_search", to: "db_fts", label: "Queries" },
+          { from: "ep_ask", to: "db_kg", label: "Grounded By" },
+          { from: "ep_isnad", to: "db_kg", label: "Traverses" },
+          { from: "ep_work", to: "db_work", label: "Persists" }
+        ]
+      },
+      lifecycle: {
+        title: "Request Execution Lifecycle",
+        desc: "Step-by-step trace showing deterministic validation, connection tracking, query execution, and serialization.",
+        nodes: [
+          { id: "req_in", label: "1. Client HTTP Request", x: 60, y: 180, w: 170, h: 50, color: "#165b3e", text: "#fff", sub: "Browser", path: "src/lib/api.ts", access: "Fetch API", status: "VERIFIED", desc: "Asynchronous HTTP fetch with headers (Content-Type, X-Researcher-Id)." },
+          { id: "pyd", label: "2. Pydantic v2 Validation", x: 280, y: 180, w: 180, h: 50, color: "#0d3826", text: "#fff", sub: "Validation", path: "FastAPI Middleware", access: "Type Check", status: "VERIFIED", desc: "Validates query parameters and request bodies, returning 422 if invalid." },
+          { id: "trk", label: "3. ConnectionTracker", x: 510, y: 180, w: 180, h: 50, color: "#c5a059", text: "#072217", sub: "Handle Mgr", path: "db_manager.py", access: "Thread-Safe Lock", status: "VERIFIED", desc: "Registers connection handle and checks out read-only handle." },
+          { id: "sql", label: "4. SQLite Query Execution", x: 510, y: 300, w: 180, h: 50, color: "#072217", text: "#fff", sub: "Engine", path: "SQLite3 B-Tree/FTS5", access: "mode=ro", status: "VERIFIED", desc: "Executes indexed query with sub-millisecond execution latency." },
+          { id: "close", label: "5. Handle Deregistration", x: 280, y: 300, w: 180, h: 50, color: "#c5a059", text: "#072217", sub: "Cleanup", path: "db_manager.py", access: "Context Exit", status: "VERIFIED", desc: "Guarantees connection closure and deregistration, preventing leaks." },
+          { id: "res", label: "6. JSON Serialization", x: 60, y: 300, w: 170, h: 50, color: "#165b3e", text: "#fff", sub: "Response", path: "FastAPI Serializer", access: "HTTP 200", status: "VERIFIED", desc: "Encodes response payload to UTF-8 JSON and streams to client." }
+        ],
+        edges: [
+          { from: "req_in", to: "pyd", label: "Route" },
+          { from: "pyd", to: "trk", label: "Acquire" },
+          { from: "trk", to: "sql", label: "Execute" },
+          { from: "sql", to: "close", label: "Result" },
+          { from: "close", to: "res", label: "Encode" }
+        ]
+      },
+      lineage: {
+        title: "Data Lineage & Provenance Flow",
+        desc: "Traces primary sources from classical historical origins through digital ingestion, index compilation, and user features.",
+        nodes: [
+          { id: "src_shamela", label: "Al-Maktaba al-Shamelah", x: 50, y: 80, w: 180, h: 45, color: "#475569", text: "#fff", sub: "Upstream", path: "al-maktaba.org", access: "Public Domain", status: "VERIFIED", desc: "Historical classical texts and commentaries (Bukhari, Muslim, Fath al-Bari)." },
+          { id: "src_sunnah", label: "Sunnah.com Concordance", x: 50, y: 180, w: 180, h: 45, color: "#475569", text: "#fff", sub: "Upstream", path: "sunnah.com", access: "Open Concordance", status: "VERIFIED", desc: "Darussalam and Fu'ad 'Abd al-Baqi numbering crosswalk references." },
+          { id: "src_geo", label: "Mu'jam al-Buldan Gazetteer", x: 50, y: 280, w: 180, h: 45, color: "#475569", text: "#fff", sub: "Upstream", path: "Yaqut al-Hamawi", access: "Historical Facts", status: "VERIFIED", desc: "Coordinates for 12 canonical Islamic transmission centers." },
+          { id: "proc_norm", label: "Orthographic Normalization", x: 290, y: 80, w: 190, h: 45, color: "#c5a059", text: "#072217", sub: "Ingestion", path: "scripts/build_*.py", access: "Preprocessing", status: "VERIFIED", desc: "Arabic diacritics stripping, hamzah normalization, and FTS5 indexing." },
+          { id: "proc_cross", label: "Offset & Alias Mapping", x: 290, y: 180, w: 190, h: 45, color: "#c5a059", text: "#072217", sub: "Ingestion", path: "reference_resolver.py", access: "Deterministic", status: "VERIFIED", desc: "Crosswalk alignment linking Darussalam numbering to canonical hadith IDs." },
+          { id: "proc_topo", label: "Isnād Topology Compiler", x: 290, y: 280, w: 190, h: 45, color: "#c5a059", text: "#072217", sub: "Compiler", path: "build_isnad_network.py", access: "Graph Engine", status: "VERIFIED", desc: "Compiles 4.4M narrator transmission links into 298k directed multigraph edges." },
+          { id: "out_fe", label: "Mīzān Full-Stack Application", x: 560, y: 180, w: 220, h: 70, color: "#0d3826", text: "#fff", sub: "Platform", path: "mizan-web", access: "Live Application", status: "VERIFIED", desc: "Powers the canonical library, isnad graphs, diff viewer, and Ask Mīzān assistant." }
+        ],
+        edges: [
+          { from: "src_shamela", to: "proc_norm", label: "Raw Mutun" },
+          { from: "src_sunnah", to: "proc_cross", label: "Concordance" },
+          { from: "src_geo", to: "proc_topo", label: "Coordinates" },
+          { from: "proc_norm", to: "out_fe", label: "FTS Index" },
+          { from: "proc_cross", to: "out_fe", label: "Lookup Key" },
+          { from: "proc_topo", to: "out_fe", label: "Graph Nodes" }
+        ]
+      },
+      askmizan: {
+        title: "Ask Mīzān Grounded Retrieval Pipeline",
+        desc: "Multi-tier query routing, evidence assembly, LLM synthesis, and post-generation citation validation.",
+        nodes: [
+          { id: "q_in", label: "1. User Query", x: 60, y: 180, w: 140, h: 50, color: "#165b3e", text: "#fff", sub: "Query", path: "ask_mizan/router.py", access: "POST /api/ask", status: "VERIFIED", desc: "Natural language query (e.g. 'What is hadith 1986 in Ibn Majah?')." },
+          { id: "parse", label: "2. Intent Classification", x: 240, y: 180, w: 160, h: 50, color: "#0d3826", text: "#fff", sub: "Parser", path: "ask_mizan/parser.py", access: "Regex / Rules", status: "VERIFIED", desc: "Classifies query into EXACT_HADITH, NARRATOR, COMMENTARY, or MATN." },
+          { id: "evid", label: "3. Evidence Assembly", x: 440, y: 180, w: 160, h: 50, color: "#c5a059", text: "#072217", sub: "Retrieval", path: "ask_mizan/engine.py", access: "mode=ro DBs", status: "VERIFIED", desc: "Pulls canonical matn, isnad, gradings, and commentary into verified pack." },
+          { id: "gen", label: "4. LLM Generation", x: 640, y: 180, w: 160, h: 50, color: "#6366f1", text: "#fff", sub: "Synthesis", path: "Google Gemini 2.5", access: "External API", status: "VERIFIED", desc: "Generates factual synthesis strictly conditioned on evidence pack." },
+          { id: "guard", label: "5. Citation Guard", x: 640, y: 300, w: 160, h: 50, color: "#f43f5e", text: "#fff", sub: "Validator", path: "ask_mizan/validator.py", access: "Anti-Hallucination", status: "VERIFIED", desc: "Parses citation markers, matches bit-for-bit with pack, purges ungrounded tokens." },
+          { id: "resp", label: "6. Verified Response", x: 240, y: 300, w: 160, h: 50, color: "#10b981", text: "#fff", sub: "Client View", path: "CitationChip.tsx", access: "Rendered UI", status: "VERIFIED", desc: "Renders answer with interactive citation chips linking to canonical texts." }
+        ],
+        edges: [
+          { from: "q_in", to: "parse", label: "Parse" },
+          { from: "parse", to: "evid", label: "Route" },
+          { from: "evid", to: "gen", label: "Evidence Pack" },
+          { from: "gen", to: "guard", label: "Raw Answer" },
+          { from: "guard", to: "resp", label: "Verified" }
+        ]
+      },
+      workspace: {
+        title: "Research Workspace Data Model",
+        desc: "Isolated relational model supporting projects, evidence bookmarks, research notes, claims, and matrices.",
+        nodes: [
+          { id: "w_proj", label: "Projects", x: 100, y: 120, w: 160, h: 50, color: "#3b82f6", text: "#fff", sub: "Entity", path: "research_workspace.py", access: "projects table", status: "VERIFIED", desc: "Project title, Arabic subtitle, description, tags, researcher ID." },
+          { id: "w_evid", label: "Evidence Library", x: 340, y: 60, w: 160, h: 50, color: "#0d3826", text: "#fff", sub: "Entity", path: "evidence table", access: "Snapshot Data", status: "VERIFIED", desc: "Bookmarked canonical hadiths and rawis with preserved snapshot data." },
+          { id: "w_notes", label: "Research Notes", x: 340, y: 150, w: 160, h: 50, color: "#c5a059", text: "#072217", sub: "Entity", path: "notes table", access: "Markdown Notes", status: "VERIFIED", desc: "Rich text research notes with pinning and color tagging." },
+          { id: "w_claim", label: "Hypotheses & Claims", x: 340, y: 240, w: 160, h: 50, color: "#6366f1", text: "#fff", sub: "Entity", path: "claims table", access: "Hypothesis", status: "VERIFIED", desc: "Scholarly assertions (e.g. 'Transmission divergence in Kufa')." },
+          { id: "w_matrix", label: "Claim-Evidence Matrix", x: 580, y: 240, w: 180, h: 50, color: "#f59e0b", text: "#072217", sub: "Relation", path: "claim_evidence table", access: "Support / Challenge", status: "VERIFIED", desc: "Classifies evidence relations as SUPPORTING or CHALLENGING." },
+          { id: "w_export", label: "Publication Exports", x: 340, y: 340, w: 160, h: 50, color: "#10b981", text: "#fff", sub: "Export", path: "exports table", access: "Markdown / JSON", status: "VERIFIED", desc: "Single-click generation of academic Markdown and JSON research dossiers." }
+        ],
+        edges: [
+          { from: "w_proj", to: "w_evid", label: "Bookmarks" },
+          { from: "w_proj", to: "w_notes", label: "Contains" },
+          { from: "w_proj", to: "w_claim", label: "Formulates" },
+          { from: "w_claim", to: "w_matrix", label: "Evaluates" },
+          { from: "w_evid", to: "w_matrix", label: "Linked In" },
+          { from: "w_proj", to: "w_export", label: "Exports" }
+        ]
+      },
+      metrics: {
+        title: "Verified Data Capacity Overview",
+        desc: "Empirical record counts across all canonical databases cataloged on the live filesystem.",
+        nodes: [
+          { id: "m_hadiths", label: "Hadiths: 715,790", x: 80, y: 80, w: 200, h: 55, color: "#0d3826", text: "#fff", sub: "Canonical", path: "data/hadith-kg.db", access: "715k rows", status: "VERIFIED", desc: "Total canonical hadith records cataloged in the knowledge graph." },
+          { id: "m_rawis", label: "Rawis: 49,844", x: 320, y: 80, w: 200, h: 55, color: "#165b3e", text: "#fff", sub: "Biographical", path: "data/hadith-kg.db", access: "49.8k rows", status: "VERIFIED", desc: "Transmitters of hadith with generational and regional metadata." },
+          { id: "m_edges", label: "Isnād Edges: 298,655", x: 560, y: 80, w: 200, h: 55, color: "#072217", text: "#fff", sub: "Topology", path: "data/isnad_network.db", access: "298k rows", status: "VERIFIED", desc: "Directed teacher-to-student transmission relationships." },
+          { id: "m_chains", label: "Sanads: 577,024", x: 80, y: 170, w: 200, h: 55, color: "#c5a059", text: "#072217", sub: "Transmission", path: "data/hadith-kg.db", access: "577k rows", status: "VERIFIED", desc: "Distinct textual transmission sequences linking to hadiths." },
+          { id: "m_links", label: "Sanad-Rawi Links: 4.41M", x: 320, y: 170, w: 200, h: 55, color: "#dfc285", text: "#072217", sub: "Sequences", path: "data/hadith-kg.db", access: "4,414,211 rows", status: "VERIFIED", desc: "Step-by-step transmitter order records within transmission chains." },
+          { id: "m_aqwal", label: "Jarḥ Opinions: 127,863", x: 560, y: 170, w: 200, h: 55, color: "#f59e0b", text: "#072217", sub: "Critique", path: "data/hadith-kg.db", access: "127k rows", status: "VERIFIED", desc: "Classical critical evaluations by recognized scholarly authorities." },
+          { id: "m_cross", label: "Concordances: 95,598", x: 80, y: 260, w: 200, h: 55, color: "#3b82f6", text: "#fff", sub: "Crosswalk", path: "data/hadith_numbering.db", access: "95.5k rows", status: "VERIFIED", desc: "Multi-edition numbering mappings across 18 publication schemes." },
+          { id: "m_trans", label: "Translations: 31,488", x: 320, y: 260, w: 200, h: 55, color: "#6366f1", text: "#fff", sub: "English", path: "data/hadith_translations.db", access: "31.4k rows", status: "VERIFIED", desc: "Academic English translations aligned to canonical hadith IDs." },
+          { id: "m_comms", label: "Commentary Excerpts: 1,202", x: 560, y: 260, w: 200, h: 55, color: "#10b981", text: "#fff", sub: "Shurūḥ", path: "data/hadith_commentaries.db", access: "1,202 rows", status: "VERIFIED", desc: "Classical commentary sections linked to canonical hadiths." }
+        ],
+        edges: []
+      }
+    };
+
+    // ---------------------------------------------------------------------------
+    // Render Selected Graph into SVG Viewport
+    // ---------------------------------------------------------------------------
+    let currentGraphKey = "architecture";
+
+    function loadGraph(key) {
+      currentGraphKey = key;
+      const g = GRAPHS[key];
+      if (!g) return;
+
+      document.getElementById("currentGraphTitle").textContent = g.title;
+      document.getElementById("currentGraphDesc").textContent = g.desc;
+
+      // Update Tab styling
+      document.querySelectorAll(".graph-tab-btn").forEach(btn => {
+        btn.classList.toggle("active", btn.getAttribute("onclick").includes(key));
+      });
+
+      const svg = document.getElementById("graphSvg");
+      svg.innerHTML = "";
+
+      // Add Defs for Arrowhead marker
+      const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+      defs.innerHTML = `
+        <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 1 L 10 5 L 0 9 z" fill="#cfc5b0" />
+        </marker>
+      `;
+      svg.appendChild(defs);
+
+      // Render Edges
+      g.edges.forEach(e => {
+        const fromNode = g.nodes.find(n => n.id === e.from);
+        const toNode = g.nodes.find(n => n.id === e.to);
+        if (!fromNode || !toNode) return;
+
+        const x1 = fromNode.x + fromNode.w / 2;
+        const y1 = fromNode.y + fromNode.h / 2;
+        const x2 = toNode.x + toNode.w / 2;
+        const y2 = toNode.y + toNode.h / 2;
+
+        const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+        line.setAttribute("x1", x1);
+        line.setAttribute("y1", y1);
+        line.setAttribute("x2", x2);
+        line.setAttribute("y2", y2);
+        line.setAttribute("class", "graph-edge");
+        line.setAttribute("marker-end", "url(#arrow)");
+        svg.appendChild(line);
+
+        if (e.label) {
+          const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+          text.setAttribute("x", (x1 + x2) / 2);
+          text.setAttribute("y", (y1 + y2) / 2 - 6);
+          text.setAttribute("fill", "#57655d");
+          text.setAttribute("font-size", "11px");
+          text.setAttribute("font-weight", "500");
+          text.setAttribute("text-anchor", "middle");
+          text.textContent = e.label;
+          svg.appendChild(text);
+        }
+      });
+
+      // Render Nodes
+      g.nodes.forEach(n => {
+        const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
+        group.setAttribute("class", "graph-node");
+        group.setAttribute("id", "node_" + n.id);
+        group.onclick = () => selectNode(n);
+
+        const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+        rect.setAttribute("x", n.x);
+        rect.setAttribute("y", n.y);
+        rect.setAttribute("width", n.w);
+        rect.setAttribute("height", n.h);
+        rect.setAttribute("rx", "8");
+        rect.setAttribute("fill", n.color);
+        rect.setAttribute("stroke", "#cfc5b0");
+        rect.setAttribute("stroke-width", "1.5");
+        group.appendChild(rect);
+
+        const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        text.setAttribute("x", n.x + n.w / 2);
+        text.setAttribute("y", n.y + n.h / 2 + 4);
+        text.setAttribute("fill", n.text);
+        text.setAttribute("font-size", "12px");
+        text.setAttribute("font-weight", "600");
+        text.setAttribute("text-anchor", "middle");
+        text.textContent = n.label;
+        group.appendChild(text);
+
+        svg.appendChild(group);
+      });
+
+      // Select first node by default
+      if (g.nodes.length > 0) {
+        selectNode(g.nodes[0]);
+      }
+    }
+
+    function selectNode(n) {
+      document.querySelectorAll(".graph-node").forEach(el => el.classList.remove("active"));
+      const nodeEl = document.getElementById("node_" + n.id);
+      if (nodeEl) nodeEl.classList.add("active");
+
+      document.getElementById("nodeTitle").textContent = n.label;
+      document.getElementById("nodeSubsystem").textContent = n.sub || "Core";
+      document.getElementById("nodePath").textContent = n.path || "—";
+      document.getElementById("nodeAccess").textContent = n.access || "Read-Only";
+      document.getElementById("nodeStatus").textContent = n.status || "VERIFIED";
+      document.getElementById("nodeDesc").textContent = n.desc || "";
+    }
+
+    // ---------------------------------------------------------------------------
+    // Main View Switcher
+    // ---------------------------------------------------------------------------
+    function switchMainView(view) {
+      document.getElementById("viewVisualizer").style.display = view === "visualizer" ? "block" : "none";
+      document.getElementById("viewApi").style.display = view === "api" ? "block" : "none";
+      document.getElementById("viewProvenance").style.display = view === "provenance" ? "block" : "none";
+      document.getElementById("viewDocs").style.display = view === "docs" ? "block" : "none";
+
+      const navBtns = document.querySelectorAll("#topNav .nav-btn");
+      navBtns.forEach(btn => btn.classList.remove("active"));
+      if (view === "visualizer") navBtns[0].classList.add("active");
+      if (view === "api") navBtns[1].classList.add("active");
+      if (view === "provenance") navBtns[2].classList.add("active");
+      if (view === "docs") navBtns[3].classList.add("active");
+    }
+
+    // ---------------------------------------------------------------------------
+    // Populate API Explorer Table
+    // ---------------------------------------------------------------------------
+    const SAMPLE_ENDPOINTS = [
+      { m: "GET", p: "/api/health", s: "Diagnostic check & active database handles", t: "System" },
+      { m: "GET", p: "/api/stats", s: "Live dataset record counts and memory statistics", t: "System" },
+      { m: "GET", p: "/api/books", s: "List the Six Canonical Hadith Books with counts", t: "Library" },
+      { m: "GET", p: "/api/books/{id}", s: "Retrieve chapters and pagination for specific collection", t: "Library" },
+      { m: "GET", p: "/api/hadith/{id}", s: "Fetch canonical hadith matn, isnad, and metadata", t: "Library" },
+      { m: "GET", p: "/api/hadith/{id}/grades", s: "Retrieve multi-scholar evaluation matrix", t: "Scholarly" },
+      { m: "GET", p: "/api/hadith/{id}/commentaries", s: "Fetch classical commentary excerpts (Fath al-Bari)", t: "Commentary" },
+      { m: "GET", p: "/api/hadith/{id}/translations", s: "Retrieve parallel English translation", t: "Translation" },
+      { m: "GET", p: "/api/hadith/{id}/crosswalk", s: "Concordance aliases across 18 print editions", t: "Crosswalk" },
+      { m: "GET", p: "/api/search", s: "Multi-modal FTS5 search (Arabic, English, Rawis)", t: "Search" },
+      { m: "GET", p: "/api/numbering/resolve", s: "Resolve international citation to canonical ID", t: "Crosswalk" },
+      { m: "POST", p: "/api/ask", s: "Ask Mīzān grounded research query coordinator", t: "Ask Mizan" },
+      { m: "POST", p: "/api/ask/stream", s: "Streaming Server-Sent Events (SSE) grounded generation", t: "Ask Mizan" },
+      { m: "GET", p: "/api/ask/health", s: "Subsystem health and database accessibility flags", t: "Ask Mizan" },
+      { m: "POST", p: "/api/ask/feedback", s: "Persist user rating and feedback into ask_mizan.db", t: "Ask Mizan" },
+      { m: "GET", p: "/api/isnad/{id}", s: "Extract transmission DAG for specific narration", t: "Isnad" },
+      { m: "GET", p: "/api/isnad/stats", s: "Global topological network metrics and density", t: "Isnad" },
+      { m: "GET", p: "/api/narrators", s: "Search and paginate 49,844 narrator biographies", t: "Narrators" },
+      { m: "GET", p: "/api/narrator/{id}", s: "Biographical profile, rank, death year, and centers", t: "Narrators" },
+      { m: "GET", p: "/api/narrator/{id}/aqwal", s: "127k jarh wa ta'dil opinions with collision guards", t: "Narrators" },
+      { m: "POST", p: "/api/hadith/compare", s: "Token-level lexical alignment and diff calculation", t: "Matn Diff" },
+      { m: "GET", p: "/api/workspace/dashboard", s: "Researcher project summary and activity counts", t: "Workspace" },
+      { m: "GET", p: "/api/workspace/projects", s: "List active and archived research projects", t: "Workspace" },
+      { m: "POST", p: "/api/workspace/projects", s: "Create new isolated research project", t: "Workspace" },
+      { m: "GET", p: "/api/workspace/projects/{id}/evidence", s: "List bookmarked canonical evidence items", t: "Workspace" },
+      { m: "POST", p: "/api/workspace/projects/{id}/evidence", s: "Bookmark hadith or narrator to project", t: "Workspace" },
+      { m: "GET", p: "/api/workspace/projects/{id}/notes", s: "List research notes for project", t: "Workspace" },
+      { m: "POST", p: "/api/workspace/projects/{id}/notes", s: "Create new markdown research note", t: "Workspace" },
+      { m: "GET", p: "/api/workspace/projects/{id}/claims", s: "List formulated hypotheses and claims", t: "Workspace" },
+      { m: "POST", p: "/api/workspace/projects/{id}/claims", s: "Formulate new scholarly claim", t: "Workspace" },
+      { m: "POST", p: "/api/workspace/claims/{id}/evidence", s: "Link evidence in SUPPORTING/CHALLENGING matrix", t: "Workspace" },
+      { m: "GET", p: "/api/workspace/projects/{id}/export", s: "Export complete dossier in Markdown or JSON", t: "Workspace" }
+    ];
+
+    function renderApiTable(list) {
+      const tbody = document.getElementById("apiTableBody");
+      tbody.innerHTML = "";
+      list.forEach(item => {
+        const tr = document.createElement("tr");
+        const methodClass = "method-" + item.m.toLowerCase();
+        tr.innerHTML = `
+          <td><span class="method-badge ${methodClass}">${item.m}</span></td>
+          <td><code>${item.p}</code></td>
+          <td>${item.s}</td>
+          <td><span class="badge-pill badge-green" style="font-size:0.7rem;">${item.t}</span></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function filterApiTable() {
+      const q = document.getElementById("apiSearch").value.toLowerCase();
+      const filtered = SAMPLE_ENDPOINTS.filter(e => 
+        e.p.toLowerCase().includes(q) || 
+        e.s.toLowerCase().includes(q) || 
+        e.m.toLowerCase().includes(q) ||
+        e.t.toLowerCase().includes(q)
+      );
+      renderApiTable(filtered);
+    }
+
+    // Initialize on page load
+    window.addEventListener("DOMContentLoaded", () => {
+      loadGraph("architecture");
+      renderApiTable(SAMPLE_ENDPOINTS);
+    });
+  </script>
+</body>
+</html>

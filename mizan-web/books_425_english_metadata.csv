@@ -1,0 +1,426 @@
+﻿id,english_name,english_author
+1,Sahih al-Bukhari,Imam Muhammad ibn Isma'il al-Bukhari
+2,Sahih Muslim,Imam Muslim ibn al-Hajjaj
+3,Jami' al-Tirmidhi,Imam Muhammad ibn 'Isa al-Tirmidhi
+4,Sunan Abi Dawud,Imam Sulayman ibn al-Ash'ath al-Sijistani
+5,Sunan al-Nasa'i,Imam Ahmad ibn Shu'ayb al-Nasa'i
+6,Sunan Ibn Majah,Imam Muhammad ibn Yazid Ibn Majah al-Qazwini
+7,Sunan al-Darimi,Imam 'Abd Allah ibn 'Abd al-Rahman al-Darimi
+8,"Muwatta' Malik, narration of Yahya al-Laythi",Imam Malik ibn Anas
+9,Musnad Ahmad ibn Hanbal,Imam Ahmad ibn Hanbal
+10,Sahih Ibn Khuzaymah,Imam Muhammad ibn Ishaq ibn Khuzaymah
+11,Sahih abn ḥban,Abw ḥatm bn ḥban
+12,Almstdrk ʿlā alṣḥyḥyn,Alḥakm alnysabwry
+13,Mstkhrj aby ʿwanh,Abw ʿwanh alisfraʾiyny
+14,Almsnd almstkhrj ʿlā Sahih mslm laby nʿym,Abw nʿym alaṣbhany
+15,Alaḥadyth almkhtarh,Alḍyaʾ almqdsy
+16,Mkhtṣr alaḥkam almstkhrj ʿlā Jamiʿ altrmdhy,Alṭwsy
+17,Alsnn alkbrā llnsaʾiy,Alnsaʾiy
+18,Sunan sʿyd bn mnṣwr,Sʿyd bn mnṣwr
+19,Almntqā mn alsnn almsndh,Abn aljarwd alnysabwry
+20,Sunan aldarqṭny,Aldarqṭny
+21,Alsnn alṣghyr llbyhqy,Albyhqy
+22,Alsnn alkbrā llbyhqy,Albyhqy
+23,Almdkhl ilā alsnn alkbrā llbyhqy,Albyhqy
+24,Mʿrfh alsnn walāthar llbyhqy,Albyhqy
+25,Mwṭa malk brwayh mḥmd bn alḥsn alshybany,Malk bn ans
+26,Mwṭa malk brwayh aby mṣʿb alzhry,Malk bn ans
+27,Mwṭa ʿbd allh bn whb,ʿbd allh bn whb bn mslm
+28,Alsnn almathwrh rwayh almzny,Alshafʿy
+29,Musnad aby dawd alṭyalsy,Abw dawd alṭyalysy
+30,Musnad isḥaq bn rahwyh,Isḥaq bn rahwyh
+31,Musnad alḥmydy,ʿbd allh bn alzbyr alḥmydy
+32,Musnad abn aljʿd,ʿly bn aljʿd aljwhry
+33,Musnad alshafʿy,Alshafʿy
+34,Musnad abn aby shybh,Abn aby shybh
+35,Albḥr alzkhar bmsnd albzar,Abw bkr albzar
+36,Albḥr alzkhar bmsnd albzar 10-13,Abw bkr albzar
+37,Musnad aby yʿlā almwṣly,Abw yʿlā almwṣly
+38,Musnad alrwyany,Mḥmd bn harwn alrwyany
+39,Almsnd llshashy,Alhythm bn klyb alshashy
+40,Almṭalb alʿalyh bzwaʾid almsanyd althmanyh labn ḥjr,Abn ḥjr alʿsqlany
+41,Itḥaf alkhyrh almhrh bzwaʾid almsanyd alʿshrh,Albwṣyry
+42,Bghyh albaḥth ʿn zwaʾid Musnad alḥarth,Alhythmy
+43,Musnad alsraj,Mḥmd bn isḥaq alkhrasany
+44,Musnad ʿaʾishh labn aby dawd,Abn aby dawd alsjstany
+45,Musnad alshamyyn llṭbrany,Slyman bn aḥmd alṭbrany
+46,Musnad almwṭa lljwhry,Alḥsn bn ʿly aljwhry
+47,Musnad aby ḥnyfh rwayh alḥṣkfy,Abw ḥnyfh
+48,Musnad alshhab,Alshhab alqḍaʿy
+49,Musnad ʿbd allh bn almbark,ʿbd allh bn almbark
+50,Musnad aby ḥnyfh rwayh aby nʿym,Abw ḥnyfh
+51,Musnad sʿd bn aby wqaṣ lldwrqy,Aḥmd bn ibrahym aldwrqy
+52,Musnad ʿbd bn ḥmyd,ʿbd bn ḥmyd
+53,Musnad ʿbd allh bn ʿmr llṭrswsy,Abw amyh alṭrswsy
+54,Musnad aby bkr alṣdyq llmrwzy,Aḥmd bn ʿly almrwzy
+55,Musnad zyd,Zyd bn ʿly bn alḥsyn
+56,Musnad alrbyʿ bn ḥbyb,Alrbyʿ bn ḥbyb
+57,Musnad alimam alshafʿy ( trtyb snjr),Alamyr snjr
+58,Almqṣd alʿly fy zwaʾid aby yʿlā almwṣly jzʾ,Alhythmy
+59,Kshf alastar,Nwr aldyn alhythmy
+60,Musnad ʿqbh bn ʿamr,Alqasm bn qṭlwbgha alḥnfy
+61,Mṣnf ʿbd alrzaq,ʿbd alrzaq alṣnʿany
+62,Mṣnf abn aby shybh,Abn aby shybh
+63,Aljamʿ lmʿmr bn rashd,Mʿmr bn rashd alazdy
+64,Aljamʿ fy alḥdyth labn whb,ʿbd allh bn whb bn mslm
+65,Almʿjm alṣghyr llṭbrany,Slyman bn aḥmd alṭbrany
+66,Almʿjm alawsṭ llṭbrany,Slyman bn aḥmd alṭbrany
+67,Almʿjm alkbyr llṭbrany,Slyman bn aḥmd alṭbrany
+68,Mshykhh abn ṭhman,Ibrahym bn ṭhman
+69,Mʿjm aby yʿlā almwṣly,Abw yʿlā almwṣly
+70,Mʿjm abn alaʿraby,Abn alaʿraby
+71,Mʿjm alṣḥabh labn qanʿ,Abn qanʿ albghdady
+72,Mʿjm asamy shywkh aby bkr alismaʿyly,Abw bkr alismaʿyly
+73,Mʿjm abn almqrʾi,Abw bkr bn almqrʾi
+74,Mʿjm alshywkh labn jmyʿ alṣydawy,Abn jmyʿ alṣydawy
+75,Alʿmdh mn alfwaʾid walāthar alṣḥaḥ fy mshykhh shhdh,Shhdh bnt aḥmd bn alfrj aldynwry
+76,Mshykhh mḥmd alrazy abn alḥṭab,Abw ṭahr alslfy
+77,Mʿjm alsfr llslfy,Abw ṭahr alslfy
+78,Almʿjm almkhtṣ balmḥdthyn aldhhby,Aldhhby
+79,Almntkhb mn mʿjm shywkh abn alsmʿany,Abn alsmʿany
+80,Mʿjm aṣḥab alqaḍy aby ʿly alṣdfy,Abn alabar alqḍaʿy
+81,Mshykhh abn jmaʿh,Abn jmaʿh
+82,Mshykhh abn albkhary,Aḥmd bn mḥmd alẓahry alḥnfy
+83,Mʿjm alshywkh alkbyr lldhhby,Aldhhby
+84,Mʿjm alshywkh ltaj aldyn alsbky,Alsbky
+85,Ṣḥyfh hmam bn mnbh,Hmam bn mnbh
+86,Ḥdyth ismaʿyl bn jʿfr,Ismaʿyl bn jʿfr
+87,Jzʾ aby jhm albghdady,Abw jhm albghdady
+88,Ḥdyth yḥyā bn mʿyn rwayh aby bkr almrwzy,Yḥyā bn mʿyn
+89,Jzʾ mn ḥdyth lwyn almṣyṣy,Mḥmd bn slyman lwyn almṣyṣy
+90,Ḥdyth hsham bn ʿmar,Hsham bn ʿmar
+91,Jzʾ ḥnbl bn isḥaq,Ḥnbl bn isḥaq
+92,Alawaʾil labn aby ʿaṣm,Abn aby ʿaṣm
+93,Almfaryd ʿn rswl allh ṣlā allh ʿlyh wslm laby yʿlā almwṣly,Abw yʿlā almwṣly
+94,Aljzʾ alḥady ʿshr mn fwaʾid abn albkhtry,Abw jʿfr bn albkhtry
+95,Aljzʾ alrabʿ mn ḥdyth abn albkhtry,Abw jʿfr bn albkhtry
+96,Jzʾ fyh sth mjals mn amaly abn albkhtry,Abw jʿfr bn albkhtry
+97,Fwaʾid aby mḥmd alfakhy,Alfakhy
+98,Alfwaʾid alshhyr balghylanyat laby bkr alshafʿy,Abw bkr alshafʿy
+99,Ṭrq ḥdyth mn kdhb ʿly mtʿmda llṭbrany,Slyman bn aḥmd alṭbrany
+100,Jzʾ alalf dynar llqṭyʿy,Abw bkr alqṭyʿy
+101,Jzʾ ma rwah aby alzbyr ʿn ghyr jabr,Abw alshykh alaṣbhany
+102,Fwaʾid abn ḥyan,Abw alshykh alaṣbhany
+103,Ghraʾib malk bn ans,Mḥmd bn almẓfr albzar
+104,Ḥdyth aby alfḍl alzhry,Alḥsn bn ʿly aljwhry
+105,Alfwaʾid almntqah ʿn alshywkh alʿwaly llḥrby,ʿly bn ʿmr alḥrby
+106,Jzʾ aby alṭahr,Abw alṭahr aldhhly
+107,Jzʾ fyh ma antqā abn mrdwyh ʿlā aby alqasm alṭbrany labn mrdwyh,Aḥmd bn mwsā abn mrdwyh
+108,Alarbʿwn fy shywkh alṣwfyh llmalyny,Aḥmd bn mḥmd almalyny
+109,Fwaʾid tmam alrazy,Tmam bn mḥmd alrazy
+110,Fwaʾid alʿraqyyn llnqash,ʿly bn ʿmrw alnqash
+111,Alarbʿwn alṣghrā llbyhqy,Albyhqy
+112,Almhrwanyat walfwaʾid almntkhbh alṣḥaḥ walghraʾib lywsf bn mḥmd,Ywsf bn mḥmd almhrwany
+113,Alarbʿyn almrtbh ʿlā ṭbqat alarbʿyn labn almfḍl almqdsy,ʿly bn almfḍl almqdsy
+114,Jzʾ mn ḥdyth aby bkr bn almqrʾi,Mḥmd bn ʿbd alrḥmn almqrʾi
+115,ʿwaly malk bn ans rwayh abn alḥajb,ʿmr bn alḥajb alamyny
+116,ʿwaly malk bn ans laby aḥmd alḥakm,Abw aḥmd alḥakm
+117,Alawaʾil,Abw ʿrwbh alḥrany
+118,Jzʾ mn nskhh ibrahym bn sʿd,ʿbd alwhab bn mndh
+119,Aljzʾ alawl walthany mn fwaʾid abn bshran,Abw alḥsyn bn bshran
+120,Alāthar almrwyh fy alaṭʿmh alʿṭryh,Abn bshkwal
+121,Alarbʿwn ḥdytha mn almsawah,Abn ʿsakr aldmshqy
+122,Alṭywryat,Abw alḥsn alṭywry
+123,Jzʾ aby alʿbas bn ʿṣm,Abw alʿbas bn ʿṣm
+124,Jzʾ alḥsn bn rshyq,Alḥsn bn rshyq
+125,Fwaʾid abn akhy mymy aldqaq,Abw alḥsyn albghdady
+126,Aḥadyth ʿfan bn mslm,ʿfan bn mslm alṣfar
+127,Jzʾ aby ʿthman sʿdan bn nṣr bn mnṣwr almkhrmy,Sʿdan bn nṣr bn mnṣwr almkhrmy albzar
+128,Aljzʾ althany mn Musnad aby hryrh,Ibrahym bn ḥrb alʿskry
+129,Alaḥadyth almaʾih llḥafẓ alʿlamh mḥmd bn ʿly bn ṭwlwn,Mḥmd bn ʿly bn ṭwlwn
+130,Bghyh almltms,Alʿlaʾiy
+131,Nẓm alāly balmaʾih alʿwaly,Abn ḥjr alʿsqlany
+132,Alamaly fy āthar alṣḥabh lʿbd alrzaq alṣnʿany,ʿbd alrzaq alṣnʿany
+133,Amaly aby isḥaq,Ibrahym bn ʿbd alṣmd alhashmy
+134,Amaly almḥamly rwayh abn yḥyā albyʿ,Alḥsyn bn ismaʿyl almḥamly
+135,Amaly alzjaj,ʿbd alrḥmn bn isḥaq
+136,Amaly abn smʿwn alwaʿẓ,Abn smʿwn alwaʿẓ
+137,Amaly abn bshran,Abw alqasm bn bshran
+138,Alamaly alkhmysyh llshjry,Yḥyā bn alḥsyn alshjry aljrjany
+139,Amaly abn bshran ( mjals akhrā ),ʿbd almlk bn bshran
+140,Mjals mn amaly aby ʿbd allh bn mndh,Abw ʿbd allh bn mndh
+141,Akhtlaf alḥdyth llshafʿy,Alshafʿy
+142,Ghryb alḥdyth llhrwy,Alqasm bn slam alhrwy
+143,Almrasyl mʿ alasanyd laby dawd,Abw dawd alsjstany
+144,Tawyl mkhtlf alḥdyth labn qtybh,ʿbd allh bn mslm
+145,Ghryb alḥdyth llḥrby,Ibrahym bn isḥaq alḥrby
+146,Aldlaʾil fy ghryb alḥdyth,Alqasm bn thabt alsrqsṭy
+147,Almrasyl labn aby ḥatm,Abn aby ḥatm alrazy
+148,Almḥdth alfaṣl byn alrway walwaʿy,Alramhrmzy
+149,Amthal alḥdyth llramhrmzy,Alramhrmzy
+150,Amthal alḥdyth laby alshykh alaṣbhany,Abw alshykh alaṣbhany
+151,Naskh alḥdyth wmnswkhh labn shahyn,Abn shahyn
+152,Ghryb alḥdyth llkhṭaby,Alkhṭaby albsty
+153,Tṣḥyfat almḥdthyn,Alḥsn bn ʿbd allh bn shl alʿskry
+154,Mʿrfh ʿlwm alḥdyth llḥakm,Alḥakm alnysabwry
+155,Aljamʿ lakhlaq alrawy wādab alsamʿ llkhṭyb,Alkhṭyb albghdady
+156,Alkfayh fy Ilm alrwayh llkhṭyb,Alkhṭyb albghdady
+157,Tqyyd alʿlm llkhṭyb,Alkhṭyb albghdady
+158,Tlkhyṣ almtshabh fy alrsm,Alkhṭyb albghdady
+159,Shrf aṣḥab alḥdyth llkhṭyb,Alkhṭyb albghdady
+160,Mwḍḥ awham aljmʿ waltfryq llkhṭyb,Alkhṭyb albghdady
+161,Alilmaʿ ilā Ilm aṣwl alrwayh lqaḍy ʿyaḍ,Alqaḍy ʿyaḍ bn mwsā alyḥṣby
+162,Adb alimlaʾ walastmlaʾ labn alsmʿany,ʿbd alkrym bn mḥmd alsmʿany
+163,Ghwamḍ alasmaʾ almbhmh labn bshkwal,Abn bshkwal
+164,Alaʿtbar fy alnaskh walmnswkh mn alāthar llḥazmy,Mḥmd bn mwsā alḥazmy
+165,Iʿlam alʿalm bʿd rswkhh bnaskh alḥdyth wmnswkhh,Abn aljwzy
+166,Tghlyq altʿlyq labn ḥjr,Abn ḥjr alʿsqlany
+167,Itharh alfwaʾid,Abn ʿbd albr
+168,Aliyman labn aby shybh,Abn aby shybh
+169,Alrd ʿlā aljhmyh lldarmy,ʿbd allh bn ʿbd alrḥmn aldarmy
+170,Khlq afʿal alʿbad llbkhary,Mḥmd bn ismaʿyl albkhary
+171,Nqḍ alimam aby sʿyd ʿlā almrysy alʿnyd,ʿthman bn sʿyd aldarmy
+172,Alsnh labn aby ʿaṣm,Abn aby ʿaṣm
+173,Albdʿ labn wḍaḥ,Abn wḍaḥ almrwany
+174,Alsnh lʿbd allh bn aḥmd,ʿbd allh bn aḥmd bn ḥnbl
+175,Alsnh llmrwzy,Mḥmd bn nṣr almrwzy
+176,Alqdr llfryaby,Mḥmd bn alḥsn alfryaby
+177,Ṣfh alnfaq wdhm almnafqyn llfryaby,Mḥmd bn alḥsn alfryaby
+178,Altwḥyd labn khzymh,Abn khzymh
+179,Alsnh laby bkr bn alkhlal,Abw bkr alkhlal
+180,Alshryʿh llājry,Alājry
+181,Alʿẓmh,Abw alshykh alaṣbhany
+182,Alrʾuya lldarqṭny,Aldarqṭny
+183,Shrḥ mdhahb ahl alsnh labn shahyn,Abn shahyn
+184,Alibanh alkbrā labn bṭh,Abn bṭh alʿkbry
+185,Aliyman labn mndh,Mḥmd bn isḥaq bn mndh
+186,Altwḥyd labn mndh,Mḥmd bn isḥaq bn mndh
+187,Shrḥ aṣwl aʿtqad ahl alsnh waljmaʿh llalkaʾiy,Hbh allh allalkaʾiy
+188,Kramat awlyaʾ allh ʿz wjl llalkaʾiy,Hbh allh allalkaʾiy
+189,Alsnn alwardh fy alftn lldany,ʿthman bn sʿyd aldany
+190,Alaʿtqad ilā sbyl alrshad llbyhqy,Albyhqy
+191,Alasmaʾ walṣfat llbyhqy,Albyhqy
+192,Albʿth walnshwr llbyhqy,Albyhqy
+193,Alqḍaʾ walqdr llbyhqy,Albyhqy
+194,Ithbat ʿdhab alqbr wsʾual almlkyn,Albyhqy
+195,Shʿb aliyman llbyhqy,Albyhqy
+196,Dhm alklam wahlh lʿbd allh alanṣary,ʿbd allh bn mḥmd alanṣary
+197,Tbyyn kdhb almftry fyma nsb ilā alashʿry,Abn ʿsakr aldmshqy
+198,Tlbys iblys labn aljwzy,Abn aljwzy
+199,Alʿlw llʿly alghfar aldhhby,Aldhhby
+200,Ahl almll walrdh mn aljamʿ llkhlal,Alkhlal
+201,Alḥjh fy byan almḥjh wshrḥ ʿqydh ahl alsnh 2,Qwam alsnh alaṣbhany
+202,Almnask lsʿyd bn aby ʿrwbh,Sʿyd bn aby ʿrwbh
+203,Almdwnh alkbrā lmalk bn ans,Malk bn ans
+204,Aljhad labn almbark,ʿbd allh bn almbark
+205,Alāthar laby ywsf,Yʿqwb bn ibrahym
+206,Alāthar lmḥmd bn alḥsn alshybany,Mḥmd bn alḥsn alshybany
+207,Alkhraj laby ywsf,Yʿqwb bn ibrahym
+208,Alsyr laby isḥaq alfzary,Abw isḥaq alfzary
+209,Alkhraj lyḥyā bn ādm,Yḥyā bn ādm
+210,Alam llshafʿy,Alshafʿy
+211,Alamwal llqasm bn slam,Alqasm bn slam alhrwy
+212,Alṭhwr llqasm bn slam,Alqasm bn slam alhrwy
+213,Alqḍaʾ lsrbj bn ywns albghdady,Sryj bn ywns
+214,Alashrbh laḥmd bn ḥnbl,Aḥmd bn ḥnbl
+215,Alamwal labn znjwyh,Abn znjwyh
+216,Alqraʾh khlf alimam llbkhary,Mḥmd bn ismaʿyl albkhary
+217,Iṣlaḥ almal labn aby aldnya,Abn aby aldnya
+218,Aljhad labn aby ʿaṣm,Abn aby ʿaṣm
+219,Aldyat labn aby ʿaṣm,Abn aby ʿaṣm
+220,Mkhtṣr qyam allyl llmrwzy,Mḥmd bn nṣr almrwzy
+221,Alṣyam llfryaby,Mḥmd bn alḥsn alfryaby
+222,Aḥkam alʿydyn llfryaby,Mḥmd bn alḥsn alfryaby
+223,Thdhyb alāthar llṭbry,Abn jryr alṭbry
+224,Altrjl mn msaʾil alimam aḥmd,Abw bkr alkhlal
+225,Alwqwf mn msaʾil alimam aḥmd,Abw bkr alkhlal
+226,Shrḥ alsnh,Alḥsyn bn msʿwd albghwy
+227,Alawsṭ fy alsnn walijmaʿ walakhtlaf labn almndhr,Mḥmd bn ibrahym bn almndhr
+228,Aliqnaʿ labn almndhr,Mḥmd bn ibrahym bn almndhr
+229,Shrḥ mʿany alāthar llṭḥawy,Alṭḥawy
+230,Mshkl alāthar llṭḥawy,Alṭḥawy
+231,Tthbyt alimamh wtrtyb alkhlafh laby nʿym,Abw nʿym alaṣbhany
+232,Almḥlā balāthar labn ḥzm,Abn ḥzm alẓahry
+233,Ḥjh alwdaʿ labn ḥzm,Abn ḥzm alẓahry
+234,Alqraʾh khlf alimam llbyhqy,Albyhqy
+235,Byan khṭa mn akhṭa ʿlā alshafʿy,Albyhqy
+236,Altmhyd labn ʿbd albr,Abn ʿbd albr alqrṭby
+237,Altḥqyq fy msaʾil alkhlaf labn aljwzy,Abn aljwzy
+238,Akhbar alṣlah lʿbd alghny almqdsy,ʿbd alghny bn ʿbd alwaḥd almqdsy
+239,Alzyadat ʿlā ktab almzny,Abn zyad alnysabwry
+240,Alawsṭ fy alsnn,Abn almndhr
+241,Alastdhkar,Abn ʿbd albr alqrṭby
+242,Aḥkam alqrān lljṣaṣ,Aljṣaṣ alḥnfy
+243,Alnṣyḥh llraʿy walrʿyh lltbryzy,Abw alkhyr bdl bn aby almʿmr altbryzy
+244,Tafsir mjahd,Mjahd bn jbr
+245,Tafsir sfyan althwry,Sfyan althwry
+246,Mʿany alqrān llfraʾ,Abw zkrya alfraʾ
+247,Tafsir alqrān lʿbd alrzaq alṣnʿany,ʿbd alrzaq alṣnʿany
+248,Altfsyr mn Sunan sʿyd bn mnṣwr,Sʿyd bn mnṣwr
+249,Jamiʿ albyan ʿn tawyl āy alqrān,Abn jryr alṭbry
+250,Tafsir abn aby ḥatm,Abn aby ḥatm alrazy
+251,Tafsir alqrān alʿzyz,Abn aby zmnyn alandlsy
+252,Mʿalm altnzyl Tafsir albghwy,Alḥsyn bn msʿwd albghwy
+253,Tafsir alqrān labn almndhr,Mḥmd bn ibrahym bn almndhr
+254,Aljamʿ fy Tafsir alqrān,ʿbd allh bn whb
+255,Alwsyṭ fy Tafsir alqrān almjyd,Alwaḥdy
+256,Tafsir yḥyā bn slam,Yḥyā bn slam
+257,Alnaskh walmnswkh llqasm bn slam,Alqasm bn slam alhrwy
+258,Qraʾh alnby lldwry,Ḥfṣ bn ʿmr aldwry
+259,Almṣaḥf labn aby dawd,Abn aby dawd alsjstany
+260,Aḥkam alqrān alkrym llṭḥawy,Alṭḥawy
+261,Alnaskh walmnswkh llnḥas,Aḥmd bn mḥmd alnḥas
+262,Asbab alnzwl alwaḥdy,Alwaḥdy
+263,Nwaskh alqrān labn aljwzy,Abn aljwzy
+264,Alshmaʾil almḥmdyh lltrmdhy,Mḥmd bn ʿysā altrmdhy
+265,Aldhryh alṭahrh alnbwyh,Abw bshr aldwlaby
+266,Akhlaq alnby laby alshykh alaṣbhany,Abw alshykh alaṣbhany
+267,Ḥlyh alawlyaʾ laby nʿym,Abw nʿym alaṣbhany
+268,Dlaʾil alnbwh laby nʿym,Abw nʿym alaṣbhany
+269,Dlaʾil alnbwh llbyhqy,Albyhqy
+270,Dlaʾil alnbwh lqwam alsnh,Ismaʿyl bn mḥmd alaṣbhany
+271,ʿywn alathr,Abn syd alnas
+272,Alanwar fy shmaʾil alnby almkhtar,Alḥsyn bn msʿwd albghwy
+273,Akhbar mkh llazrqy,Abw alwlyd alazrqy
+274,Alṭbqat alkbrā labn sʿd,Mḥmd bn sʿd alzhry
+275,Tarykh khlyfh bn khyaṭ,Khlyfh bn khyaṭ
+276,Aljamʿ fy alʿll wmʿrfh alrjal laḥmd bn ḥnbl,Aḥmd bn ḥnbl
+277,Altarykh alkbyr llbkhary,Mḥmd bn ismaʿyl albkhary
+278,Tarykh almdynh labn shbh,Abn shbh alnmyry
+279,Akhbar mkh llfakhy,Alfakhy
+280,Msaʾil aḥmd laby dawd alsjstany,Abw dawd alsjstany
+281,Almʿrfh waltarykh lyʿqwb bn sfyan,Yʿqwb bn sfyan
+282,Ansab alashraf llbladhry,Aḥmd bn yḥyā albladhry
+283,Albldan wftwḥha waḥkamha llbladhry,Aḥmd bn yḥyā albladhry
+284,Tarykh aby zrʿh aldmshqy,Abw zrʿh aldmshqy
+285,Alāḥad walmthany labn aby ʿaṣm,Abn aby ʿaṣm
+286,Tarykh wasṭ laslm bn shl alrzaz,Aslm bn shl alrzaz
+287,Tarykh alṭbry,Abn jryr alṭbry
+288,Alkny walasmaʾ lldwlaby,Abw bshr aldwlaby
+289,Adab alshafʿy wmnaqbh,Abn aby ḥatm alrazy
+290,Ktab alwlah wktab alqḍah llkndy,Mḥmd bn ywsf alkndy
+291,Althqat labn ḥban,Abw ḥatm bn ḥban
+292,Alaghany laby alfrj alaṣfhany,Abw alfrj alaṣfhany
+293,Tarykh darya wmn nzl bha mn alṣḥabh waltabʿyn llkhwlany,ʿbd aljbar alkhwlany
+294,Ṭbqat almḥdthyn baṣbhan walwardyn ʿlyha,Abw alshykh alaṣbhany
+295,Tarykh jrjan llshmy,Ḥmzh bn ywsf alshmy
+296,Akhbar aṣbhan laby nʿym,Abw nʿym alaṣbhany
+297,Mʿrfh alṣḥabh laby nʿym,Abw nʿym alaṣbhany
+298,Alirshad fy mʿrfh ʿlmaʾ alḥdyth laby yʿlā alkhlyly,Abw yʿlā alkhlyly alqzwyny
+299,Alastyʿab fy mʿrfh alaṣḥab labn ʿbd albr,Abn ʿbd albr alqrṭby
+300,Alasmaʾ almbhmh walanbaʾ almḥkmh,Alkhṭyb albghdady
+301,Tarykh bghdad llkhṭyb albghdady,Alkhṭyb albghdady
+302,Syr alslf alṣalḥyn lismaʿyl bn mḥmd alaṣbhany,Ismaʿyl bn mḥmd alaṣbhany
+303,Tarykh dmshq labn ʿsakr,Abn ʿsakr aldmshqy
+304,Almntẓm fy tarykh alamm labn aljwzy,Abn aljwzy
+305,Altdwyn fy akhbar qzwyn llrafʿy,ʿbd alkrym alrafʿy
+306,Tarykh alislam aldhhby,Aldhhby
+307,Mnaqb alimam aby ḥnyfh wṣaḥbyh,Aldhhby
+308,Tarykh abn aby khythmh,Abn aby khythmh
+309,Ṭbqat alḥnablh,Aby yʿlā alḥnbly
+310,Dhyl tarykh bghdad labn alnjar,Abn alnjar
+311,Asd alghabh,ʿly bn alathyr
+312,Aljrḥ waltʿdyl,Abn aby ḥatm alrazy
+313,Alfṣl llwṣl almdrj fy alnql,Alkhṭyb albghdady
+314,Syr aʿlam alnblaʾ aldhhby,Aldhhby
+315,Ṭbqat alshafʿyh alkbrā,Alsbky
+316,Thdhyb alkmal llmzy,Ywsf almzy
+317,Altarykh alawsṭ,Mḥmd bn ismaʿyl albkhary
+318,Ktab almḥn,Abw alʿrb alqyrwany
+319,Fḍaʾil alṣḥabh laḥmd bn ḥnbl,Aḥmd bn ḥnbl
+320,Fḍaʾil ʿthman bn ʿfan lʿbd allh bn aḥmd,ʿbd allh bn aḥmd bn ḥnbl
+321,Fḍaʾil alkhlfaʾ alrashdyn laby nʿym,Abw nʿym alaṣbhany
+322,Mʿrfh alṣḥabh,Mḥmd bn isḥaq bn mndh
+323,Alzhd walrqaʾiq labn almbark,ʿbd allh bn almbark
+324,Alzhd llmʿafā bn ʿmran almwṣly,Almʿafā bn ʿmran
+325,Aldʿaʾ lmḥmd bn fḍyl alḍby,Mḥmd bn fḍyl alḍby
+326,Alzhd lwkyʿ bn aljraḥ,Wkyʿ bn aljraḥ
+327,Alzhd lasd bn mwsā,Asd bn mwsā
+328,Fḍaʾil alṣlah llfḍl bn dkyn,Alfḍl bn dkyn
+329,Fḍaʾil alqrān llqasm bn slam,Alqasm bn slam alhrwy
+330,Alzhd lnʿym bn ḥmad,Nʿym bn ḥmad
+331,Alʿlm lzhyr bn ḥrb,Abw khythmh zhyr bn ḥrb alnsaʾiy
+332,Alzhd laḥmd bn ḥnbl,Aḥmd bn ḥnbl
+333,Alzhd lhnad bn alsry,Hnad bn alsry
+334,Albr walṣlh llmrwzy,Alḥsyn bn ḥrb almrwzy
+335,Aladb almfrd llbkhary,Mḥmd bn ismaʿyl albkhary
+336,Alzhd laby ḥatm alrazy,Abw ḥatm alrazy
+337,Alzhd laby dawd,Abw dawd alsjstany
+338,Alamr balmʿrwf walnhy ʿn almnkr labn aby aldnya,Abn aby aldnya
+339,Alahwal labn aby aldnya,Abn aby aldnya
+340,Alawlyaʾ labn aby aldnya,Abn aby aldnya
+341,Alikhwan labn aby aldnya,Abn aby aldnya
+342,Aljwʿ labn aby aldnya,Abn aby aldnya
+343,Alzhd labn aby aldnya,Abn aby aldnya
+344,Alshkr llh labn aby aldnya,Abn aby aldnya
+345,Alfrj bʿd alshdh labn aby aldnya,Abn aby aldnya
+346,Almrḍ walkfarat labn aby aldnya,Abn aby aldnya
+347,Almnamat labn aby aldnya,Abn aby aldnya
+348,Alʿyal,Abn aby aldnya
+349,Alhm walḥzn labn aby aldnya,Abn aby aldnya
+350,Ḥsn alẓn ballh labn aby aldnya,Abn aby aldnya
+351,Dhm almlahy labn aby aldnya,Abn aby aldnya
+352,Mjabw aldʿwh labn aby aldnya,Abn aby aldnya
+353,Alishraf fy mnazl alashraf,Abn aby aldnya
+354,Althjd wqyam allyl labn aby aldnya,Abn aby aldnya
+355,Altwbh labn aby aldnya,Abn aby aldnya
+356,Alḥlm labn aby aldnya,Abn aby aldnya
+357,Alrqh walbkaʾ labn aby aldnya,Abn aby aldnya
+358,Alṣbr walthwab ʿlyh,Abn aby aldnya
+359,Alṣmt wādab allsan,Abn aby aldnya
+360,Alʿql wfḍlh labn aby aldnya,Abn aby aldnya
+361,Alʿqwbat labn aby aldnya,Abn aby aldnya
+362,Almtmnyn labn aby aldnya,Abn aby aldnya
+363,Almḥtḍryn labn aby aldnya,Abn aby aldnya
+364,Almṭr walrʿd walbrq labn aby aldnya,Abn aby aldnya
+365,Dhm alghybh walnmymh labn aby aldnya,Abn aby aldnya
+366,Ṣfh aljnh labn aby aldnya,Abn aby aldnya
+367,Ṣfh alnar labn aby aldnya,Abn aby aldnya
+368,Qṣr alaml labn aby aldnya,Abn aby aldnya
+369,Qḍaʾ alḥwaʾij labn aby aldnya,Abn aby aldnya
+370,Mḥasbh alnfs labn aby aldnya,Abn aby aldnya
+371,Mdarah alnas labn aby aldnya,Abn aby aldnya
+372,Hwatf aljnan labn aby aldnya,Abn aby aldnya
+373,Alzhd labn aby ʿaṣm,Abn aby ʿaṣm
+374,Alftn lnʿym bn ḥmad,Nʿym bn ḥmad
+375,Fḍaʾil alqrān labn alḍrys,Mḥmd bn alḍrys
+376,Tʿẓym qdr alṣlah llmrwzy,Mḥmd bn nṣr almrwzy
+377,Fḍaʾil alqrān llfryaby,Mḥmd bn alḥsn alfryaby
+378,Alamr balmʿrwf walnhy ʿn almnkr llkhlal,Abw bkr alkhlal
+379,Alḥth ʿlā altjarh walṣnaʿh llkhlal,Abw bkr alkhlal
+380,Akhbar wḥkayat llghsany,Mḥmd bn alfyḍ alghsany
+381,Aʿtlal alqlwb llkhraʾiṭy,Mḥmd bn jʿfr bn shl alkhraʾiṭy
+382,Shkr allh ʿlā nʿmh llkhraʾiṭy,Mḥmd bn jʿfr bn shl alkhraʾiṭy
+383,Almjalsh wjwahr alʿlm lldynwry,Abw bkr aldynwry
+384,Alzhd wṣfh alzahdyn labn alaʿraby,Abn alaʿraby
+385,Akhlaq alʿlmaʾ llājry,Alājry
+386,Aldʿaʾ llṭbrany,Slyman bn aḥmd alṭbrany
+387,ʿml alywm wallylh labn alsny,Abn alsny
+388,Altwbykh waltnbyh,Abw alshykh alaṣbhany
+389,Tnbyh alghaflyn baḥadyth syd alanbyaʾ walmrslyn lsmrqndy,Nṣr bn mḥmd bn ibrahym
+390,Bḥr alfwaʾid almsmā bmʿany alakhyar llklabadhy,Mḥmd bn isḥaq alklabadhy
+391,Altrghyb fy fḍaʾil alaʿmal labn shahyn,Abn shahyn
+392,Alʿzlh llkhṭaby,Abw slyman alkhṭaby
+393,Aljlys alṣalḥ alkafy walanys alnaṣḥ alshafy almʿafā bn zkrya,Almʿafā bn zkrya
+394,Ṣfh aljnh laby nʿym,Abw nʿym alaṣbhany
+395,Fḍaʾil alqrān wtlawth llrazy,Abw alfḍl alrazy
+396,Aldʿwat alkbyr llbyhqy,Albyhqy
+397,Alzhd alkbyr llbyhqy,Albyhqy
+398,Fḍaʾil alawqat llbyhqy,Albyhqy
+399,Jamiʿ byan alʿlm wfḍlh labn ʿbd albr,Abn ʿbd albr alqrṭby
+400,Aqtḍaʾ alʿlm alʿml llkhṭyb,Alkhṭyb albghdady
+401,Alzhd walrqaʾiq llkhṭyb albghdady,Alkhṭyb albghdady
+402,Alfqyh walmtfqh llkhṭyb,Alkhṭyb albghdady
+403,Albr walṣlh labn aljwzy,Abn aljwzy
+404,Althbat ʿnd almmat labn aljwzy,Abn aljwzy
+405,Dhm alhwā labn aljwzy,Abn aljwzy
+406,Mthyr alghram alsakn ilā ashrf alamakn labn aljwzy,Abn aljwzy
+407,Altrghyb fy aldʿaʾ walḥth ʿlyh lʿbd alghny almqdsy,ʿbd alghny bn ʿbd alwaḥd almqdsy
+408,Ṣfh alnfaq wnʿt almnafqyn laby nʿym,Abw nʿym alaṣbhany
+409,Rwḍh alʿqlaʾ labn ḥban,Abw ḥatm bn ḥban
+410,Altbṣrh labn aljwzy,Abn aljwzy
+411,Aladb labn aby shybh,Abn aby shybh
+412,Alwrʿ laḥmd rwayh almrwzy,Aḥmd bn ḥnbl
+413,Alwrʿ labn aby aldnya,Abn aby aldnya
+414,Mkarm alakhlaq labn aby aldnya,Abn aby aldnya
+415,Aṣṭnaʿ almʿrwf,Abn aby aldnya
+416,Altwaḍʿ walkhmwl labn aby aldnya,Abn aby aldnya
+417,Almrwʾh labn almrzban,Mḥmd bn khlf bn almrzban
+418,Msawʾi alakhlaq llkhraʾiṭy,Mḥmd bn jʿfr bn shl alkhraʾiṭy
+419,Mkarm alakhlaq llkhraʾiṭy,Mḥmd bn jʿfr bn shl alkhraʾiṭy
+420,Mkarm alakhlaq llṭbrany,Slyman bn aḥmd alṭbrany
+421,Adab alṣḥbh llslmy,Abw ʿbd alrḥmn alslmy
+422,Alādab llbyhqy,Albyhqy
+423,Albkhlaʾ llkhṭyb albghdady,Alkhṭyb albghdady
+424,Altṭfyl llkhṭyb albghdady,Alkhṭyb albghdady
+425,Alqṣaṣ walmdhkryn labn aljwzy,Abn aljwzy

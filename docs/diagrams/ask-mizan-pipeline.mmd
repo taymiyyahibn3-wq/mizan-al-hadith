@@ -1,0 +1,28 @@
+flowchart TD
+    Query["User Natural Language Query<br/>(e.g., 'What is hadith 1986 in Ibn Majah?')"] --> Parser["Intent & Entity Parser<br/>(parser.py)"]
+    
+    Parser --> Routing{"Intent Type"}
+    Routing -->|Exact Reference| Exact["Concordance Concordance Engine<br/>(hadith_numbering.db)"]
+    Routing -->|Narrator Inquiry| Rawi["Biographical Extraction<br/>(rawis & aqwal tables)"]
+    Routing -->|Commentary Inquiry| Comm["Classical Commentary Extraction<br/>(hadith_commentaries.db)"]
+    Routing -->|Topical Theme| FTS["FTS5 Lexical Search<br/>(hadith-search-index.db)"]
+
+    Exact --> Evidence["Multi-Tier Evidence Pack Assembly"]
+    Rawi --> Evidence
+    Comm --> Evidence
+    FTS --> Evidence
+
+    Evidence --> Sufficiency{"Sufficient Canonical Evidence?"}
+    Sufficiency -->|No| Refusal["Structured Refusal Notice<br/>('Insufficient Canonical Evidence')"]
+    Sufficiency -->|Yes| Prompt["Grounded Prompt Injection<br/>(Strict Citation Requirements)"]
+
+    Prompt --> LLM["LLM Generation<br/>(Gemini 2.5 Flash / OpenAI / Ollama)"]
+    LLM --> Validator["Citation Anti-Hallucination Guard<br/>(validator.py)"]
+    
+    Validator --> ValidCheck{"All Citations Grounded in Pack?"}
+    ValidCheck -->|Yes| VerifiedAnswer["Verified Answer with Citation Chips"]
+    ValidCheck -->|No| StripFlag["Strip Ungrounded Tokens & Flag Response"]
+    StripFlag --> VerifiedAnswer
+
+    VerifiedAnswer --> Response["Client Response & UI Render"]
+    Refusal --> Response

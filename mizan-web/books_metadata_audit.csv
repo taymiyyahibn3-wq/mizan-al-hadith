@@ -1,0 +1,426 @@
+﻿id,arabic_name,arabic_author,english_name_current,english_author_current
+1,صحيح البخاري,محمد بن إسماعيل البخاري,Sahih al-Bukhari,Imam Muhammad ibn Isma'il al-Bukhari
+2,صحيح مسلم,مسلم بن الحجاج,Sahih Muslim,Imam Muslim ibn al-Hajjaj
+3,جامع الترمذي,محمد بن عيسى الترمذي,Jami' al-Tirmidhi,Imam Muhammad ibn 'Isa al-Tirmidhi
+4,سنن أبي داود,أبو داود السجستاني,Sunan Abi Dawud,Imam Sulayman ibn al-Ash'ath al-Sijistani
+5,سنن النسائى الصغرى,النسائي,Sunan al-Nasa'i,Imam Ahmad ibn Shu'ayb al-Nasa'i
+6,سنن ابن ماجه,ابن ماجة القزويني,Sunan Ibn Majah,Imam Muhammad ibn Yazid Ibn Majah al-Qazwini
+7,سنن الدارمي,عبد الله بن عبد الرحمن الدارمي,Sunan al-Darimi,Imam 'Abd Allah ibn 'Abd al-Rahman al-Darimi
+8,موطأ مالك رواية يحيى الليثي,مالك بن أنس,"Muwatta' Malik, narration of Yahya al-Laythi",Imam Malik ibn Anas
+9,مسند أحمد بن حنبل,أحمد بن حنبل,Musnad Ahmad ibn Hanbal,Imam Ahmad ibn Hanbal
+10,صحيح ابن خزيمة,ابن خزيمة,Sahih Ibn Khuzaymah,Imam Muhammad ibn Ishaq ibn Khuzaymah
+11,صحيح ابن حبان,أبو حاتم بن حبان,Sahih abn ḥban,Abw ḥatm bn ḥban
+12,المستدرك على الصحيحين,الحاكم النيسابوري,Almstdrk ʿlā alṣḥyḥyn,Alḥakm alnysabwry
+13,مستخرج أبي عوانة,أبو عوانة الإسفرائيني,Mstkhrj aby ʿwanh,Abw ʿwanh alisfraʾiyny
+14,المسند المستخرج على صحيح مسلم لأبي نعيم,أبو نعيم الأصبهاني,Almsnd almstkhrj ʿlā Sahih mslm laby nʿym,Abw nʿym alaṣbhany
+15,الأحاديث المختارة,الضياء المقدسي,Alaḥadyth almkhtarh,Alḍyaʾ almqdsy
+16,مختصر الأحكام المستخرج على جامع الترمذي,الطوسي,Mkhtṣr alaḥkam almstkhrj ʿlā Jamiʿ altrmdhy,Alṭwsy
+17,السنن الكبرى للنسائي,النسائي,Alsnn alkbrā llnsaʾiy,Alnsaʾiy
+18,سنن سعيد بن منصور,سعيد بن منصور,Sunan sʿyd bn mnṣwr,Sʿyd bn mnṣwr
+19,المنتقى من السنن المسندة,ابن الجارود النيسابوري,Almntqā mn alsnn almsndh,Abn aljarwd alnysabwry
+20,سنن الدارقطني,الدارقطني,Sunan aldarqṭny,Aldarqṭny
+21,السنن الصغير للبيهقي,البيهقي,Alsnn alṣghyr llbyhqy,Albyhqy
+22,السنن الكبرى للبيهقي,البيهقي,Alsnn alkbrā llbyhqy,Albyhqy
+23,المدخل إلى السنن الكبرى للبيهقي,البيهقي,Almdkhl ilā alsnn alkbrā llbyhqy,Albyhqy
+24,معرفة السنن والآثار للبيهقي,البيهقي,Mʿrfh alsnn walāthar llbyhqy,Albyhqy
+25,موطأ مالك برواية محمد بن الحسن الشيباني,مالك بن أنس,Mwṭa malk brwayh mḥmd bn alḥsn alshybany,Malk bn ans
+26,موطأ مالك برواية أبي مصعب الزهري,مالك بن أنس,Mwṭa malk brwayh aby mṣʿb alzhry,Malk bn ans
+27,موطأ عبد الله بن وهب,عبد الله بن وهب بن مسلم,Mwṭa ʿbd allh bn whb,ʿbd allh bn whb bn mslm
+28,السنن المأثورة رواية المزني,الشافعي,Alsnn almathwrh rwayh almzny,Alshafʿy
+29,مسند أبي داود الطيالسي,أبو داود الطياليسي,Musnad aby dawd alṭyalsy,Abw dawd alṭyalysy
+30,مسند إسحاق بن راهويه,إسحاق بن راهويه,Musnad isḥaq bn rahwyh,Isḥaq bn rahwyh
+31,مسند الحميدي,عبد الله بن الزبير الحميدي,Musnad alḥmydy,ʿbd allh bn alzbyr alḥmydy
+32,مسند ابن الجعد,علي بن الجعد الجوهري,Musnad abn aljʿd,ʿly bn aljʿd aljwhry
+33,مسند الشافعي,الشافعي,Musnad alshafʿy,Alshafʿy
+34,مسند ابن أبي شيبة,ابن ابي شيبة,Musnad abn aby shybh,Abn aby shybh
+35,البحر الزخار بمسند البزار,أبو بكر البزار,Albḥr alzkhar bmsnd albzar,Abw bkr albzar
+36,البحر الزخار بمسند البزار 10-13,أبو بكر البزار,Albḥr alzkhar bmsnd albzar 10-13,Abw bkr albzar
+37,مسند أبي يعلى الموصلي,أبو يعلى الموصلي,Musnad aby yʿlā almwṣly,Abw yʿlā almwṣly
+38,مسند الروياني,محمد بن هارون الروياني,Musnad alrwyany,Mḥmd bn harwn alrwyany
+39,المسند للشاشي,الهيثم بن كليب الشاشي,Almsnd llshashy,Alhythm bn klyb alshashy
+40,المطالب العالية بزوائد المسانيد الثمانية لابن حجر,ابن حجر العسقلاني,Almṭalb alʿalyh bzwaʾid almsanyd althmanyh labn ḥjr,Abn ḥjr alʿsqlany
+41,إتحاف الخيرة المهرة بزوائد المسانيد العشرة,البوصيري,Itḥaf alkhyrh almhrh bzwaʾid almsanyd alʿshrh,Albwṣyry
+42,بغية الباحث عن زوائد مسند الحارث,الهيثمي,Bghyh albaḥth ʿn zwaʾid Musnad alḥarth,Alhythmy
+43,مسند السراج,محمد بن إسحاق الخراساني,Musnad alsraj,Mḥmd bn isḥaq alkhrasany
+44,مسند عائشة لابن أبي داود,ابن أبي داود السجستاني,Musnad ʿaʾishh labn aby dawd,Abn aby dawd alsjstany
+45,مسند الشاميين للطبراني,سليمان بن أحمد الطبراني,Musnad alshamyyn llṭbrany,Slyman bn aḥmd alṭbrany
+46,مسند الموطأ للجوهري,الحسن بن علي الجوهري,Musnad almwṭa lljwhry,Alḥsn bn ʿly aljwhry
+47,مسند أبي حنيفة رواية الحصكفي,أبو حنيفة,Musnad aby ḥnyfh rwayh alḥṣkfy,Abw ḥnyfh
+48,مسند الشهاب,الشهاب القضاعي,Musnad alshhab,Alshhab alqḍaʿy
+49,مسند عبد الله بن المبارك,عبد الله بن المبارك,Musnad ʿbd allh bn almbark,ʿbd allh bn almbark
+50,مسند أبي حنيفة رواية أبي نعيم,أبو حنيفة,Musnad aby ḥnyfh rwayh aby nʿym,Abw ḥnyfh
+51,مسند سعد بن أبي وقاص للدورقي,أحمد بن إبراهيم الدورقي,Musnad sʿd bn aby wqaṣ lldwrqy,Aḥmd bn ibrahym aldwrqy
+52,مسند عبد بن حميد,عبد بن حميد,Musnad ʿbd bn ḥmyd,ʿbd bn ḥmyd
+53,مسند عبد الله بن عمر للطرسوسي,أبو أمية الطرسوسي,Musnad ʿbd allh bn ʿmr llṭrswsy,Abw amyh alṭrswsy
+54,مسند أبي بكر الصديق للمروزي,أحمد بن علي المروزي,Musnad aby bkr alṣdyq llmrwzy,Aḥmd bn ʿly almrwzy
+55,مسند زيد,زيد بن علي بن الحسين,Musnad zyd,Zyd bn ʿly bn alḥsyn
+56,مسند الربيع بن حبيب,الربيع بن حبيب,Musnad alrbyʿ bn ḥbyb,Alrbyʿ bn ḥbyb
+57,مسند الإمام الشافعي ( ترتيب سنجر),الأمير سنجر,Musnad alimam alshafʿy ( trtyb snjr),Alamyr snjr
+58,المقصد العلي في زوائد أبي يعلى الموصلي جزء,الهيثمي,Almqṣd alʿly fy zwaʾid aby yʿlā almwṣly jzʾ,Alhythmy
+59,كشف الأستار,نور الدين الهيثمي,Kshf alastar,Nwr aldyn alhythmy
+60,مسند عقبة بن عامر,القاسم بن قطلوبغا الحنفي,Musnad ʿqbh bn ʿamr,Alqasm bn qṭlwbgha alḥnfy
+61,مصنف عبد الرزاق,عبد الرزاق الصنعاني,Mṣnf ʿbd alrzaq,ʿbd alrzaq alṣnʿany
+62,مصنف ابن أبي شيبة,ابن ابي شيبة,Mṣnf abn aby shybh,Abn aby shybh
+63,الجامع لمعمر بن راشد,معمر بن راشد الأزدي,Aljamʿ lmʿmr bn rashd,Mʿmr bn rashd alazdy
+64,الجامع في الحديث لابن وهب,عبد الله بن وهب بن مسلم,Aljamʿ fy alḥdyth labn whb,ʿbd allh bn whb bn mslm
+65,المعجم الصغير للطبراني,سليمان بن أحمد الطبراني,Almʿjm alṣghyr llṭbrany,Slyman bn aḥmd alṭbrany
+66,المعجم الأوسط للطبراني,سليمان بن أحمد الطبراني,Almʿjm alawsṭ llṭbrany,Slyman bn aḥmd alṭbrany
+67,المعجم الكبير للطبراني,سليمان بن أحمد الطبراني,Almʿjm alkbyr llṭbrany,Slyman bn aḥmd alṭbrany
+68,مشيخة ابن طهمان,إبراهيم بن طهمان,Mshykhh abn ṭhman,Ibrahym bn ṭhman
+69,معجم أبي يعلى الموصلي,أبو يعلى الموصلي,Mʿjm aby yʿlā almwṣly,Abw yʿlā almwṣly
+70,معجم ابن الأعرابي,ابن الأعرابي,Mʿjm abn alaʿraby,Abn alaʿraby
+71,معجم الصحابة لابن قانع,ابن قانع البغدادي,Mʿjm alṣḥabh labn qanʿ,Abn qanʿ albghdady
+72,معجم أسامي شيوخ أبي بكر الإسماعيلي,أبو بكر الإسماعيلي,Mʿjm asamy shywkh aby bkr alismaʿyly,Abw bkr alismaʿyly
+73,معجم ابن المقرئ,أبو بكر بن المقرئ,Mʿjm abn almqrʾi,Abw bkr bn almqrʾi
+74,معجم الشيوخ لابن جميع الصيداوي,ابن جميع الصيداوي,Mʿjm alshywkh labn jmyʿ alṣydawy,Abn jmyʿ alṣydawy
+75,العمدة من الفوائد والآثار الصحاح في مشيخة شهدة,شهدة بنت أحمد بن الفرج الدينوري,Alʿmdh mn alfwaʾid walāthar alṣḥaḥ fy mshykhh shhdh,Shhdh bnt aḥmd bn alfrj aldynwry
+76,مشيخة محمد الرازي ابن الحطاب,أبو طاهر السلفي,Mshykhh mḥmd alrazy abn alḥṭab,Abw ṭahr alslfy
+77,معجم السفر للسلفي,أبو طاهر السلفي,Mʿjm alsfr llslfy,Abw ṭahr alslfy
+78,المعجم المختص بالمحدثين الذهبي,الذهبي,Almʿjm almkhtṣ balmḥdthyn aldhhby,Aldhhby
+79,المنتخب من معجم شيوخ ابن السمعاني,ابن السمعاني,Almntkhb mn mʿjm shywkh abn alsmʿany,Abn alsmʿany
+80,معجم أصحاب القاضي أبي علي الصدفي,ابن الأبار القضاعي,Mʿjm aṣḥab alqaḍy aby ʿly alṣdfy,Abn alabar alqḍaʿy
+81,مشيخة ابن جماعة,ابن جماعة,Mshykhh abn jmaʿh,Abn jmaʿh
+82,مشيخة ابن البخاري,أحمد بن محمد الظاهري الحنفي,Mshykhh abn albkhary,Aḥmd bn mḥmd alẓahry alḥnfy
+83,معجم الشيوخ الكبير للذهبي,الذهبي,Mʿjm alshywkh alkbyr lldhhby,Aldhhby
+84,معجم الشيوخ لتاج الدين السبكي,السبكي,Mʿjm alshywkh ltaj aldyn alsbky,Alsbky
+85,صحيفة همام بن منبه,همام بن منبه,Ṣḥyfh hmam bn mnbh,Hmam bn mnbh
+86,حديث إسماعيل بن جعفر,إسماعيل بن جعفر,Ḥdyth ismaʿyl bn jʿfr,Ismaʿyl bn jʿfr
+87,جزء أبي جهم البغدادي,أبو جهم البغدادي,Jzʾ aby jhm albghdady,Abw jhm albghdady
+88,حديث يحيى بن معين رواية أبي بكر المروزي,يحيى بن معين,Ḥdyth yḥyā bn mʿyn rwayh aby bkr almrwzy,Yḥyā bn mʿyn
+89,جزء من حديث لوين المصيصي,محمد بن سليمان لوين المصيصي,Jzʾ mn ḥdyth lwyn almṣyṣy,Mḥmd bn slyman lwyn almṣyṣy
+90,حديث هشام بن عمار,هشام بن عمار,Ḥdyth hsham bn ʿmar,Hsham bn ʿmar
+91,جزء حنبل بن إسحاق,حنبل بن إسحاق,Jzʾ ḥnbl bn isḥaq,Ḥnbl bn isḥaq
+92,الأوائل لابن أبي عاصم,ابن أبي عاصم,Alawaʾil labn aby ʿaṣm,Abn aby ʿaṣm
+93,المفاريد عن رسول الله صلى الله عليه وسلم لأبي يعلى الموصلي,أبو يعلى الموصلي,Almfaryd ʿn rswl allh ṣlā allh ʿlyh wslm laby yʿlā almwṣly,Abw yʿlā almwṣly
+94,الجزء الحادي عشر من فوائد ابن البختري,أبو جعفر بن البختري,Aljzʾ alḥady ʿshr mn fwaʾid abn albkhtry,Abw jʿfr bn albkhtry
+95,الجزء الرابع من حديث ابن البختري,أبو جعفر بن البختري,Aljzʾ alrabʿ mn ḥdyth abn albkhtry,Abw jʿfr bn albkhtry
+96,جزء فيه ستة مجالس من أمالي ابن البختري,أبو جعفر بن البختري,Jzʾ fyh sth mjals mn amaly abn albkhtry,Abw jʿfr bn albkhtry
+97,فوائد أبي محمد الفاكهي,الفاكهي,Fwaʾid aby mḥmd alfakhy,Alfakhy
+98,الفوائد الشهير بالغيلانيات لأبي بكر الشافعي,أبو بكر الشافعي,Alfwaʾid alshhyr balghylanyat laby bkr alshafʿy,Abw bkr alshafʿy
+99,طرق حديث من كذب علي متعمدا للطبراني,سليمان بن أحمد الطبراني,Ṭrq ḥdyth mn kdhb ʿly mtʿmda llṭbrany,Slyman bn aḥmd alṭbrany
+100,جزء الألف دينار للقطيعي,أبو بكر القطيعي,Jzʾ alalf dynar llqṭyʿy,Abw bkr alqṭyʿy
+101,جزء ما رواه أبي الزبير عن غير جابر,أبو الشيخ الأصبهاني,Jzʾ ma rwah aby alzbyr ʿn ghyr jabr,Abw alshykh alaṣbhany
+102,فوائد ابن حيان,أبو الشيخ الأصبهاني,Fwaʾid abn ḥyan,Abw alshykh alaṣbhany
+103,غرائب مالك بن أنس,محمد بن المظفر البزار,Ghraʾib malk bn ans,Mḥmd bn almẓfr albzar
+104,حديث أبي الفضل الزهري,الحسن بن علي الجوهري,Ḥdyth aby alfḍl alzhry,Alḥsn bn ʿly aljwhry
+105,الفوائد المنتقاة عن الشيوخ العوالي للحربي,علي بن عمر الحربي,Alfwaʾid almntqah ʿn alshywkh alʿwaly llḥrby,ʿly bn ʿmr alḥrby
+106,جزء أبي الطاهر,أبو الطاهر الذهلي,Jzʾ aby alṭahr,Abw alṭahr aldhhly
+107,جزء فيه ما انتقى ابن مردويه على أبي القاسم الطبراني لابن مردويه,أحمد بن موسى ابن مردويه,Jzʾ fyh ma antqā abn mrdwyh ʿlā aby alqasm alṭbrany labn mrdwyh,Aḥmd bn mwsā abn mrdwyh
+108,الأربعون في شيوخ الصوفية للماليني,أحمد بن محمد الماليني,Alarbʿwn fy shywkh alṣwfyh llmalyny,Aḥmd bn mḥmd almalyny
+109,فوائد تمام الرازي,تمام بن محمد الرازي,Fwaʾid tmam alrazy,Tmam bn mḥmd alrazy
+110,فوائد العراقيين للنقاش,علي بن عمرو النقاش,Fwaʾid alʿraqyyn llnqash,ʿly bn ʿmrw alnqash
+111,الأربعون الصغرى للبيهقي,البيهقي,Alarbʿwn alṣghrā llbyhqy,Albyhqy
+112,المهروانيات والفوائد المنتخبة الصحاح والغرائب ليوسف بن محمد,يوسف بن محمد المهرواني,Almhrwanyat walfwaʾid almntkhbh alṣḥaḥ walghraʾib lywsf bn mḥmd,Ywsf bn mḥmd almhrwany
+113,الأربعين المرتبة على طبقات الأربعين لابن المفضل المقدسي,علي بن المفضل المقدسي,Alarbʿyn almrtbh ʿlā ṭbqat alarbʿyn labn almfḍl almqdsy,ʿly bn almfḍl almqdsy
+114,جزء من حديث أبي بكر بن المقرئ,محمد بن عبد الرحمن المقرئ,Jzʾ mn ḥdyth aby bkr bn almqrʾi,Mḥmd bn ʿbd alrḥmn almqrʾi
+115,عوالي مالك بن أنس رواية ابن الحاجب,عمر بن الحاجب الأميني,ʿwaly malk bn ans rwayh abn alḥajb,ʿmr bn alḥajb alamyny
+116,عوالي مالك بن أنس لأبي أحمد الحاكم,أبو أحمد الحاكم,ʿwaly malk bn ans laby aḥmd alḥakm,Abw aḥmd alḥakm
+117,الأوائل,أبو عروبة الحراني,Alawaʾil,Abw ʿrwbh alḥrany
+118,جزء من نسخة إبراهيم بن سعد,عبد الوهاب بن منده,Jzʾ mn nskhh ibrahym bn sʿd,ʿbd alwhab bn mndh
+119,الجزء الأول والثاني من فوائد ابن بشران,أبو الحسين بن بشران,Aljzʾ alawl walthany mn fwaʾid abn bshran,Abw alḥsyn bn bshran
+120,الآثار المروية في الأطعمة العطرية,ابن بشكوال,Alāthar almrwyh fy alaṭʿmh alʿṭryh,Abn bshkwal
+121,الأربعون حديثا من المساواة,ابن عساكر الدمشقي,Alarbʿwn ḥdytha mn almsawah,Abn ʿsakr aldmshqy
+122,الطيوريات,أبو الحسن الطيوري,Alṭywryat,Abw alḥsn alṭywry
+123,جزء أبي العباس بن عصم,أبو العباس بن عصم,Jzʾ aby alʿbas bn ʿṣm,Abw alʿbas bn ʿṣm
+124,جزء الحسن بن رشيق,الحسن بن رشيق,Jzʾ alḥsn bn rshyq,Alḥsn bn rshyq
+125,فوائد ابن أخي ميمي الدقاق,أبو الحسين البغدادي,Fwaʾid abn akhy mymy aldqaq,Abw alḥsyn albghdady
+126,أحاديث عفان بن مسلم,عفان بن مسلم الصفار,Aḥadyth ʿfan bn mslm,ʿfan bn mslm alṣfar
+127,جزء أبي عثمان سعدان بن نصر بن منصور المخرمي,سعدان بن نصر بن منصور المخرمي البزار,Jzʾ aby ʿthman sʿdan bn nṣr bn mnṣwr almkhrmy,Sʿdan bn nṣr bn mnṣwr almkhrmy albzar
+128,الجزء الثاني من مسند أبي هريرة,إبراهيم بن حرب العسكري,Aljzʾ althany mn Musnad aby hryrh,Ibrahym bn ḥrb alʿskry
+129,الأحاديث المائة للحافظ العلامة محمد بن علي بن طولون,محمد بن علي بن طولون,Alaḥadyth almaʾih llḥafẓ alʿlamh mḥmd bn ʿly bn ṭwlwn,Mḥmd bn ʿly bn ṭwlwn
+130,بغية الملتمس,العلائي,Bghyh almltms,Alʿlaʾiy
+131,نظم الآلي بالمائة العوالي,ابن حجر العسقلاني,Nẓm alāly balmaʾih alʿwaly,Abn ḥjr alʿsqlany
+132,الأمالي في آثار الصحابة لعبد الرزاق الصنعاني,عبد الرزاق الصنعاني,Alamaly fy āthar alṣḥabh lʿbd alrzaq alṣnʿany,ʿbd alrzaq alṣnʿany
+133,أمالي أبي إسحاق,إبراهيم بن عبد الصمد الهاشمي,Amaly aby isḥaq,Ibrahym bn ʿbd alṣmd alhashmy
+134,أمالي المحاملي رواية ابن يحيى البيع,الحسين بن إسماعيل المحاملي,Amaly almḥamly rwayh abn yḥyā albyʿ,Alḥsyn bn ismaʿyl almḥamly
+135,أمالي الزجاج,عبد الرحمن بن إسحاق,Amaly alzjaj,ʿbd alrḥmn bn isḥaq
+136,أمالي ابن سمعون الواعظ,ابن سمعون الواعظ,Amaly abn smʿwn alwaʿẓ,Abn smʿwn alwaʿẓ
+137,أمالي ابن بشران,أبو القاسم بن بشران,Amaly abn bshran,Abw alqasm bn bshran
+138,الأمالي الخميسية للشجري,يحيى بن الحسين الشجري الجرجاني,Alamaly alkhmysyh llshjry,Yḥyā bn alḥsyn alshjry aljrjany
+139,أمالي ابن بشران ( مجالس أخرى ),عبد الملك بن بشران,Amaly abn bshran ( mjals akhrā ),ʿbd almlk bn bshran
+140,مجالس من أمالي أبي عبد الله بن منده,أبو عبد الله بن منده,Mjals mn amaly aby ʿbd allh bn mndh,Abw ʿbd allh bn mndh
+141,اختلاف الحديث للشافعي,الشافعي,Akhtlaf alḥdyth llshafʿy,Alshafʿy
+142,غريب الحديث للهروي,القاسم بن سلام الهروي,Ghryb alḥdyth llhrwy,Alqasm bn slam alhrwy
+143,المراسيل مع الأسانيد لأبي داود,أبو داود السجستاني,Almrasyl mʿ alasanyd laby dawd,Abw dawd alsjstany
+144,تأويل مختلف الحديث لابن قتيبة,عبد الله بن مسلم,Tawyl mkhtlf alḥdyth labn qtybh,ʿbd allh bn mslm
+145,غريب الحديث للحربي,إبراهيم بن إسحاق الحربي,Ghryb alḥdyth llḥrby,Ibrahym bn isḥaq alḥrby
+146,الدلائل في غريب الحديث,القاسم بن ثابت السرقسطي,Aldlaʾil fy ghryb alḥdyth,Alqasm bn thabt alsrqsṭy
+147,المراسيل لابن أبي حاتم,ابن أبي حاتم الرازي,Almrasyl labn aby ḥatm,Abn aby ḥatm alrazy
+148,المحدث الفاصل بين الرواي والواعي,الرامهرمزي,Almḥdth alfaṣl byn alrway walwaʿy,Alramhrmzy
+149,أمثال الحديث للرامهرمزي,الرامهرمزي,Amthal alḥdyth llramhrmzy,Alramhrmzy
+150,أمثال الحديث لأبي الشيخ الأصبهاني,أبو الشيخ الأصبهاني,Amthal alḥdyth laby alshykh alaṣbhany,Abw alshykh alaṣbhany
+151,ناسخ الحديث ومنسوخه لابن شاهين,ابن شاهين,Naskh alḥdyth wmnswkhh labn shahyn,Abn shahyn
+152,غريب الحديث للخطابي,الخطابي البستي,Ghryb alḥdyth llkhṭaby,Alkhṭaby albsty
+153,تصحيفات المحدثين,الحسن بن عبد الله بن سهل العسكري,Tṣḥyfat almḥdthyn,Alḥsn bn ʿbd allh bn shl alʿskry
+154,معرفة علوم الحديث للحاكم,الحاكم النيسابوري,Mʿrfh ʿlwm alḥdyth llḥakm,Alḥakm alnysabwry
+155,الجامع لأخلاق الراوي وآداب السامع للخطيب,الخطيب البغدادي,Aljamʿ lakhlaq alrawy wādab alsamʿ llkhṭyb,Alkhṭyb albghdady
+156,الكفاية في علم الرواية للخطيب,الخطيب البغدادي,Alkfayh fy Ilm alrwayh llkhṭyb,Alkhṭyb albghdady
+157,تقييد العلم للخطيب,الخطيب البغدادي,Tqyyd alʿlm llkhṭyb,Alkhṭyb albghdady
+158,تلخيص المتشابه في الرسم,الخطيب البغدادي,Tlkhyṣ almtshabh fy alrsm,Alkhṭyb albghdady
+159,شرف أصحاب الحديث للخطيب,الخطيب البغدادي,Shrf aṣḥab alḥdyth llkhṭyb,Alkhṭyb albghdady
+160,موضح أوهام الجمع والتفريق للخطيب,الخطيب البغدادي,Mwḍḥ awham aljmʿ waltfryq llkhṭyb,Alkhṭyb albghdady
+161,الإلماع إلى علم أصول الرواية لقاضي عياض,القاضي عياض بن موسى اليحصبي,Alilmaʿ ilā Ilm aṣwl alrwayh lqaḍy ʿyaḍ,Alqaḍy ʿyaḍ bn mwsā alyḥṣby
+162,أدب الإملاء والاستملاء لابن السمعاني,عبد الكريم بن محمد السمعاني,Adb alimlaʾ walastmlaʾ labn alsmʿany,ʿbd alkrym bn mḥmd alsmʿany
+163,غوامض الأسماء المبهمة لابن بشكوال,ابن بشكوال,Ghwamḍ alasmaʾ almbhmh labn bshkwal,Abn bshkwal
+164,الاعتبار في الناسخ والمنسوخ من الآثار للحازمي,محمد بن موسى الحازمي,Alaʿtbar fy alnaskh walmnswkh mn alāthar llḥazmy,Mḥmd bn mwsā alḥazmy
+165,إعلام العالم بعد رسوخه بناسخ الحديث ومنسوخه,ابن الجوزي,Iʿlam alʿalm bʿd rswkhh bnaskh alḥdyth wmnswkhh,Abn aljwzy
+166,تغليق التعليق  لابن حجر,ابن حجر العسقلاني,Tghlyq altʿlyq labn ḥjr,Abn ḥjr alʿsqlany
+167,إثارة الفوائد,ابن عبد البر,Itharh alfwaʾid,Abn ʿbd albr
+168,الإيمان لابن أبي شيبة,ابن ابي شيبة,Aliyman labn aby shybh,Abn aby shybh
+169,الرد على الجهمية للدارمي,عبد الله بن عبد الرحمن الدارمي,Alrd ʿlā aljhmyh lldarmy,ʿbd allh bn ʿbd alrḥmn aldarmy
+170,خلق أفعال العباد للبخاري,محمد بن إسماعيل البخاري,Khlq afʿal alʿbad llbkhary,Mḥmd bn ismaʿyl albkhary
+171,نقض الإمام أبي سعيد على المريسي العنيد,عثمان بن سعيد الدارمي,Nqḍ alimam aby sʿyd ʿlā almrysy alʿnyd,ʿthman bn sʿyd aldarmy
+172,السنة لابن أبي عاصم,ابن أبي عاصم,Alsnh labn aby ʿaṣm,Abn aby ʿaṣm
+173,البدع لابن وضاح,ابن وضاح المرواني,Albdʿ labn wḍaḥ,Abn wḍaḥ almrwany
+174,السنة لعبد الله بن أحمد,عبد الله بن أحمد بن حنبل,Alsnh lʿbd allh bn aḥmd,ʿbd allh bn aḥmd bn ḥnbl
+175,السنة للمروزي,محمد بن نصر المروزي,Alsnh llmrwzy,Mḥmd bn nṣr almrwzy
+176,القدر للفريابي,محمد بن الحسن الفريابي,Alqdr llfryaby,Mḥmd bn alḥsn alfryaby
+177,صفة النفاق وذم المنافقين للفريابي,محمد بن الحسن الفريابي,Ṣfh alnfaq wdhm almnafqyn llfryaby,Mḥmd bn alḥsn alfryaby
+178,التوحيد لابن خزيمة,ابن خزيمة,Altwḥyd labn khzymh,Abn khzymh
+179,السنة لأبي بكر بن الخلال,أبو بكر الخلال,Alsnh laby bkr bn alkhlal,Abw bkr alkhlal
+180,الشريعة للآجري,الآجري,Alshryʿh llājry,Alājry
+181,العظمة,أبو الشيخ الأصبهاني,Alʿẓmh,Abw alshykh alaṣbhany
+182,الرؤيا للدارقطني,الدارقطني,Alrʾuya lldarqṭny,Aldarqṭny
+183,شرح مذاهب أهل السنة لابن شاهين,ابن شاهين,Shrḥ mdhahb ahl alsnh labn shahyn,Abn shahyn
+184,الإبانة الكبرى لابن بطة,ابن بطة العكبري,Alibanh alkbrā labn bṭh,Abn bṭh alʿkbry
+185,الإيمان لابن منده,محمد بن إسحاق بن منده,Aliyman labn mndh,Mḥmd bn isḥaq bn mndh
+186,التوحيد لابن منده,محمد بن إسحاق بن منده,Altwḥyd labn mndh,Mḥmd bn isḥaq bn mndh
+187,شرح أصول اعتقاد أهل السنة والجماعة للالكائي,هبة الله اللالكائي,Shrḥ aṣwl aʿtqad ahl alsnh waljmaʿh llalkaʾiy,Hbh allh allalkaʾiy
+188,كرامات أولياء الله عز وجل للالكائي,هبة الله اللالكائي,Kramat awlyaʾ allh ʿz wjl llalkaʾiy,Hbh allh allalkaʾiy
+189,السنن الواردة في الفتن للداني,عثمان بن سعيد الداني,Alsnn alwardh fy alftn lldany,ʿthman bn sʿyd aldany
+190,الاعتقاد إلى سبيل الرشاد للبيهقي,البيهقي,Alaʿtqad ilā sbyl alrshad llbyhqy,Albyhqy
+191,الأسماء والصفات للبيهقي,البيهقي,Alasmaʾ walṣfat llbyhqy,Albyhqy
+192,البعث والنشور للبيهقي,البيهقي,Albʿth walnshwr llbyhqy,Albyhqy
+193,القضاء والقدر للبيهقي,البيهقي,Alqḍaʾ walqdr llbyhqy,Albyhqy
+194,إثبات عذاب القبر وسؤال الملكين,البيهقي,Ithbat ʿdhab alqbr wsʾual almlkyn,Albyhqy
+195,شعب الإيمان  للبيهقي,البيهقي,Shʿb aliyman llbyhqy,Albyhqy
+196,ذم الكلام وأهله لعبد الله الأنصاري,عبد الله بن محمد الأنصاري,Dhm alklam wahlh lʿbd allh alanṣary,ʿbd allh bn mḥmd alanṣary
+197,تبيين كذب المفتري فيما نسب إلى الأشعري,ابن عساكر الدمشقي,Tbyyn kdhb almftry fyma nsb ilā alashʿry,Abn ʿsakr aldmshqy
+198,تلبيس إبليس لابن الجوزي,ابن الجوزي,Tlbys iblys labn aljwzy,Abn aljwzy
+199,العلو للعلي الغفار الذهبي,الذهبي,Alʿlw llʿly alghfar aldhhby,Aldhhby
+200,أهل الملل والردة من الجامع للخلال,الخلال,Ahl almll walrdh mn aljamʿ llkhlal,Alkhlal
+201,الحجة في بيان المحجة وشرح عقيدة أهل السنة 2,قوام السنة الأصبهاني,Alḥjh fy byan almḥjh wshrḥ ʿqydh ahl alsnh 2,Qwam alsnh alaṣbhany
+202,المناسك لسعيد بن أبي عروبة,سعيد بن أبي عروبة,Almnask lsʿyd bn aby ʿrwbh,Sʿyd bn aby ʿrwbh
+203,المدونة الكبرى لمالك بن أنس,مالك بن أنس,Almdwnh alkbrā lmalk bn ans,Malk bn ans
+204,الجهاد لابن المبارك,عبد الله بن المبارك,Aljhad labn almbark,ʿbd allh bn almbark
+205,الآثار لأبي يوسف,يعقوب بن إبراهيم,Alāthar laby ywsf,Yʿqwb bn ibrahym
+206,الآثار لمحمد بن الحسن الشيباني,محمد بن الحسن الشيباني,Alāthar lmḥmd bn alḥsn alshybany,Mḥmd bn alḥsn alshybany
+207,الخراج لأبي يوسف,يعقوب بن إبراهيم,Alkhraj laby ywsf,Yʿqwb bn ibrahym
+208,السير لأبي إسحاق الفزاري,أبو إسحاق الفزاري,Alsyr laby isḥaq alfzary,Abw isḥaq alfzary
+209,الخراج ليحيى بن آدم,يحيى بن آدم,Alkhraj lyḥyā bn ādm,Yḥyā bn ādm
+210,الأم للشافعي,الشافعي,Alam llshafʿy,Alshafʿy
+211,الأموال للقاسم بن سلام,القاسم بن سلام الهروي,Alamwal llqasm bn slam,Alqasm bn slam alhrwy
+212,الطهور للقاسم بن سلام,القاسم بن سلام الهروي,Alṭhwr llqasm bn slam,Alqasm bn slam alhrwy
+213,القضاء لسربج بن يونس البغدادي,سريج بن يونس,Alqḍaʾ lsrbj bn ywns albghdady,Sryj bn ywns
+214,الأشربة لأحمد بن حنبل,أحمد بن حنبل,Alashrbh laḥmd bn ḥnbl,Aḥmd bn ḥnbl
+215,الأموال لابن زنجويه,ابن زنجويه,Alamwal labn znjwyh,Abn znjwyh
+216,القراءة خلف الإمام للبخاري,محمد بن إسماعيل البخاري,Alqraʾh khlf alimam llbkhary,Mḥmd bn ismaʿyl albkhary
+217,إصلاح المال لابن أبي الدنيا,ابن أبي الدنيا,Iṣlaḥ almal labn aby aldnya,Abn aby aldnya
+218,الجهاد لابن أبي عاصم,ابن أبي عاصم,Aljhad labn aby ʿaṣm,Abn aby ʿaṣm
+219,الديات لابن أبي عاصم,ابن أبي عاصم,Aldyat labn aby ʿaṣm,Abn aby ʿaṣm
+220,مختصر قيام الليل للمروزي,محمد بن نصر المروزي,Mkhtṣr qyam allyl llmrwzy,Mḥmd bn nṣr almrwzy
+221,الصيام للفريابي,محمد بن الحسن الفريابي,Alṣyam llfryaby,Mḥmd bn alḥsn alfryaby
+222,أحكام العيدين  للفريابي,محمد بن الحسن الفريابي,Aḥkam alʿydyn llfryaby,Mḥmd bn alḥsn alfryaby
+223,تهذيب الآثار للطبري,ابن جرير الطبري,Thdhyb alāthar llṭbry,Abn jryr alṭbry
+224,الترجل من مسائل الإمام أحمد,أبو بكر الخلال,Altrjl mn msaʾil alimam aḥmd,Abw bkr alkhlal
+225,الوقوف من مسائل الإمام أحمد,أبو بكر الخلال,Alwqwf mn msaʾil alimam aḥmd,Abw bkr alkhlal
+226,شرح السنة,الحسين بن مسعود البغوي,Shrḥ alsnh,Alḥsyn bn msʿwd albghwy
+227,الأوسط في السنن والإجماع والاختلاف لابن المنذر,محمد بن إبراهيم بن المنذر,Alawsṭ fy alsnn walijmaʿ walakhtlaf labn almndhr,Mḥmd bn ibrahym bn almndhr
+228,الإقناع لابن المنذر,محمد بن إبراهيم بن المنذر,Aliqnaʿ labn almndhr,Mḥmd bn ibrahym bn almndhr
+229,شرح معاني الآثار للطحاوي,الطحاوي,Shrḥ mʿany alāthar llṭḥawy,Alṭḥawy
+230,مشكل الآثار للطحاوي,الطحاوي,Mshkl alāthar llṭḥawy,Alṭḥawy
+231,تثبيت الإمامة وترتيب الخلافة لأبي نعيم,أبو نعيم الأصبهاني,Tthbyt alimamh wtrtyb alkhlafh laby nʿym,Abw nʿym alaṣbhany
+232,المحلى بالآثار لابن حزم,ابن حزم الظاهري,Almḥlā balāthar labn ḥzm,Abn ḥzm alẓahry
+233,حجة الوداع لابن حزم,ابن حزم الظاهري,Ḥjh alwdaʿ labn ḥzm,Abn ḥzm alẓahry
+234,القراءة خلف الإمام للبيهقي,البيهقي,Alqraʾh khlf alimam llbyhqy,Albyhqy
+235,بيان خطأ من أخطأ على الشافعي,البيهقي,Byan khṭa mn akhṭa ʿlā alshafʿy,Albyhqy
+236,التمهيد لابن عبد البر,ابن عبد البر القرطبي,Altmhyd labn ʿbd albr,Abn ʿbd albr alqrṭby
+237,التحقيق في مسائل الخلاف لابن الجوزي,ابن الجوزي,Altḥqyq fy msaʾil alkhlaf labn aljwzy,Abn aljwzy
+238,أخبار الصلاة لعبد الغني المقدسي,عبد الغني بن عبد الواحد المقدسي,Akhbar alṣlah lʿbd alghny almqdsy,ʿbd alghny bn ʿbd alwaḥd almqdsy
+239,الزيادات على كتاب المزني,ابن زياد النيسابوري,Alzyadat ʿlā ktab almzny,Abn zyad alnysabwry
+240,الأوسط في السنن,ابن المنذر,Alawsṭ fy alsnn,Abn almndhr
+241,الاستذكار,ابن عبد البر القرطبي,Alastdhkar,Abn ʿbd albr alqrṭby
+242,أحكام القرآن للجصاص,الجصاص الحنفي,Aḥkam alqrān lljṣaṣ,Aljṣaṣ alḥnfy
+243,النصيحة للراعي والرعية للتبريزي,أبو الخير بدل بن أبي المعمر التبريزي,Alnṣyḥh llraʿy walrʿyh lltbryzy,Abw alkhyr bdl bn aby almʿmr altbryzy
+244,تفسير مجاهد,مجاهد بن جبر,Tafsir mjahd,Mjahd bn jbr
+245,تفسير سفيان الثوري,سفيان الثوري,Tafsir sfyan althwry,Sfyan althwry
+246,معاني القرآن للفراء,أبو زكريا الفراء,Mʿany alqrān llfraʾ,Abw zkrya alfraʾ
+247,تفسير القرآن لعبد الرزاق الصنعاني,عبد الرزاق الصنعاني,Tafsir alqrān lʿbd alrzaq alṣnʿany,ʿbd alrzaq alṣnʿany
+248,التفسير من سنن سعيد بن منصور,سعيد بن منصور,Altfsyr mn Sunan sʿyd bn mnṣwr,Sʿyd bn mnṣwr
+249,جامع البيان عن تأويل آي القرآن,ابن جرير الطبري,Jamiʿ albyan ʿn tawyl āy alqrān,Abn jryr alṭbry
+250,تفسير ابن أبي حاتم,ابن أبي حاتم الرازي,Tafsir abn aby ḥatm,Abn aby ḥatm alrazy
+251,تفسير القرآن العزيز,ابن أبي زمنين الأندلسي,Tafsir alqrān alʿzyz,Abn aby zmnyn alandlsy
+252,معالم التنزيل تفسير البغوي,الحسين بن مسعود البغوي,Mʿalm altnzyl Tafsir albghwy,Alḥsyn bn msʿwd albghwy
+253,تفسير القرآن لابن المنذر,محمد بن إبراهيم بن المنذر,Tafsir alqrān labn almndhr,Mḥmd bn ibrahym bn almndhr
+254,الجامع في تفسير القرآن,عبد الله بن وهب,Aljamʿ fy Tafsir alqrān,ʿbd allh bn whb
+255,الوسيط في تفسير القرآن المجيد,الواحدي,Alwsyṭ fy Tafsir alqrān almjyd,Alwaḥdy
+256,تفسير يحيى بن سلام,يحيى بن سلام,Tafsir yḥyā bn slam,Yḥyā bn slam
+257,الناسخ والمنسوخ للقاسم بن سلام,القاسم بن سلام الهروي,Alnaskh walmnswkh llqasm bn slam,Alqasm bn slam alhrwy
+258,قراءة النبي للدوري,حفص بن عمر الدوري,Qraʾh alnby lldwry,Ḥfṣ bn ʿmr aldwry
+259,المصاحف لابن أبي داود,ابن أبي داود السجستاني,Almṣaḥf labn aby dawd,Abn aby dawd alsjstany
+260,أحكام القرآن الكريم للطحاوي,الطحاوي,Aḥkam alqrān alkrym llṭḥawy,Alṭḥawy
+261,الناسخ والمنسوخ للنحاس,أحمد بن محمد النحاس,Alnaskh walmnswkh llnḥas,Aḥmd bn mḥmd alnḥas
+262,أسباب النزول الواحدي,الواحدي,Asbab alnzwl alwaḥdy,Alwaḥdy
+263,نواسخ القرآن لابن الجوزي,ابن الجوزي,Nwaskh alqrān labn aljwzy,Abn aljwzy
+264,الشمائل المحمدية للترمذي,محمد بن عيسى الترمذي,Alshmaʾil almḥmdyh lltrmdhy,Mḥmd bn ʿysā altrmdhy
+265,الذرية الطاهرة النبوية,أبو بشر الدولابي,Aldhryh alṭahrh alnbwyh,Abw bshr aldwlaby
+266,أخلاق النبي لأبي الشيخ الأصبهاني,أبو الشيخ الأصبهاني,Akhlaq alnby laby alshykh alaṣbhany,Abw alshykh alaṣbhany
+267,حلية الأولياء لأبي نعيم,أبو نعيم الأصبهاني,Ḥlyh alawlyaʾ laby nʿym,Abw nʿym alaṣbhany
+268,دلائل النبوة لأبي نعيم,أبو نعيم الأصبهاني,Dlaʾil alnbwh laby nʿym,Abw nʿym alaṣbhany
+269,دلائل النبوة للبيهقي,البيهقي,Dlaʾil alnbwh llbyhqy,Albyhqy
+270,دلائل النبوة لقوام السنة,إسماعيل بن محمد الأصبهاني,Dlaʾil alnbwh lqwam alsnh,Ismaʿyl bn mḥmd alaṣbhany
+271,عيون الأثر,ابن سيد الناس,ʿywn alathr,Abn syd alnas
+272,الأنوار في شمائل النبي المختار,الحسين بن مسعود البغوي,Alanwar fy shmaʾil alnby almkhtar,Alḥsyn bn msʿwd albghwy
+273,أخبار مكة للأزرقي,أبو الوليد الأزرقي,Akhbar mkh llazrqy,Abw alwlyd alazrqy
+274,الطبقات الكبرى لابن سعد,محمد بن سعد الزهري,Alṭbqat alkbrā labn sʿd,Mḥmd bn sʿd alzhry
+275,تاريخ خليفة بن خياط,خليفة بن خياط,Tarykh khlyfh bn khyaṭ,Khlyfh bn khyaṭ
+276,الجامع في العلل ومعرفة الرجال لأحمد بن حنبل,أحمد بن حنبل,Aljamʿ fy alʿll wmʿrfh alrjal laḥmd bn ḥnbl,Aḥmd bn ḥnbl
+277,التاريخ الكبير للبخاري,محمد بن إسماعيل البخاري,Altarykh alkbyr llbkhary,Mḥmd bn ismaʿyl albkhary
+278,تاريخ المدينة لابن شبة,ابن شبة النميري,Tarykh almdynh labn shbh,Abn shbh alnmyry
+279,أخبار مكة للفاكهي,الفاكهي,Akhbar mkh llfakhy,Alfakhy
+280,مسائل أحمد لأبي داود السجستاني,أبو داود السجستاني,Msaʾil aḥmd laby dawd alsjstany,Abw dawd alsjstany
+281,المعرفة والتاريخ ليعقوب بن سفيان,يعقوب بن سفيان,Almʿrfh waltarykh lyʿqwb bn sfyan,Yʿqwb bn sfyan
+282,أنساب الأشراف للبلاذري,أحمد بن يحيى البلاذري,Ansab alashraf llbladhry,Aḥmd bn yḥyā albladhry
+283,البلدان وفتوحها وأحكامها للبلاذري,أحمد بن يحيى البلاذري,Albldan wftwḥha waḥkamha llbladhry,Aḥmd bn yḥyā albladhry
+284,تاريخ أبي زرعة الدمشقي,أبو زرعة الدمشقي,Tarykh aby zrʿh aldmshqy,Abw zrʿh aldmshqy
+285,الآحاد والمثاني لابن أبي عاصم,ابن أبي عاصم,Alāḥad walmthany labn aby ʿaṣm,Abn aby ʿaṣm
+286,تاريخ واسط لأسلم بن سهل الرزاز,أسلم بن سهل الرزاز,Tarykh wasṭ laslm bn shl alrzaz,Aslm bn shl alrzaz
+287,تاريخ الطبري,ابن جرير الطبري,Tarykh alṭbry,Abn jryr alṭbry
+288,الكني والأسماء للدولابي,أبو بشر الدولابي,Alkny walasmaʾ lldwlaby,Abw bshr aldwlaby
+289,آداب الشافعي ومناقبه,ابن أبي حاتم الرازي,Adab alshafʿy wmnaqbh,Abn aby ḥatm alrazy
+290,كتاب الولاة وكتاب القضاة للكندي,محمد بن يوسف الكندي,Ktab alwlah wktab alqḍah llkndy,Mḥmd bn ywsf alkndy
+291,الثقات لابن حبان,أبو حاتم بن حبان,Althqat labn ḥban,Abw ḥatm bn ḥban
+292,الأغاني لأبي الفرج الأصفهاني,أبو الفرج الأصفهاني,Alaghany laby alfrj alaṣfhany,Abw alfrj alaṣfhany
+293,تاريخ داريا ومن نزل بها من الصحابة والتابعين للخولاني,عبد الجبار الخولاني,Tarykh darya wmn nzl bha mn alṣḥabh waltabʿyn llkhwlany,ʿbd aljbar alkhwlany
+294,طبقات المحدثين بأصبهان والواردين عليها,أبو الشيخ الأصبهاني,Ṭbqat almḥdthyn baṣbhan walwardyn ʿlyha,Abw alshykh alaṣbhany
+295,تاريخ جرجان للسهمي,حمزة بن يوسف السهمي,Tarykh jrjan llshmy,Ḥmzh bn ywsf alshmy
+296,أخبار أصبهان لأبي نعيم,أبو نعيم الأصبهاني,Akhbar aṣbhan laby nʿym,Abw nʿym alaṣbhany
+297,معرفة الصحابة لأبي نعيم,أبو نعيم الأصبهاني,Mʿrfh alṣḥabh laby nʿym,Abw nʿym alaṣbhany
+298,الإرشاد في معرفة علماء الحديث لأبي يعلى الخليلي,أبو يعلى الخليلي القزويني,Alirshad fy mʿrfh ʿlmaʾ alḥdyth laby yʿlā alkhlyly,Abw yʿlā alkhlyly alqzwyny
+299,الاستيعاب في معرفة الأصحاب لابن عبد البر,ابن عبد البر القرطبي,Alastyʿab fy mʿrfh alaṣḥab labn ʿbd albr,Abn ʿbd albr alqrṭby
+300,الأسماء المبهمة والأنباء المحكمة,الخطيب البغدادي,Alasmaʾ almbhmh walanbaʾ almḥkmh,Alkhṭyb albghdady
+301,تاريخ بغداد للخطيب البغدادي,الخطيب البغدادي,Tarykh bghdad llkhṭyb albghdady,Alkhṭyb albghdady
+302,سير السلف الصالحين لإسماعيل بن محمد الأصبهاني,إسماعيل بن محمد الأصبهاني,Syr alslf alṣalḥyn lismaʿyl bn mḥmd alaṣbhany,Ismaʿyl bn mḥmd alaṣbhany
+303,تاريخ دمشق لابن عساكر,ابن عساكر الدمشقي,Tarykh dmshq labn ʿsakr,Abn ʿsakr aldmshqy
+304,المنتظم في تاريخ الأمم لابن الجوزي,ابن الجوزي,Almntẓm fy tarykh alamm labn aljwzy,Abn aljwzy
+305,التدوين في أخبار قزوين للرافعي,عبد الكريم الرافعي,Altdwyn fy akhbar qzwyn llrafʿy,ʿbd alkrym alrafʿy
+306,تاريخ الإسلام الذهبي,الذهبي,Tarykh alislam aldhhby,Aldhhby
+307,مناقب الإمام أبي حنيفة وصاحبيه,الذهبي,Mnaqb alimam aby ḥnyfh wṣaḥbyh,Aldhhby
+308,تاريخ ابن أبي خيثمة,ابن أبي خيثمة,Tarykh abn aby khythmh,Abn aby khythmh
+309,طبقات الحنابلة,أبي يعلى الحنبلي,Ṭbqat alḥnablh,Aby yʿlā alḥnbly
+310,ذيل تاريخ بغداد لابن النجار,ابن النجار,Dhyl tarykh bghdad labn alnjar,Abn alnjar
+311,أسد الغابة,علي بن الأثير,Asd alghabh,ʿly bn alathyr
+312,الجرح والتعديل,ابن أبي حاتم الرازي,Aljrḥ waltʿdyl,Abn aby ḥatm alrazy
+313,الفصل للوصل المدرج في النقل,الخطيب البغدادي,Alfṣl llwṣl almdrj fy alnql,Alkhṭyb albghdady
+314,سير أعلام النبلاء الذهبي,الذهبي,Syr aʿlam alnblaʾ aldhhby,Aldhhby
+315,طبقات الشافعية الكبرى,السبكي,Ṭbqat alshafʿyh alkbrā,Alsbky
+316,تهذيب الكمال للمزي,يوسف المزي,Thdhyb alkmal llmzy,Ywsf almzy
+317,التاريخ الأوسط,محمد بن إسماعيل البخاري,Altarykh alawsṭ,Mḥmd bn ismaʿyl albkhary
+318,كتاب المحن,أبو العرب القيرواني,Ktab almḥn,Abw alʿrb alqyrwany
+319,فضائل الصحابة لأحمد بن حنبل,أحمد بن حنبل,Fḍaʾil alṣḥabh laḥmd bn ḥnbl,Aḥmd bn ḥnbl
+320,فضائل عثمان بن عفان لعبد الله بن أحمد,عبد الله بن أحمد بن حنبل,Fḍaʾil ʿthman bn ʿfan lʿbd allh bn aḥmd,ʿbd allh bn aḥmd bn ḥnbl
+321,فضائل الخلفاء الراشدين لأبي نعيم,أبو نعيم الأصبهاني,Fḍaʾil alkhlfaʾ alrashdyn laby nʿym,Abw nʿym alaṣbhany
+322,معرفة الصحابة,محمد بن إسحاق بن منده,Mʿrfh alṣḥabh,Mḥmd bn isḥaq bn mndh
+323,الزهد والرقائق لابن المبارك,عبد الله بن المبارك,Alzhd walrqaʾiq labn almbark,ʿbd allh bn almbark
+324,الزهد للمعافى بن عمران الموصلي,المعافى بن عمران,Alzhd llmʿafā bn ʿmran almwṣly,Almʿafā bn ʿmran
+325,الدعاء لمحمد بن فضيل الضبي,محمد بن فضيل الضبي,Aldʿaʾ lmḥmd bn fḍyl alḍby,Mḥmd bn fḍyl alḍby
+326,الزهد لوكيع بن الجراح,وكيع بن الجراح,Alzhd lwkyʿ bn aljraḥ,Wkyʿ bn aljraḥ
+327,الزهد لأسد بن موسى,أسد بن موسى,Alzhd lasd bn mwsā,Asd bn mwsā
+328,فضائل الصلاة للفضل بن دكين,الفضل بن دكين,Fḍaʾil alṣlah llfḍl bn dkyn,Alfḍl bn dkyn
+329,فضائل القرآن للقاسم بن سلام,القاسم بن سلام الهروي,Fḍaʾil alqrān llqasm bn slam,Alqasm bn slam alhrwy
+330,الزهد لنعيم بن حماد,نعيم بن حماد,Alzhd lnʿym bn ḥmad,Nʿym bn ḥmad
+331,العلم لزهير بن حرب,أبو خيثمة زهير بن حرب النسائي,Alʿlm lzhyr bn ḥrb,Abw khythmh zhyr bn ḥrb alnsaʾiy
+332,الزهد لأحمد بن حنبل,أحمد بن حنبل,Alzhd laḥmd bn ḥnbl,Aḥmd bn ḥnbl
+333,الزهد لهناد بن السري,هناد بن السري,Alzhd lhnad bn alsry,Hnad bn alsry
+334,البر والصلة للمروزي,الحسين بن حرب المروزي,Albr walṣlh llmrwzy,Alḥsyn bn ḥrb almrwzy
+335,الأدب المفرد للبخاري,محمد بن إسماعيل البخاري,Aladb almfrd llbkhary,Mḥmd bn ismaʿyl albkhary
+336,الزهد لأبي حاتم الرازي,أبو حاتم الرازي,Alzhd laby ḥatm alrazy,Abw ḥatm alrazy
+337,الزهد لأبي داود,أبو داود السجستاني,Alzhd laby dawd,Abw dawd alsjstany
+338,الأمر بالمعروف والنهي عن المنكر لابن أبي الدنيا,ابن أبي الدنيا,Alamr balmʿrwf walnhy ʿn almnkr labn aby aldnya,Abn aby aldnya
+339,الأهوال لابن أبي الدنيا,ابن أبي الدنيا,Alahwal labn aby aldnya,Abn aby aldnya
+340,الأولياء لابن أبي الدنيا,ابن أبي الدنيا,Alawlyaʾ labn aby aldnya,Abn aby aldnya
+341,الإخوان لابن أبي الدنيا,ابن أبي الدنيا,Alikhwan labn aby aldnya,Abn aby aldnya
+342,الجوع لابن أبي الدنيا,ابن أبي الدنيا,Aljwʿ labn aby aldnya,Abn aby aldnya
+343,الزهد لابن أبي الدنيا,ابن أبي الدنيا,Alzhd labn aby aldnya,Abn aby aldnya
+344,الشكر لله لابن أبي الدنيا,ابن أبي الدنيا,Alshkr llh labn aby aldnya,Abn aby aldnya
+345,الفرج بعد الشدة لابن أبي الدنيا,ابن أبي الدنيا,Alfrj bʿd alshdh labn aby aldnya,Abn aby aldnya
+346,المرض والكفارات لابن أبي الدنيا,ابن أبي الدنيا,Almrḍ walkfarat labn aby aldnya,Abn aby aldnya
+347,المنامات لابن أبي الدنيا,ابن أبي الدنيا,Almnamat labn aby aldnya,Abn aby aldnya
+348,العيال,ابن أبي الدنيا,Alʿyal,Abn aby aldnya
+349,الهم والحزن لابن أبي الدنيا,ابن أبي الدنيا,Alhm walḥzn labn aby aldnya,Abn aby aldnya
+350,حسن الظن بالله لابن أبي الدنيا,ابن أبي الدنيا,Ḥsn alẓn ballh labn aby aldnya,Abn aby aldnya
+351,ذم الملاهي لابن أبي الدنيا,ابن أبي الدنيا,Dhm almlahy labn aby aldnya,Abn aby aldnya
+352,مجابو الدعوة لابن أبي الدنيا,ابن أبي الدنيا,Mjabw aldʿwh labn aby aldnya,Abn aby aldnya
+353,الإشراف في منازل الأشراف,ابن أبي الدنيا,Alishraf fy mnazl alashraf,Abn aby aldnya
+354,التهجد وقيام الليل لابن أبي الدنيا,ابن أبي الدنيا,Althjd wqyam allyl labn aby aldnya,Abn aby aldnya
+355,التوبة لابن أبي الدنيا,ابن أبي الدنيا,Altwbh labn aby aldnya,Abn aby aldnya
+356,الحلم لابن أبي الدنيا,ابن أبي الدنيا,Alḥlm labn aby aldnya,Abn aby aldnya
+357,الرقة والبكاء لابن أبي الدنيا,ابن أبي الدنيا,Alrqh walbkaʾ labn aby aldnya,Abn aby aldnya
+358,الصبر والثواب عليه,ابن أبي الدنيا,Alṣbr walthwab ʿlyh,Abn aby aldnya
+359,الصمت وآداب اللسان,ابن أبي الدنيا,Alṣmt wādab allsan,Abn aby aldnya
+360,العقل وفضله لابن أبي الدنيا,ابن أبي الدنيا,Alʿql wfḍlh labn aby aldnya,Abn aby aldnya
+361,العقوبات لابن أبي الدنيا,ابن أبي الدنيا,Alʿqwbat labn aby aldnya,Abn aby aldnya
+362,المتمنين لابن أبي الدنيا,ابن أبي الدنيا,Almtmnyn labn aby aldnya,Abn aby aldnya
+363,المحتضرين لابن أبي الدنيا,ابن أبي الدنيا,Almḥtḍryn labn aby aldnya,Abn aby aldnya
+364,المطر والرعد والبرق لابن أبي الدنيا,ابن أبي الدنيا,Almṭr walrʿd walbrq labn aby aldnya,Abn aby aldnya
+365,ذم الغيبة والنميمة لابن أبي الدنيا,ابن أبي الدنيا,Dhm alghybh walnmymh labn aby aldnya,Abn aby aldnya
+366,صفة الجنة لابن أبي الدنيا,ابن أبي الدنيا,Ṣfh aljnh labn aby aldnya,Abn aby aldnya
+367,صفة النار لابن أبي الدنيا,ابن أبي الدنيا,Ṣfh alnar labn aby aldnya,Abn aby aldnya
+368,قصر الأمل لابن أبي الدنيا,ابن أبي الدنيا,Qṣr alaml labn aby aldnya,Abn aby aldnya
+369,قضاء الحوائج لابن أبي الدنيا,ابن أبي الدنيا,Qḍaʾ alḥwaʾij labn aby aldnya,Abn aby aldnya
+370,محاسبة النفس لابن أبي الدنيا,ابن أبي الدنيا,Mḥasbh alnfs labn aby aldnya,Abn aby aldnya
+371,مداراة الناس لابن أبي الدنيا,ابن أبي الدنيا,Mdarah alnas labn aby aldnya,Abn aby aldnya
+372,هواتف الجنان لابن أبي الدنيا,ابن أبي الدنيا,Hwatf aljnan labn aby aldnya,Abn aby aldnya
+373,الزهد لابن أبي عاصم,ابن أبي عاصم,Alzhd labn aby ʿaṣm,Abn aby ʿaṣm
+374,الفتن لنعيم بن حماد,نعيم بن حماد,Alftn lnʿym bn ḥmad,Nʿym bn ḥmad
+375,فضائل القرآن لابن الضريس,محمد بن الضريس,Fḍaʾil alqrān labn alḍrys,Mḥmd bn alḍrys
+376,تعظيم قدر الصلاة للمروزي,محمد بن نصر المروزي,Tʿẓym qdr alṣlah llmrwzy,Mḥmd bn nṣr almrwzy
+377,فضائل القرآن للفريابي,محمد بن الحسن الفريابي,Fḍaʾil alqrān llfryaby,Mḥmd bn alḥsn alfryaby
+378,الأمر بالمعروف والنهي عن المنكر للخلال,أبو بكر الخلال,Alamr balmʿrwf walnhy ʿn almnkr llkhlal,Abw bkr alkhlal
+379,الحث على التجارة والصناعة للخلال,أبو بكر الخلال,Alḥth ʿlā altjarh walṣnaʿh llkhlal,Abw bkr alkhlal
+380,أخبار وحكايات للغساني,محمد بن الفيض الغساني,Akhbar wḥkayat llghsany,Mḥmd bn alfyḍ alghsany
+381,اعتلال القلوب للخرائطي,محمد بن جعفر بن سهل الخرائطي,Aʿtlal alqlwb llkhraʾiṭy,Mḥmd bn jʿfr bn shl alkhraʾiṭy
+382,شكر الله على نعمه للخرائطي,محمد بن جعفر بن سهل الخرائطي,Shkr allh ʿlā nʿmh llkhraʾiṭy,Mḥmd bn jʿfr bn shl alkhraʾiṭy
+383,المجالسة وجواهر العلم للدينوري,أبو بكر الدينوري,Almjalsh wjwahr alʿlm lldynwry,Abw bkr aldynwry
+384,الزهد وصفة الزاهدين لابن الأعرابي,ابن الأعرابي,Alzhd wṣfh alzahdyn labn alaʿraby,Abn alaʿraby
+385,أخلاق العلماء للآجري,الآجري,Akhlaq alʿlmaʾ llājry,Alājry
+386,الدعاء للطبراني,سليمان بن أحمد الطبراني,Aldʿaʾ llṭbrany,Slyman bn aḥmd alṭbrany
+387,عمل اليوم والليلة لابن السني,ابن السني,ʿml alywm wallylh labn alsny,Abn alsny
+388,التوبيخ والتنبيه,أبو الشيخ الأصبهاني,Altwbykh waltnbyh,Abw alshykh alaṣbhany
+389,تنبيه الغافلين بأحاديث سيد الأنبياء والمرسلين لسمرقندي,نصر بن محمد بن إبراهيم,Tnbyh alghaflyn baḥadyth syd alanbyaʾ walmrslyn lsmrqndy,Nṣr bn mḥmd bn ibrahym
+390,بحر الفوائد المسمى بمعاني الأخيار للكلاباذي,محمد بن إسحاق الكلاباذي,Bḥr alfwaʾid almsmā bmʿany alakhyar llklabadhy,Mḥmd bn isḥaq alklabadhy
+391,الترغيب في فضائل الأعمال لابن شاهين,ابن شاهين,Altrghyb fy fḍaʾil alaʿmal labn shahyn,Abn shahyn
+392,العزلة للخطابي,أبو سليمان الخطابي,Alʿzlh llkhṭaby,Abw slyman alkhṭaby
+393,الجليس الصالح الكافي والأنيس الناصح الشافي المعافى بن زكريا,المعافى بن زكريا,Aljlys alṣalḥ alkafy walanys alnaṣḥ alshafy almʿafā bn zkrya,Almʿafā bn zkrya
+394,صفة الجنة لأبي نعيم,أبو نعيم الأصبهاني,Ṣfh aljnh laby nʿym,Abw nʿym alaṣbhany
+395,فضائل القرآن وتلاوته للرازي,أبو الفضل الرازي,Fḍaʾil alqrān wtlawth llrazy,Abw alfḍl alrazy
+396,الدعوات الكبير للبيهقي,البيهقي,Aldʿwat alkbyr llbyhqy,Albyhqy
+397,الزهد الكبير للبيهقي,البيهقي,Alzhd alkbyr llbyhqy,Albyhqy
+398,فضائل الأوقات للبيهقي,البيهقي,Fḍaʾil alawqat llbyhqy,Albyhqy
+399,جامع بيان العلم وفضله لابن عبد البر,ابن عبد البر القرطبي,Jamiʿ byan alʿlm wfḍlh labn ʿbd albr,Abn ʿbd albr alqrṭby
+400,اقتضاء العلم العمل للخطيب,الخطيب البغدادي,Aqtḍaʾ alʿlm alʿml llkhṭyb,Alkhṭyb albghdady
+401,الزهد والرقائق للخطيب البغدادي,الخطيب البغدادي,Alzhd walrqaʾiq llkhṭyb albghdady,Alkhṭyb albghdady
+402,الفقيه والمتفقه للخطيب,الخطيب البغدادي,Alfqyh walmtfqh llkhṭyb,Alkhṭyb albghdady
+403,البر والصلة لابن الجوزي,ابن الجوزي,Albr walṣlh labn aljwzy,Abn aljwzy
+404,الثبات عند الممات لابن الجوزي,ابن الجوزي,Althbat ʿnd almmat labn aljwzy,Abn aljwzy
+405,ذم الهوى لابن الجوزي,ابن الجوزي,Dhm alhwā labn aljwzy,Abn aljwzy
+406,مثير الغرام الساكن إلى أشرف الأماكن لابن الجوزي,ابن الجوزي,Mthyr alghram alsakn ilā ashrf alamakn labn aljwzy,Abn aljwzy
+407,الترغيب في الدعاء والحث عليه لعبد الغني المقدسي,عبد الغني بن عبد الواحد المقدسي,Altrghyb fy aldʿaʾ walḥth ʿlyh lʿbd alghny almqdsy,ʿbd alghny bn ʿbd alwaḥd almqdsy
+408,صفة النفاق ونعت المنافقين لأبي نعيم,أبو نعيم الأصبهاني,Ṣfh alnfaq wnʿt almnafqyn laby nʿym,Abw nʿym alaṣbhany
+409,روضة العقلاء لابن حبان,أبو حاتم بن حبان,Rwḍh alʿqlaʾ labn ḥban,Abw ḥatm bn ḥban
+410,التبصرة لابن الجوزي,ابن الجوزي,Altbṣrh labn aljwzy,Abn aljwzy
+411,الأدب لابن أبي شيبة,ابن ابي شيبة,Aladb labn aby shybh,Abn aby shybh
+412,الورع لأحمد  رواية المروزي,أحمد بن حنبل,Alwrʿ laḥmd rwayh almrwzy,Aḥmd bn ḥnbl
+413,الورع لابن أبي الدنيا,ابن أبي الدنيا,Alwrʿ labn aby aldnya,Abn aby aldnya
+414,مكارم الأخلاق لابن أبي الدنيا,ابن أبي الدنيا,Mkarm alakhlaq labn aby aldnya,Abn aby aldnya
+415,اصطناع المعروف,ابن أبي الدنيا,Aṣṭnaʿ almʿrwf,Abn aby aldnya
+416,التواضع والخمول لابن أبي الدنيا,ابن أبي الدنيا,Altwaḍʿ walkhmwl labn aby aldnya,Abn aby aldnya
+417,المروءة لابن المرزبان,محمد بن خلف بن المرزبان,Almrwʾh labn almrzban,Mḥmd bn khlf bn almrzban
+418,مساوئ الأخلاق للخرائطي,محمد بن جعفر بن سهل الخرائطي,Msawʾi alakhlaq llkhraʾiṭy,Mḥmd bn jʿfr bn shl alkhraʾiṭy
+419,مكارم الأخلاق للخرائطي,محمد بن جعفر بن سهل الخرائطي,Mkarm alakhlaq llkhraʾiṭy,Mḥmd bn jʿfr bn shl alkhraʾiṭy
+420,مكارم الأخلاق للطبراني,سليمان بن أحمد الطبراني,Mkarm alakhlaq llṭbrany,Slyman bn aḥmd alṭbrany
+421,آداب الصحبة للسلمي,أبو عبد الرحمن السلمي,Adab alṣḥbh llslmy,Abw ʿbd alrḥmn alslmy
+422,الآداب للبيهقي,البيهقي,Alādab llbyhqy,Albyhqy
+423,البخلاء للخطيب البغدادي,الخطيب البغدادي,Albkhlaʾ llkhṭyb albghdady,Alkhṭyb albghdady
+424,التطفيل للخطيب البغدادي,الخطيب البغدادي,Altṭfyl llkhṭyb albghdady,Alkhṭyb albghdady
+425,القصاص والمذكرين لابن الجوزي,ابن الجوزي,Alqṣaṣ walmdhkryn labn aljwzy,Abn aljwzy

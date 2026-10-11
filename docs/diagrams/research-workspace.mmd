@@ -1,0 +1,58 @@
+erDiagram
+    PROJECTS ||--o{ EVIDENCE : bookmarks
+    PROJECTS ||--o{ NOTES : contains
+    PROJECTS ||--o{ CLAIMS : formulates
+    CLAIMS ||--o{ CLAIM_EVIDENCE : links
+    EVIDENCE ||--o{ CLAIM_EVIDENCE : evaluated_in
+    PROJECTS ||--o{ EXPORTS : generates
+
+    PROJECTS {
+        string id PK "UUID"
+        string researcher_id "User header"
+        string title "Arabic/English title"
+        string description
+        string status "active | archived"
+        datetime created_at
+    }
+
+    EVIDENCE {
+        string id PK "UUID"
+        string project_id FK
+        int canonical_hadith_id "Link to hadith-kg.db"
+        int canonical_rawi_id "Link to narrator"
+        text snapshot_data "Preserved bit-for-bit text"
+        string source_tier "RESEARCHER_WORKSPACE"
+        boolean is_canonical "false"
+    }
+
+    NOTES {
+        string id PK "UUID"
+        string project_id FK
+        string title
+        text content_markdown "Arabic/English text"
+        boolean is_pinned
+        string color_tag
+    }
+
+    CLAIMS {
+        string id PK "UUID"
+        string project_id FK
+        string hypothesis_text
+        string status "draft | verified | challenged"
+    }
+
+    CLAIM_EVIDENCE {
+        string id PK "UUID"
+        string claim_id FK
+        string evidence_id FK
+        string relation_type "SUPPORTING | CHALLENGING"
+        text researcher_rationale
+    }
+
+    EXPORTS {
+        string id PK "UUID"
+        string project_id FK
+        string format "markdown | json"
+        text exported_payload
+        datetime exported_at
+    }

@@ -1,0 +1,89 @@
+# ==============================================================================
+# MĪZĀN AL-ḤADĪTH — ROOT REPOSITORY GITIGNORE
+# Governed by Security & Scholarly Integrity Directives
+# ==============================================================================
+
+# Virtual Environments & Python Runtime
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Node.js & Web Bundles
+node_modules/
+.next/
+out/
+build/
+dist/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Canonical, Derived, Cache & Workspace Databases (STRICTLY FORBIDDEN FROM TRACKING)
+data/
+database/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.parquet
+*.npy
+
+# Environment & Credentials (NEVER COMMIT SECRETS)
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+*.pem
+*.key
+*.cert
+*.pfx
+
+# Diagnostics, Logs, Dumps & Large Archives
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.zip
+*.tar
+*.tar.gz
+scan_v32.log
+scan_zubair_sunan_arba_v1.log
+
+# Scratch Scripts & Intermediate Dumps
+scratch/
+tmp/
+temp/
+*.txt.backup*
+*.py.backup*
+*.backup*
+*.mojibake-backup
+zubair_tirmidhi_failed_pages.txt
+full_translation_audit.txt
+ibn_majah_parser_audit_v2.txt
+ibn_majah_unparsed_audit.txt
+precision_v5_dryrun.txt
+secondary_v5.txt
+current_v32.txt
+openapi_extracted.json
+db_stats.json
+
+# Operating System & IDE Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

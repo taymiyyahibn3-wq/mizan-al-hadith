@@ -1,0 +1,52 @@
+flowchart TD
+    subgraph Client["Presentation Tier (Next.js 16 App Router)"]
+        UI_Home["Landing & Showcase (/)"]
+        UI_Lib["Hadith Library (/books, /hadith)"]
+        UI_Search["Multi-Modal Search (/search)"]
+        UI_Ask["Ask Mīzān Assistant (/ask)"]
+        UI_Isnad["Isnād Explorer (/isnad)"]
+        UI_Matn["Matn Visualizer (/hadith-visualizer)"]
+        UI_Workspace["Research Workspace (/workspace)"]
+    end
+
+    subgraph Backend["Application Tier (FastAPI 0.141)"]
+        Router["FastAPI APIRouter (95 Endpoints)"]
+        DBM["Database Manager (db_manager.py)<br/>ConnectionTracker & mode=ro"]
+        Resolver["Identity Resolver (identity_resolution.py)"]
+        Hybrid["Hybrid Retrieval Engine v2"]
+        AskEngine["Ask Mīzān Engine & Citation Validator"]
+        WorkEngine["Research Workspace Subsystem"]
+    end
+
+    subgraph Data["Data & Storage Tier (SQLite / FTS5)"]
+        KG[("hadith-kg.db<br/>(1.64 GB Canonical KG)")]
+        NUM[("hadith_numbering.db<br/>(35 MB Concordance)")]
+        NET[("isnad_network.db<br/>(52 MB Topology Cache)")]
+        TRANS[("hadith_translations.db<br/>(24 MB English Corpus)")]
+        COM[("hadith_commentaries.db<br/>(9 MB Classical Shurūḥ)")]
+        EVID[("classical_scholar_evidence.db<br/>(2.4 MB Master Gradings)")]
+        WORKSPACE[("research_workspace.db<br/>(Isolated User Store)")]
+        ASKDB[("ask_mizan.db<br/>(Conversation Log)")]
+    end
+
+    subgraph External["External Services & Providers"]
+        LLM["LLM Providers<br/>(Gemini 2.5 Flash / OpenAI / Claude / Ollama)"]
+    end
+
+    Client -->|HTTP / JSON REST API| Router
+    Router --> DBM
+    Router --> Resolver
+    Router --> Hybrid
+    Router --> AskEngine
+    Router --> WorkEngine
+
+    DBM -->|Read-Only mode=ro| KG
+    DBM -->|Read-Only mode=ro| NUM
+    DBM -->|Read-Only mode=ro| NET
+    DBM -->|Read-Only mode=ro| TRANS
+    DBM -->|Read-Only mode=ro| COM
+    DBM -->|Read-Only mode=ro| EVID
+    
+    WorkEngine -->|Read/Write WAL| WORKSPACE
+    AskEngine -->|Read/Write WAL| ASKDB
+    AskEngine -->|Structured Prompt| LLM

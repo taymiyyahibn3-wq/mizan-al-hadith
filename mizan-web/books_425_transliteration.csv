@@ -1,0 +1,426 @@
+﻿id,arabic_name,transliteration
+1,صحيح البخاري,Sahih al-Bukhari
+2,صحيح مسلم,Sahih Muslim
+3,جامع الترمذي,Jami' al-Tirmidhi
+4,سنن أبي داود,Sunan Abi Dawud
+5,سنن النسائى الصغرى,Sunan al-Nasa'i al-Sughra
+6,سنن ابن ماجه,Sunan Ibn Majah
+7,سنن الدارمي,Sunan al-Darimi
+8,موطأ مالك رواية يحيى الليثي,"Muwatta Malik, narration of Yahya al-Laythi"
+9,مسند أحمد بن حنبل,Musnad Ahmad ibn Hanbal
+10,صحيح ابن خزيمة,Sahih Ibn Khuzaymah
+11,صحيح ابن حبان,Sahih Ibn Hibban
+12,المستدرك على الصحيحين,al-Mustadrak 'ala al-Sahihayn
+13,مستخرج أبي عوانة,Mustakhraj Abi 'Awanah
+14,المسند المستخرج على صحيح مسلم لأبي نعيم,al-Musnad al-Mustakhraj 'ala Sahih Muslim by Abu Nu'aym
+15,الأحاديث المختارة,al-Ahadith al-Mukhtarah
+16,مختصر الأحكام المستخرج على جامع الترمذي,Mukhtasar al-Ahkam al-Mustakhraj 'ala Jami' al-Tirmidhi
+17,السنن الكبرى للنسائي,al-Sunan al-Kubra by al-Nasa’i
+18,سنن سعيد بن منصور,Sunan Sa’id ibn Mansur
+19,المنتقى من السنن المسندة,al-Muntaqa min al-Sunan al-Musnadah
+20,سنن الدارقطني,Sunan al-Daraqutni
+21,السنن الصغير للبيهقي,al-Sunan al-Sughra by al-Bayhaqi
+22,السنن الكبرى للبيهقي,al-Sunan al-Kubra by al-Bayhaqi
+23,المدخل إلى السنن الكبرى للبيهقي,al-Madkhal ila al-Sunan al-Kubra by al-Bayhaqi
+24,معرفة السنن والآثار للبيهقي,Ma’rifat al-Sunan wa-al-Athar by al-Bayhaqi
+25,موطأ مالك برواية محمد بن الحسن الشيباني,"Muwatta Malik, narration of Muhammad ibn al-Hasan al-Shaybani"
+26,موطأ مالك برواية أبي مصعب الزهري,"Muwatta Malik, narration of Abu Mus'ab al-Zuhri"
+27,موطأ عبد الله بن وهب,Muwatta Abdullah ibn Wahb
+28,السنن المأثورة رواية المزني,"al-Sunan al-Ma’thurah, narration of al-Muzani"
+29,مسند أبي داود الطيالسي,Musnad Abi Dawud al-Tayalisi
+30,مسند إسحاق بن راهويه,Musnad Ishaq ibn Rahwayh
+31,مسند الحميدي,Musnad al-Humaydi
+32,مسند ابن الجعد,Musnad Ibn al-Ja’d
+33,مسند الشافعي,Musnad al-Shafi’i
+34,مسند ابن أبي شيبة,Musnad Ibn Abi Shaybah
+35,البحر الزخار بمسند البزار,al-Bahr al-Zakhkhar bi-Musnad al-Bazzar
+36,البحر الزخار بمسند البزار 10-13,Bahr al-Zakhkhar bi-Musnad al-Bazzar 10-13
+37,مسند أبي يعلى الموصلي,Musnad Abi Ya’la al-Mawsili
+38,مسند الروياني,Musnad al-Ruyani
+39,المسند للشاشي,al-Musnad by al-Shashi
+40,المطالب العالية بزوائد المسانيد الثمانية لابن حجر,al-Matalib al-’Aliyah bi-Zawa’id al-Masanid al-Thamaniyah
+41,إتحاف الخيرة المهرة بزوائد المسانيد العشرة,Ithaf al-Khiyrah al-Maharah bi-Zawa’id al-Masanid al-’Asharah
+42,بغية الباحث عن زوائد مسند الحارث,Bughyat al-Bahith an Zawa’id Musnad al-Harith
+43,مسند السراج,Musnad al-Sarraj
+44,مسند عائشة لابن أبي داود,Musnad A’ishah li-Abi Dawud
+45,مسند الشاميين للطبراني,Musnad al-Shamiyyin by al-Tabarani
+46,مسند الموطأ للجوهري,Musnad al-Muwatta by al-Jawhari
+47,مسند أبي حنيفة رواية الحصكفي,"Musnad Abi Hanifah, riwayat al-Hasakafi"
+48,مسند الشهاب,Musnad al-Shihab
+49,مسند عبد الله بن المبارك,Musnad Abdullah ibn al-Mubarak
+50,مسند أبي حنيفة رواية أبي نعيم,"Musnad Abi Hanifah, riwayat Abi Nu’aym"
+51,مسند سعد بن أبي وقاص للدورقي,Musnad Sa’d ibn Abi Waqqas by al-Dawraqi
+52,مسند عبد بن حميد,Musnad Abd ibn Humayd
+53,مسند عبد الله بن عمر للطرسوسي,Musnad Abdullah ibn Umar by al-Tarsusi
+54,مسند أبي بكر الصديق للمروزي,Musnad Abu Bakr al-Siddiq by al-Marwazi
+55,مسند زيد,Musnad Zayd
+56,مسند الربيع بن حبيب,Musnad al-Rabi’ ibn Habib
+57,مسند الإمام الشافعي ( ترتيب سنجر),Musnad Imam al-Shafi’i (Tartib Sanjar)
+58,المقصد العلي في زوائد أبي يعلى الموصلي جزء,"al-Maqsid al-’Ali fi Zawa’id Abi Ya’la al-Mawsili, Juz’"
+59,كشف الأستار,Kashf al-Astar
+60,مسند عقبة بن عامر,Musnad Uqbah ibn Amr
+61,مصنف عبد الرزاق,Musannaf Abd al-Razzaq
+62,مصنف ابن أبي شيبة,Musannaf Ibn Abi Shaybah
+63,الجامع لمعمر بن راشد,al-Jami’ li-Ma’mar ibn Rashid
+64,الجامع في الحديث لابن وهب,al-Jami’ fi al-Hadith by Ibn Wahb
+65,المعجم الصغير للطبراني,al-Mu’jam al-Saghir by al-Tabarani
+66,المعجم الأوسط للطبراني,al-Mu’jam al-Awsat by al-Tabarani
+67,المعجم الكبير للطبراني,al-Mu’jam al-Kabir by al-Tabarani
+68,مشيخة ابن طهمان,Mashyakhah Ibn Tahman
+69,معجم أبي يعلى الموصلي,Mu’jam Abi Ya’la al-Mawsili
+70,معجم ابن الأعرابي,Mu’jam Ibn al-A’rabi
+71,معجم الصحابة لابن قانع,Mu’jam al-Sahabah li-Ibn Qani
+72,معجم أسامي شيوخ أبي بكر الإسماعيلي,Mu’jam Asami Shuyukh Abi Bakr al-Isma’ili
+73,معجم ابن المقرئ,Mu’jam Ibn al-Muqri
+74,معجم الشيوخ لابن جميع الصيداوي,Mu’jam al-Shuyukh by Ibn Jami’ al-Saydawi
+75,العمدة من الفوائد والآثار الصحاح في مشيخة شهدة,al-’Umdah min al-Fawa’id wa-al-Athar al-Sihah fi Mashyakhah Shuhdah
+76,مشيخة محمد الرازي ابن الحطاب,Mashyakhah Muhammad al-Razi Ibn al-Khattab
+77,معجم السفر للسلفي,Mu’jam al-Safar by al-Salafi
+78,المعجم المختص بالمحدثين الذهبي,al-Mu’jam al-Mukhtass by al-Dhahabi
+79,المنتخب من معجم شيوخ ابن السمعاني,al-Muntakhab min Mu’jam Shuyukh Ibn al-Sam’ani
+80,معجم أصحاب القاضي أبي علي الصدفي,Mu’jam Ashab al-Qadi Abi Ali al-Sadafi
+81,مشيخة ابن جماعة,Mashyakhah Ibn Jama’ah
+82,مشيخة ابن البخاري,Mashyakhah Ibn al-Bukhari
+83,معجم الشيوخ الكبير للذهبي,Mu’jam al-Shuyukh al-Kabir by al-Dhahabi
+84,معجم الشيوخ لتاج الدين السبكي,Mu’jam al-Shuyukh li-Taj al-Din al-Subki
+85,صحيفة همام بن منبه,Sahifah Hammam ibn Munabbih
+86,حديث إسماعيل بن جعفر,Hadith Isma’il ibn Ja’far
+87,جزء أبي جهم البغدادي,Juz’ Abi Juhm al-Baghdadi
+88,حديث يحيى بن معين رواية أبي بكر المروزي,"Hadith Yahya ibn Ma’in, riwayat Abi Bakr al-Marwazi"
+89,جزء من حديث لوين المصيصي,Juz’ min Hadith Lu’lu’ al-Musayyisi
+90,حديث هشام بن عمار,Hadith Hisham ibn Ammar
+91,جزء حنبل بن إسحاق,Juz’ Hanbal ibn Ishaq
+92,الأوائل لابن أبي عاصم,al-Awa’il li-Ibn Abi Asim
+93,المفاريد عن رسول الله صلى الله عليه وسلم لأبي يعلى الموصلي,al-Mafarid 'an Rasul Allah sallallahu 'alayhi wa-sallam by Abu Ya'la al-Mawsili
+94,الجزء الحادي عشر من فوائد ابن البختري,al-Juz’ al-Hadi Ashar min Fawa’id Ibn al-Bakhtari
+95,الجزء الرابع من حديث ابن البختري,al-Juz’ al-Rabi’ min Hadith Ibn al-Bakhtari
+96,جزء فيه ستة مجالس من أمالي ابن البختري,Juz’ fih Sittah Majalis min Amali Ibn al-Bakhtari
+97,فوائد أبي محمد الفاكهي,Fawa’id Abi Muhammad al-Fakihi
+98,الفوائد الشهير بالغيلانيات لأبي بكر الشافعي,al-Fawa’id al-Shahirah bi-al-Ghaylaniyyat li-Abi Bakr al-Shafi’i
+99,طرق حديث من كذب علي متعمدا للطبراني,Turuq Hadith 'Man Kadhaba 'Alayya Mut'ammidan' by al-Tabarani
+100,جزء الألف دينار للقطيعي,Juz' al-Alf Dinar by al-Qati'i
+101,جزء ما رواه أبي الزبير عن غير جابر,Juz’ ma rawah Abu al-Zubayr an Ghayr Jabir
+102,فوائد ابن حيان,Fawa’id Ibn Hayan
+103,غرائب مالك بن أنس,Ghara’ib Malik ibn Anas
+104,حديث أبي الفضل الزهري,Hadith Abi al-Fadl al-Zuhri
+105,الفوائد المنتقاة عن الشيوخ العوالي للحربي,al-Fawa'id al-Muntaqah 'an al-Shuyukh al-'Awali by al-Harbi
+106,جزء أبي الطاهر,Juz’ Abi al-Tahir
+107,جزء فيه ما انتقى ابن مردويه على أبي القاسم الطبراني لابن مردويه,Juz’ fih ma Intaqa Ibn Marduyah ala Abi al-Qasim al-Tabarani li-Ibn Marduyah
+108,الأربعون في شيوخ الصوفية للماليني,al-Arba’un fi Shuyukh al-Sufiyyah by al-Maliny
+109,فوائد تمام الرازي,Fawa’id Imam al-Razi
+110,فوائد العراقيين للنقاش,Fawa’id al-Iraqiyyin by al-Naqqash
+111,الأربعون الصغرى للبيهقي,al-Arba’un al-Sughra by al-Bayhaqi
+112,المهروانيات والفوائد المنتخبة الصحاح والغرائب ليوسف بن محمد,al-Mahrwaniyyat wa-al-Fawa’id al-Muntakhabah al-Sihah wa-al-Ghara’ib li-Yusuf ibn Muhammad
+113,الأربعين المرتبة على طبقات الأربعين لابن المفضل المقدسي,al-Arba’in al-Murtabah ala Tabaqat al-Arba’in li-Ibn al-Mufaddal al-Maqdisi
+114,جزء من حديث أبي بكر بن المقرئ,Juz’ min Hadith Abi Bakr ibn al-Muqri
+115,عوالي مالك بن أنس رواية ابن الحاجب,"Awali Malik ibn Anas, riwayat Ibn al-Hajib"
+116,عوالي مالك بن أنس لأبي أحمد الحاكم,Awali Malik ibn Anas li-Abi Ahmad al-Hakim
+117,الأوائل,al-Awa’il
+118,جزء من نسخة إبراهيم بن سعد,Juz’ min Nuskhat Ibrahim ibn Sa’d
+119,الجزء الأول والثاني من فوائد ابن بشران,al-Juz’ al-Awwal wa-al-Thani min Fawa’id Ibn Bashran
+120,الآثار المروية في الأطعمة العطرية,al-Athar al-Marwiyyah fi al-At’imah al-’Itriyyah
+121,الأربعون حديثا من المساواة,al-Arba’un Hadithan min al-Musawat
+122,الطيوريات,al-Tuyuriyyat
+123,جزء أبي العباس بن عصم,Juz’ Abi al-Abbas ibn Asim
+124,جزء الحسن بن رشيق,Juz’ al-Hasan ibn Rishiq
+125,فوائد ابن أخي ميمي الدقاق,Fawa’id Ibn Akhi Maymi al-Daqqaq
+126,أحاديث عفان بن مسلم,Ahadith Affan ibn Muslim
+127,جزء أبي عثمان سعدان بن نصر بن منصور المخرمي,Juz’ Abi Uthman Sa’dan ibn Nasr ibn Mansur al-Makhzumi
+128,الجزء الثاني من مسند أبي هريرة,al-Juz’ al-Thani min Musnad Abi Hurayrah
+129,الأحاديث المائة للحافظ العلامة محمد بن علي بن طولون,al-Ahadith al-Mi’ah by Muhammad ibn Ali ibn Tulun
+130,بغية الملتمس,Bughyat al-Multamis
+131,نظم الآلي بالمائة العوالي,Nazm al-La’ali bi-al-Mi’ah al-’Awali
+132,الأمالي في آثار الصحابة لعبد الرزاق الصنعاني,al-Amali fi Athar al-Sahabah li-Abd al-Razzaq al-San’ani
+133,أمالي أبي إسحاق,Amali Abi Ishaq
+134,أمالي المحاملي رواية ابن يحيى البيع,"Amali al-Muhamili, riwayat Ibn Yahya al-Bay’"
+135,أمالي الزجاج,Amali al-Zajjaj
+136,أمالي ابن سمعون الواعظ,Amali Ibn Sam’un al-Wa’iz
+137,أمالي ابن بشران,Amali Ibn Bishran
+138,الأمالي الخميسية للشجري,al-Amali al-Khamisiyyah by al-Shajari
+139,أمالي ابن بشران ( مجالس أخرى ),Amali Ibn Bishran (Majalis Ukhra)
+140,مجالس من أمالي أبي عبد الله بن منده,Majalis min Amali Abi Abdullah ibn Mandah
+141,اختلاف الحديث للشافعي,Ikhtilaf al-Hadith by al-Shafi’i
+142,غريب الحديث للهروي,Gharib al-Hadith by al-Harawi
+143,المراسيل مع الأسانيد لأبي داود,al-Marasil ma’a al-Asanid li-Abi Dawud
+144,تأويل مختلف الحديث لابن قتيبة,Ta’wil Mukhtalif al-Hadith by Ibn Qutaybah
+145,غريب الحديث للحربي,Gharib al-Hadith by al-Harbi
+146,الدلائل في غريب الحديث,al-Dala’il fi Gharib al-Hadith
+147,المراسيل لابن أبي حاتم,al-Marasil li-Ibn Abi Hatim
+148,المحدث الفاصل بين الرواي والواعي,al-Muhaddith al-Fasil bayn al-Rawi wa-al-Wa’i
+149,أمثال الحديث للرامهرمزي,Amthal al-Hadith by al-Ramahurmuzi
+150,أمثال الحديث لأبي الشيخ الأصبهاني,Amthal al-Hadith li-Abi al-Shaykh al-Asbahani
+151,ناسخ الحديث ومنسوخه لابن شاهين,Naskh al-Hadith wa-Mansukhuhu li-Ibn Shahin
+152,غريب الحديث للخطابي,Gharib al-Hadith by al-Khattabi
+153,تصحيفات المحدثين,Tashifat al-Muhaddithin
+154,معرفة علوم الحديث للحاكم,Ma’rifat Ulum al-Hadith by al-Hakim
+155,الجامع لأخلاق الراوي وآداب السامع للخطيب,al-Jami’ li-Akhlaq al-Rawi wa-Adab al-Sami’ by al-Khatib
+156,الكفاية في علم الرواية للخطيب,al-Kifayah fi Ilm al-Riwayah by al-Khatib
+157,تقييد العلم للخطيب,Taqyid al-Ilm by al-Khatib
+158,تلخيص المتشابه في الرسم,Talkhis al-Mutashabih fi al-Rasm
+159,شرف أصحاب الحديث للخطيب,Sharaf Ashab al-Hadith by al-Khatib
+160,موضح أوهام الجمع والتفريق للخطيب,Muwaddih Awham al-Jam’ wa-al-Tafriq by al-Khatib
+161,الإلماع إلى علم أصول الرواية لقاضي عياض,al-Ilma’ ila Ilm Usul al-Riwayah li-Qadi Iyad
+162,أدب الإملاء والاستملاء لابن السمعاني,Adab al-Imla’ wa-al-Istimla’ li-Ibn al-Sam’ani
+163,غوامض الأسماء المبهمة لابن بشكوال,Ghawamid al-Asma’ al-Mubhamah li-Ibn Bashkuwal
+164,الاعتبار في الناسخ والمنسوخ من الآثار للحازمي,al-I’tibar fi al-Naskh wa-al-Mansukh min al-Athar by al-Hazimi
+165,إعلام العالم بعد رسوخه بناسخ الحديث ومنسوخه,I’lam al-’Alim bi-Da’ Rusukhihi bi-Naskh al-Hadith wa-Mansukhuhu
+166,تغليق التعليق  لابن حجر,Taghliq al-Ta’liq li-Ibn Hajar
+167,إثارة الفوائد,Itharat al-Fawa’id
+168,الإيمان لابن أبي شيبة,al-Iman li-Ibn Abi Shaybah
+169,الرد على الجهمية للدارمي,al-Radd ala al-Jahmiyyah by al-Darimi
+170,خلق أفعال العباد للبخاري,Khalq Af’al al-Ibad by al-Bukhari
+171,نقض الإمام أبي سعيد على المريسي العنيد,Naqd Imam Abi Sa’id ala al-Marisi al-’Anid
+172,السنة لابن أبي عاصم,al-Sunnah li-Ibn Abi Asim
+173,البدع لابن وضاح,al-Bida’ li-Ibn Waddah
+174,السنة لعبد الله بن أحمد,al-Sunnah by Abdullah ibn Ahmad
+175,السنة للمروزي,al-Sunnah by al-Marwazi
+176,القدر للفريابي,al-Qadar by al-Firyabi
+177,صفة النفاق وذم المنافقين للفريابي,Sifat al-Nifaq wa-Dhamm al-Munafiqin by al-Firyabi
+178,التوحيد لابن خزيمة,al-Tawhid li-Ibn Khuzaymah
+179,السنة لأبي بكر بن الخلال,al-Sunnah li-Abi Bakr ibn al-Khallal
+180,الشريعة للآجري,al-Shari’ah by al-Ajurri
+181,العظمة,al-’Azamah
+182,الرؤيا للدارقطني,al-Ru’ya by al-Daraqutni
+183,شرح مذاهب أهل السنة لابن شاهين,Sharh Madhahib Ahl al-Sunnah li-Ibn Shahin
+184,الإبانة الكبرى لابن بطة,al-Ibanah al-Kubra li-Ibn Battah
+185,الإيمان لابن منده,al-Iman li-Ibn Mandah
+186,التوحيد لابن منده,al-Tawhid li-Ibn Mandah
+187,شرح أصول اعتقاد أهل السنة والجماعة للالكائي,Sharh Usul I’tiqad Ahl al-Sunnah wa-al-Jama’ah by al-Lalika’i
+188,كرامات أولياء الله عز وجل للالكائي,Karamat Awliya’ Allah by al-Lalika’i
+189,السنن الواردة في الفتن للداني,al-Sunan al-Waridah fi al-Fitan by al-Dani
+190,الاعتقاد إلى سبيل الرشاد للبيهقي,al-I’tiqad ila Sabil al-Rashad by al-Bayhaqi
+191,الأسماء والصفات للبيهقي,al-Asma’ wa-al-Sifat by al-Bayhaqi
+192,البعث والنشور للبيهقي,al-Ba’th wa-al-Nushur by al-Bayhaqi
+193,القضاء والقدر للبيهقي,al-Qada’ wa-al-Qadar by al-Bayhaqi
+194,إثبات عذاب القبر وسؤال الملكين,Ithbat ’Adhab al-Qabr wa-Su’al al-Malakayn
+195,شعب الإيمان  للبيهقي,Shu’ab al-Iman by al-Bayhaqi
+196,ذم الكلام وأهله لعبد الله الأنصاري,Dhamm al-Kalam wa-Ahlih by al-Ansari
+197,تبيين كذب المفتري فيما نسب إلى الأشعري,Tabyin Kadhib al-Muftari fima Nusib ila al-Ash’ari
+198,تلبيس إبليس لابن الجوزي,Talbis Iblis li-Ibn al-Jawzi
+199,العلو للعلي الغفار الذهبي,al-Uluww li-al-Ali al-Ghaffar by al-Dhahabi
+200,أهل الملل والردة من الجامع للخلال,Ahl al-Milal wa-al-Riddah min al-Jami' li-al-Khallal
+201,الحجة في بيان المحجة وشرح عقيدة أهل السنة 2,al-Hujjah fi Bayan al-Mahajjah wa-Sharh Aqidah Ahl al-Sunnah
+202,المناسك لسعيد بن أبي عروبة,al-Manasik li-Sa’id ibn Abi Arubah
+203,المدونة الكبرى لمالك بن أنس,al-Mudawwanah al-Kubra li-Malik ibn Anas
+204,الجهاد لابن المبارك,al-Jihad by Ibn al-Mubarak
+205,الآثار لأبي يوسف,al-Athar li-Abi Yusuf
+206,الآثار لمحمد بن الحسن الشيباني,al-Athar li-Muhammad ibn al-Hasan al-Shaybani
+207,الخراج لأبي يوسف,al-Kharaj li-Abi Yusuf
+208,السير لأبي إسحاق الفزاري,al-Siyar li-Abi Ishaq al-Fazari
+209,الخراج ليحيى بن آدم,al-Kharaj li-Yahya ibn Adam
+210,الأم للشافعي,al-Umm by al-Shafi’i
+211,الأموال للقاسم بن سلام,al-Amwal by al-Qasim ibn Sallam
+212,الطهور للقاسم بن سلام,al-Tharwah by al-Qasim ibn Sallam
+213,القضاء لسربج بن يونس البغدادي,al-Qada’ li-Sarij ibn Yunus al-Baghdadi
+214,الأشربة لأحمد بن حنبل,al-Ashribah li-Ahmad ibn Hanbal
+215,الأموال لابن زنجويه,al-Amwal li-Ibn Zanjawayh
+216,القراءة خلف الإمام للبخاري,al-Qira’ah Khalfa al-Imam by al-Bukhari
+217,إصلاح المال لابن أبي الدنيا,Islah al-Mal li-Ibn Abi al-Dunya
+218,الجهاد لابن أبي عاصم,al-Jihad li-Ibn Abi Asim
+219,الديات لابن أبي عاصم,al-Diyat li-Ibn Abi Asim
+220,مختصر قيام الليل للمروزي,Mukhtasar Qiyam al-Layl by al-Marwazi
+221,الصيام للفريابي,al-Siyam by al-Firyabi
+222,أحكام العيدين  للفريابي,Ahkam al-Idayn by al-Firyabi
+223,تهذيب الآثار للطبري,Tahdhib al-Athar by al-Tabari
+224,الترجل من مسائل الإمام أحمد,al-Tarajjul min Masa’il Imam Ahmad
+225,الوقوف من مسائل الإمام أحمد,al-Wuquf min Masa’il Imam Ahmad
+226,شرح السنة,Sharh al-Sunnah
+227,الأوسط في السنن والإجماع والاختلاف لابن المنذر,al-Awsat fi al-Sunan wa-al-Ijma’ wa-al-Ikhtilaf li-Ibn al-Mundhir
+228,الإقناع لابن المنذر,al-Iqna’ li-Ibn al-Mundhir
+229,شرح معاني الآثار للطحاوي,Sharh Ma’ani al-Athar by al-Tahawi
+230,مشكل الآثار للطحاوي,Mushkil al-Athar by al-Tahawi
+231,تثبيت الإمامة وترتيب الخلافة لأبي نعيم,Ithbat al-Imamah wa-Tartib al-Khilafah li-Abi Nu’aym
+232,المحلى بالآثار لابن حزم,al-Muhalla bi-al-Athar li-Ibn Hazm
+233,حجة الوداع لابن حزم,Hujjat al-Wada’ li-Ibn Hazm
+234,القراءة خلف الإمام للبيهقي,al-Qira’ah Khalfa al-Imam by al-Bayhaqi
+235,بيان خطأ من أخطأ على الشافعي,Bayan Khata’ min Akhta’ ala al-Shafi’i
+236,التمهيد لابن عبد البر,al-Tamhid li-Ibn Abd al-Barr
+237,التحقيق في مسائل الخلاف لابن الجوزي,al-Tahqiq fi Masa’il al-Khilaf li-Ibn al-Jawzi
+238,أخبار الصلاة لعبد الغني المقدسي,Akhbar al-Salah li-Abd al-Ghani al-Maqdisi
+239,الزيادات على كتاب المزني,al-Ziyadat ala Kitab al-Muzani
+240,الأوسط في السنن,al-Awsat fi al-Sunan
+241,الاستذكار,al-Istidhkar
+242,أحكام القرآن للجصاص,Ahkam al-Qur’an by al-Jassas
+243,النصيحة للراعي والرعية للتبريزي,al-Nasihah li-al-Ra’i wa-al-Ra’iyyah by al-Tabrizi
+244,تفسير مجاهد,Tafsir Mujahid
+245,تفسير سفيان الثوري,Tafsir Sufyan al-Thawri
+246,معاني القرآن للفراء,Ma’ani al-Qur’an by al-Farra’
+247,تفسير القرآن لعبد الرزاق الصنعاني,Tafsir al-Qur’an li-Abd al-Razzaq al-San’ani
+248,التفسير من سنن سعيد بن منصور,al-Tafsir min Sunan Sa’id ibn Mansur
+249,جامع البيان عن تأويل آي القرآن,Jami’ al-Bayan an Ta’wil Ay al-Qur’an
+250,تفسير ابن أبي حاتم,Tafsir Ibn Abi Hatim
+251,تفسير القرآن العزيز,Tafsir al-Qur’an al-’Aziz
+252,معالم التنزيل تفسير البغوي,"Ma’alim al-Tanzil, Tafsir al-Baghawi"
+253,تفسير القرآن لابن المنذر,Tafsir al-Qur’an li-Ibn al-Mundhir
+254,الجامع في تفسير القرآن,al-Jami’ fi Tafsir al-Qur’an by Ibn Wahb
+255,الوسيط في تفسير القرآن المجيد,al-Wasit fi Tafsir al-Qur’an al-Majid
+256,تفسير يحيى بن سلام,Tafsir Yahya ibn Sallam
+257,الناسخ والمنسوخ للقاسم بن سلام,al-Naskh wa-al-Mansukh by al-Qasim ibn Sallam
+258,قراءة النبي للدوري,Qira’at al-Nabi by al-Duri
+259,المصاحف لابن أبي داود,al-Masahif li-Ibn Abi Dawud
+260,أحكام القرآن الكريم للطحاوي,Ahkam al-Qur’an al-Karim by al-Tahawi
+261,الناسخ والمنسوخ للنحاس,al-Naskh wa-al-Mansukh by al-Nahhas
+262,أسباب النزول الواحدي,Asbab al-Nuzul al-Wahidi
+263,نواسخ القرآن لابن الجوزي,Nawasiḫ al-Qur’an li-Ibn al-Jawzi
+264,الشمائل المحمدية للترمذي,al-Shama’il al-Muhammadiyyah by al-Tirmidhi
+265,الذرية الطاهرة النبوية,al-Dhurriyyah al-Tahirah al-Nabawiyyah
+266,أخلاق النبي لأبي الشيخ الأصبهاني,Akhlaq al-Nabi li-Abi al-Shaykh al-Asbahani
+267,حلية الأولياء لأبي نعيم,Hilyat al-Awliya’ li-Abi Nu’aym
+268,دلائل النبوة لأبي نعيم,Dala’il al-Nubuwwah li-Abi Nu’aym
+269,دلائل النبوة للبيهقي,Dala’il al-Nubuwwah by al-Bayhaqi
+270,دلائل النبوة لقوام السنة,Dala’il al-Nubuwwah li-Qawam al-Sunnah
+271,عيون الأثر,’Uyun al-Athar
+272,الأنوار في شمائل النبي المختار,al-Anwar fi Shama’il al-Nabi al-Mukhtar
+273,أخبار مكة للأزرقي,Akhbar Makkah by al-Azraqi
+274,الطبقات الكبرى لابن سعد,al-Tabaqat al-Kubra li-Ibn Sa’d
+275,تاريخ خليفة بن خياط,Tarikh Khalifah ibn Khayyat
+276,الجامع في العلل ومعرفة الرجال لأحمد بن حنبل,al-Jam’ fi al-’Ilal wa-Ma’rifat al-Rijal li-Ahmad ibn Hanbal
+277,التاريخ الكبير للبخاري,al-Tarikh al-Kabir by al-Bukhari
+278,تاريخ المدينة لابن شبة,Tarikh al-Madinah li-Ibn Shabbah
+279,أخبار مكة للفاكهي,Akhbar Makkah by al-Fakihi
+280,مسائل أحمد لأبي داود السجستاني,Masa’il Ahmad li-Abi Dawud al-Sijistani
+281,المعرفة والتاريخ ليعقوب بن سفيان,al-Ma’rifah wa-al-Tarikh li-Ya’qub ibn Sufyan
+282,أنساب الأشراف للبلاذري,Ansab al-Ashraf by al-Baladhuri
+283,البلدان وفتوحها وأحكامها للبلاذري,al-Buldan wa-Futuhuha wa-Ahkamuha by al-Baladhuri
+284,تاريخ أبي زرعة الدمشقي,Tarikh Abi Zur’ah al-Dimashqi
+285,الآحاد والمثاني لابن أبي عاصم,al-Ahad wa-al-Mathani li-Ibn Abi Asim
+286,تاريخ واسط لأسلم بن سهل الرزاز,Tarikh wa-Athar li-Aslam ibn Sahl al-Razzaz
+287,تاريخ الطبري,Tarikh al-Tabari
+288,الكني والأسماء للدولابي,al-Kuna wa-al-Asma’ by al-Dulabi
+289,آداب الشافعي ومناقبه,Adab al-Shafi’i wa-Manaqibuh
+290,كتاب الولاة وكتاب القضاة للكندي,Kitab al-Wulat wa-Kitab al-Qudat by al-Kindi
+291,الثقات لابن حبان,al-Thiqat li-Ibn Hibban
+292,الأغاني لأبي الفرج الأصفهاني,al-Aghani li-Abi al-Faraj al-Isfahani
+293,تاريخ داريا ومن نزل بها من الصحابة والتابعين للخولاني,Tarikh Darayya wa-Man Nazala Biha min al-Sahabah wa-al-Tabi’in by al-Khawlani
+294,طبقات المحدثين بأصبهان والواردين عليها,Tabaqat al-Muhaddithin bi-Isfahan wa-al-Waridin Alayha
+295,تاريخ جرجان للسهمي,Tarikh Jurjan by al-Shami
+296,أخبار أصبهان لأبي نعيم,Akhbar Isbahan li-Abi Nu’aym
+297,معرفة الصحابة لأبي نعيم,Ma’rifat al-Sahabah li-Abi Nu’aym
+298,الإرشاد في معرفة علماء الحديث لأبي يعلى الخليلي,al-Irshad fi Ma’rifat Ulama’ al-Hadith li-Abi Ya’la al-Khalili
+299,الاستيعاب في معرفة الأصحاب لابن عبد البر,al-Isti’ab fi Ma’rifat al-Ashab li-Ibn Abd al-Barr
+300,الأسماء المبهمة والأنباء المحكمة,al-Asma’ al-Mubhamah wa-al-Anba’ al-Muhkamah
+301,تاريخ بغداد للخطيب البغدادي,Tarikh Baghdad by al-Khatib al-Baghdadi
+302,سير السلف الصالحين لإسماعيل بن محمد الأصبهاني,Siyar al-Salaf al-Salihin li-Isma’il ibn Muhammad al-Asbahani
+303,تاريخ دمشق لابن عساكر,Tarikh Dimashq li-Ibn Asakir
+304,المنتظم في تاريخ الأمم لابن الجوزي,al-Muntazam fi Tarikh al-Umam li-Ibn al-Jawzi
+305,التدوين في أخبار قزوين للرافعي,al-Tadwin fi Akhbar Qazwin by al-Rafi’i
+306,تاريخ الإسلام الذهبي,Tarikh al-Islam by al-Dhahabi
+307,مناقب الإمام أبي حنيفة وصاحبيه,Manaqib Imam Abi Hanifah wa-Sahibayh
+308,تاريخ ابن أبي خيثمة,Tarikh Ibn Abi Khaythamah
+309,طبقات الحنابلة,Tabaqat al-Hanabilah
+310,ذيل تاريخ بغداد لابن النجار,Dhayl Tarikh Baghdad li-Ibn al-Najjar
+311,أسد الغابة,Usd al-Ghabah
+312,الجرح والتعديل,al-Jarh wa-al-Ta’dil
+313,الفصل للوصل المدرج في النقل,al-Fasl li-al-Wasl al-Mudraj fi al-Naql by al-Khatib
+314,سير أعلام النبلاء الذهبي,Siyar A’lam al-Nubala’ by al-Dhahabi
+315,طبقات الشافعية الكبرى,Tabaqat al-Shafi’iyyah al-Kubra
+316,تهذيب الكمال للمزي,Tahdhib al-Kamal by al-Mizzi
+317,التاريخ الأوسط,al-Tarikh al-Awsat
+318,كتاب المحن,Kitab al-Mihan
+319,فضائل الصحابة لأحمد بن حنبل,Fada’il al-Sahabah li-Ahmad ibn Hanbal
+320,فضائل عثمان بن عفان لعبد الله بن أحمد,Fada’il Uthman ibn Affan by Abdullah ibn Ahmad
+321,فضائل الخلفاء الراشدين لأبي نعيم,Fada’il al-Khulafa’ al-Rashidun li-Abi Nu’aym
+322,معرفة الصحابة,Ma’rifat al-Sahabah
+323,الزهد والرقائق لابن المبارك,al-Zuhd wa-al-Raqa’iq by Ibn al-Mubarak
+324,الزهد للمعافى بن عمران الموصلي,al-Zuhd by al-Mu’afa ibn Imran al-Mawsili
+325,الدعاء لمحمد بن فضيل الضبي,al-Du’a li-Muhammad ibn Fudayl al-Dabbi
+326,الزهد لوكيع بن الجراح,al-Zuhd li-Waki’ ibn al-Jarrah
+327,الزهد لأسد بن موسى,al-Zuhd li-Asad ibn Musa
+328,فضائل الصلاة للفضل بن دكين,Fada’il al-Salah by al-Fadl ibn Dukayn
+329,فضائل القرآن للقاسم بن سلام,Fada’il al-Qur’an by al-Qasim ibn Sallam
+330,الزهد لنعيم بن حماد,al-Zuhd li-Nu’aym ibn Hammad
+331,العلم لزهير بن حرب,al-’Ilm li-Zuhayr ibn Harb
+332,الزهد لأحمد بن حنبل,al-Zuhd li-Ahmad ibn Hanbal
+333,الزهد لهناد بن السري,al-Zuhd li-Hannad ibn al-Sari
+334,البر والصلة للمروزي,al-Birr wa-al-Silah by al-Marwazi
+335,الأدب المفرد للبخاري,al-Adab al-Mufrad by al-Bukhari
+336,الزهد لأبي حاتم الرازي,al-Zuhd li-Abi Hatim al-Razi
+337,الزهد لأبي داود,al-Zuhd li-Abi Dawud
+338,الأمر بالمعروف والنهي عن المنكر لابن أبي الدنيا,al-Amr bi-al-Ma’ruf wa-al-Nahy an al-Munkar li-Ibn Abi al-Dunya
+339,الأهوال لابن أبي الدنيا,al-Ahwal li-Ibn Abi al-Dunya
+340,الأولياء لابن أبي الدنيا,al-Awliya’ li-Ibn Abi al-Dunya
+341,الإخوان لابن أبي الدنيا,al-Ikhwan li-Ibn Abi al-Dunya
+342,الجوع لابن أبي الدنيا,al-Ju’ li-Ibn Abi al-Dunya
+343,الزهد لابن أبي الدنيا,al-Zuhd li-Ibn Abi al-Dunya
+344,الشكر لله لابن أبي الدنيا,al-Shukr li-Allah by Ibn Abi al-Dunya
+345,الفرج بعد الشدة لابن أبي الدنيا,al-Faraj ba’d al-Shiddah li-Ibn Abi al-Dunya
+346,المرض والكفارات لابن أبي الدنيا,al-Marad wa-al-Kaffarat li-Ibn Abi al-Dunya
+347,المنامات لابن أبي الدنيا,al-Manamat li-Ibn Abi al-Dunya
+348,العيال,al-’Ayal
+349,الهم والحزن لابن أبي الدنيا,al-Hamm wa-al-Huzn li-Ibn Abi al-Dunya
+350,حسن الظن بالله لابن أبي الدنيا,Husn al-Zann bi-Allah by Ibn Abi al-Dunya
+351,ذم الملاهي لابن أبي الدنيا,Dhamm al-Malahi li-Ibn Abi al-Dunya
+352,مجابو الدعوة لابن أبي الدنيا,Mujabu al-Da’wah li-Ibn Abi al-Dunya
+353,الإشراف في منازل الأشراف,al-Ishraf fi Manazil al-Ashraf
+354,التهجد وقيام الليل لابن أبي الدنيا,al-Tahajjud wa-Qiyam al-Layl li-Ibn Abi al-Dunya
+355,التوبة لابن أبي الدنيا,al-Tawbah li-Ibn Abi al-Dunya
+356,الحلم لابن أبي الدنيا,al-Hilm li-Ibn Abi al-Dunya
+357,الرقة والبكاء لابن أبي الدنيا,al-Riqqah wa-al-Buka’ li-Ibn Abi al-Dunya
+358,الصبر والثواب عليه,al-Sabr wa-al-Thawab Alayh
+359,الصمت وآداب اللسان,al-Samt wa-Adab al-Lisan
+360,العقل وفضله لابن أبي الدنيا,al-’Aql wa-Fadlih li-Ibn Abi al-Dunya
+361,العقوبات لابن أبي الدنيا,al-’Uqubat li-Ibn Abi al-Dunya
+362,المتمنين لابن أبي الدنيا,al-Mutamanniyin li-Ibn Abi al-Dunya
+363,المحتضرين لابن أبي الدنيا,al-Muhtadarin li-Ibn Abi al-Dunya
+364,المطر والرعد والبرق لابن أبي الدنيا,al-Matar wa-al-Ra’d wa-al-Barq li-Ibn Abi al-Dunya
+365,ذم الغيبة والنميمة لابن أبي الدنيا,Dhamm al-Ghibah wa-al-Namimah li-Ibn Abi al-Dunya
+366,صفة الجنة لابن أبي الدنيا,Sifat al-Jannah li-Ibn Abi al-Dunya
+367,صفة النار لابن أبي الدنيا,Sifat al-Nar li-Ibn Abi al-Dunya
+368,قصر الأمل لابن أبي الدنيا,Qasr al-Amal li-Ibn Abi al-Dunya
+369,قضاء الحوائج لابن أبي الدنيا,Qada al-Hawa’ij li-Ibn Abi al-Dunya
+370,محاسبة النفس لابن أبي الدنيا,Muhasabat al-Nafs li-Ibn Abi al-Dunya
+371,مداراة الناس لابن أبي الدنيا,Mudarat al-Nas li-Ibn Abi al-Dunya
+372,هواتف الجنان لابن أبي الدنيا,Hawatif al-Jinan li-Ibn Abi al-Dunya
+373,الزهد لابن أبي عاصم,al-Zuhd li-Ibn Abi Asim
+374,الفتن لنعيم بن حماد,al-Fitan li-Nu’aym ibn Hammad
+375,فضائل القرآن لابن الضريس,Fada’il al-Qur’an li-Ibn al-Durays
+376,تعظيم قدر الصلاة للمروزي,Ta’zim Qadr al-Salah by al-Marwazi
+377,فضائل القرآن للفريابي,Fada’il al-Qur’an by al-Firyabi
+378,الأمر بالمعروف والنهي عن المنكر للخلال,al-Amr bi-al-Ma’ruf wa-al-Nahy an al-Munkar by al-Khallal
+379,الحث على التجارة والصناعة للخلال,al-Hathth ala al-Tijarah wa-al-Sina’ah by al-Khallal
+380,أخبار وحكايات للغساني,Akhbar wa-Hikayat by al-Ghassani
+381,اعتلال القلوب للخرائطي,I’tilal al-Qulub by al-Khara’iti
+382,شكر الله على نعمه للخرائطي,Shukr Allah ala Ni’matihi by al-Khara’iti
+383,المجالسة وجواهر العلم للدينوري,al-Mujalasah wa-Jawahir al-’Ilm by al-Daynuri
+384,الزهد وصفة الزاهدين لابن الأعرابي,al-Zuhd wa-Sifat al-Zahidin li-Ibn al-A’rabi
+385,أخلاق العلماء للآجري,Akhlaq al-’Ulama’ by al-Ajurri
+386,الدعاء للطبراني,al-Du’a by al-Tabarani
+387,عمل اليوم والليلة لابن السني,Amal al-Yawm wa-al-Laylah li-Ibn al-Sunni
+388,التوبيخ والتنبيه,al-Tawbikh wa-al-Tanbih
+389,تنبيه الغافلين بأحاديث سيد الأنبياء والمرسلين لسمرقندي,Tanbih al-Ghafilin bi-Ahadith Sayyid al-Anbiya’ wa-al-Mursalin li-Samarqandi
+390,بحر الفوائد المسمى بمعاني الأخيار للكلاباذي,Bahr al-Fawa’id al-Musamma bi-Ma’ani al-Akhyar by al-Kalabadhi
+391,الترغيب في فضائل الأعمال لابن شاهين,al-Targhib fi Fada’il al-A’mal li-Ibn Shahin
+392,العزلة للخطابي,al-’Uzlah by al-Khattabi
+393,الجليس الصالح الكافي والأنيس الناصح الشافي المعافى بن زكريا,al-Jalis al-Salih al-Kafi wa-al-Anis al-Nasih al-Shafi by al-Mu’afa ibn Zakariyya
+394,صفة الجنة لأبي نعيم,Sifat al-Jannah li-Abi Nu’aym
+395,فضائل القرآن وتلاوته للرازي,Fada’il al-Qur’an wa-Tilawatuhu by al-Razi
+396,الدعوات الكبير للبيهقي,al-Da’wat al-Kabir by al-Bayhaqi
+397,الزهد الكبير للبيهقي,al-Zuhd al-Kabir by al-Bayhaqi
+398,فضائل الأوقات للبيهقي,Fada’il al-Awqat by al-Bayhaqi
+399,جامع بيان العلم وفضله لابن عبد البر,Jami’ Bayan al-’Ilm wa-Fadlih li-Ibn Abd al-Barr
+400,اقتضاء العلم العمل للخطيب,Iqtida’ al-’Ilm al-’Amal by al-Khatib
+401,الزهد والرقائق للخطيب البغدادي,al-Zuhd wa-al-Raqa’iq by al-Khatib al-Baghdadi
+402,الفقيه والمتفقه للخطيب,al-Faqih wa-al-Mutafaqqih by al-Khatib
+403,البر والصلة لابن الجوزي,al-Birr wa-al-Silah li-Ibn al-Jawzi
+404,الثبات عند الممات لابن الجوزي,al-Ithbat ind al-A’immah li-Ibn al-Jawzi
+405,ذم الهوى لابن الجوزي,Dhamm al-Hawa li-Ibn al-Jawzi
+406,مثير الغرام الساكن إلى أشرف الأماكن لابن الجوزي,Muthir al-Gharam al-Sakin ila Ashraf al-Amakin li-Ibn al-Jawzi
+407,الترغيب في الدعاء والحث عليه لعبد الغني المقدسي,al-Targhib fi al-Du’a wa-al-Hathth Alayh li-Abd al-Ghani al-Maqdisi
+408,صفة النفاق ونعت المنافقين لأبي نعيم,Sifat al-Nifaq wa-Na’t al-Munafiqin li-Abi Nu’aym
+409,روضة العقلاء لابن حبان,Rawdat al-Uqala li-Ibn Hibban
+410,التبصرة لابن الجوزي,al-Tabsirah li-Ibn al-Jawzi
+411,الأدب لابن أبي شيبة,al-Adab li-Ibn Abi Shaybah
+412,الورع لأحمد  رواية المروزي,"al-Wara li-Ahmad, riwayat al-Marwazi"
+413,الورع لابن أبي الدنيا,al-Wara li-Ibn Abi al-Dunya
+414,مكارم الأخلاق لابن أبي الدنيا,Makarim al-Akhlaq li-Ibn Abi al-Dunya
+415,اصطناع المعروف,Istina al-Ma’ruf
+416,التواضع والخمول لابن أبي الدنيا,al-Tawadu’ wa-al-Khumul li-Ibn Abi al-Dunya
+417,المروءة لابن المرزبان,al-Muru’ah li-al-Marzubani
+418,مساوئ الأخلاق للخرائطي,Masawi al-Akhlaq by al-Khara’iti
+419,مكارم الأخلاق للخرائطي,Makarim al-Akhlaq by al-Khara’iti
+420,مكارم الأخلاق للطبراني,Makarim al-Akhlaq by al-Tabarani
+421,آداب الصحبة للسلمي,Adab al-Suhbah by al-Sulami
+422,الآداب للبيهقي,al-Adab by al-Bayhaqi
+423,البخلاء للخطيب البغدادي,al-Bukhala by al-Khatib al-Baghdadi
+424,التطفيل للخطيب البغدادي,al-Tatifil by al-Khatib al-Baghdadi
+425,القصاص والمذكرين لابن الجوزي,al-Qussas wa-al-Mudhakkirin by Ibn al-Jawzi

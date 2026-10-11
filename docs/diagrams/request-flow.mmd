@@ -1,0 +1,19 @@
+sequenceDiagram
+    autonumber
+    actor User as Researcher
+    participant UI as Next.js 16 UI
+    participant FastAPI as FastAPI Router
+    participant DBM as db_manager.py
+    participant SQLite as SQLite Database (mode=ro)
+
+    User->>UI: Request Hadith Detail (/hadith/1)
+    UI->>FastAPI: GET /api/hadith/1
+    FastAPI->>DBM: open_readonly_connection(HADITH_KG_PATH)
+    DBM->>DBM: TRACKER.register(conn)
+    DBM->>SQLite: SELECT * FROM hadiths WHERE id=1
+    SQLite-->>DBM: Row (matn_ar, book_id, chapter_id)
+    FastAPI->>SQLite: SELECT * FROM sanads WHERE hadith_id=1
+    SQLite-->>FastAPI: Sanad & Rawis Rows
+    DBM->>DBM: conn.close() & TRACKER.unregister(conn)
+    FastAPI-->>UI: JSON { hadith, sanads, rawis, translations }
+    UI-->>User: Render Matn, Isnād & Commentary

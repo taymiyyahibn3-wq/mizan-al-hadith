@@ -1,0 +1,53 @@
+flowchart LR
+    subgraph Upstream["Upstream Historical Sources"]
+        Shamela["Al-Maktaba al-Shamelah (Classical Mutūn & Shurūḥ)"]
+        Sunnah["Sunnah.com (Concordance Crosswalks & Translations)"]
+        Mu'jam["Yāqūt al-Ḥamawī (Muʿjam al-Buldān Historical Gazetteer)"]
+        HadithPro["Hadith Pro Archives (Zubair Ali Zai References)"]
+    end
+
+    subgraph Processing["Mīzān Ingestion & Normalization Pipelines"]
+        P1["Relational Entity Separation & Sanad Alignment"]
+        P2["Arabic Orthographic Normalization & FTS5 Tokenizer"]
+        P3["Isnād Multi-Graph Compiler (298k Directed Edges)"]
+        P4["Identity Resolution & Father/Son Collision Guards"]
+    end
+
+    subgraph Databases["Physical SQLite Databases"]
+        DB1[("hadith-kg.db<br/>(1.64 GB)")]
+        DB2[("hadith_numbering.db<br/>(35 MB)")]
+        DB3[("isnad_network.db<br/>(52 MB)")]
+        DB4[("hadith_commentaries.db<br/>(9 MB)")]
+        DB5[("hadith_translations.db<br/>(24 MB)")]
+    end
+
+    subgraph UserFeatures["User-Facing Platform Features"]
+        F1["Canonical Hadith Library"]
+        F2["Multi-Modal Search & Concordance"]
+        F3["Isnād Topology & Atlas Visualizer"]
+        F4["Ask Mīzān AI Research Assistant"]
+        F5["Scholarly Research Workspace"]
+    end
+
+    Shamela --> P1
+    Shamela --> P2
+    Sunnah --> P1
+    Mu'jam --> P3
+    HadithPro --> P4
+
+    P1 --> DB1
+    P1 --> DB2
+    P2 --> DB1
+    P2 --> DB5
+    P3 --> DB3
+    P4 --> DB1
+    P4 --> DB4
+
+    DB1 --> F1
+    DB1 --> F2
+    DB1 --> F4
+    DB2 --> F2
+    DB3 --> F3
+    DB4 --> F1
+    DB5 --> F1
+    DB1 --> F5

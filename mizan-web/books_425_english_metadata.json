@@ -1,0 +1,2127 @@
+[
+  {
+    "id": 1,
+    "english_name": "Sahih al-Bukhari",
+    "english_author": "Imam Muhammad ibn Isma'il al-Bukhari"
+  },
+  {
+    "id": 2,
+    "english_name": "Sahih Muslim",
+    "english_author": "Imam Muslim ibn al-Hajjaj"
+  },
+  {
+    "id": 3,
+    "english_name": "Jami' al-Tirmidhi",
+    "english_author": "Imam Muhammad ibn 'Isa al-Tirmidhi"
+  },
+  {
+    "id": 4,
+    "english_name": "Sunan Abi Dawud",
+    "english_author": "Imam Sulayman ibn al-Ash'ath al-Sijistani"
+  },
+  {
+    "id": 5,
+    "english_name": "Sunan al-Nasa'i",
+    "english_author": "Imam Ahmad ibn Shu'ayb al-Nasa'i"
+  },
+  {
+    "id": 6,
+    "english_name": "Sunan Ibn Majah",
+    "english_author": "Imam Muhammad ibn Yazid Ibn Majah al-Qazwini"
+  },
+  {
+    "id": 7,
+    "english_name": "Sunan al-Darimi",
+    "english_author": "Imam 'Abd Allah ibn 'Abd al-Rahman al-Darimi"
+  },
+  {
+    "id": 8,
+    "english_name": "Muwatta' Malik, narration of Yahya al-Laythi",
+    "english_author": "Imam Malik ibn Anas"
+  },
+  {
+    "id": 9,
+    "english_name": "Musnad Ahmad ibn Hanbal",
+    "english_author": "Imam Ahmad ibn Hanbal"
+  },
+  {
+    "id": 10,
+    "english_name": "Sahih Ibn Khuzaymah",
+    "english_author": "Imam Muhammad ibn Ishaq ibn Khuzaymah"
+  },
+  {
+    "id": 11,
+    "english_name": "Sahih abn ḥban",
+    "english_author": "Abw ḥatm bn ḥban"
+  },
+  {
+    "id": 12,
+    "english_name": "Almstdrk ʿlā alṣḥyḥyn",
+    "english_author": "Alḥakm alnysabwry"
+  },
+  {
+    "id": 13,
+    "english_name": "Mstkhrj aby ʿwanh",
+    "english_author": "Abw ʿwanh alisfraʾiyny"
+  },
+  {
+    "id": 14,
+    "english_name": "Almsnd almstkhrj ʿlā Sahih mslm laby nʿym",
+    "english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 15,
+    "english_name": "Alaḥadyth almkhtarh",
+    "english_author": "Alḍyaʾ almqdsy"
+  },
+  {
+    "id": 16,
+    "english_name": "Mkhtṣr alaḥkam almstkhrj ʿlā Jamiʿ altrmdhy",
+    "english_author": "Alṭwsy"
+  },
+  {
+    "id": 17,
+    "english_name": "Alsnn alkbrā llnsaʾiy",
+    "english_author": "Alnsaʾiy"
+  },
+  {
+    "id": 18,
+    "english_name": "Sunan sʿyd bn mnṣwr",
+    "english_author": "Sʿyd bn mnṣwr"
+  },
+  {
+    "id": 19,
+    "english_name": "Almntqā mn alsnn almsndh",
+    "english_author": "Abn aljarwd alnysabwry"
+  },
+  {
+    "id": 20,
+    "english_name": "Sunan aldarqṭny",
+    "english_author": "Aldarqṭny"
+  },
+  {
+    "id": 21,
+    "english_name": "Alsnn alṣghyr llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 22,
+    "english_name": "Alsnn alkbrā llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 23,
+    "english_name": "Almdkhl ilā alsnn alkbrā llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 24,
+    "english_name": "Mʿrfh alsnn walāthar llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 25,
+    "english_name": "Mwṭa malk brwayh mḥmd bn alḥsn alshybany",
+    "english_author": "Malk bn ans"
+  },
+  {
+    "id": 26,
+    "english_name": "Mwṭa malk brwayh aby mṣʿb alzhry",
+    "english_author": "Malk bn ans"
+  },
+  {
+    "id": 27,
+    "english_name": "Mwṭa ʿbd allh bn whb",
+    "english_author": "ʿbd allh bn whb bn mslm"
+  },
+  {
+    "id": 28,
+    "english_name": "Alsnn almathwrh rwayh almzny",
+    "english_author": "Alshafʿy"
+  },
+  {
+    "id": 29,
+    "english_name": "Musnad aby dawd alṭyalsy",
+    "english_author": "Abw dawd alṭyalysy"
+  },
+  {
+    "id": 30,
+    "english_name": "Musnad isḥaq bn rahwyh",
+    "english_author": "Isḥaq bn rahwyh"
+  },
+  {
+    "id": 31,
+    "english_name": "Musnad alḥmydy",
+    "english_author": "ʿbd allh bn alzbyr alḥmydy"
+  },
+  {
+    "id": 32,
+    "english_name": "Musnad abn aljʿd",
+    "english_author": "ʿly bn aljʿd aljwhry"
+  },
+  {
+    "id": 33,
+    "english_name": "Musnad alshafʿy",
+    "english_author": "Alshafʿy"
+  },
+  {
+    "id": 34,
+    "english_name": "Musnad abn aby shybh",
+    "english_author": "Abn aby shybh"
+  },
+  {
+    "id": 35,
+    "english_name": "Albḥr alzkhar bmsnd albzar",
+    "english_author": "Abw bkr albzar"
+  },
+  {
+    "id": 36,
+    "english_name": "Albḥr alzkhar bmsnd albzar 10-13",
+    "english_author": "Abw bkr albzar"
+  },
+  {
+    "id": 37,
+    "english_name": "Musnad aby yʿlā almwṣly",
+    "english_author": "Abw yʿlā almwṣly"
+  },
+  {
+    "id": 38,
+    "english_name": "Musnad alrwyany",
+    "english_author": "Mḥmd bn harwn alrwyany"
+  },
+  {
+    "id": 39,
+    "english_name": "Almsnd llshashy",
+    "english_author": "Alhythm bn klyb alshashy"
+  },
+  {
+    "id": 40,
+    "english_name": "Almṭalb alʿalyh bzwaʾid almsanyd althmanyh labn ḥjr",
+    "english_author": "Abn ḥjr alʿsqlany"
+  },
+  {
+    "id": 41,
+    "english_name": "Itḥaf alkhyrh almhrh bzwaʾid almsanyd alʿshrh",
+    "english_author": "Albwṣyry"
+  },
+  {
+    "id": 42,
+    "english_name": "Bghyh albaḥth ʿn zwaʾid Musnad alḥarth",
+    "english_author": "Alhythmy"
+  },
+  {
+    "id": 43,
+    "english_name": "Musnad alsraj",
+    "english_author": "Mḥmd bn isḥaq alkhrasany"
+  },
+  {
+    "id": 44,
+    "english_name": "Musnad ʿaʾishh labn aby dawd",
+    "english_author": "Abn aby dawd alsjstany"
+  },
+  {
+    "id": 45,
+    "english_name": "Musnad alshamyyn llṭbrany",
+    "english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 46,
+    "english_name": "Musnad almwṭa lljwhry",
+    "english_author": "Alḥsn bn ʿly aljwhry"
+  },
+  {
+    "id": 47,
+    "english_name": "Musnad aby ḥnyfh rwayh alḥṣkfy",
+    "english_author": "Abw ḥnyfh"
+  },
+  {
+    "id": 48,
+    "english_name": "Musnad alshhab",
+    "english_author": "Alshhab alqḍaʿy"
+  },
+  {
+    "id": 49,
+    "english_name": "Musnad ʿbd allh bn almbark",
+    "english_author": "ʿbd allh bn almbark"
+  },
+  {
+    "id": 50,
+    "english_name": "Musnad aby ḥnyfh rwayh aby nʿym",
+    "english_author": "Abw ḥnyfh"
+  },
+  {
+    "id": 51,
+    "english_name": "Musnad sʿd bn aby wqaṣ lldwrqy",
+    "english_author": "Aḥmd bn ibrahym aldwrqy"
+  },
+  {
+    "id": 52,
+    "english_name": "Musnad ʿbd bn ḥmyd",
+    "english_author": "ʿbd bn ḥmyd"
+  },
+  {
+    "id": 53,
+    "english_name": "Musnad ʿbd allh bn ʿmr llṭrswsy",
+    "english_author": "Abw amyh alṭrswsy"
+  },
+  {
+    "id": 54,
+    "english_name": "Musnad aby bkr alṣdyq llmrwzy",
+    "english_author": "Aḥmd bn ʿly almrwzy"
+  },
+  {
+    "id": 55,
+    "english_name": "Musnad zyd",
+    "english_author": "Zyd bn ʿly bn alḥsyn"
+  },
+  {
+    "id": 56,
+    "english_name": "Musnad alrbyʿ bn ḥbyb",
+    "english_author": "Alrbyʿ bn ḥbyb"
+  },
+  {
+    "id": 57,
+    "english_name": "Musnad alimam alshafʿy ( trtyb snjr)",
+    "english_author": "Alamyr snjr"
+  },
+  {
+    "id": 58,
+    "english_name": "Almqṣd alʿly fy zwaʾid aby yʿlā almwṣly jzʾ",
+    "english_author": "Alhythmy"
+  },
+  {
+    "id": 59,
+    "english_name": "Kshf alastar",
+    "english_author": "Nwr aldyn alhythmy"
+  },
+  {
+    "id": 60,
+    "english_name": "Musnad ʿqbh bn ʿamr",
+    "english_author": "Alqasm bn qṭlwbgha alḥnfy"
+  },
+  {
+    "id": 61,
+    "english_name": "Mṣnf ʿbd alrzaq",
+    "english_author": "ʿbd alrzaq alṣnʿany"
+  },
+  {
+    "id": 62,
+    "english_name": "Mṣnf abn aby shybh",
+    "english_author": "Abn aby shybh"
+  },
+  {
+    "id": 63,
+    "english_name": "Aljamʿ lmʿmr bn rashd",
+    "english_author": "Mʿmr bn rashd alazdy"
+  },
+  {
+    "id": 64,
+    "english_name": "Aljamʿ fy alḥdyth labn whb",
+    "english_author": "ʿbd allh bn whb bn mslm"
+  },
+  {
+    "id": 65,
+    "english_name": "Almʿjm alṣghyr llṭbrany",
+    "english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 66,
+    "english_name": "Almʿjm alawsṭ llṭbrany",
+    "english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 67,
+    "english_name": "Almʿjm alkbyr llṭbrany",
+    "english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 68,
+    "english_name": "Mshykhh abn ṭhman",
+    "english_author": "Ibrahym bn ṭhman"
+  },
+  {
+    "id": 69,
+    "english_name": "Mʿjm aby yʿlā almwṣly",
+    "english_author": "Abw yʿlā almwṣly"
+  },
+  {
+    "id": 70,
+    "english_name": "Mʿjm abn alaʿraby",
+    "english_author": "Abn alaʿraby"
+  },
+  {
+    "id": 71,
+    "english_name": "Mʿjm alṣḥabh labn qanʿ",
+    "english_author": "Abn qanʿ albghdady"
+  },
+  {
+    "id": 72,
+    "english_name": "Mʿjm asamy shywkh aby bkr alismaʿyly",
+    "english_author": "Abw bkr alismaʿyly"
+  },
+  {
+    "id": 73,
+    "english_name": "Mʿjm abn almqrʾi",
+    "english_author": "Abw bkr bn almqrʾi"
+  },
+  {
+    "id": 74,
+    "english_name": "Mʿjm alshywkh labn jmyʿ alṣydawy",
+    "english_author": "Abn jmyʿ alṣydawy"
+  },
+  {
+    "id": 75,
+    "english_name": "Alʿmdh mn alfwaʾid walāthar alṣḥaḥ fy mshykhh shhdh",
+    "english_author": "Shhdh bnt aḥmd bn alfrj aldynwry"
+  },
+  {
+    "id": 76,
+    "english_name": "Mshykhh mḥmd alrazy abn alḥṭab",
+    "english_author": "Abw ṭahr alslfy"
+  },
+  {
+    "id": 77,
+    "english_name": "Mʿjm alsfr llslfy",
+    "english_author": "Abw ṭahr alslfy"
+  },
+  {
+    "id": 78,
+    "english_name": "Almʿjm almkhtṣ balmḥdthyn aldhhby",
+    "english_author": "Aldhhby"
+  },
+  {
+    "id": 79,
+    "english_name": "Almntkhb mn mʿjm shywkh abn alsmʿany",
+    "english_author": "Abn alsmʿany"
+  },
+  {
+    "id": 80,
+    "english_name": "Mʿjm aṣḥab alqaḍy aby ʿly alṣdfy",
+    "english_author": "Abn alabar alqḍaʿy"
+  },
+  {
+    "id": 81,
+    "english_name": "Mshykhh abn jmaʿh",
+    "english_author": "Abn jmaʿh"
+  },
+  {
+    "id": 82,
+    "english_name": "Mshykhh abn albkhary",
+    "english_author": "Aḥmd bn mḥmd alẓahry alḥnfy"
+  },
+  {
+    "id": 83,
+    "english_name": "Mʿjm alshywkh alkbyr lldhhby",
+    "english_author": "Aldhhby"
+  },
+  {
+    "id": 84,
+    "english_name": "Mʿjm alshywkh ltaj aldyn alsbky",
+    "english_author": "Alsbky"
+  },
+  {
+    "id": 85,
+    "english_name": "Ṣḥyfh hmam bn mnbh",
+    "english_author": "Hmam bn mnbh"
+  },
+  {
+    "id": 86,
+    "english_name": "Ḥdyth ismaʿyl bn jʿfr",
+    "english_author": "Ismaʿyl bn jʿfr"
+  },
+  {
+    "id": 87,
+    "english_name": "Jzʾ aby jhm albghdady",
+    "english_author": "Abw jhm albghdady"
+  },
+  {
+    "id": 88,
+    "english_name": "Ḥdyth yḥyā bn mʿyn rwayh aby bkr almrwzy",
+    "english_author": "Yḥyā bn mʿyn"
+  },
+  {
+    "id": 89,
+    "english_name": "Jzʾ mn ḥdyth lwyn almṣyṣy",
+    "english_author": "Mḥmd bn slyman lwyn almṣyṣy"
+  },
+  {
+    "id": 90,
+    "english_name": "Ḥdyth hsham bn ʿmar",
+    "english_author": "Hsham bn ʿmar"
+  },
+  {
+    "id": 91,
+    "english_name": "Jzʾ ḥnbl bn isḥaq",
+    "english_author": "Ḥnbl bn isḥaq"
+  },
+  {
+    "id": 92,
+    "english_name": "Alawaʾil labn aby ʿaṣm",
+    "english_author": "Abn aby ʿaṣm"
+  },
+  {
+    "id": 93,
+    "english_name": "Almfaryd ʿn rswl allh ṣlā allh ʿlyh wslm laby yʿlā almwṣly",
+    "english_author": "Abw yʿlā almwṣly"
+  },
+  {
+    "id": 94,
+    "english_name": "Aljzʾ alḥady ʿshr mn fwaʾid abn albkhtry",
+    "english_author": "Abw jʿfr bn albkhtry"
+  },
+  {
+    "id": 95,
+    "english_name": "Aljzʾ alrabʿ mn ḥdyth abn albkhtry",
+    "english_author": "Abw jʿfr bn albkhtry"
+  },
+  {
+    "id": 96,
+    "english_name": "Jzʾ fyh sth mjals mn amaly abn albkhtry",
+    "english_author": "Abw jʿfr bn albkhtry"
+  },
+  {
+    "id": 97,
+    "english_name": "Fwaʾid aby mḥmd alfakhy",
+    "english_author": "Alfakhy"
+  },
+  {
+    "id": 98,
+    "english_name": "Alfwaʾid alshhyr balghylanyat laby bkr alshafʿy",
+    "english_author": "Abw bkr alshafʿy"
+  },
+  {
+    "id": 99,
+    "english_name": "Ṭrq ḥdyth mn kdhb ʿly mtʿmda llṭbrany",
+    "english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 100,
+    "english_name": "Jzʾ alalf dynar llqṭyʿy",
+    "english_author": "Abw bkr alqṭyʿy"
+  },
+  {
+    "id": 101,
+    "english_name": "Jzʾ ma rwah aby alzbyr ʿn ghyr jabr",
+    "english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 102,
+    "english_name": "Fwaʾid abn ḥyan",
+    "english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 103,
+    "english_name": "Ghraʾib malk bn ans",
+    "english_author": "Mḥmd bn almẓfr albzar"
+  },
+  {
+    "id": 104,
+    "english_name": "Ḥdyth aby alfḍl alzhry",
+    "english_author": "Alḥsn bn ʿly aljwhry"
+  },
+  {
+    "id": 105,
+    "english_name": "Alfwaʾid almntqah ʿn alshywkh alʿwaly llḥrby",
+    "english_author": "ʿly bn ʿmr alḥrby"
+  },
+  {
+    "id": 106,
+    "english_name": "Jzʾ aby alṭahr",
+    "english_author": "Abw alṭahr aldhhly"
+  },
+  {
+    "id": 107,
+    "english_name": "Jzʾ fyh ma antqā abn mrdwyh ʿlā aby alqasm alṭbrany labn mrdwyh",
+    "english_author": "Aḥmd bn mwsā abn mrdwyh"
+  },
+  {
+    "id": 108,
+    "english_name": "Alarbʿwn fy shywkh alṣwfyh llmalyny",
+    "english_author": "Aḥmd bn mḥmd almalyny"
+  },
+  {
+    "id": 109,
+    "english_name": "Fwaʾid tmam alrazy",
+    "english_author": "Tmam bn mḥmd alrazy"
+  },
+  {
+    "id": 110,
+    "english_name": "Fwaʾid alʿraqyyn llnqash",
+    "english_author": "ʿly bn ʿmrw alnqash"
+  },
+  {
+    "id": 111,
+    "english_name": "Alarbʿwn alṣghrā llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 112,
+    "english_name": "Almhrwanyat walfwaʾid almntkhbh alṣḥaḥ walghraʾib lywsf bn mḥmd",
+    "english_author": "Ywsf bn mḥmd almhrwany"
+  },
+  {
+    "id": 113,
+    "english_name": "Alarbʿyn almrtbh ʿlā ṭbqat alarbʿyn labn almfḍl almqdsy",
+    "english_author": "ʿly bn almfḍl almqdsy"
+  },
+  {
+    "id": 114,
+    "english_name": "Jzʾ mn ḥdyth aby bkr bn almqrʾi",
+    "english_author": "Mḥmd bn ʿbd alrḥmn almqrʾi"
+  },
+  {
+    "id": 115,
+    "english_name": "ʿwaly malk bn ans rwayh abn alḥajb",
+    "english_author": "ʿmr bn alḥajb alamyny"
+  },
+  {
+    "id": 116,
+    "english_name": "ʿwaly malk bn ans laby aḥmd alḥakm",
+    "english_author": "Abw aḥmd alḥakm"
+  },
+  {
+    "id": 117,
+    "english_name": "Alawaʾil",
+    "english_author": "Abw ʿrwbh alḥrany"
+  },
+  {
+    "id": 118,
+    "english_name": "Jzʾ mn nskhh ibrahym bn sʿd",
+    "english_author": "ʿbd alwhab bn mndh"
+  },
+  {
+    "id": 119,
+    "english_name": "Aljzʾ alawl walthany mn fwaʾid abn bshran",
+    "english_author": "Abw alḥsyn bn bshran"
+  },
+  {
+    "id": 120,
+    "english_name": "Alāthar almrwyh fy alaṭʿmh alʿṭryh",
+    "english_author": "Abn bshkwal"
+  },
+  {
+    "id": 121,
+    "english_name": "Alarbʿwn ḥdytha mn almsawah",
+    "english_author": "Abn ʿsakr aldmshqy"
+  },
+  {
+    "id": 122,
+    "english_name": "Alṭywryat",
+    "english_author": "Abw alḥsn alṭywry"
+  },
+  {
+    "id": 123,
+    "english_name": "Jzʾ aby alʿbas bn ʿṣm",
+    "english_author": "Abw alʿbas bn ʿṣm"
+  },
+  {
+    "id": 124,
+    "english_name": "Jzʾ alḥsn bn rshyq",
+    "english_author": "Alḥsn bn rshyq"
+  },
+  {
+    "id": 125,
+    "english_name": "Fwaʾid abn akhy mymy aldqaq",
+    "english_author": "Abw alḥsyn albghdady"
+  },
+  {
+    "id": 126,
+    "english_name": "Aḥadyth ʿfan bn mslm",
+    "english_author": "ʿfan bn mslm alṣfar"
+  },
+  {
+    "id": 127,
+    "english_name": "Jzʾ aby ʿthman sʿdan bn nṣr bn mnṣwr almkhrmy",
+    "english_author": "Sʿdan bn nṣr bn mnṣwr almkhrmy albzar"
+  },
+  {
+    "id": 128,
+    "english_name": "Aljzʾ althany mn Musnad aby hryrh",
+    "english_author": "Ibrahym bn ḥrb alʿskry"
+  },
+  {
+    "id": 129,
+    "english_name": "Alaḥadyth almaʾih llḥafẓ alʿlamh mḥmd bn ʿly bn ṭwlwn",
+    "english_author": "Mḥmd bn ʿly bn ṭwlwn"
+  },
+  {
+    "id": 130,
+    "english_name": "Bghyh almltms",
+    "english_author": "Alʿlaʾiy"
+  },
+  {
+    "id": 131,
+    "english_name": "Nẓm alāly balmaʾih alʿwaly",
+    "english_author": "Abn ḥjr alʿsqlany"
+  },
+  {
+    "id": 132,
+    "english_name": "Alamaly fy āthar alṣḥabh lʿbd alrzaq alṣnʿany",
+    "english_author": "ʿbd alrzaq alṣnʿany"
+  },
+  {
+    "id": 133,
+    "english_name": "Amaly aby isḥaq",
+    "english_author": "Ibrahym bn ʿbd alṣmd alhashmy"
+  },
+  {
+    "id": 134,
+    "english_name": "Amaly almḥamly rwayh abn yḥyā albyʿ",
+    "english_author": "Alḥsyn bn ismaʿyl almḥamly"
+  },
+  {
+    "id": 135,
+    "english_name": "Amaly alzjaj",
+    "english_author": "ʿbd alrḥmn bn isḥaq"
+  },
+  {
+    "id": 136,
+    "english_name": "Amaly abn smʿwn alwaʿẓ",
+    "english_author": "Abn smʿwn alwaʿẓ"
+  },
+  {
+    "id": 137,
+    "english_name": "Amaly abn bshran",
+    "english_author": "Abw alqasm bn bshran"
+  },
+  {
+    "id": 138,
+    "english_name": "Alamaly alkhmysyh llshjry",
+    "english_author": "Yḥyā bn alḥsyn alshjry aljrjany"
+  },
+  {
+    "id": 139,
+    "english_name": "Amaly abn bshran ( mjals akhrā )",
+    "english_author": "ʿbd almlk bn bshran"
+  },
+  {
+    "id": 140,
+    "english_name": "Mjals mn amaly aby ʿbd allh bn mndh",
+    "english_author": "Abw ʿbd allh bn mndh"
+  },
+  {
+    "id": 141,
+    "english_name": "Akhtlaf alḥdyth llshafʿy",
+    "english_author": "Alshafʿy"
+  },
+  {
+    "id": 142,
+    "english_name": "Ghryb alḥdyth llhrwy",
+    "english_author": "Alqasm bn slam alhrwy"
+  },
+  {
+    "id": 143,
+    "english_name": "Almrasyl mʿ alasanyd laby dawd",
+    "english_author": "Abw dawd alsjstany"
+  },
+  {
+    "id": 144,
+    "english_name": "Tawyl mkhtlf alḥdyth labn qtybh",
+    "english_author": "ʿbd allh bn mslm"
+  },
+  {
+    "id": 145,
+    "english_name": "Ghryb alḥdyth llḥrby",
+    "english_author": "Ibrahym bn isḥaq alḥrby"
+  },
+  {
+    "id": 146,
+    "english_name": "Aldlaʾil fy ghryb alḥdyth",
+    "english_author": "Alqasm bn thabt alsrqsṭy"
+  },
+  {
+    "id": 147,
+    "english_name": "Almrasyl labn aby ḥatm",
+    "english_author": "Abn aby ḥatm alrazy"
+  },
+  {
+    "id": 148,
+    "english_name": "Almḥdth alfaṣl byn alrway walwaʿy",
+    "english_author": "Alramhrmzy"
+  },
+  {
+    "id": 149,
+    "english_name": "Amthal alḥdyth llramhrmzy",
+    "english_author": "Alramhrmzy"
+  },
+  {
+    "id": 150,
+    "english_name": "Amthal alḥdyth laby alshykh alaṣbhany",
+    "english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 151,
+    "english_name": "Naskh alḥdyth wmnswkhh labn shahyn",
+    "english_author": "Abn shahyn"
+  },
+  {
+    "id": 152,
+    "english_name": "Ghryb alḥdyth llkhṭaby",
+    "english_author": "Alkhṭaby albsty"
+  },
+  {
+    "id": 153,
+    "english_name": "Tṣḥyfat almḥdthyn",
+    "english_author": "Alḥsn bn ʿbd allh bn shl alʿskry"
+  },
+  {
+    "id": 154,
+    "english_name": "Mʿrfh ʿlwm alḥdyth llḥakm",
+    "english_author": "Alḥakm alnysabwry"
+  },
+  {
+    "id": 155,
+    "english_name": "Aljamʿ lakhlaq alrawy wādab alsamʿ llkhṭyb",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 156,
+    "english_name": "Alkfayh fy Ilm alrwayh llkhṭyb",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 157,
+    "english_name": "Tqyyd alʿlm llkhṭyb",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 158,
+    "english_name": "Tlkhyṣ almtshabh fy alrsm",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 159,
+    "english_name": "Shrf aṣḥab alḥdyth llkhṭyb",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 160,
+    "english_name": "Mwḍḥ awham aljmʿ waltfryq llkhṭyb",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 161,
+    "english_name": "Alilmaʿ ilā Ilm aṣwl alrwayh lqaḍy ʿyaḍ",
+    "english_author": "Alqaḍy ʿyaḍ bn mwsā alyḥṣby"
+  },
+  {
+    "id": 162,
+    "english_name": "Adb alimlaʾ walastmlaʾ labn alsmʿany",
+    "english_author": "ʿbd alkrym bn mḥmd alsmʿany"
+  },
+  {
+    "id": 163,
+    "english_name": "Ghwamḍ alasmaʾ almbhmh labn bshkwal",
+    "english_author": "Abn bshkwal"
+  },
+  {
+    "id": 164,
+    "english_name": "Alaʿtbar fy alnaskh walmnswkh mn alāthar llḥazmy",
+    "english_author": "Mḥmd bn mwsā alḥazmy"
+  },
+  {
+    "id": 165,
+    "english_name": "Iʿlam alʿalm bʿd rswkhh bnaskh alḥdyth wmnswkhh",
+    "english_author": "Abn aljwzy"
+  },
+  {
+    "id": 166,
+    "english_name": "Tghlyq altʿlyq labn ḥjr",
+    "english_author": "Abn ḥjr alʿsqlany"
+  },
+  {
+    "id": 167,
+    "english_name": "Itharh alfwaʾid",
+    "english_author": "Abn ʿbd albr"
+  },
+  {
+    "id": 168,
+    "english_name": "Aliyman labn aby shybh",
+    "english_author": "Abn aby shybh"
+  },
+  {
+    "id": 169,
+    "english_name": "Alrd ʿlā aljhmyh lldarmy",
+    "english_author": "ʿbd allh bn ʿbd alrḥmn aldarmy"
+  },
+  {
+    "id": 170,
+    "english_name": "Khlq afʿal alʿbad llbkhary",
+    "english_author": "Mḥmd bn ismaʿyl albkhary"
+  },
+  {
+    "id": 171,
+    "english_name": "Nqḍ alimam aby sʿyd ʿlā almrysy alʿnyd",
+    "english_author": "ʿthman bn sʿyd aldarmy"
+  },
+  {
+    "id": 172,
+    "english_name": "Alsnh labn aby ʿaṣm",
+    "english_author": "Abn aby ʿaṣm"
+  },
+  {
+    "id": 173,
+    "english_name": "Albdʿ labn wḍaḥ",
+    "english_author": "Abn wḍaḥ almrwany"
+  },
+  {
+    "id": 174,
+    "english_name": "Alsnh lʿbd allh bn aḥmd",
+    "english_author": "ʿbd allh bn aḥmd bn ḥnbl"
+  },
+  {
+    "id": 175,
+    "english_name": "Alsnh llmrwzy",
+    "english_author": "Mḥmd bn nṣr almrwzy"
+  },
+  {
+    "id": 176,
+    "english_name": "Alqdr llfryaby",
+    "english_author": "Mḥmd bn alḥsn alfryaby"
+  },
+  {
+    "id": 177,
+    "english_name": "Ṣfh alnfaq wdhm almnafqyn llfryaby",
+    "english_author": "Mḥmd bn alḥsn alfryaby"
+  },
+  {
+    "id": 178,
+    "english_name": "Altwḥyd labn khzymh",
+    "english_author": "Abn khzymh"
+  },
+  {
+    "id": 179,
+    "english_name": "Alsnh laby bkr bn alkhlal",
+    "english_author": "Abw bkr alkhlal"
+  },
+  {
+    "id": 180,
+    "english_name": "Alshryʿh llājry",
+    "english_author": "Alājry"
+  },
+  {
+    "id": 181,
+    "english_name": "Alʿẓmh",
+    "english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 182,
+    "english_name": "Alrʾuya lldarqṭny",
+    "english_author": "Aldarqṭny"
+  },
+  {
+    "id": 183,
+    "english_name": "Shrḥ mdhahb ahl alsnh labn shahyn",
+    "english_author": "Abn shahyn"
+  },
+  {
+    "id": 184,
+    "english_name": "Alibanh alkbrā labn bṭh",
+    "english_author": "Abn bṭh alʿkbry"
+  },
+  {
+    "id": 185,
+    "english_name": "Aliyman labn mndh",
+    "english_author": "Mḥmd bn isḥaq bn mndh"
+  },
+  {
+    "id": 186,
+    "english_name": "Altwḥyd labn mndh",
+    "english_author": "Mḥmd bn isḥaq bn mndh"
+  },
+  {
+    "id": 187,
+    "english_name": "Shrḥ aṣwl aʿtqad ahl alsnh waljmaʿh llalkaʾiy",
+    "english_author": "Hbh allh allalkaʾiy"
+  },
+  {
+    "id": 188,
+    "english_name": "Kramat awlyaʾ allh ʿz wjl llalkaʾiy",
+    "english_author": "Hbh allh allalkaʾiy"
+  },
+  {
+    "id": 189,
+    "english_name": "Alsnn alwardh fy alftn lldany",
+    "english_author": "ʿthman bn sʿyd aldany"
+  },
+  {
+    "id": 190,
+    "english_name": "Alaʿtqad ilā sbyl alrshad llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 191,
+    "english_name": "Alasmaʾ walṣfat llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 192,
+    "english_name": "Albʿth walnshwr llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 193,
+    "english_name": "Alqḍaʾ walqdr llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 194,
+    "english_name": "Ithbat ʿdhab alqbr wsʾual almlkyn",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 195,
+    "english_name": "Shʿb aliyman llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 196,
+    "english_name": "Dhm alklam wahlh lʿbd allh alanṣary",
+    "english_author": "ʿbd allh bn mḥmd alanṣary"
+  },
+  {
+    "id": 197,
+    "english_name": "Tbyyn kdhb almftry fyma nsb ilā alashʿry",
+    "english_author": "Abn ʿsakr aldmshqy"
+  },
+  {
+    "id": 198,
+    "english_name": "Tlbys iblys labn aljwzy",
+    "english_author": "Abn aljwzy"
+  },
+  {
+    "id": 199,
+    "english_name": "Alʿlw llʿly alghfar aldhhby",
+    "english_author": "Aldhhby"
+  },
+  {
+    "id": 200,
+    "english_name": "Ahl almll walrdh mn aljamʿ llkhlal",
+    "english_author": "Alkhlal"
+  },
+  {
+    "id": 201,
+    "english_name": "Alḥjh fy byan almḥjh wshrḥ ʿqydh ahl alsnh 2",
+    "english_author": "Qwam alsnh alaṣbhany"
+  },
+  {
+    "id": 202,
+    "english_name": "Almnask lsʿyd bn aby ʿrwbh",
+    "english_author": "Sʿyd bn aby ʿrwbh"
+  },
+  {
+    "id": 203,
+    "english_name": "Almdwnh alkbrā lmalk bn ans",
+    "english_author": "Malk bn ans"
+  },
+  {
+    "id": 204,
+    "english_name": "Aljhad labn almbark",
+    "english_author": "ʿbd allh bn almbark"
+  },
+  {
+    "id": 205,
+    "english_name": "Alāthar laby ywsf",
+    "english_author": "Yʿqwb bn ibrahym"
+  },
+  {
+    "id": 206,
+    "english_name": "Alāthar lmḥmd bn alḥsn alshybany",
+    "english_author": "Mḥmd bn alḥsn alshybany"
+  },
+  {
+    "id": 207,
+    "english_name": "Alkhraj laby ywsf",
+    "english_author": "Yʿqwb bn ibrahym"
+  },
+  {
+    "id": 208,
+    "english_name": "Alsyr laby isḥaq alfzary",
+    "english_author": "Abw isḥaq alfzary"
+  },
+  {
+    "id": 209,
+    "english_name": "Alkhraj lyḥyā bn ādm",
+    "english_author": "Yḥyā bn ādm"
+  },
+  {
+    "id": 210,
+    "english_name": "Alam llshafʿy",
+    "english_author": "Alshafʿy"
+  },
+  {
+    "id": 211,
+    "english_name": "Alamwal llqasm bn slam",
+    "english_author": "Alqasm bn slam alhrwy"
+  },
+  {
+    "id": 212,
+    "english_name": "Alṭhwr llqasm bn slam",
+    "english_author": "Alqasm bn slam alhrwy"
+  },
+  {
+    "id": 213,
+    "english_name": "Alqḍaʾ lsrbj bn ywns albghdady",
+    "english_author": "Sryj bn ywns"
+  },
+  {
+    "id": 214,
+    "english_name": "Alashrbh laḥmd bn ḥnbl",
+    "english_author": "Aḥmd bn ḥnbl"
+  },
+  {
+    "id": 215,
+    "english_name": "Alamwal labn znjwyh",
+    "english_author": "Abn znjwyh"
+  },
+  {
+    "id": 216,
+    "english_name": "Alqraʾh khlf alimam llbkhary",
+    "english_author": "Mḥmd bn ismaʿyl albkhary"
+  },
+  {
+    "id": 217,
+    "english_name": "Iṣlaḥ almal labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 218,
+    "english_name": "Aljhad labn aby ʿaṣm",
+    "english_author": "Abn aby ʿaṣm"
+  },
+  {
+    "id": 219,
+    "english_name": "Aldyat labn aby ʿaṣm",
+    "english_author": "Abn aby ʿaṣm"
+  },
+  {
+    "id": 220,
+    "english_name": "Mkhtṣr qyam allyl llmrwzy",
+    "english_author": "Mḥmd bn nṣr almrwzy"
+  },
+  {
+    "id": 221,
+    "english_name": "Alṣyam llfryaby",
+    "english_author": "Mḥmd bn alḥsn alfryaby"
+  },
+  {
+    "id": 222,
+    "english_name": "Aḥkam alʿydyn llfryaby",
+    "english_author": "Mḥmd bn alḥsn alfryaby"
+  },
+  {
+    "id": 223,
+    "english_name": "Thdhyb alāthar llṭbry",
+    "english_author": "Abn jryr alṭbry"
+  },
+  {
+    "id": 224,
+    "english_name": "Altrjl mn msaʾil alimam aḥmd",
+    "english_author": "Abw bkr alkhlal"
+  },
+  {
+    "id": 225,
+    "english_name": "Alwqwf mn msaʾil alimam aḥmd",
+    "english_author": "Abw bkr alkhlal"
+  },
+  {
+    "id": 226,
+    "english_name": "Shrḥ alsnh",
+    "english_author": "Alḥsyn bn msʿwd albghwy"
+  },
+  {
+    "id": 227,
+    "english_name": "Alawsṭ fy alsnn walijmaʿ walakhtlaf labn almndhr",
+    "english_author": "Mḥmd bn ibrahym bn almndhr"
+  },
+  {
+    "id": 228,
+    "english_name": "Aliqnaʿ labn almndhr",
+    "english_author": "Mḥmd bn ibrahym bn almndhr"
+  },
+  {
+    "id": 229,
+    "english_name": "Shrḥ mʿany alāthar llṭḥawy",
+    "english_author": "Alṭḥawy"
+  },
+  {
+    "id": 230,
+    "english_name": "Mshkl alāthar llṭḥawy",
+    "english_author": "Alṭḥawy"
+  },
+  {
+    "id": 231,
+    "english_name": "Tthbyt alimamh wtrtyb alkhlafh laby nʿym",
+    "english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 232,
+    "english_name": "Almḥlā balāthar labn ḥzm",
+    "english_author": "Abn ḥzm alẓahry"
+  },
+  {
+    "id": 233,
+    "english_name": "Ḥjh alwdaʿ labn ḥzm",
+    "english_author": "Abn ḥzm alẓahry"
+  },
+  {
+    "id": 234,
+    "english_name": "Alqraʾh khlf alimam llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 235,
+    "english_name": "Byan khṭa mn akhṭa ʿlā alshafʿy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 236,
+    "english_name": "Altmhyd labn ʿbd albr",
+    "english_author": "Abn ʿbd albr alqrṭby"
+  },
+  {
+    "id": 237,
+    "english_name": "Altḥqyq fy msaʾil alkhlaf labn aljwzy",
+    "english_author": "Abn aljwzy"
+  },
+  {
+    "id": 238,
+    "english_name": "Akhbar alṣlah lʿbd alghny almqdsy",
+    "english_author": "ʿbd alghny bn ʿbd alwaḥd almqdsy"
+  },
+  {
+    "id": 239,
+    "english_name": "Alzyadat ʿlā ktab almzny",
+    "english_author": "Abn zyad alnysabwry"
+  },
+  {
+    "id": 240,
+    "english_name": "Alawsṭ fy alsnn",
+    "english_author": "Abn almndhr"
+  },
+  {
+    "id": 241,
+    "english_name": "Alastdhkar",
+    "english_author": "Abn ʿbd albr alqrṭby"
+  },
+  {
+    "id": 242,
+    "english_name": "Aḥkam alqrān lljṣaṣ",
+    "english_author": "Aljṣaṣ alḥnfy"
+  },
+  {
+    "id": 243,
+    "english_name": "Alnṣyḥh llraʿy walrʿyh lltbryzy",
+    "english_author": "Abw alkhyr bdl bn aby almʿmr altbryzy"
+  },
+  {
+    "id": 244,
+    "english_name": "Tafsir mjahd",
+    "english_author": "Mjahd bn jbr"
+  },
+  {
+    "id": 245,
+    "english_name": "Tafsir sfyan althwry",
+    "english_author": "Sfyan althwry"
+  },
+  {
+    "id": 246,
+    "english_name": "Mʿany alqrān llfraʾ",
+    "english_author": "Abw zkrya alfraʾ"
+  },
+  {
+    "id": 247,
+    "english_name": "Tafsir alqrān lʿbd alrzaq alṣnʿany",
+    "english_author": "ʿbd alrzaq alṣnʿany"
+  },
+  {
+    "id": 248,
+    "english_name": "Altfsyr mn Sunan sʿyd bn mnṣwr",
+    "english_author": "Sʿyd bn mnṣwr"
+  },
+  {
+    "id": 249,
+    "english_name": "Jamiʿ albyan ʿn tawyl āy alqrān",
+    "english_author": "Abn jryr alṭbry"
+  },
+  {
+    "id": 250,
+    "english_name": "Tafsir abn aby ḥatm",
+    "english_author": "Abn aby ḥatm alrazy"
+  },
+  {
+    "id": 251,
+    "english_name": "Tafsir alqrān alʿzyz",
+    "english_author": "Abn aby zmnyn alandlsy"
+  },
+  {
+    "id": 252,
+    "english_name": "Mʿalm altnzyl Tafsir albghwy",
+    "english_author": "Alḥsyn bn msʿwd albghwy"
+  },
+  {
+    "id": 253,
+    "english_name": "Tafsir alqrān labn almndhr",
+    "english_author": "Mḥmd bn ibrahym bn almndhr"
+  },
+  {
+    "id": 254,
+    "english_name": "Aljamʿ fy Tafsir alqrān",
+    "english_author": "ʿbd allh bn whb"
+  },
+  {
+    "id": 255,
+    "english_name": "Alwsyṭ fy Tafsir alqrān almjyd",
+    "english_author": "Alwaḥdy"
+  },
+  {
+    "id": 256,
+    "english_name": "Tafsir yḥyā bn slam",
+    "english_author": "Yḥyā bn slam"
+  },
+  {
+    "id": 257,
+    "english_name": "Alnaskh walmnswkh llqasm bn slam",
+    "english_author": "Alqasm bn slam alhrwy"
+  },
+  {
+    "id": 258,
+    "english_name": "Qraʾh alnby lldwry",
+    "english_author": "Ḥfṣ bn ʿmr aldwry"
+  },
+  {
+    "id": 259,
+    "english_name": "Almṣaḥf labn aby dawd",
+    "english_author": "Abn aby dawd alsjstany"
+  },
+  {
+    "id": 260,
+    "english_name": "Aḥkam alqrān alkrym llṭḥawy",
+    "english_author": "Alṭḥawy"
+  },
+  {
+    "id": 261,
+    "english_name": "Alnaskh walmnswkh llnḥas",
+    "english_author": "Aḥmd bn mḥmd alnḥas"
+  },
+  {
+    "id": 262,
+    "english_name": "Asbab alnzwl alwaḥdy",
+    "english_author": "Alwaḥdy"
+  },
+  {
+    "id": 263,
+    "english_name": "Nwaskh alqrān labn aljwzy",
+    "english_author": "Abn aljwzy"
+  },
+  {
+    "id": 264,
+    "english_name": "Alshmaʾil almḥmdyh lltrmdhy",
+    "english_author": "Mḥmd bn ʿysā altrmdhy"
+  },
+  {
+    "id": 265,
+    "english_name": "Aldhryh alṭahrh alnbwyh",
+    "english_author": "Abw bshr aldwlaby"
+  },
+  {
+    "id": 266,
+    "english_name": "Akhlaq alnby laby alshykh alaṣbhany",
+    "english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 267,
+    "english_name": "Ḥlyh alawlyaʾ laby nʿym",
+    "english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 268,
+    "english_name": "Dlaʾil alnbwh laby nʿym",
+    "english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 269,
+    "english_name": "Dlaʾil alnbwh llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 270,
+    "english_name": "Dlaʾil alnbwh lqwam alsnh",
+    "english_author": "Ismaʿyl bn mḥmd alaṣbhany"
+  },
+  {
+    "id": 271,
+    "english_name": "ʿywn alathr",
+    "english_author": "Abn syd alnas"
+  },
+  {
+    "id": 272,
+    "english_name": "Alanwar fy shmaʾil alnby almkhtar",
+    "english_author": "Alḥsyn bn msʿwd albghwy"
+  },
+  {
+    "id": 273,
+    "english_name": "Akhbar mkh llazrqy",
+    "english_author": "Abw alwlyd alazrqy"
+  },
+  {
+    "id": 274,
+    "english_name": "Alṭbqat alkbrā labn sʿd",
+    "english_author": "Mḥmd bn sʿd alzhry"
+  },
+  {
+    "id": 275,
+    "english_name": "Tarykh khlyfh bn khyaṭ",
+    "english_author": "Khlyfh bn khyaṭ"
+  },
+  {
+    "id": 276,
+    "english_name": "Aljamʿ fy alʿll wmʿrfh alrjal laḥmd bn ḥnbl",
+    "english_author": "Aḥmd bn ḥnbl"
+  },
+  {
+    "id": 277,
+    "english_name": "Altarykh alkbyr llbkhary",
+    "english_author": "Mḥmd bn ismaʿyl albkhary"
+  },
+  {
+    "id": 278,
+    "english_name": "Tarykh almdynh labn shbh",
+    "english_author": "Abn shbh alnmyry"
+  },
+  {
+    "id": 279,
+    "english_name": "Akhbar mkh llfakhy",
+    "english_author": "Alfakhy"
+  },
+  {
+    "id": 280,
+    "english_name": "Msaʾil aḥmd laby dawd alsjstany",
+    "english_author": "Abw dawd alsjstany"
+  },
+  {
+    "id": 281,
+    "english_name": "Almʿrfh waltarykh lyʿqwb bn sfyan",
+    "english_author": "Yʿqwb bn sfyan"
+  },
+  {
+    "id": 282,
+    "english_name": "Ansab alashraf llbladhry",
+    "english_author": "Aḥmd bn yḥyā albladhry"
+  },
+  {
+    "id": 283,
+    "english_name": "Albldan wftwḥha waḥkamha llbladhry",
+    "english_author": "Aḥmd bn yḥyā albladhry"
+  },
+  {
+    "id": 284,
+    "english_name": "Tarykh aby zrʿh aldmshqy",
+    "english_author": "Abw zrʿh aldmshqy"
+  },
+  {
+    "id": 285,
+    "english_name": "Alāḥad walmthany labn aby ʿaṣm",
+    "english_author": "Abn aby ʿaṣm"
+  },
+  {
+    "id": 286,
+    "english_name": "Tarykh wasṭ laslm bn shl alrzaz",
+    "english_author": "Aslm bn shl alrzaz"
+  },
+  {
+    "id": 287,
+    "english_name": "Tarykh alṭbry",
+    "english_author": "Abn jryr alṭbry"
+  },
+  {
+    "id": 288,
+    "english_name": "Alkny walasmaʾ lldwlaby",
+    "english_author": "Abw bshr aldwlaby"
+  },
+  {
+    "id": 289,
+    "english_name": "Adab alshafʿy wmnaqbh",
+    "english_author": "Abn aby ḥatm alrazy"
+  },
+  {
+    "id": 290,
+    "english_name": "Ktab alwlah wktab alqḍah llkndy",
+    "english_author": "Mḥmd bn ywsf alkndy"
+  },
+  {
+    "id": 291,
+    "english_name": "Althqat labn ḥban",
+    "english_author": "Abw ḥatm bn ḥban"
+  },
+  {
+    "id": 292,
+    "english_name": "Alaghany laby alfrj alaṣfhany",
+    "english_author": "Abw alfrj alaṣfhany"
+  },
+  {
+    "id": 293,
+    "english_name": "Tarykh darya wmn nzl bha mn alṣḥabh waltabʿyn llkhwlany",
+    "english_author": "ʿbd aljbar alkhwlany"
+  },
+  {
+    "id": 294,
+    "english_name": "Ṭbqat almḥdthyn baṣbhan walwardyn ʿlyha",
+    "english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 295,
+    "english_name": "Tarykh jrjan llshmy",
+    "english_author": "Ḥmzh bn ywsf alshmy"
+  },
+  {
+    "id": 296,
+    "english_name": "Akhbar aṣbhan laby nʿym",
+    "english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 297,
+    "english_name": "Mʿrfh alṣḥabh laby nʿym",
+    "english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 298,
+    "english_name": "Alirshad fy mʿrfh ʿlmaʾ alḥdyth laby yʿlā alkhlyly",
+    "english_author": "Abw yʿlā alkhlyly alqzwyny"
+  },
+  {
+    "id": 299,
+    "english_name": "Alastyʿab fy mʿrfh alaṣḥab labn ʿbd albr",
+    "english_author": "Abn ʿbd albr alqrṭby"
+  },
+  {
+    "id": 300,
+    "english_name": "Alasmaʾ almbhmh walanbaʾ almḥkmh",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 301,
+    "english_name": "Tarykh bghdad llkhṭyb albghdady",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 302,
+    "english_name": "Syr alslf alṣalḥyn lismaʿyl bn mḥmd alaṣbhany",
+    "english_author": "Ismaʿyl bn mḥmd alaṣbhany"
+  },
+  {
+    "id": 303,
+    "english_name": "Tarykh dmshq labn ʿsakr",
+    "english_author": "Abn ʿsakr aldmshqy"
+  },
+  {
+    "id": 304,
+    "english_name": "Almntẓm fy tarykh alamm labn aljwzy",
+    "english_author": "Abn aljwzy"
+  },
+  {
+    "id": 305,
+    "english_name": "Altdwyn fy akhbar qzwyn llrafʿy",
+    "english_author": "ʿbd alkrym alrafʿy"
+  },
+  {
+    "id": 306,
+    "english_name": "Tarykh alislam aldhhby",
+    "english_author": "Aldhhby"
+  },
+  {
+    "id": 307,
+    "english_name": "Mnaqb alimam aby ḥnyfh wṣaḥbyh",
+    "english_author": "Aldhhby"
+  },
+  {
+    "id": 308,
+    "english_name": "Tarykh abn aby khythmh",
+    "english_author": "Abn aby khythmh"
+  },
+  {
+    "id": 309,
+    "english_name": "Ṭbqat alḥnablh",
+    "english_author": "Aby yʿlā alḥnbly"
+  },
+  {
+    "id": 310,
+    "english_name": "Dhyl tarykh bghdad labn alnjar",
+    "english_author": "Abn alnjar"
+  },
+  {
+    "id": 311,
+    "english_name": "Asd alghabh",
+    "english_author": "ʿly bn alathyr"
+  },
+  {
+    "id": 312,
+    "english_name": "Aljrḥ waltʿdyl",
+    "english_author": "Abn aby ḥatm alrazy"
+  },
+  {
+    "id": 313,
+    "english_name": "Alfṣl llwṣl almdrj fy alnql",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 314,
+    "english_name": "Syr aʿlam alnblaʾ aldhhby",
+    "english_author": "Aldhhby"
+  },
+  {
+    "id": 315,
+    "english_name": "Ṭbqat alshafʿyh alkbrā",
+    "english_author": "Alsbky"
+  },
+  {
+    "id": 316,
+    "english_name": "Thdhyb alkmal llmzy",
+    "english_author": "Ywsf almzy"
+  },
+  {
+    "id": 317,
+    "english_name": "Altarykh alawsṭ",
+    "english_author": "Mḥmd bn ismaʿyl albkhary"
+  },
+  {
+    "id": 318,
+    "english_name": "Ktab almḥn",
+    "english_author": "Abw alʿrb alqyrwany"
+  },
+  {
+    "id": 319,
+    "english_name": "Fḍaʾil alṣḥabh laḥmd bn ḥnbl",
+    "english_author": "Aḥmd bn ḥnbl"
+  },
+  {
+    "id": 320,
+    "english_name": "Fḍaʾil ʿthman bn ʿfan lʿbd allh bn aḥmd",
+    "english_author": "ʿbd allh bn aḥmd bn ḥnbl"
+  },
+  {
+    "id": 321,
+    "english_name": "Fḍaʾil alkhlfaʾ alrashdyn laby nʿym",
+    "english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 322,
+    "english_name": "Mʿrfh alṣḥabh",
+    "english_author": "Mḥmd bn isḥaq bn mndh"
+  },
+  {
+    "id": 323,
+    "english_name": "Alzhd walrqaʾiq labn almbark",
+    "english_author": "ʿbd allh bn almbark"
+  },
+  {
+    "id": 324,
+    "english_name": "Alzhd llmʿafā bn ʿmran almwṣly",
+    "english_author": "Almʿafā bn ʿmran"
+  },
+  {
+    "id": 325,
+    "english_name": "Aldʿaʾ lmḥmd bn fḍyl alḍby",
+    "english_author": "Mḥmd bn fḍyl alḍby"
+  },
+  {
+    "id": 326,
+    "english_name": "Alzhd lwkyʿ bn aljraḥ",
+    "english_author": "Wkyʿ bn aljraḥ"
+  },
+  {
+    "id": 327,
+    "english_name": "Alzhd lasd bn mwsā",
+    "english_author": "Asd bn mwsā"
+  },
+  {
+    "id": 328,
+    "english_name": "Fḍaʾil alṣlah llfḍl bn dkyn",
+    "english_author": "Alfḍl bn dkyn"
+  },
+  {
+    "id": 329,
+    "english_name": "Fḍaʾil alqrān llqasm bn slam",
+    "english_author": "Alqasm bn slam alhrwy"
+  },
+  {
+    "id": 330,
+    "english_name": "Alzhd lnʿym bn ḥmad",
+    "english_author": "Nʿym bn ḥmad"
+  },
+  {
+    "id": 331,
+    "english_name": "Alʿlm lzhyr bn ḥrb",
+    "english_author": "Abw khythmh zhyr bn ḥrb alnsaʾiy"
+  },
+  {
+    "id": 332,
+    "english_name": "Alzhd laḥmd bn ḥnbl",
+    "english_author": "Aḥmd bn ḥnbl"
+  },
+  {
+    "id": 333,
+    "english_name": "Alzhd lhnad bn alsry",
+    "english_author": "Hnad bn alsry"
+  },
+  {
+    "id": 334,
+    "english_name": "Albr walṣlh llmrwzy",
+    "english_author": "Alḥsyn bn ḥrb almrwzy"
+  },
+  {
+    "id": 335,
+    "english_name": "Aladb almfrd llbkhary",
+    "english_author": "Mḥmd bn ismaʿyl albkhary"
+  },
+  {
+    "id": 336,
+    "english_name": "Alzhd laby ḥatm alrazy",
+    "english_author": "Abw ḥatm alrazy"
+  },
+  {
+    "id": 337,
+    "english_name": "Alzhd laby dawd",
+    "english_author": "Abw dawd alsjstany"
+  },
+  {
+    "id": 338,
+    "english_name": "Alamr balmʿrwf walnhy ʿn almnkr labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 339,
+    "english_name": "Alahwal labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 340,
+    "english_name": "Alawlyaʾ labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 341,
+    "english_name": "Alikhwan labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 342,
+    "english_name": "Aljwʿ labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 343,
+    "english_name": "Alzhd labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 344,
+    "english_name": "Alshkr llh labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 345,
+    "english_name": "Alfrj bʿd alshdh labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 346,
+    "english_name": "Almrḍ walkfarat labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 347,
+    "english_name": "Almnamat labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 348,
+    "english_name": "Alʿyal",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 349,
+    "english_name": "Alhm walḥzn labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 350,
+    "english_name": "Ḥsn alẓn ballh labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 351,
+    "english_name": "Dhm almlahy labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 352,
+    "english_name": "Mjabw aldʿwh labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 353,
+    "english_name": "Alishraf fy mnazl alashraf",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 354,
+    "english_name": "Althjd wqyam allyl labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 355,
+    "english_name": "Altwbh labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 356,
+    "english_name": "Alḥlm labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 357,
+    "english_name": "Alrqh walbkaʾ labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 358,
+    "english_name": "Alṣbr walthwab ʿlyh",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 359,
+    "english_name": "Alṣmt wādab allsan",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 360,
+    "english_name": "Alʿql wfḍlh labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 361,
+    "english_name": "Alʿqwbat labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 362,
+    "english_name": "Almtmnyn labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 363,
+    "english_name": "Almḥtḍryn labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 364,
+    "english_name": "Almṭr walrʿd walbrq labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 365,
+    "english_name": "Dhm alghybh walnmymh labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 366,
+    "english_name": "Ṣfh aljnh labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 367,
+    "english_name": "Ṣfh alnar labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 368,
+    "english_name": "Qṣr alaml labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 369,
+    "english_name": "Qḍaʾ alḥwaʾij labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 370,
+    "english_name": "Mḥasbh alnfs labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 371,
+    "english_name": "Mdarah alnas labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 372,
+    "english_name": "Hwatf aljnan labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 373,
+    "english_name": "Alzhd labn aby ʿaṣm",
+    "english_author": "Abn aby ʿaṣm"
+  },
+  {
+    "id": 374,
+    "english_name": "Alftn lnʿym bn ḥmad",
+    "english_author": "Nʿym bn ḥmad"
+  },
+  {
+    "id": 375,
+    "english_name": "Fḍaʾil alqrān labn alḍrys",
+    "english_author": "Mḥmd bn alḍrys"
+  },
+  {
+    "id": 376,
+    "english_name": "Tʿẓym qdr alṣlah llmrwzy",
+    "english_author": "Mḥmd bn nṣr almrwzy"
+  },
+  {
+    "id": 377,
+    "english_name": "Fḍaʾil alqrān llfryaby",
+    "english_author": "Mḥmd bn alḥsn alfryaby"
+  },
+  {
+    "id": 378,
+    "english_name": "Alamr balmʿrwf walnhy ʿn almnkr llkhlal",
+    "english_author": "Abw bkr alkhlal"
+  },
+  {
+    "id": 379,
+    "english_name": "Alḥth ʿlā altjarh walṣnaʿh llkhlal",
+    "english_author": "Abw bkr alkhlal"
+  },
+  {
+    "id": 380,
+    "english_name": "Akhbar wḥkayat llghsany",
+    "english_author": "Mḥmd bn alfyḍ alghsany"
+  },
+  {
+    "id": 381,
+    "english_name": "Aʿtlal alqlwb llkhraʾiṭy",
+    "english_author": "Mḥmd bn jʿfr bn shl alkhraʾiṭy"
+  },
+  {
+    "id": 382,
+    "english_name": "Shkr allh ʿlā nʿmh llkhraʾiṭy",
+    "english_author": "Mḥmd bn jʿfr bn shl alkhraʾiṭy"
+  },
+  {
+    "id": 383,
+    "english_name": "Almjalsh wjwahr alʿlm lldynwry",
+    "english_author": "Abw bkr aldynwry"
+  },
+  {
+    "id": 384,
+    "english_name": "Alzhd wṣfh alzahdyn labn alaʿraby",
+    "english_author": "Abn alaʿraby"
+  },
+  {
+    "id": 385,
+    "english_name": "Akhlaq alʿlmaʾ llājry",
+    "english_author": "Alājry"
+  },
+  {
+    "id": 386,
+    "english_name": "Aldʿaʾ llṭbrany",
+    "english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 387,
+    "english_name": "ʿml alywm wallylh labn alsny",
+    "english_author": "Abn alsny"
+  },
+  {
+    "id": 388,
+    "english_name": "Altwbykh waltnbyh",
+    "english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 389,
+    "english_name": "Tnbyh alghaflyn baḥadyth syd alanbyaʾ walmrslyn lsmrqndy",
+    "english_author": "Nṣr bn mḥmd bn ibrahym"
+  },
+  {
+    "id": 390,
+    "english_name": "Bḥr alfwaʾid almsmā bmʿany alakhyar llklabadhy",
+    "english_author": "Mḥmd bn isḥaq alklabadhy"
+  },
+  {
+    "id": 391,
+    "english_name": "Altrghyb fy fḍaʾil alaʿmal labn shahyn",
+    "english_author": "Abn shahyn"
+  },
+  {
+    "id": 392,
+    "english_name": "Alʿzlh llkhṭaby",
+    "english_author": "Abw slyman alkhṭaby"
+  },
+  {
+    "id": 393,
+    "english_name": "Aljlys alṣalḥ alkafy walanys alnaṣḥ alshafy almʿafā bn zkrya",
+    "english_author": "Almʿafā bn zkrya"
+  },
+  {
+    "id": 394,
+    "english_name": "Ṣfh aljnh laby nʿym",
+    "english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 395,
+    "english_name": "Fḍaʾil alqrān wtlawth llrazy",
+    "english_author": "Abw alfḍl alrazy"
+  },
+  {
+    "id": 396,
+    "english_name": "Aldʿwat alkbyr llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 397,
+    "english_name": "Alzhd alkbyr llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 398,
+    "english_name": "Fḍaʾil alawqat llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 399,
+    "english_name": "Jamiʿ byan alʿlm wfḍlh labn ʿbd albr",
+    "english_author": "Abn ʿbd albr alqrṭby"
+  },
+  {
+    "id": 400,
+    "english_name": "Aqtḍaʾ alʿlm alʿml llkhṭyb",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 401,
+    "english_name": "Alzhd walrqaʾiq llkhṭyb albghdady",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 402,
+    "english_name": "Alfqyh walmtfqh llkhṭyb",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 403,
+    "english_name": "Albr walṣlh labn aljwzy",
+    "english_author": "Abn aljwzy"
+  },
+  {
+    "id": 404,
+    "english_name": "Althbat ʿnd almmat labn aljwzy",
+    "english_author": "Abn aljwzy"
+  },
+  {
+    "id": 405,
+    "english_name": "Dhm alhwā labn aljwzy",
+    "english_author": "Abn aljwzy"
+  },
+  {
+    "id": 406,
+    "english_name": "Mthyr alghram alsakn ilā ashrf alamakn labn aljwzy",
+    "english_author": "Abn aljwzy"
+  },
+  {
+    "id": 407,
+    "english_name": "Altrghyb fy aldʿaʾ walḥth ʿlyh lʿbd alghny almqdsy",
+    "english_author": "ʿbd alghny bn ʿbd alwaḥd almqdsy"
+  },
+  {
+    "id": 408,
+    "english_name": "Ṣfh alnfaq wnʿt almnafqyn laby nʿym",
+    "english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 409,
+    "english_name": "Rwḍh alʿqlaʾ labn ḥban",
+    "english_author": "Abw ḥatm bn ḥban"
+  },
+  {
+    "id": 410,
+    "english_name": "Altbṣrh labn aljwzy",
+    "english_author": "Abn aljwzy"
+  },
+  {
+    "id": 411,
+    "english_name": "Aladb labn aby shybh",
+    "english_author": "Abn aby shybh"
+  },
+  {
+    "id": 412,
+    "english_name": "Alwrʿ laḥmd rwayh almrwzy",
+    "english_author": "Aḥmd bn ḥnbl"
+  },
+  {
+    "id": 413,
+    "english_name": "Alwrʿ labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 414,
+    "english_name": "Mkarm alakhlaq labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 415,
+    "english_name": "Aṣṭnaʿ almʿrwf",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 416,
+    "english_name": "Altwaḍʿ walkhmwl labn aby aldnya",
+    "english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 417,
+    "english_name": "Almrwʾh labn almrzban",
+    "english_author": "Mḥmd bn khlf bn almrzban"
+  },
+  {
+    "id": 418,
+    "english_name": "Msawʾi alakhlaq llkhraʾiṭy",
+    "english_author": "Mḥmd bn jʿfr bn shl alkhraʾiṭy"
+  },
+  {
+    "id": 419,
+    "english_name": "Mkarm alakhlaq llkhraʾiṭy",
+    "english_author": "Mḥmd bn jʿfr bn shl alkhraʾiṭy"
+  },
+  {
+    "id": 420,
+    "english_name": "Mkarm alakhlaq llṭbrany",
+    "english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 421,
+    "english_name": "Adab alṣḥbh llslmy",
+    "english_author": "Abw ʿbd alrḥmn alslmy"
+  },
+  {
+    "id": 422,
+    "english_name": "Alādab llbyhqy",
+    "english_author": "Albyhqy"
+  },
+  {
+    "id": 423,
+    "english_name": "Albkhlaʾ llkhṭyb albghdady",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 424,
+    "english_name": "Altṭfyl llkhṭyb albghdady",
+    "english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 425,
+    "english_name": "Alqṣaṣ walmdhkryn labn aljwzy",
+    "english_author": "Abn aljwzy"
+  }
+]

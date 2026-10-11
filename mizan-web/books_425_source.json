@@ -1,0 +1,2977 @@
+[
+  {
+    "id": 1,
+    "arabic_name": "صحيح البخاري",
+    "arabic_author": "محمد بن إسماعيل البخاري",
+    "current_english_name": "Sahih al-Bukhari",
+    "current_english_author": "Imam Muhammad ibn Isma'il al-Bukhari"
+  },
+  {
+    "id": 2,
+    "arabic_name": "صحيح مسلم",
+    "arabic_author": "مسلم بن الحجاج",
+    "current_english_name": "Sahih Muslim",
+    "current_english_author": "Imam Muslim ibn al-Hajjaj"
+  },
+  {
+    "id": 3,
+    "arabic_name": "جامع الترمذي",
+    "arabic_author": "محمد بن عيسى الترمذي",
+    "current_english_name": "Jami' al-Tirmidhi",
+    "current_english_author": "Imam Muhammad ibn 'Isa al-Tirmidhi"
+  },
+  {
+    "id": 4,
+    "arabic_name": "سنن أبي داود",
+    "arabic_author": "أبو داود السجستاني",
+    "current_english_name": "Sunan Abi Dawud",
+    "current_english_author": "Imam Sulayman ibn al-Ash'ath al-Sijistani"
+  },
+  {
+    "id": 5,
+    "arabic_name": "سنن النسائى الصغرى",
+    "arabic_author": "النسائي",
+    "current_english_name": "Sunan al-Nasa'i",
+    "current_english_author": "Imam Ahmad ibn Shu'ayb al-Nasa'i"
+  },
+  {
+    "id": 6,
+    "arabic_name": "سنن ابن ماجه",
+    "arabic_author": "ابن ماجة القزويني",
+    "current_english_name": "Sunan Ibn Majah",
+    "current_english_author": "Imam Muhammad ibn Yazid Ibn Majah al-Qazwini"
+  },
+  {
+    "id": 7,
+    "arabic_name": "سنن الدارمي",
+    "arabic_author": "عبد الله بن عبد الرحمن الدارمي",
+    "current_english_name": "Sunan al-Darimi",
+    "current_english_author": "Imam 'Abd Allah ibn 'Abd al-Rahman al-Darimi"
+  },
+  {
+    "id": 8,
+    "arabic_name": "موطأ مالك رواية يحيى الليثي",
+    "arabic_author": "مالك بن أنس",
+    "current_english_name": "Muwatta' Malik, narration of Yahya al-Laythi",
+    "current_english_author": "Imam Malik ibn Anas"
+  },
+  {
+    "id": 9,
+    "arabic_name": "مسند أحمد بن حنبل",
+    "arabic_author": "أحمد بن حنبل",
+    "current_english_name": "Musnad Ahmad ibn Hanbal",
+    "current_english_author": "Imam Ahmad ibn Hanbal"
+  },
+  {
+    "id": 10,
+    "arabic_name": "صحيح ابن خزيمة",
+    "arabic_author": "ابن خزيمة",
+    "current_english_name": "Sahih Ibn Khuzaymah",
+    "current_english_author": "Imam Muhammad ibn Ishaq ibn Khuzaymah"
+  },
+  {
+    "id": 11,
+    "arabic_name": "صحيح ابن حبان",
+    "arabic_author": "أبو حاتم بن حبان",
+    "current_english_name": "Sahih abn ḥban",
+    "current_english_author": "Abw ḥatm bn ḥban"
+  },
+  {
+    "id": 12,
+    "arabic_name": "المستدرك على الصحيحين",
+    "arabic_author": "الحاكم النيسابوري",
+    "current_english_name": "Almstdrk ʿlā alṣḥyḥyn",
+    "current_english_author": "Alḥakm alnysabwry"
+  },
+  {
+    "id": 13,
+    "arabic_name": "مستخرج أبي عوانة",
+    "arabic_author": "أبو عوانة الإسفرائيني",
+    "current_english_name": "Mstkhrj aby ʿwanh",
+    "current_english_author": "Abw ʿwanh alisfraʾiyny"
+  },
+  {
+    "id": 14,
+    "arabic_name": "المسند المستخرج على صحيح مسلم لأبي نعيم",
+    "arabic_author": "أبو نعيم الأصبهاني",
+    "current_english_name": "Almsnd almstkhrj ʿlā Sahih mslm laby nʿym",
+    "current_english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 15,
+    "arabic_name": "الأحاديث المختارة",
+    "arabic_author": "الضياء المقدسي",
+    "current_english_name": "Alaḥadyth almkhtarh",
+    "current_english_author": "Alḍyaʾ almqdsy"
+  },
+  {
+    "id": 16,
+    "arabic_name": "مختصر الأحكام المستخرج على جامع الترمذي",
+    "arabic_author": "الطوسي",
+    "current_english_name": "Mkhtṣr alaḥkam almstkhrj ʿlā Jamiʿ altrmdhy",
+    "current_english_author": "Alṭwsy"
+  },
+  {
+    "id": 17,
+    "arabic_name": "السنن الكبرى للنسائي",
+    "arabic_author": "النسائي",
+    "current_english_name": "Alsnn alkbrā llnsaʾiy",
+    "current_english_author": "Alnsaʾiy"
+  },
+  {
+    "id": 18,
+    "arabic_name": "سنن سعيد بن منصور",
+    "arabic_author": "سعيد بن منصور",
+    "current_english_name": "Sunan sʿyd bn mnṣwr",
+    "current_english_author": "Sʿyd bn mnṣwr"
+  },
+  {
+    "id": 19,
+    "arabic_name": "المنتقى من السنن المسندة",
+    "arabic_author": "ابن الجارود النيسابوري",
+    "current_english_name": "Almntqā mn alsnn almsndh",
+    "current_english_author": "Abn aljarwd alnysabwry"
+  },
+  {
+    "id": 20,
+    "arabic_name": "سنن الدارقطني",
+    "arabic_author": "الدارقطني",
+    "current_english_name": "Sunan aldarqṭny",
+    "current_english_author": "Aldarqṭny"
+  },
+  {
+    "id": 21,
+    "arabic_name": "السنن الصغير للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Alsnn alṣghyr llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 22,
+    "arabic_name": "السنن الكبرى للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Alsnn alkbrā llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 23,
+    "arabic_name": "المدخل إلى السنن الكبرى للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Almdkhl ilā alsnn alkbrā llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 24,
+    "arabic_name": "معرفة السنن والآثار للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Mʿrfh alsnn walāthar llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 25,
+    "arabic_name": "موطأ مالك برواية محمد بن الحسن الشيباني",
+    "arabic_author": "مالك بن أنس",
+    "current_english_name": "Mwṭa malk brwayh mḥmd bn alḥsn alshybany",
+    "current_english_author": "Malk bn ans"
+  },
+  {
+    "id": 26,
+    "arabic_name": "موطأ مالك برواية أبي مصعب الزهري",
+    "arabic_author": "مالك بن أنس",
+    "current_english_name": "Mwṭa malk brwayh aby mṣʿb alzhry",
+    "current_english_author": "Malk bn ans"
+  },
+  {
+    "id": 27,
+    "arabic_name": "موطأ عبد الله بن وهب",
+    "arabic_author": "عبد الله بن وهب بن مسلم",
+    "current_english_name": "Mwṭa ʿbd allh bn whb",
+    "current_english_author": "ʿbd allh bn whb bn mslm"
+  },
+  {
+    "id": 28,
+    "arabic_name": "السنن المأثورة رواية المزني",
+    "arabic_author": "الشافعي",
+    "current_english_name": "Alsnn almathwrh rwayh almzny",
+    "current_english_author": "Alshafʿy"
+  },
+  {
+    "id": 29,
+    "arabic_name": "مسند أبي داود الطيالسي",
+    "arabic_author": "أبو داود الطياليسي",
+    "current_english_name": "Musnad aby dawd alṭyalsy",
+    "current_english_author": "Abw dawd alṭyalysy"
+  },
+  {
+    "id": 30,
+    "arabic_name": "مسند إسحاق بن راهويه",
+    "arabic_author": "إسحاق بن راهويه",
+    "current_english_name": "Musnad isḥaq bn rahwyh",
+    "current_english_author": "Isḥaq bn rahwyh"
+  },
+  {
+    "id": 31,
+    "arabic_name": "مسند الحميدي",
+    "arabic_author": "عبد الله بن الزبير الحميدي",
+    "current_english_name": "Musnad alḥmydy",
+    "current_english_author": "ʿbd allh bn alzbyr alḥmydy"
+  },
+  {
+    "id": 32,
+    "arabic_name": "مسند ابن الجعد",
+    "arabic_author": "علي بن الجعد الجوهري",
+    "current_english_name": "Musnad abn aljʿd",
+    "current_english_author": "ʿly bn aljʿd aljwhry"
+  },
+  {
+    "id": 33,
+    "arabic_name": "مسند الشافعي",
+    "arabic_author": "الشافعي",
+    "current_english_name": "Musnad alshafʿy",
+    "current_english_author": "Alshafʿy"
+  },
+  {
+    "id": 34,
+    "arabic_name": "مسند ابن أبي شيبة",
+    "arabic_author": "ابن ابي شيبة",
+    "current_english_name": "Musnad abn aby shybh",
+    "current_english_author": "Abn aby shybh"
+  },
+  {
+    "id": 35,
+    "arabic_name": "البحر الزخار بمسند البزار",
+    "arabic_author": "أبو بكر البزار",
+    "current_english_name": "Albḥr alzkhar bmsnd albzar",
+    "current_english_author": "Abw bkr albzar"
+  },
+  {
+    "id": 36,
+    "arabic_name": "البحر الزخار بمسند البزار 10-13",
+    "arabic_author": "أبو بكر البزار",
+    "current_english_name": "Albḥr alzkhar bmsnd albzar 10-13",
+    "current_english_author": "Abw bkr albzar"
+  },
+  {
+    "id": 37,
+    "arabic_name": "مسند أبي يعلى الموصلي",
+    "arabic_author": "أبو يعلى الموصلي",
+    "current_english_name": "Musnad aby yʿlā almwṣly",
+    "current_english_author": "Abw yʿlā almwṣly"
+  },
+  {
+    "id": 38,
+    "arabic_name": "مسند الروياني",
+    "arabic_author": "محمد بن هارون الروياني",
+    "current_english_name": "Musnad alrwyany",
+    "current_english_author": "Mḥmd bn harwn alrwyany"
+  },
+  {
+    "id": 39,
+    "arabic_name": "المسند للشاشي",
+    "arabic_author": "الهيثم بن كليب الشاشي",
+    "current_english_name": "Almsnd llshashy",
+    "current_english_author": "Alhythm bn klyb alshashy"
+  },
+  {
+    "id": 40,
+    "arabic_name": "المطالب العالية بزوائد المسانيد الثمانية لابن حجر",
+    "arabic_author": "ابن حجر العسقلاني",
+    "current_english_name": "Almṭalb alʿalyh bzwaʾid almsanyd althmanyh labn ḥjr",
+    "current_english_author": "Abn ḥjr alʿsqlany"
+  },
+  {
+    "id": 41,
+    "arabic_name": "إتحاف الخيرة المهرة بزوائد المسانيد العشرة",
+    "arabic_author": "البوصيري",
+    "current_english_name": "Itḥaf alkhyrh almhrh bzwaʾid almsanyd alʿshrh",
+    "current_english_author": "Albwṣyry"
+  },
+  {
+    "id": 42,
+    "arabic_name": "بغية الباحث عن زوائد مسند الحارث",
+    "arabic_author": "الهيثمي",
+    "current_english_name": "Bghyh albaḥth ʿn zwaʾid Musnad alḥarth",
+    "current_english_author": "Alhythmy"
+  },
+  {
+    "id": 43,
+    "arabic_name": "مسند السراج",
+    "arabic_author": "محمد بن إسحاق الخراساني",
+    "current_english_name": "Musnad alsraj",
+    "current_english_author": "Mḥmd bn isḥaq alkhrasany"
+  },
+  {
+    "id": 44,
+    "arabic_name": "مسند عائشة لابن أبي داود",
+    "arabic_author": "ابن أبي داود السجستاني",
+    "current_english_name": "Musnad ʿaʾishh labn aby dawd",
+    "current_english_author": "Abn aby dawd alsjstany"
+  },
+  {
+    "id": 45,
+    "arabic_name": "مسند الشاميين للطبراني",
+    "arabic_author": "سليمان بن أحمد الطبراني",
+    "current_english_name": "Musnad alshamyyn llṭbrany",
+    "current_english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 46,
+    "arabic_name": "مسند الموطأ للجوهري",
+    "arabic_author": "الحسن بن علي الجوهري",
+    "current_english_name": "Musnad almwṭa lljwhry",
+    "current_english_author": "Alḥsn bn ʿly aljwhry"
+  },
+  {
+    "id": 47,
+    "arabic_name": "مسند أبي حنيفة رواية الحصكفي",
+    "arabic_author": "أبو حنيفة",
+    "current_english_name": "Musnad aby ḥnyfh rwayh alḥṣkfy",
+    "current_english_author": "Abw ḥnyfh"
+  },
+  {
+    "id": 48,
+    "arabic_name": "مسند الشهاب",
+    "arabic_author": "الشهاب القضاعي",
+    "current_english_name": "Musnad alshhab",
+    "current_english_author": "Alshhab alqḍaʿy"
+  },
+  {
+    "id": 49,
+    "arabic_name": "مسند عبد الله بن المبارك",
+    "arabic_author": "عبد الله بن المبارك",
+    "current_english_name": "Musnad ʿbd allh bn almbark",
+    "current_english_author": "ʿbd allh bn almbark"
+  },
+  {
+    "id": 50,
+    "arabic_name": "مسند أبي حنيفة رواية أبي نعيم",
+    "arabic_author": "أبو حنيفة",
+    "current_english_name": "Musnad aby ḥnyfh rwayh aby nʿym",
+    "current_english_author": "Abw ḥnyfh"
+  },
+  {
+    "id": 51,
+    "arabic_name": "مسند سعد بن أبي وقاص للدورقي",
+    "arabic_author": "أحمد بن إبراهيم الدورقي",
+    "current_english_name": "Musnad sʿd bn aby wqaṣ lldwrqy",
+    "current_english_author": "Aḥmd bn ibrahym aldwrqy"
+  },
+  {
+    "id": 52,
+    "arabic_name": "مسند عبد بن حميد",
+    "arabic_author": "عبد بن حميد",
+    "current_english_name": "Musnad ʿbd bn ḥmyd",
+    "current_english_author": "ʿbd bn ḥmyd"
+  },
+  {
+    "id": 53,
+    "arabic_name": "مسند عبد الله بن عمر للطرسوسي",
+    "arabic_author": "أبو أمية الطرسوسي",
+    "current_english_name": "Musnad ʿbd allh bn ʿmr llṭrswsy",
+    "current_english_author": "Abw amyh alṭrswsy"
+  },
+  {
+    "id": 54,
+    "arabic_name": "مسند أبي بكر الصديق للمروزي",
+    "arabic_author": "أحمد بن علي المروزي",
+    "current_english_name": "Musnad aby bkr alṣdyq llmrwzy",
+    "current_english_author": "Aḥmd bn ʿly almrwzy"
+  },
+  {
+    "id": 55,
+    "arabic_name": "مسند زيد",
+    "arabic_author": "زيد بن علي بن الحسين",
+    "current_english_name": "Musnad zyd",
+    "current_english_author": "Zyd bn ʿly bn alḥsyn"
+  },
+  {
+    "id": 56,
+    "arabic_name": "مسند الربيع بن حبيب",
+    "arabic_author": "الربيع بن حبيب",
+    "current_english_name": "Musnad alrbyʿ bn ḥbyb",
+    "current_english_author": "Alrbyʿ bn ḥbyb"
+  },
+  {
+    "id": 57,
+    "arabic_name": "مسند الإمام الشافعي ( ترتيب سنجر)",
+    "arabic_author": "الأمير سنجر",
+    "current_english_name": "Musnad alimam alshafʿy ( trtyb snjr)",
+    "current_english_author": "Alamyr snjr"
+  },
+  {
+    "id": 58,
+    "arabic_name": "المقصد العلي في زوائد أبي يعلى الموصلي جزء",
+    "arabic_author": "الهيثمي",
+    "current_english_name": "Almqṣd alʿly fy zwaʾid aby yʿlā almwṣly jzʾ",
+    "current_english_author": "Alhythmy"
+  },
+  {
+    "id": 59,
+    "arabic_name": "كشف الأستار",
+    "arabic_author": "نور الدين الهيثمي",
+    "current_english_name": "Kshf alastar",
+    "current_english_author": "Nwr aldyn alhythmy"
+  },
+  {
+    "id": 60,
+    "arabic_name": "مسند عقبة بن عامر",
+    "arabic_author": "القاسم بن قطلوبغا الحنفي",
+    "current_english_name": "Musnad ʿqbh bn ʿamr",
+    "current_english_author": "Alqasm bn qṭlwbgha alḥnfy"
+  },
+  {
+    "id": 61,
+    "arabic_name": "مصنف عبد الرزاق",
+    "arabic_author": "عبد الرزاق الصنعاني",
+    "current_english_name": "Mṣnf ʿbd alrzaq",
+    "current_english_author": "ʿbd alrzaq alṣnʿany"
+  },
+  {
+    "id": 62,
+    "arabic_name": "مصنف ابن أبي شيبة",
+    "arabic_author": "ابن ابي شيبة",
+    "current_english_name": "Mṣnf abn aby shybh",
+    "current_english_author": "Abn aby shybh"
+  },
+  {
+    "id": 63,
+    "arabic_name": "الجامع لمعمر بن راشد",
+    "arabic_author": "معمر بن راشد الأزدي",
+    "current_english_name": "Aljamʿ lmʿmr bn rashd",
+    "current_english_author": "Mʿmr bn rashd alazdy"
+  },
+  {
+    "id": 64,
+    "arabic_name": "الجامع في الحديث لابن وهب",
+    "arabic_author": "عبد الله بن وهب بن مسلم",
+    "current_english_name": "Aljamʿ fy alḥdyth labn whb",
+    "current_english_author": "ʿbd allh bn whb bn mslm"
+  },
+  {
+    "id": 65,
+    "arabic_name": "المعجم الصغير للطبراني",
+    "arabic_author": "سليمان بن أحمد الطبراني",
+    "current_english_name": "Almʿjm alṣghyr llṭbrany",
+    "current_english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 66,
+    "arabic_name": "المعجم الأوسط للطبراني",
+    "arabic_author": "سليمان بن أحمد الطبراني",
+    "current_english_name": "Almʿjm alawsṭ llṭbrany",
+    "current_english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 67,
+    "arabic_name": "المعجم الكبير للطبراني",
+    "arabic_author": "سليمان بن أحمد الطبراني",
+    "current_english_name": "Almʿjm alkbyr llṭbrany",
+    "current_english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 68,
+    "arabic_name": "مشيخة ابن طهمان",
+    "arabic_author": "إبراهيم بن طهمان",
+    "current_english_name": "Mshykhh abn ṭhman",
+    "current_english_author": "Ibrahym bn ṭhman"
+  },
+  {
+    "id": 69,
+    "arabic_name": "معجم أبي يعلى الموصلي",
+    "arabic_author": "أبو يعلى الموصلي",
+    "current_english_name": "Mʿjm aby yʿlā almwṣly",
+    "current_english_author": "Abw yʿlā almwṣly"
+  },
+  {
+    "id": 70,
+    "arabic_name": "معجم ابن الأعرابي",
+    "arabic_author": "ابن الأعرابي",
+    "current_english_name": "Mʿjm abn alaʿraby",
+    "current_english_author": "Abn alaʿraby"
+  },
+  {
+    "id": 71,
+    "arabic_name": "معجم الصحابة لابن قانع",
+    "arabic_author": "ابن قانع البغدادي",
+    "current_english_name": "Mʿjm alṣḥabh labn qanʿ",
+    "current_english_author": "Abn qanʿ albghdady"
+  },
+  {
+    "id": 72,
+    "arabic_name": "معجم أسامي شيوخ أبي بكر الإسماعيلي",
+    "arabic_author": "أبو بكر الإسماعيلي",
+    "current_english_name": "Mʿjm asamy shywkh aby bkr alismaʿyly",
+    "current_english_author": "Abw bkr alismaʿyly"
+  },
+  {
+    "id": 73,
+    "arabic_name": "معجم ابن المقرئ",
+    "arabic_author": "أبو بكر بن المقرئ",
+    "current_english_name": "Mʿjm abn almqrʾi",
+    "current_english_author": "Abw bkr bn almqrʾi"
+  },
+  {
+    "id": 74,
+    "arabic_name": "معجم الشيوخ لابن جميع الصيداوي",
+    "arabic_author": "ابن جميع الصيداوي",
+    "current_english_name": "Mʿjm alshywkh labn jmyʿ alṣydawy",
+    "current_english_author": "Abn jmyʿ alṣydawy"
+  },
+  {
+    "id": 75,
+    "arabic_name": "العمدة من الفوائد والآثار الصحاح في مشيخة شهدة",
+    "arabic_author": "شهدة بنت أحمد بن الفرج الدينوري",
+    "current_english_name": "Alʿmdh mn alfwaʾid walāthar alṣḥaḥ fy mshykhh shhdh",
+    "current_english_author": "Shhdh bnt aḥmd bn alfrj aldynwry"
+  },
+  {
+    "id": 76,
+    "arabic_name": "مشيخة محمد الرازي ابن الحطاب",
+    "arabic_author": "أبو طاهر السلفي",
+    "current_english_name": "Mshykhh mḥmd alrazy abn alḥṭab",
+    "current_english_author": "Abw ṭahr alslfy"
+  },
+  {
+    "id": 77,
+    "arabic_name": "معجم السفر للسلفي",
+    "arabic_author": "أبو طاهر السلفي",
+    "current_english_name": "Mʿjm alsfr llslfy",
+    "current_english_author": "Abw ṭahr alslfy"
+  },
+  {
+    "id": 78,
+    "arabic_name": "المعجم المختص بالمحدثين الذهبي",
+    "arabic_author": "الذهبي",
+    "current_english_name": "Almʿjm almkhtṣ balmḥdthyn aldhhby",
+    "current_english_author": "Aldhhby"
+  },
+  {
+    "id": 79,
+    "arabic_name": "المنتخب من معجم شيوخ ابن السمعاني",
+    "arabic_author": "ابن السمعاني",
+    "current_english_name": "Almntkhb mn mʿjm shywkh abn alsmʿany",
+    "current_english_author": "Abn alsmʿany"
+  },
+  {
+    "id": 80,
+    "arabic_name": "معجم أصحاب القاضي أبي علي الصدفي",
+    "arabic_author": "ابن الأبار القضاعي",
+    "current_english_name": "Mʿjm aṣḥab alqaḍy aby ʿly alṣdfy",
+    "current_english_author": "Abn alabar alqḍaʿy"
+  },
+  {
+    "id": 81,
+    "arabic_name": "مشيخة ابن جماعة",
+    "arabic_author": "ابن جماعة",
+    "current_english_name": "Mshykhh abn jmaʿh",
+    "current_english_author": "Abn jmaʿh"
+  },
+  {
+    "id": 82,
+    "arabic_name": "مشيخة ابن البخاري",
+    "arabic_author": "أحمد بن محمد الظاهري الحنفي",
+    "current_english_name": "Mshykhh abn albkhary",
+    "current_english_author": "Aḥmd bn mḥmd alẓahry alḥnfy"
+  },
+  {
+    "id": 83,
+    "arabic_name": "معجم الشيوخ الكبير للذهبي",
+    "arabic_author": "الذهبي",
+    "current_english_name": "Mʿjm alshywkh alkbyr lldhhby",
+    "current_english_author": "Aldhhby"
+  },
+  {
+    "id": 84,
+    "arabic_name": "معجم الشيوخ لتاج الدين السبكي",
+    "arabic_author": "السبكي",
+    "current_english_name": "Mʿjm alshywkh ltaj aldyn alsbky",
+    "current_english_author": "Alsbky"
+  },
+  {
+    "id": 85,
+    "arabic_name": "صحيفة همام بن منبه",
+    "arabic_author": "همام بن منبه",
+    "current_english_name": "Ṣḥyfh hmam bn mnbh",
+    "current_english_author": "Hmam bn mnbh"
+  },
+  {
+    "id": 86,
+    "arabic_name": "حديث إسماعيل بن جعفر",
+    "arabic_author": "إسماعيل بن جعفر",
+    "current_english_name": "Ḥdyth ismaʿyl bn jʿfr",
+    "current_english_author": "Ismaʿyl bn jʿfr"
+  },
+  {
+    "id": 87,
+    "arabic_name": "جزء أبي جهم البغدادي",
+    "arabic_author": "أبو جهم البغدادي",
+    "current_english_name": "Jzʾ aby jhm albghdady",
+    "current_english_author": "Abw jhm albghdady"
+  },
+  {
+    "id": 88,
+    "arabic_name": "حديث يحيى بن معين رواية أبي بكر المروزي",
+    "arabic_author": "يحيى بن معين",
+    "current_english_name": "Ḥdyth yḥyā bn mʿyn rwayh aby bkr almrwzy",
+    "current_english_author": "Yḥyā bn mʿyn"
+  },
+  {
+    "id": 89,
+    "arabic_name": "جزء من حديث لوين المصيصي",
+    "arabic_author": "محمد بن سليمان لوين المصيصي",
+    "current_english_name": "Jzʾ mn ḥdyth lwyn almṣyṣy",
+    "current_english_author": "Mḥmd bn slyman lwyn almṣyṣy"
+  },
+  {
+    "id": 90,
+    "arabic_name": "حديث هشام بن عمار",
+    "arabic_author": "هشام بن عمار",
+    "current_english_name": "Ḥdyth hsham bn ʿmar",
+    "current_english_author": "Hsham bn ʿmar"
+  },
+  {
+    "id": 91,
+    "arabic_name": "جزء حنبل بن إسحاق",
+    "arabic_author": "حنبل بن إسحاق",
+    "current_english_name": "Jzʾ ḥnbl bn isḥaq",
+    "current_english_author": "Ḥnbl bn isḥaq"
+  },
+  {
+    "id": 92,
+    "arabic_name": "الأوائل لابن أبي عاصم",
+    "arabic_author": "ابن أبي عاصم",
+    "current_english_name": "Alawaʾil labn aby ʿaṣm",
+    "current_english_author": "Abn aby ʿaṣm"
+  },
+  {
+    "id": 93,
+    "arabic_name": "المفاريد عن رسول الله صلى الله عليه وسلم لأبي يعلى الموصلي",
+    "arabic_author": "أبو يعلى الموصلي",
+    "current_english_name": "Almfaryd ʿn rswl allh ṣlā allh ʿlyh wslm laby yʿlā almwṣly",
+    "current_english_author": "Abw yʿlā almwṣly"
+  },
+  {
+    "id": 94,
+    "arabic_name": "الجزء الحادي عشر من فوائد ابن البختري",
+    "arabic_author": "أبو جعفر بن البختري",
+    "current_english_name": "Aljzʾ alḥady ʿshr mn fwaʾid abn albkhtry",
+    "current_english_author": "Abw jʿfr bn albkhtry"
+  },
+  {
+    "id": 95,
+    "arabic_name": "الجزء الرابع من حديث ابن البختري",
+    "arabic_author": "أبو جعفر بن البختري",
+    "current_english_name": "Aljzʾ alrabʿ mn ḥdyth abn albkhtry",
+    "current_english_author": "Abw jʿfr bn albkhtry"
+  },
+  {
+    "id": 96,
+    "arabic_name": "جزء فيه ستة مجالس من أمالي ابن البختري",
+    "arabic_author": "أبو جعفر بن البختري",
+    "current_english_name": "Jzʾ fyh sth mjals mn amaly abn albkhtry",
+    "current_english_author": "Abw jʿfr bn albkhtry"
+  },
+  {
+    "id": 97,
+    "arabic_name": "فوائد أبي محمد الفاكهي",
+    "arabic_author": "الفاكهي",
+    "current_english_name": "Fwaʾid aby mḥmd alfakhy",
+    "current_english_author": "Alfakhy"
+  },
+  {
+    "id": 98,
+    "arabic_name": "الفوائد الشهير بالغيلانيات لأبي بكر الشافعي",
+    "arabic_author": "أبو بكر الشافعي",
+    "current_english_name": "Alfwaʾid alshhyr balghylanyat laby bkr alshafʿy",
+    "current_english_author": "Abw bkr alshafʿy"
+  },
+  {
+    "id": 99,
+    "arabic_name": "طرق حديث من كذب علي متعمدا للطبراني",
+    "arabic_author": "سليمان بن أحمد الطبراني",
+    "current_english_name": "Ṭrq ḥdyth mn kdhb ʿly mtʿmda llṭbrany",
+    "current_english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 100,
+    "arabic_name": "جزء الألف دينار للقطيعي",
+    "arabic_author": "أبو بكر القطيعي",
+    "current_english_name": "Jzʾ alalf dynar llqṭyʿy",
+    "current_english_author": "Abw bkr alqṭyʿy"
+  },
+  {
+    "id": 101,
+    "arabic_name": "جزء ما رواه أبي الزبير عن غير جابر",
+    "arabic_author": "أبو الشيخ الأصبهاني",
+    "current_english_name": "Jzʾ ma rwah aby alzbyr ʿn ghyr jabr",
+    "current_english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 102,
+    "arabic_name": "فوائد ابن حيان",
+    "arabic_author": "أبو الشيخ الأصبهاني",
+    "current_english_name": "Fwaʾid abn ḥyan",
+    "current_english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 103,
+    "arabic_name": "غرائب مالك بن أنس",
+    "arabic_author": "محمد بن المظفر البزار",
+    "current_english_name": "Ghraʾib malk bn ans",
+    "current_english_author": "Mḥmd bn almẓfr albzar"
+  },
+  {
+    "id": 104,
+    "arabic_name": "حديث أبي الفضل الزهري",
+    "arabic_author": "الحسن بن علي الجوهري",
+    "current_english_name": "Ḥdyth aby alfḍl alzhry",
+    "current_english_author": "Alḥsn bn ʿly aljwhry"
+  },
+  {
+    "id": 105,
+    "arabic_name": "الفوائد المنتقاة عن الشيوخ العوالي للحربي",
+    "arabic_author": "علي بن عمر الحربي",
+    "current_english_name": "Alfwaʾid almntqah ʿn alshywkh alʿwaly llḥrby",
+    "current_english_author": "ʿly bn ʿmr alḥrby"
+  },
+  {
+    "id": 106,
+    "arabic_name": "جزء أبي الطاهر",
+    "arabic_author": "أبو الطاهر الذهلي",
+    "current_english_name": "Jzʾ aby alṭahr",
+    "current_english_author": "Abw alṭahr aldhhly"
+  },
+  {
+    "id": 107,
+    "arabic_name": "جزء فيه ما انتقى ابن مردويه على أبي القاسم الطبراني لابن مردويه",
+    "arabic_author": "أحمد بن موسى ابن مردويه",
+    "current_english_name": "Jzʾ fyh ma antqā abn mrdwyh ʿlā aby alqasm alṭbrany labn mrdwyh",
+    "current_english_author": "Aḥmd bn mwsā abn mrdwyh"
+  },
+  {
+    "id": 108,
+    "arabic_name": "الأربعون في شيوخ الصوفية للماليني",
+    "arabic_author": "أحمد بن محمد الماليني",
+    "current_english_name": "Alarbʿwn fy shywkh alṣwfyh llmalyny",
+    "current_english_author": "Aḥmd bn mḥmd almalyny"
+  },
+  {
+    "id": 109,
+    "arabic_name": "فوائد تمام الرازي",
+    "arabic_author": "تمام بن محمد الرازي",
+    "current_english_name": "Fwaʾid tmam alrazy",
+    "current_english_author": "Tmam bn mḥmd alrazy"
+  },
+  {
+    "id": 110,
+    "arabic_name": "فوائد العراقيين للنقاش",
+    "arabic_author": "علي بن عمرو النقاش",
+    "current_english_name": "Fwaʾid alʿraqyyn llnqash",
+    "current_english_author": "ʿly bn ʿmrw alnqash"
+  },
+  {
+    "id": 111,
+    "arabic_name": "الأربعون الصغرى للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Alarbʿwn alṣghrā llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 112,
+    "arabic_name": "المهروانيات والفوائد المنتخبة الصحاح والغرائب ليوسف بن محمد",
+    "arabic_author": "يوسف بن محمد المهرواني",
+    "current_english_name": "Almhrwanyat walfwaʾid almntkhbh alṣḥaḥ walghraʾib lywsf bn mḥmd",
+    "current_english_author": "Ywsf bn mḥmd almhrwany"
+  },
+  {
+    "id": 113,
+    "arabic_name": "الأربعين المرتبة على طبقات الأربعين لابن المفضل المقدسي",
+    "arabic_author": "علي بن المفضل المقدسي",
+    "current_english_name": "Alarbʿyn almrtbh ʿlā ṭbqat alarbʿyn labn almfḍl almqdsy",
+    "current_english_author": "ʿly bn almfḍl almqdsy"
+  },
+  {
+    "id": 114,
+    "arabic_name": "جزء من حديث أبي بكر بن المقرئ",
+    "arabic_author": "محمد بن عبد الرحمن المقرئ",
+    "current_english_name": "Jzʾ mn ḥdyth aby bkr bn almqrʾi",
+    "current_english_author": "Mḥmd bn ʿbd alrḥmn almqrʾi"
+  },
+  {
+    "id": 115,
+    "arabic_name": "عوالي مالك بن أنس رواية ابن الحاجب",
+    "arabic_author": "عمر بن الحاجب الأميني",
+    "current_english_name": "ʿwaly malk bn ans rwayh abn alḥajb",
+    "current_english_author": "ʿmr bn alḥajb alamyny"
+  },
+  {
+    "id": 116,
+    "arabic_name": "عوالي مالك بن أنس لأبي أحمد الحاكم",
+    "arabic_author": "أبو أحمد الحاكم",
+    "current_english_name": "ʿwaly malk bn ans laby aḥmd alḥakm",
+    "current_english_author": "Abw aḥmd alḥakm"
+  },
+  {
+    "id": 117,
+    "arabic_name": "الأوائل",
+    "arabic_author": "أبو عروبة الحراني",
+    "current_english_name": "Alawaʾil",
+    "current_english_author": "Abw ʿrwbh alḥrany"
+  },
+  {
+    "id": 118,
+    "arabic_name": "جزء من نسخة إبراهيم بن سعد",
+    "arabic_author": "عبد الوهاب بن منده",
+    "current_english_name": "Jzʾ mn nskhh ibrahym bn sʿd",
+    "current_english_author": "ʿbd alwhab bn mndh"
+  },
+  {
+    "id": 119,
+    "arabic_name": "الجزء الأول والثاني من فوائد ابن بشران",
+    "arabic_author": "أبو الحسين بن بشران",
+    "current_english_name": "Aljzʾ alawl walthany mn fwaʾid abn bshran",
+    "current_english_author": "Abw alḥsyn bn bshran"
+  },
+  {
+    "id": 120,
+    "arabic_name": "الآثار المروية في الأطعمة العطرية",
+    "arabic_author": "ابن بشكوال",
+    "current_english_name": "Alāthar almrwyh fy alaṭʿmh alʿṭryh",
+    "current_english_author": "Abn bshkwal"
+  },
+  {
+    "id": 121,
+    "arabic_name": "الأربعون حديثا من المساواة",
+    "arabic_author": "ابن عساكر الدمشقي",
+    "current_english_name": "Alarbʿwn ḥdytha mn almsawah",
+    "current_english_author": "Abn ʿsakr aldmshqy"
+  },
+  {
+    "id": 122,
+    "arabic_name": "الطيوريات",
+    "arabic_author": "أبو الحسن الطيوري",
+    "current_english_name": "Alṭywryat",
+    "current_english_author": "Abw alḥsn alṭywry"
+  },
+  {
+    "id": 123,
+    "arabic_name": "جزء أبي العباس بن عصم",
+    "arabic_author": "أبو العباس بن عصم",
+    "current_english_name": "Jzʾ aby alʿbas bn ʿṣm",
+    "current_english_author": "Abw alʿbas bn ʿṣm"
+  },
+  {
+    "id": 124,
+    "arabic_name": "جزء الحسن بن رشيق",
+    "arabic_author": "الحسن بن رشيق",
+    "current_english_name": "Jzʾ alḥsn bn rshyq",
+    "current_english_author": "Alḥsn bn rshyq"
+  },
+  {
+    "id": 125,
+    "arabic_name": "فوائد ابن أخي ميمي الدقاق",
+    "arabic_author": "أبو الحسين البغدادي",
+    "current_english_name": "Fwaʾid abn akhy mymy aldqaq",
+    "current_english_author": "Abw alḥsyn albghdady"
+  },
+  {
+    "id": 126,
+    "arabic_name": "أحاديث عفان بن مسلم",
+    "arabic_author": "عفان بن مسلم الصفار",
+    "current_english_name": "Aḥadyth ʿfan bn mslm",
+    "current_english_author": "ʿfan bn mslm alṣfar"
+  },
+  {
+    "id": 127,
+    "arabic_name": "جزء أبي عثمان سعدان بن نصر بن منصور المخرمي",
+    "arabic_author": "سعدان بن نصر بن منصور المخرمي البزار",
+    "current_english_name": "Jzʾ aby ʿthman sʿdan bn nṣr bn mnṣwr almkhrmy",
+    "current_english_author": "Sʿdan bn nṣr bn mnṣwr almkhrmy albzar"
+  },
+  {
+    "id": 128,
+    "arabic_name": "الجزء الثاني من مسند أبي هريرة",
+    "arabic_author": "إبراهيم بن حرب العسكري",
+    "current_english_name": "Aljzʾ althany mn Musnad aby hryrh",
+    "current_english_author": "Ibrahym bn ḥrb alʿskry"
+  },
+  {
+    "id": 129,
+    "arabic_name": "الأحاديث المائة للحافظ العلامة محمد بن علي بن طولون",
+    "arabic_author": "محمد بن علي بن طولون",
+    "current_english_name": "Alaḥadyth almaʾih llḥafẓ alʿlamh mḥmd bn ʿly bn ṭwlwn",
+    "current_english_author": "Mḥmd bn ʿly bn ṭwlwn"
+  },
+  {
+    "id": 130,
+    "arabic_name": "بغية الملتمس",
+    "arabic_author": "العلائي",
+    "current_english_name": "Bghyh almltms",
+    "current_english_author": "Alʿlaʾiy"
+  },
+  {
+    "id": 131,
+    "arabic_name": "نظم الآلي بالمائة العوالي",
+    "arabic_author": "ابن حجر العسقلاني",
+    "current_english_name": "Nẓm alāly balmaʾih alʿwaly",
+    "current_english_author": "Abn ḥjr alʿsqlany"
+  },
+  {
+    "id": 132,
+    "arabic_name": "الأمالي في آثار الصحابة لعبد الرزاق الصنعاني",
+    "arabic_author": "عبد الرزاق الصنعاني",
+    "current_english_name": "Alamaly fy āthar alṣḥabh lʿbd alrzaq alṣnʿany",
+    "current_english_author": "ʿbd alrzaq alṣnʿany"
+  },
+  {
+    "id": 133,
+    "arabic_name": "أمالي أبي إسحاق",
+    "arabic_author": "إبراهيم بن عبد الصمد الهاشمي",
+    "current_english_name": "Amaly aby isḥaq",
+    "current_english_author": "Ibrahym bn ʿbd alṣmd alhashmy"
+  },
+  {
+    "id": 134,
+    "arabic_name": "أمالي المحاملي رواية ابن يحيى البيع",
+    "arabic_author": "الحسين بن إسماعيل المحاملي",
+    "current_english_name": "Amaly almḥamly rwayh abn yḥyā albyʿ",
+    "current_english_author": "Alḥsyn bn ismaʿyl almḥamly"
+  },
+  {
+    "id": 135,
+    "arabic_name": "أمالي الزجاج",
+    "arabic_author": "عبد الرحمن بن إسحاق",
+    "current_english_name": "Amaly alzjaj",
+    "current_english_author": "ʿbd alrḥmn bn isḥaq"
+  },
+  {
+    "id": 136,
+    "arabic_name": "أمالي ابن سمعون الواعظ",
+    "arabic_author": "ابن سمعون الواعظ",
+    "current_english_name": "Amaly abn smʿwn alwaʿẓ",
+    "current_english_author": "Abn smʿwn alwaʿẓ"
+  },
+  {
+    "id": 137,
+    "arabic_name": "أمالي ابن بشران",
+    "arabic_author": "أبو القاسم بن بشران",
+    "current_english_name": "Amaly abn bshran",
+    "current_english_author": "Abw alqasm bn bshran"
+  },
+  {
+    "id": 138,
+    "arabic_name": "الأمالي الخميسية للشجري",
+    "arabic_author": "يحيى بن الحسين الشجري الجرجاني",
+    "current_english_name": "Alamaly alkhmysyh llshjry",
+    "current_english_author": "Yḥyā bn alḥsyn alshjry aljrjany"
+  },
+  {
+    "id": 139,
+    "arabic_name": "أمالي ابن بشران ( مجالس أخرى )",
+    "arabic_author": "عبد الملك بن بشران",
+    "current_english_name": "Amaly abn bshran ( mjals akhrā )",
+    "current_english_author": "ʿbd almlk bn bshran"
+  },
+  {
+    "id": 140,
+    "arabic_name": "مجالس من أمالي أبي عبد الله بن منده",
+    "arabic_author": "أبو عبد الله بن منده",
+    "current_english_name": "Mjals mn amaly aby ʿbd allh bn mndh",
+    "current_english_author": "Abw ʿbd allh bn mndh"
+  },
+  {
+    "id": 141,
+    "arabic_name": "اختلاف الحديث للشافعي",
+    "arabic_author": "الشافعي",
+    "current_english_name": "Akhtlaf alḥdyth llshafʿy",
+    "current_english_author": "Alshafʿy"
+  },
+  {
+    "id": 142,
+    "arabic_name": "غريب الحديث للهروي",
+    "arabic_author": "القاسم بن سلام الهروي",
+    "current_english_name": "Ghryb alḥdyth llhrwy",
+    "current_english_author": "Alqasm bn slam alhrwy"
+  },
+  {
+    "id": 143,
+    "arabic_name": "المراسيل مع الأسانيد لأبي داود",
+    "arabic_author": "أبو داود السجستاني",
+    "current_english_name": "Almrasyl mʿ alasanyd laby dawd",
+    "current_english_author": "Abw dawd alsjstany"
+  },
+  {
+    "id": 144,
+    "arabic_name": "تأويل مختلف الحديث لابن قتيبة",
+    "arabic_author": "عبد الله بن مسلم",
+    "current_english_name": "Tawyl mkhtlf alḥdyth labn qtybh",
+    "current_english_author": "ʿbd allh bn mslm"
+  },
+  {
+    "id": 145,
+    "arabic_name": "غريب الحديث للحربي",
+    "arabic_author": "إبراهيم بن إسحاق الحربي",
+    "current_english_name": "Ghryb alḥdyth llḥrby",
+    "current_english_author": "Ibrahym bn isḥaq alḥrby"
+  },
+  {
+    "id": 146,
+    "arabic_name": "الدلائل في غريب الحديث",
+    "arabic_author": "القاسم بن ثابت السرقسطي",
+    "current_english_name": "Aldlaʾil fy ghryb alḥdyth",
+    "current_english_author": "Alqasm bn thabt alsrqsṭy"
+  },
+  {
+    "id": 147,
+    "arabic_name": "المراسيل لابن أبي حاتم",
+    "arabic_author": "ابن أبي حاتم الرازي",
+    "current_english_name": "Almrasyl labn aby ḥatm",
+    "current_english_author": "Abn aby ḥatm alrazy"
+  },
+  {
+    "id": 148,
+    "arabic_name": "المحدث الفاصل بين الرواي والواعي",
+    "arabic_author": "الرامهرمزي",
+    "current_english_name": "Almḥdth alfaṣl byn alrway walwaʿy",
+    "current_english_author": "Alramhrmzy"
+  },
+  {
+    "id": 149,
+    "arabic_name": "أمثال الحديث للرامهرمزي",
+    "arabic_author": "الرامهرمزي",
+    "current_english_name": "Amthal alḥdyth llramhrmzy",
+    "current_english_author": "Alramhrmzy"
+  },
+  {
+    "id": 150,
+    "arabic_name": "أمثال الحديث لأبي الشيخ الأصبهاني",
+    "arabic_author": "أبو الشيخ الأصبهاني",
+    "current_english_name": "Amthal alḥdyth laby alshykh alaṣbhany",
+    "current_english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 151,
+    "arabic_name": "ناسخ الحديث ومنسوخه لابن شاهين",
+    "arabic_author": "ابن شاهين",
+    "current_english_name": "Naskh alḥdyth wmnswkhh labn shahyn",
+    "current_english_author": "Abn shahyn"
+  },
+  {
+    "id": 152,
+    "arabic_name": "غريب الحديث للخطابي",
+    "arabic_author": "الخطابي البستي",
+    "current_english_name": "Ghryb alḥdyth llkhṭaby",
+    "current_english_author": "Alkhṭaby albsty"
+  },
+  {
+    "id": 153,
+    "arabic_name": "تصحيفات المحدثين",
+    "arabic_author": "الحسن بن عبد الله بن سهل العسكري",
+    "current_english_name": "Tṣḥyfat almḥdthyn",
+    "current_english_author": "Alḥsn bn ʿbd allh bn shl alʿskry"
+  },
+  {
+    "id": 154,
+    "arabic_name": "معرفة علوم الحديث للحاكم",
+    "arabic_author": "الحاكم النيسابوري",
+    "current_english_name": "Mʿrfh ʿlwm alḥdyth llḥakm",
+    "current_english_author": "Alḥakm alnysabwry"
+  },
+  {
+    "id": 155,
+    "arabic_name": "الجامع لأخلاق الراوي وآداب السامع للخطيب",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Aljamʿ lakhlaq alrawy wādab alsamʿ llkhṭyb",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 156,
+    "arabic_name": "الكفاية في علم الرواية للخطيب",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Alkfayh fy Ilm alrwayh llkhṭyb",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 157,
+    "arabic_name": "تقييد العلم للخطيب",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Tqyyd alʿlm llkhṭyb",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 158,
+    "arabic_name": "تلخيص المتشابه في الرسم",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Tlkhyṣ almtshabh fy alrsm",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 159,
+    "arabic_name": "شرف أصحاب الحديث للخطيب",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Shrf aṣḥab alḥdyth llkhṭyb",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 160,
+    "arabic_name": "موضح أوهام الجمع والتفريق للخطيب",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Mwḍḥ awham aljmʿ waltfryq llkhṭyb",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 161,
+    "arabic_name": "الإلماع إلى علم أصول الرواية لقاضي عياض",
+    "arabic_author": "القاضي عياض بن موسى اليحصبي",
+    "current_english_name": "Alilmaʿ ilā Ilm aṣwl alrwayh lqaḍy ʿyaḍ",
+    "current_english_author": "Alqaḍy ʿyaḍ bn mwsā alyḥṣby"
+  },
+  {
+    "id": 162,
+    "arabic_name": "أدب الإملاء والاستملاء لابن السمعاني",
+    "arabic_author": "عبد الكريم بن محمد السمعاني",
+    "current_english_name": "Adb alimlaʾ walastmlaʾ labn alsmʿany",
+    "current_english_author": "ʿbd alkrym bn mḥmd alsmʿany"
+  },
+  {
+    "id": 163,
+    "arabic_name": "غوامض الأسماء المبهمة لابن بشكوال",
+    "arabic_author": "ابن بشكوال",
+    "current_english_name": "Ghwamḍ alasmaʾ almbhmh labn bshkwal",
+    "current_english_author": "Abn bshkwal"
+  },
+  {
+    "id": 164,
+    "arabic_name": "الاعتبار في الناسخ والمنسوخ من الآثار للحازمي",
+    "arabic_author": "محمد بن موسى الحازمي",
+    "current_english_name": "Alaʿtbar fy alnaskh walmnswkh mn alāthar llḥazmy",
+    "current_english_author": "Mḥmd bn mwsā alḥazmy"
+  },
+  {
+    "id": 165,
+    "arabic_name": "إعلام العالم بعد رسوخه بناسخ الحديث ومنسوخه",
+    "arabic_author": "ابن الجوزي",
+    "current_english_name": "Iʿlam alʿalm bʿd rswkhh bnaskh alḥdyth wmnswkhh",
+    "current_english_author": "Abn aljwzy"
+  },
+  {
+    "id": 166,
+    "arabic_name": "تغليق التعليق  لابن حجر",
+    "arabic_author": "ابن حجر العسقلاني",
+    "current_english_name": "Tghlyq altʿlyq labn ḥjr",
+    "current_english_author": "Abn ḥjr alʿsqlany"
+  },
+  {
+    "id": 167,
+    "arabic_name": "إثارة الفوائد",
+    "arabic_author": "ابن عبد البر",
+    "current_english_name": "Itharh alfwaʾid",
+    "current_english_author": "Abn ʿbd albr"
+  },
+  {
+    "id": 168,
+    "arabic_name": "الإيمان لابن أبي شيبة",
+    "arabic_author": "ابن ابي شيبة",
+    "current_english_name": "Aliyman labn aby shybh",
+    "current_english_author": "Abn aby shybh"
+  },
+  {
+    "id": 169,
+    "arabic_name": "الرد على الجهمية للدارمي",
+    "arabic_author": "عبد الله بن عبد الرحمن الدارمي",
+    "current_english_name": "Alrd ʿlā aljhmyh lldarmy",
+    "current_english_author": "ʿbd allh bn ʿbd alrḥmn aldarmy"
+  },
+  {
+    "id": 170,
+    "arabic_name": "خلق أفعال العباد للبخاري",
+    "arabic_author": "محمد بن إسماعيل البخاري",
+    "current_english_name": "Khlq afʿal alʿbad llbkhary",
+    "current_english_author": "Mḥmd bn ismaʿyl albkhary"
+  },
+  {
+    "id": 171,
+    "arabic_name": "نقض الإمام أبي سعيد على المريسي العنيد",
+    "arabic_author": "عثمان بن سعيد الدارمي",
+    "current_english_name": "Nqḍ alimam aby sʿyd ʿlā almrysy alʿnyd",
+    "current_english_author": "ʿthman bn sʿyd aldarmy"
+  },
+  {
+    "id": 172,
+    "arabic_name": "السنة لابن أبي عاصم",
+    "arabic_author": "ابن أبي عاصم",
+    "current_english_name": "Alsnh labn aby ʿaṣm",
+    "current_english_author": "Abn aby ʿaṣm"
+  },
+  {
+    "id": 173,
+    "arabic_name": "البدع لابن وضاح",
+    "arabic_author": "ابن وضاح المرواني",
+    "current_english_name": "Albdʿ labn wḍaḥ",
+    "current_english_author": "Abn wḍaḥ almrwany"
+  },
+  {
+    "id": 174,
+    "arabic_name": "السنة لعبد الله بن أحمد",
+    "arabic_author": "عبد الله بن أحمد بن حنبل",
+    "current_english_name": "Alsnh lʿbd allh bn aḥmd",
+    "current_english_author": "ʿbd allh bn aḥmd bn ḥnbl"
+  },
+  {
+    "id": 175,
+    "arabic_name": "السنة للمروزي",
+    "arabic_author": "محمد بن نصر المروزي",
+    "current_english_name": "Alsnh llmrwzy",
+    "current_english_author": "Mḥmd bn nṣr almrwzy"
+  },
+  {
+    "id": 176,
+    "arabic_name": "القدر للفريابي",
+    "arabic_author": "محمد بن الحسن الفريابي",
+    "current_english_name": "Alqdr llfryaby",
+    "current_english_author": "Mḥmd bn alḥsn alfryaby"
+  },
+  {
+    "id": 177,
+    "arabic_name": "صفة النفاق وذم المنافقين للفريابي",
+    "arabic_author": "محمد بن الحسن الفريابي",
+    "current_english_name": "Ṣfh alnfaq wdhm almnafqyn llfryaby",
+    "current_english_author": "Mḥmd bn alḥsn alfryaby"
+  },
+  {
+    "id": 178,
+    "arabic_name": "التوحيد لابن خزيمة",
+    "arabic_author": "ابن خزيمة",
+    "current_english_name": "Altwḥyd labn khzymh",
+    "current_english_author": "Abn khzymh"
+  },
+  {
+    "id": 179,
+    "arabic_name": "السنة لأبي بكر بن الخلال",
+    "arabic_author": "أبو بكر الخلال",
+    "current_english_name": "Alsnh laby bkr bn alkhlal",
+    "current_english_author": "Abw bkr alkhlal"
+  },
+  {
+    "id": 180,
+    "arabic_name": "الشريعة للآجري",
+    "arabic_author": "الآجري",
+    "current_english_name": "Alshryʿh llājry",
+    "current_english_author": "Alājry"
+  },
+  {
+    "id": 181,
+    "arabic_name": "العظمة",
+    "arabic_author": "أبو الشيخ الأصبهاني",
+    "current_english_name": "Alʿẓmh",
+    "current_english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 182,
+    "arabic_name": "الرؤيا للدارقطني",
+    "arabic_author": "الدارقطني",
+    "current_english_name": "Alrʾuya lldarqṭny",
+    "current_english_author": "Aldarqṭny"
+  },
+  {
+    "id": 183,
+    "arabic_name": "شرح مذاهب أهل السنة لابن شاهين",
+    "arabic_author": "ابن شاهين",
+    "current_english_name": "Shrḥ mdhahb ahl alsnh labn shahyn",
+    "current_english_author": "Abn shahyn"
+  },
+  {
+    "id": 184,
+    "arabic_name": "الإبانة الكبرى لابن بطة",
+    "arabic_author": "ابن بطة العكبري",
+    "current_english_name": "Alibanh alkbrā labn bṭh",
+    "current_english_author": "Abn bṭh alʿkbry"
+  },
+  {
+    "id": 185,
+    "arabic_name": "الإيمان لابن منده",
+    "arabic_author": "محمد بن إسحاق بن منده",
+    "current_english_name": "Aliyman labn mndh",
+    "current_english_author": "Mḥmd bn isḥaq bn mndh"
+  },
+  {
+    "id": 186,
+    "arabic_name": "التوحيد لابن منده",
+    "arabic_author": "محمد بن إسحاق بن منده",
+    "current_english_name": "Altwḥyd labn mndh",
+    "current_english_author": "Mḥmd bn isḥaq bn mndh"
+  },
+  {
+    "id": 187,
+    "arabic_name": "شرح أصول اعتقاد أهل السنة والجماعة للالكائي",
+    "arabic_author": "هبة الله اللالكائي",
+    "current_english_name": "Shrḥ aṣwl aʿtqad ahl alsnh waljmaʿh llalkaʾiy",
+    "current_english_author": "Hbh allh allalkaʾiy"
+  },
+  {
+    "id": 188,
+    "arabic_name": "كرامات أولياء الله عز وجل للالكائي",
+    "arabic_author": "هبة الله اللالكائي",
+    "current_english_name": "Kramat awlyaʾ allh ʿz wjl llalkaʾiy",
+    "current_english_author": "Hbh allh allalkaʾiy"
+  },
+  {
+    "id": 189,
+    "arabic_name": "السنن الواردة في الفتن للداني",
+    "arabic_author": "عثمان بن سعيد الداني",
+    "current_english_name": "Alsnn alwardh fy alftn lldany",
+    "current_english_author": "ʿthman bn sʿyd aldany"
+  },
+  {
+    "id": 190,
+    "arabic_name": "الاعتقاد إلى سبيل الرشاد للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Alaʿtqad ilā sbyl alrshad llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 191,
+    "arabic_name": "الأسماء والصفات للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Alasmaʾ walṣfat llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 192,
+    "arabic_name": "البعث والنشور للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Albʿth walnshwr llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 193,
+    "arabic_name": "القضاء والقدر للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Alqḍaʾ walqdr llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 194,
+    "arabic_name": "إثبات عذاب القبر وسؤال الملكين",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Ithbat ʿdhab alqbr wsʾual almlkyn",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 195,
+    "arabic_name": "شعب الإيمان  للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Shʿb aliyman llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 196,
+    "arabic_name": "ذم الكلام وأهله لعبد الله الأنصاري",
+    "arabic_author": "عبد الله بن محمد الأنصاري",
+    "current_english_name": "Dhm alklam wahlh lʿbd allh alanṣary",
+    "current_english_author": "ʿbd allh bn mḥmd alanṣary"
+  },
+  {
+    "id": 197,
+    "arabic_name": "تبيين كذب المفتري فيما نسب إلى الأشعري",
+    "arabic_author": "ابن عساكر الدمشقي",
+    "current_english_name": "Tbyyn kdhb almftry fyma nsb ilā alashʿry",
+    "current_english_author": "Abn ʿsakr aldmshqy"
+  },
+  {
+    "id": 198,
+    "arabic_name": "تلبيس إبليس لابن الجوزي",
+    "arabic_author": "ابن الجوزي",
+    "current_english_name": "Tlbys iblys labn aljwzy",
+    "current_english_author": "Abn aljwzy"
+  },
+  {
+    "id": 199,
+    "arabic_name": "العلو للعلي الغفار الذهبي",
+    "arabic_author": "الذهبي",
+    "current_english_name": "Alʿlw llʿly alghfar aldhhby",
+    "current_english_author": "Aldhhby"
+  },
+  {
+    "id": 200,
+    "arabic_name": "أهل الملل والردة من الجامع للخلال",
+    "arabic_author": "الخلال",
+    "current_english_name": "Ahl almll walrdh mn aljamʿ llkhlal",
+    "current_english_author": "Alkhlal"
+  },
+  {
+    "id": 201,
+    "arabic_name": "الحجة في بيان المحجة وشرح عقيدة أهل السنة 2",
+    "arabic_author": "قوام السنة الأصبهاني",
+    "current_english_name": "Alḥjh fy byan almḥjh wshrḥ ʿqydh ahl alsnh 2",
+    "current_english_author": "Qwam alsnh alaṣbhany"
+  },
+  {
+    "id": 202,
+    "arabic_name": "المناسك لسعيد بن أبي عروبة",
+    "arabic_author": "سعيد بن أبي عروبة",
+    "current_english_name": "Almnask lsʿyd bn aby ʿrwbh",
+    "current_english_author": "Sʿyd bn aby ʿrwbh"
+  },
+  {
+    "id": 203,
+    "arabic_name": "المدونة الكبرى لمالك بن أنس",
+    "arabic_author": "مالك بن أنس",
+    "current_english_name": "Almdwnh alkbrā lmalk bn ans",
+    "current_english_author": "Malk bn ans"
+  },
+  {
+    "id": 204,
+    "arabic_name": "الجهاد لابن المبارك",
+    "arabic_author": "عبد الله بن المبارك",
+    "current_english_name": "Aljhad labn almbark",
+    "current_english_author": "ʿbd allh bn almbark"
+  },
+  {
+    "id": 205,
+    "arabic_name": "الآثار لأبي يوسف",
+    "arabic_author": "يعقوب بن إبراهيم",
+    "current_english_name": "Alāthar laby ywsf",
+    "current_english_author": "Yʿqwb bn ibrahym"
+  },
+  {
+    "id": 206,
+    "arabic_name": "الآثار لمحمد بن الحسن الشيباني",
+    "arabic_author": "محمد بن الحسن الشيباني",
+    "current_english_name": "Alāthar lmḥmd bn alḥsn alshybany",
+    "current_english_author": "Mḥmd bn alḥsn alshybany"
+  },
+  {
+    "id": 207,
+    "arabic_name": "الخراج لأبي يوسف",
+    "arabic_author": "يعقوب بن إبراهيم",
+    "current_english_name": "Alkhraj laby ywsf",
+    "current_english_author": "Yʿqwb bn ibrahym"
+  },
+  {
+    "id": 208,
+    "arabic_name": "السير لأبي إسحاق الفزاري",
+    "arabic_author": "أبو إسحاق الفزاري",
+    "current_english_name": "Alsyr laby isḥaq alfzary",
+    "current_english_author": "Abw isḥaq alfzary"
+  },
+  {
+    "id": 209,
+    "arabic_name": "الخراج ليحيى بن آدم",
+    "arabic_author": "يحيى بن آدم",
+    "current_english_name": "Alkhraj lyḥyā bn ādm",
+    "current_english_author": "Yḥyā bn ādm"
+  },
+  {
+    "id": 210,
+    "arabic_name": "الأم للشافعي",
+    "arabic_author": "الشافعي",
+    "current_english_name": "Alam llshafʿy",
+    "current_english_author": "Alshafʿy"
+  },
+  {
+    "id": 211,
+    "arabic_name": "الأموال للقاسم بن سلام",
+    "arabic_author": "القاسم بن سلام الهروي",
+    "current_english_name": "Alamwal llqasm bn slam",
+    "current_english_author": "Alqasm bn slam alhrwy"
+  },
+  {
+    "id": 212,
+    "arabic_name": "الطهور للقاسم بن سلام",
+    "arabic_author": "القاسم بن سلام الهروي",
+    "current_english_name": "Alṭhwr llqasm bn slam",
+    "current_english_author": "Alqasm bn slam alhrwy"
+  },
+  {
+    "id": 213,
+    "arabic_name": "القضاء لسربج بن يونس البغدادي",
+    "arabic_author": "سريج بن يونس",
+    "current_english_name": "Alqḍaʾ lsrbj bn ywns albghdady",
+    "current_english_author": "Sryj bn ywns"
+  },
+  {
+    "id": 214,
+    "arabic_name": "الأشربة لأحمد بن حنبل",
+    "arabic_author": "أحمد بن حنبل",
+    "current_english_name": "Alashrbh laḥmd bn ḥnbl",
+    "current_english_author": "Aḥmd bn ḥnbl"
+  },
+  {
+    "id": 215,
+    "arabic_name": "الأموال لابن زنجويه",
+    "arabic_author": "ابن زنجويه",
+    "current_english_name": "Alamwal labn znjwyh",
+    "current_english_author": "Abn znjwyh"
+  },
+  {
+    "id": 216,
+    "arabic_name": "القراءة خلف الإمام للبخاري",
+    "arabic_author": "محمد بن إسماعيل البخاري",
+    "current_english_name": "Alqraʾh khlf alimam llbkhary",
+    "current_english_author": "Mḥmd bn ismaʿyl albkhary"
+  },
+  {
+    "id": 217,
+    "arabic_name": "إصلاح المال لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Iṣlaḥ almal labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 218,
+    "arabic_name": "الجهاد لابن أبي عاصم",
+    "arabic_author": "ابن أبي عاصم",
+    "current_english_name": "Aljhad labn aby ʿaṣm",
+    "current_english_author": "Abn aby ʿaṣm"
+  },
+  {
+    "id": 219,
+    "arabic_name": "الديات لابن أبي عاصم",
+    "arabic_author": "ابن أبي عاصم",
+    "current_english_name": "Aldyat labn aby ʿaṣm",
+    "current_english_author": "Abn aby ʿaṣm"
+  },
+  {
+    "id": 220,
+    "arabic_name": "مختصر قيام الليل للمروزي",
+    "arabic_author": "محمد بن نصر المروزي",
+    "current_english_name": "Mkhtṣr qyam allyl llmrwzy",
+    "current_english_author": "Mḥmd bn nṣr almrwzy"
+  },
+  {
+    "id": 221,
+    "arabic_name": "الصيام للفريابي",
+    "arabic_author": "محمد بن الحسن الفريابي",
+    "current_english_name": "Alṣyam llfryaby",
+    "current_english_author": "Mḥmd bn alḥsn alfryaby"
+  },
+  {
+    "id": 222,
+    "arabic_name": "أحكام العيدين  للفريابي",
+    "arabic_author": "محمد بن الحسن الفريابي",
+    "current_english_name": "Aḥkam alʿydyn llfryaby",
+    "current_english_author": "Mḥmd bn alḥsn alfryaby"
+  },
+  {
+    "id": 223,
+    "arabic_name": "تهذيب الآثار للطبري",
+    "arabic_author": "ابن جرير الطبري",
+    "current_english_name": "Thdhyb alāthar llṭbry",
+    "current_english_author": "Abn jryr alṭbry"
+  },
+  {
+    "id": 224,
+    "arabic_name": "الترجل من مسائل الإمام أحمد",
+    "arabic_author": "أبو بكر الخلال",
+    "current_english_name": "Altrjl mn msaʾil alimam aḥmd",
+    "current_english_author": "Abw bkr alkhlal"
+  },
+  {
+    "id": 225,
+    "arabic_name": "الوقوف من مسائل الإمام أحمد",
+    "arabic_author": "أبو بكر الخلال",
+    "current_english_name": "Alwqwf mn msaʾil alimam aḥmd",
+    "current_english_author": "Abw bkr alkhlal"
+  },
+  {
+    "id": 226,
+    "arabic_name": "شرح السنة",
+    "arabic_author": "الحسين بن مسعود البغوي",
+    "current_english_name": "Shrḥ alsnh",
+    "current_english_author": "Alḥsyn bn msʿwd albghwy"
+  },
+  {
+    "id": 227,
+    "arabic_name": "الأوسط في السنن والإجماع والاختلاف لابن المنذر",
+    "arabic_author": "محمد بن إبراهيم بن المنذر",
+    "current_english_name": "Alawsṭ fy alsnn walijmaʿ walakhtlaf labn almndhr",
+    "current_english_author": "Mḥmd bn ibrahym bn almndhr"
+  },
+  {
+    "id": 228,
+    "arabic_name": "الإقناع لابن المنذر",
+    "arabic_author": "محمد بن إبراهيم بن المنذر",
+    "current_english_name": "Aliqnaʿ labn almndhr",
+    "current_english_author": "Mḥmd bn ibrahym bn almndhr"
+  },
+  {
+    "id": 229,
+    "arabic_name": "شرح معاني الآثار للطحاوي",
+    "arabic_author": "الطحاوي",
+    "current_english_name": "Shrḥ mʿany alāthar llṭḥawy",
+    "current_english_author": "Alṭḥawy"
+  },
+  {
+    "id": 230,
+    "arabic_name": "مشكل الآثار للطحاوي",
+    "arabic_author": "الطحاوي",
+    "current_english_name": "Mshkl alāthar llṭḥawy",
+    "current_english_author": "Alṭḥawy"
+  },
+  {
+    "id": 231,
+    "arabic_name": "تثبيت الإمامة وترتيب الخلافة لأبي نعيم",
+    "arabic_author": "أبو نعيم الأصبهاني",
+    "current_english_name": "Tthbyt alimamh wtrtyb alkhlafh laby nʿym",
+    "current_english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 232,
+    "arabic_name": "المحلى بالآثار لابن حزم",
+    "arabic_author": "ابن حزم الظاهري",
+    "current_english_name": "Almḥlā balāthar labn ḥzm",
+    "current_english_author": "Abn ḥzm alẓahry"
+  },
+  {
+    "id": 233,
+    "arabic_name": "حجة الوداع لابن حزم",
+    "arabic_author": "ابن حزم الظاهري",
+    "current_english_name": "Ḥjh alwdaʿ labn ḥzm",
+    "current_english_author": "Abn ḥzm alẓahry"
+  },
+  {
+    "id": 234,
+    "arabic_name": "القراءة خلف الإمام للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Alqraʾh khlf alimam llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 235,
+    "arabic_name": "بيان خطأ من أخطأ على الشافعي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Byan khṭa mn akhṭa ʿlā alshafʿy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 236,
+    "arabic_name": "التمهيد لابن عبد البر",
+    "arabic_author": "ابن عبد البر القرطبي",
+    "current_english_name": "Altmhyd labn ʿbd albr",
+    "current_english_author": "Abn ʿbd albr alqrṭby"
+  },
+  {
+    "id": 237,
+    "arabic_name": "التحقيق في مسائل الخلاف لابن الجوزي",
+    "arabic_author": "ابن الجوزي",
+    "current_english_name": "Altḥqyq fy msaʾil alkhlaf labn aljwzy",
+    "current_english_author": "Abn aljwzy"
+  },
+  {
+    "id": 238,
+    "arabic_name": "أخبار الصلاة لعبد الغني المقدسي",
+    "arabic_author": "عبد الغني بن عبد الواحد المقدسي",
+    "current_english_name": "Akhbar alṣlah lʿbd alghny almqdsy",
+    "current_english_author": "ʿbd alghny bn ʿbd alwaḥd almqdsy"
+  },
+  {
+    "id": 239,
+    "arabic_name": "الزيادات على كتاب المزني",
+    "arabic_author": "ابن زياد النيسابوري",
+    "current_english_name": "Alzyadat ʿlā ktab almzny",
+    "current_english_author": "Abn zyad alnysabwry"
+  },
+  {
+    "id": 240,
+    "arabic_name": "الأوسط في السنن",
+    "arabic_author": "ابن المنذر",
+    "current_english_name": "Alawsṭ fy alsnn",
+    "current_english_author": "Abn almndhr"
+  },
+  {
+    "id": 241,
+    "arabic_name": "الاستذكار",
+    "arabic_author": "ابن عبد البر القرطبي",
+    "current_english_name": "Alastdhkar",
+    "current_english_author": "Abn ʿbd albr alqrṭby"
+  },
+  {
+    "id": 242,
+    "arabic_name": "أحكام القرآن للجصاص",
+    "arabic_author": "الجصاص الحنفي",
+    "current_english_name": "Aḥkam alqrān lljṣaṣ",
+    "current_english_author": "Aljṣaṣ alḥnfy"
+  },
+  {
+    "id": 243,
+    "arabic_name": "النصيحة للراعي والرعية للتبريزي",
+    "arabic_author": "أبو الخير بدل بن أبي المعمر التبريزي",
+    "current_english_name": "Alnṣyḥh llraʿy walrʿyh lltbryzy",
+    "current_english_author": "Abw alkhyr bdl bn aby almʿmr altbryzy"
+  },
+  {
+    "id": 244,
+    "arabic_name": "تفسير مجاهد",
+    "arabic_author": "مجاهد بن جبر",
+    "current_english_name": "Tafsir mjahd",
+    "current_english_author": "Mjahd bn jbr"
+  },
+  {
+    "id": 245,
+    "arabic_name": "تفسير سفيان الثوري",
+    "arabic_author": "سفيان الثوري",
+    "current_english_name": "Tafsir sfyan althwry",
+    "current_english_author": "Sfyan althwry"
+  },
+  {
+    "id": 246,
+    "arabic_name": "معاني القرآن للفراء",
+    "arabic_author": "أبو زكريا الفراء",
+    "current_english_name": "Mʿany alqrān llfraʾ",
+    "current_english_author": "Abw zkrya alfraʾ"
+  },
+  {
+    "id": 247,
+    "arabic_name": "تفسير القرآن لعبد الرزاق الصنعاني",
+    "arabic_author": "عبد الرزاق الصنعاني",
+    "current_english_name": "Tafsir alqrān lʿbd alrzaq alṣnʿany",
+    "current_english_author": "ʿbd alrzaq alṣnʿany"
+  },
+  {
+    "id": 248,
+    "arabic_name": "التفسير من سنن سعيد بن منصور",
+    "arabic_author": "سعيد بن منصور",
+    "current_english_name": "Altfsyr mn Sunan sʿyd bn mnṣwr",
+    "current_english_author": "Sʿyd bn mnṣwr"
+  },
+  {
+    "id": 249,
+    "arabic_name": "جامع البيان عن تأويل آي القرآن",
+    "arabic_author": "ابن جرير الطبري",
+    "current_english_name": "Jamiʿ albyan ʿn tawyl āy alqrān",
+    "current_english_author": "Abn jryr alṭbry"
+  },
+  {
+    "id": 250,
+    "arabic_name": "تفسير ابن أبي حاتم",
+    "arabic_author": "ابن أبي حاتم الرازي",
+    "current_english_name": "Tafsir abn aby ḥatm",
+    "current_english_author": "Abn aby ḥatm alrazy"
+  },
+  {
+    "id": 251,
+    "arabic_name": "تفسير القرآن العزيز",
+    "arabic_author": "ابن أبي زمنين الأندلسي",
+    "current_english_name": "Tafsir alqrān alʿzyz",
+    "current_english_author": "Abn aby zmnyn alandlsy"
+  },
+  {
+    "id": 252,
+    "arabic_name": "معالم التنزيل تفسير البغوي",
+    "arabic_author": "الحسين بن مسعود البغوي",
+    "current_english_name": "Mʿalm altnzyl Tafsir albghwy",
+    "current_english_author": "Alḥsyn bn msʿwd albghwy"
+  },
+  {
+    "id": 253,
+    "arabic_name": "تفسير القرآن لابن المنذر",
+    "arabic_author": "محمد بن إبراهيم بن المنذر",
+    "current_english_name": "Tafsir alqrān labn almndhr",
+    "current_english_author": "Mḥmd bn ibrahym bn almndhr"
+  },
+  {
+    "id": 254,
+    "arabic_name": "الجامع في تفسير القرآن",
+    "arabic_author": "عبد الله بن وهب",
+    "current_english_name": "Aljamʿ fy Tafsir alqrān",
+    "current_english_author": "ʿbd allh bn whb"
+  },
+  {
+    "id": 255,
+    "arabic_name": "الوسيط في تفسير القرآن المجيد",
+    "arabic_author": "الواحدي",
+    "current_english_name": "Alwsyṭ fy Tafsir alqrān almjyd",
+    "current_english_author": "Alwaḥdy"
+  },
+  {
+    "id": 256,
+    "arabic_name": "تفسير يحيى بن سلام",
+    "arabic_author": "يحيى بن سلام",
+    "current_english_name": "Tafsir yḥyā bn slam",
+    "current_english_author": "Yḥyā bn slam"
+  },
+  {
+    "id": 257,
+    "arabic_name": "الناسخ والمنسوخ للقاسم بن سلام",
+    "arabic_author": "القاسم بن سلام الهروي",
+    "current_english_name": "Alnaskh walmnswkh llqasm bn slam",
+    "current_english_author": "Alqasm bn slam alhrwy"
+  },
+  {
+    "id": 258,
+    "arabic_name": "قراءة النبي للدوري",
+    "arabic_author": "حفص بن عمر الدوري",
+    "current_english_name": "Qraʾh alnby lldwry",
+    "current_english_author": "Ḥfṣ bn ʿmr aldwry"
+  },
+  {
+    "id": 259,
+    "arabic_name": "المصاحف لابن أبي داود",
+    "arabic_author": "ابن أبي داود السجستاني",
+    "current_english_name": "Almṣaḥf labn aby dawd",
+    "current_english_author": "Abn aby dawd alsjstany"
+  },
+  {
+    "id": 260,
+    "arabic_name": "أحكام القرآن الكريم للطحاوي",
+    "arabic_author": "الطحاوي",
+    "current_english_name": "Aḥkam alqrān alkrym llṭḥawy",
+    "current_english_author": "Alṭḥawy"
+  },
+  {
+    "id": 261,
+    "arabic_name": "الناسخ والمنسوخ للنحاس",
+    "arabic_author": "أحمد بن محمد النحاس",
+    "current_english_name": "Alnaskh walmnswkh llnḥas",
+    "current_english_author": "Aḥmd bn mḥmd alnḥas"
+  },
+  {
+    "id": 262,
+    "arabic_name": "أسباب النزول الواحدي",
+    "arabic_author": "الواحدي",
+    "current_english_name": "Asbab alnzwl alwaḥdy",
+    "current_english_author": "Alwaḥdy"
+  },
+  {
+    "id": 263,
+    "arabic_name": "نواسخ القرآن لابن الجوزي",
+    "arabic_author": "ابن الجوزي",
+    "current_english_name": "Nwaskh alqrān labn aljwzy",
+    "current_english_author": "Abn aljwzy"
+  },
+  {
+    "id": 264,
+    "arabic_name": "الشمائل المحمدية للترمذي",
+    "arabic_author": "محمد بن عيسى الترمذي",
+    "current_english_name": "Alshmaʾil almḥmdyh lltrmdhy",
+    "current_english_author": "Mḥmd bn ʿysā altrmdhy"
+  },
+  {
+    "id": 265,
+    "arabic_name": "الذرية الطاهرة النبوية",
+    "arabic_author": "أبو بشر الدولابي",
+    "current_english_name": "Aldhryh alṭahrh alnbwyh",
+    "current_english_author": "Abw bshr aldwlaby"
+  },
+  {
+    "id": 266,
+    "arabic_name": "أخلاق النبي لأبي الشيخ الأصبهاني",
+    "arabic_author": "أبو الشيخ الأصبهاني",
+    "current_english_name": "Akhlaq alnby laby alshykh alaṣbhany",
+    "current_english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 267,
+    "arabic_name": "حلية الأولياء لأبي نعيم",
+    "arabic_author": "أبو نعيم الأصبهاني",
+    "current_english_name": "Ḥlyh alawlyaʾ laby nʿym",
+    "current_english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 268,
+    "arabic_name": "دلائل النبوة لأبي نعيم",
+    "arabic_author": "أبو نعيم الأصبهاني",
+    "current_english_name": "Dlaʾil alnbwh laby nʿym",
+    "current_english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 269,
+    "arabic_name": "دلائل النبوة للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Dlaʾil alnbwh llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 270,
+    "arabic_name": "دلائل النبوة لقوام السنة",
+    "arabic_author": "إسماعيل بن محمد الأصبهاني",
+    "current_english_name": "Dlaʾil alnbwh lqwam alsnh",
+    "current_english_author": "Ismaʿyl bn mḥmd alaṣbhany"
+  },
+  {
+    "id": 271,
+    "arabic_name": "عيون الأثر",
+    "arabic_author": "ابن سيد الناس",
+    "current_english_name": "ʿywn alathr",
+    "current_english_author": "Abn syd alnas"
+  },
+  {
+    "id": 272,
+    "arabic_name": "الأنوار في شمائل النبي المختار",
+    "arabic_author": "الحسين بن مسعود البغوي",
+    "current_english_name": "Alanwar fy shmaʾil alnby almkhtar",
+    "current_english_author": "Alḥsyn bn msʿwd albghwy"
+  },
+  {
+    "id": 273,
+    "arabic_name": "أخبار مكة للأزرقي",
+    "arabic_author": "أبو الوليد الأزرقي",
+    "current_english_name": "Akhbar mkh llazrqy",
+    "current_english_author": "Abw alwlyd alazrqy"
+  },
+  {
+    "id": 274,
+    "arabic_name": "الطبقات الكبرى لابن سعد",
+    "arabic_author": "محمد بن سعد الزهري",
+    "current_english_name": "Alṭbqat alkbrā labn sʿd",
+    "current_english_author": "Mḥmd bn sʿd alzhry"
+  },
+  {
+    "id": 275,
+    "arabic_name": "تاريخ خليفة بن خياط",
+    "arabic_author": "خليفة بن خياط",
+    "current_english_name": "Tarykh khlyfh bn khyaṭ",
+    "current_english_author": "Khlyfh bn khyaṭ"
+  },
+  {
+    "id": 276,
+    "arabic_name": "الجامع في العلل ومعرفة الرجال لأحمد بن حنبل",
+    "arabic_author": "أحمد بن حنبل",
+    "current_english_name": "Aljamʿ fy alʿll wmʿrfh alrjal laḥmd bn ḥnbl",
+    "current_english_author": "Aḥmd bn ḥnbl"
+  },
+  {
+    "id": 277,
+    "arabic_name": "التاريخ الكبير للبخاري",
+    "arabic_author": "محمد بن إسماعيل البخاري",
+    "current_english_name": "Altarykh alkbyr llbkhary",
+    "current_english_author": "Mḥmd bn ismaʿyl albkhary"
+  },
+  {
+    "id": 278,
+    "arabic_name": "تاريخ المدينة لابن شبة",
+    "arabic_author": "ابن شبة النميري",
+    "current_english_name": "Tarykh almdynh labn shbh",
+    "current_english_author": "Abn shbh alnmyry"
+  },
+  {
+    "id": 279,
+    "arabic_name": "أخبار مكة للفاكهي",
+    "arabic_author": "الفاكهي",
+    "current_english_name": "Akhbar mkh llfakhy",
+    "current_english_author": "Alfakhy"
+  },
+  {
+    "id": 280,
+    "arabic_name": "مسائل أحمد لأبي داود السجستاني",
+    "arabic_author": "أبو داود السجستاني",
+    "current_english_name": "Msaʾil aḥmd laby dawd alsjstany",
+    "current_english_author": "Abw dawd alsjstany"
+  },
+  {
+    "id": 281,
+    "arabic_name": "المعرفة والتاريخ ليعقوب بن سفيان",
+    "arabic_author": "يعقوب بن سفيان",
+    "current_english_name": "Almʿrfh waltarykh lyʿqwb bn sfyan",
+    "current_english_author": "Yʿqwb bn sfyan"
+  },
+  {
+    "id": 282,
+    "arabic_name": "أنساب الأشراف للبلاذري",
+    "arabic_author": "أحمد بن يحيى البلاذري",
+    "current_english_name": "Ansab alashraf llbladhry",
+    "current_english_author": "Aḥmd bn yḥyā albladhry"
+  },
+  {
+    "id": 283,
+    "arabic_name": "البلدان وفتوحها وأحكامها للبلاذري",
+    "arabic_author": "أحمد بن يحيى البلاذري",
+    "current_english_name": "Albldan wftwḥha waḥkamha llbladhry",
+    "current_english_author": "Aḥmd bn yḥyā albladhry"
+  },
+  {
+    "id": 284,
+    "arabic_name": "تاريخ أبي زرعة الدمشقي",
+    "arabic_author": "أبو زرعة الدمشقي",
+    "current_english_name": "Tarykh aby zrʿh aldmshqy",
+    "current_english_author": "Abw zrʿh aldmshqy"
+  },
+  {
+    "id": 285,
+    "arabic_name": "الآحاد والمثاني لابن أبي عاصم",
+    "arabic_author": "ابن أبي عاصم",
+    "current_english_name": "Alāḥad walmthany labn aby ʿaṣm",
+    "current_english_author": "Abn aby ʿaṣm"
+  },
+  {
+    "id": 286,
+    "arabic_name": "تاريخ واسط لأسلم بن سهل الرزاز",
+    "arabic_author": "أسلم بن سهل الرزاز",
+    "current_english_name": "Tarykh wasṭ laslm bn shl alrzaz",
+    "current_english_author": "Aslm bn shl alrzaz"
+  },
+  {
+    "id": 287,
+    "arabic_name": "تاريخ الطبري",
+    "arabic_author": "ابن جرير الطبري",
+    "current_english_name": "Tarykh alṭbry",
+    "current_english_author": "Abn jryr alṭbry"
+  },
+  {
+    "id": 288,
+    "arabic_name": "الكني والأسماء للدولابي",
+    "arabic_author": "أبو بشر الدولابي",
+    "current_english_name": "Alkny walasmaʾ lldwlaby",
+    "current_english_author": "Abw bshr aldwlaby"
+  },
+  {
+    "id": 289,
+    "arabic_name": "آداب الشافعي ومناقبه",
+    "arabic_author": "ابن أبي حاتم الرازي",
+    "current_english_name": "Adab alshafʿy wmnaqbh",
+    "current_english_author": "Abn aby ḥatm alrazy"
+  },
+  {
+    "id": 290,
+    "arabic_name": "كتاب الولاة وكتاب القضاة للكندي",
+    "arabic_author": "محمد بن يوسف الكندي",
+    "current_english_name": "Ktab alwlah wktab alqḍah llkndy",
+    "current_english_author": "Mḥmd bn ywsf alkndy"
+  },
+  {
+    "id": 291,
+    "arabic_name": "الثقات لابن حبان",
+    "arabic_author": "أبو حاتم بن حبان",
+    "current_english_name": "Althqat labn ḥban",
+    "current_english_author": "Abw ḥatm bn ḥban"
+  },
+  {
+    "id": 292,
+    "arabic_name": "الأغاني لأبي الفرج الأصفهاني",
+    "arabic_author": "أبو الفرج الأصفهاني",
+    "current_english_name": "Alaghany laby alfrj alaṣfhany",
+    "current_english_author": "Abw alfrj alaṣfhany"
+  },
+  {
+    "id": 293,
+    "arabic_name": "تاريخ داريا ومن نزل بها من الصحابة والتابعين للخولاني",
+    "arabic_author": "عبد الجبار الخولاني",
+    "current_english_name": "Tarykh darya wmn nzl bha mn alṣḥabh waltabʿyn llkhwlany",
+    "current_english_author": "ʿbd aljbar alkhwlany"
+  },
+  {
+    "id": 294,
+    "arabic_name": "طبقات المحدثين بأصبهان والواردين عليها",
+    "arabic_author": "أبو الشيخ الأصبهاني",
+    "current_english_name": "Ṭbqat almḥdthyn baṣbhan walwardyn ʿlyha",
+    "current_english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 295,
+    "arabic_name": "تاريخ جرجان للسهمي",
+    "arabic_author": "حمزة بن يوسف السهمي",
+    "current_english_name": "Tarykh jrjan llshmy",
+    "current_english_author": "Ḥmzh bn ywsf alshmy"
+  },
+  {
+    "id": 296,
+    "arabic_name": "أخبار أصبهان لأبي نعيم",
+    "arabic_author": "أبو نعيم الأصبهاني",
+    "current_english_name": "Akhbar aṣbhan laby nʿym",
+    "current_english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 297,
+    "arabic_name": "معرفة الصحابة لأبي نعيم",
+    "arabic_author": "أبو نعيم الأصبهاني",
+    "current_english_name": "Mʿrfh alṣḥabh laby nʿym",
+    "current_english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 298,
+    "arabic_name": "الإرشاد في معرفة علماء الحديث لأبي يعلى الخليلي",
+    "arabic_author": "أبو يعلى الخليلي القزويني",
+    "current_english_name": "Alirshad fy mʿrfh ʿlmaʾ alḥdyth laby yʿlā alkhlyly",
+    "current_english_author": "Abw yʿlā alkhlyly alqzwyny"
+  },
+  {
+    "id": 299,
+    "arabic_name": "الاستيعاب في معرفة الأصحاب لابن عبد البر",
+    "arabic_author": "ابن عبد البر القرطبي",
+    "current_english_name": "Alastyʿab fy mʿrfh alaṣḥab labn ʿbd albr",
+    "current_english_author": "Abn ʿbd albr alqrṭby"
+  },
+  {
+    "id": 300,
+    "arabic_name": "الأسماء المبهمة والأنباء المحكمة",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Alasmaʾ almbhmh walanbaʾ almḥkmh",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 301,
+    "arabic_name": "تاريخ بغداد للخطيب البغدادي",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Tarykh bghdad llkhṭyb albghdady",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 302,
+    "arabic_name": "سير السلف الصالحين لإسماعيل بن محمد الأصبهاني",
+    "arabic_author": "إسماعيل بن محمد الأصبهاني",
+    "current_english_name": "Syr alslf alṣalḥyn lismaʿyl bn mḥmd alaṣbhany",
+    "current_english_author": "Ismaʿyl bn mḥmd alaṣbhany"
+  },
+  {
+    "id": 303,
+    "arabic_name": "تاريخ دمشق لابن عساكر",
+    "arabic_author": "ابن عساكر الدمشقي",
+    "current_english_name": "Tarykh dmshq labn ʿsakr",
+    "current_english_author": "Abn ʿsakr aldmshqy"
+  },
+  {
+    "id": 304,
+    "arabic_name": "المنتظم في تاريخ الأمم لابن الجوزي",
+    "arabic_author": "ابن الجوزي",
+    "current_english_name": "Almntẓm fy tarykh alamm labn aljwzy",
+    "current_english_author": "Abn aljwzy"
+  },
+  {
+    "id": 305,
+    "arabic_name": "التدوين في أخبار قزوين للرافعي",
+    "arabic_author": "عبد الكريم الرافعي",
+    "current_english_name": "Altdwyn fy akhbar qzwyn llrafʿy",
+    "current_english_author": "ʿbd alkrym alrafʿy"
+  },
+  {
+    "id": 306,
+    "arabic_name": "تاريخ الإسلام الذهبي",
+    "arabic_author": "الذهبي",
+    "current_english_name": "Tarykh alislam aldhhby",
+    "current_english_author": "Aldhhby"
+  },
+  {
+    "id": 307,
+    "arabic_name": "مناقب الإمام أبي حنيفة وصاحبيه",
+    "arabic_author": "الذهبي",
+    "current_english_name": "Mnaqb alimam aby ḥnyfh wṣaḥbyh",
+    "current_english_author": "Aldhhby"
+  },
+  {
+    "id": 308,
+    "arabic_name": "تاريخ ابن أبي خيثمة",
+    "arabic_author": "ابن أبي خيثمة",
+    "current_english_name": "Tarykh abn aby khythmh",
+    "current_english_author": "Abn aby khythmh"
+  },
+  {
+    "id": 309,
+    "arabic_name": "طبقات الحنابلة",
+    "arabic_author": "أبي يعلى الحنبلي",
+    "current_english_name": "Ṭbqat alḥnablh",
+    "current_english_author": "Aby yʿlā alḥnbly"
+  },
+  {
+    "id": 310,
+    "arabic_name": "ذيل تاريخ بغداد لابن النجار",
+    "arabic_author": "ابن النجار",
+    "current_english_name": "Dhyl tarykh bghdad labn alnjar",
+    "current_english_author": "Abn alnjar"
+  },
+  {
+    "id": 311,
+    "arabic_name": "أسد الغابة",
+    "arabic_author": "علي بن الأثير",
+    "current_english_name": "Asd alghabh",
+    "current_english_author": "ʿly bn alathyr"
+  },
+  {
+    "id": 312,
+    "arabic_name": "الجرح والتعديل",
+    "arabic_author": "ابن أبي حاتم الرازي",
+    "current_english_name": "Aljrḥ waltʿdyl",
+    "current_english_author": "Abn aby ḥatm alrazy"
+  },
+  {
+    "id": 313,
+    "arabic_name": "الفصل للوصل المدرج في النقل",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Alfṣl llwṣl almdrj fy alnql",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 314,
+    "arabic_name": "سير أعلام النبلاء الذهبي",
+    "arabic_author": "الذهبي",
+    "current_english_name": "Syr aʿlam alnblaʾ aldhhby",
+    "current_english_author": "Aldhhby"
+  },
+  {
+    "id": 315,
+    "arabic_name": "طبقات الشافعية الكبرى",
+    "arabic_author": "السبكي",
+    "current_english_name": "Ṭbqat alshafʿyh alkbrā",
+    "current_english_author": "Alsbky"
+  },
+  {
+    "id": 316,
+    "arabic_name": "تهذيب الكمال للمزي",
+    "arabic_author": "يوسف المزي",
+    "current_english_name": "Thdhyb alkmal llmzy",
+    "current_english_author": "Ywsf almzy"
+  },
+  {
+    "id": 317,
+    "arabic_name": "التاريخ الأوسط",
+    "arabic_author": "محمد بن إسماعيل البخاري",
+    "current_english_name": "Altarykh alawsṭ",
+    "current_english_author": "Mḥmd bn ismaʿyl albkhary"
+  },
+  {
+    "id": 318,
+    "arabic_name": "كتاب المحن",
+    "arabic_author": "أبو العرب القيرواني",
+    "current_english_name": "Ktab almḥn",
+    "current_english_author": "Abw alʿrb alqyrwany"
+  },
+  {
+    "id": 319,
+    "arabic_name": "فضائل الصحابة لأحمد بن حنبل",
+    "arabic_author": "أحمد بن حنبل",
+    "current_english_name": "Fḍaʾil alṣḥabh laḥmd bn ḥnbl",
+    "current_english_author": "Aḥmd bn ḥnbl"
+  },
+  {
+    "id": 320,
+    "arabic_name": "فضائل عثمان بن عفان لعبد الله بن أحمد",
+    "arabic_author": "عبد الله بن أحمد بن حنبل",
+    "current_english_name": "Fḍaʾil ʿthman bn ʿfan lʿbd allh bn aḥmd",
+    "current_english_author": "ʿbd allh bn aḥmd bn ḥnbl"
+  },
+  {
+    "id": 321,
+    "arabic_name": "فضائل الخلفاء الراشدين لأبي نعيم",
+    "arabic_author": "أبو نعيم الأصبهاني",
+    "current_english_name": "Fḍaʾil alkhlfaʾ alrashdyn laby nʿym",
+    "current_english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 322,
+    "arabic_name": "معرفة الصحابة",
+    "arabic_author": "محمد بن إسحاق بن منده",
+    "current_english_name": "Mʿrfh alṣḥabh",
+    "current_english_author": "Mḥmd bn isḥaq bn mndh"
+  },
+  {
+    "id": 323,
+    "arabic_name": "الزهد والرقائق لابن المبارك",
+    "arabic_author": "عبد الله بن المبارك",
+    "current_english_name": "Alzhd walrqaʾiq labn almbark",
+    "current_english_author": "ʿbd allh bn almbark"
+  },
+  {
+    "id": 324,
+    "arabic_name": "الزهد للمعافى بن عمران الموصلي",
+    "arabic_author": "المعافى بن عمران",
+    "current_english_name": "Alzhd llmʿafā bn ʿmran almwṣly",
+    "current_english_author": "Almʿafā bn ʿmran"
+  },
+  {
+    "id": 325,
+    "arabic_name": "الدعاء لمحمد بن فضيل الضبي",
+    "arabic_author": "محمد بن فضيل الضبي",
+    "current_english_name": "Aldʿaʾ lmḥmd bn fḍyl alḍby",
+    "current_english_author": "Mḥmd bn fḍyl alḍby"
+  },
+  {
+    "id": 326,
+    "arabic_name": "الزهد لوكيع بن الجراح",
+    "arabic_author": "وكيع بن الجراح",
+    "current_english_name": "Alzhd lwkyʿ bn aljraḥ",
+    "current_english_author": "Wkyʿ bn aljraḥ"
+  },
+  {
+    "id": 327,
+    "arabic_name": "الزهد لأسد بن موسى",
+    "arabic_author": "أسد بن موسى",
+    "current_english_name": "Alzhd lasd bn mwsā",
+    "current_english_author": "Asd bn mwsā"
+  },
+  {
+    "id": 328,
+    "arabic_name": "فضائل الصلاة للفضل بن دكين",
+    "arabic_author": "الفضل بن دكين",
+    "current_english_name": "Fḍaʾil alṣlah llfḍl bn dkyn",
+    "current_english_author": "Alfḍl bn dkyn"
+  },
+  {
+    "id": 329,
+    "arabic_name": "فضائل القرآن للقاسم بن سلام",
+    "arabic_author": "القاسم بن سلام الهروي",
+    "current_english_name": "Fḍaʾil alqrān llqasm bn slam",
+    "current_english_author": "Alqasm bn slam alhrwy"
+  },
+  {
+    "id": 330,
+    "arabic_name": "الزهد لنعيم بن حماد",
+    "arabic_author": "نعيم بن حماد",
+    "current_english_name": "Alzhd lnʿym bn ḥmad",
+    "current_english_author": "Nʿym bn ḥmad"
+  },
+  {
+    "id": 331,
+    "arabic_name": "العلم لزهير بن حرب",
+    "arabic_author": "أبو خيثمة زهير بن حرب النسائي",
+    "current_english_name": "Alʿlm lzhyr bn ḥrb",
+    "current_english_author": "Abw khythmh zhyr bn ḥrb alnsaʾiy"
+  },
+  {
+    "id": 332,
+    "arabic_name": "الزهد لأحمد بن حنبل",
+    "arabic_author": "أحمد بن حنبل",
+    "current_english_name": "Alzhd laḥmd bn ḥnbl",
+    "current_english_author": "Aḥmd bn ḥnbl"
+  },
+  {
+    "id": 333,
+    "arabic_name": "الزهد لهناد بن السري",
+    "arabic_author": "هناد بن السري",
+    "current_english_name": "Alzhd lhnad bn alsry",
+    "current_english_author": "Hnad bn alsry"
+  },
+  {
+    "id": 334,
+    "arabic_name": "البر والصلة للمروزي",
+    "arabic_author": "الحسين بن حرب المروزي",
+    "current_english_name": "Albr walṣlh llmrwzy",
+    "current_english_author": "Alḥsyn bn ḥrb almrwzy"
+  },
+  {
+    "id": 335,
+    "arabic_name": "الأدب المفرد للبخاري",
+    "arabic_author": "محمد بن إسماعيل البخاري",
+    "current_english_name": "Aladb almfrd llbkhary",
+    "current_english_author": "Mḥmd bn ismaʿyl albkhary"
+  },
+  {
+    "id": 336,
+    "arabic_name": "الزهد لأبي حاتم الرازي",
+    "arabic_author": "أبو حاتم الرازي",
+    "current_english_name": "Alzhd laby ḥatm alrazy",
+    "current_english_author": "Abw ḥatm alrazy"
+  },
+  {
+    "id": 337,
+    "arabic_name": "الزهد لأبي داود",
+    "arabic_author": "أبو داود السجستاني",
+    "current_english_name": "Alzhd laby dawd",
+    "current_english_author": "Abw dawd alsjstany"
+  },
+  {
+    "id": 338,
+    "arabic_name": "الأمر بالمعروف والنهي عن المنكر لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alamr balmʿrwf walnhy ʿn almnkr labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 339,
+    "arabic_name": "الأهوال لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alahwal labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 340,
+    "arabic_name": "الأولياء لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alawlyaʾ labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 341,
+    "arabic_name": "الإخوان لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alikhwan labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 342,
+    "arabic_name": "الجوع لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Aljwʿ labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 343,
+    "arabic_name": "الزهد لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alzhd labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 344,
+    "arabic_name": "الشكر لله لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alshkr llh labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 345,
+    "arabic_name": "الفرج بعد الشدة لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alfrj bʿd alshdh labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 346,
+    "arabic_name": "المرض والكفارات لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Almrḍ walkfarat labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 347,
+    "arabic_name": "المنامات لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Almnamat labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 348,
+    "arabic_name": "العيال",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alʿyal",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 349,
+    "arabic_name": "الهم والحزن لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alhm walḥzn labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 350,
+    "arabic_name": "حسن الظن بالله لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Ḥsn alẓn ballh labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 351,
+    "arabic_name": "ذم الملاهي لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Dhm almlahy labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 352,
+    "arabic_name": "مجابو الدعوة لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Mjabw aldʿwh labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 353,
+    "arabic_name": "الإشراف في منازل الأشراف",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alishraf fy mnazl alashraf",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 354,
+    "arabic_name": "التهجد وقيام الليل لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Althjd wqyam allyl labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 355,
+    "arabic_name": "التوبة لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Altwbh labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 356,
+    "arabic_name": "الحلم لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alḥlm labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 357,
+    "arabic_name": "الرقة والبكاء لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alrqh walbkaʾ labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 358,
+    "arabic_name": "الصبر والثواب عليه",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alṣbr walthwab ʿlyh",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 359,
+    "arabic_name": "الصمت وآداب اللسان",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alṣmt wādab allsan",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 360,
+    "arabic_name": "العقل وفضله لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alʿql wfḍlh labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 361,
+    "arabic_name": "العقوبات لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alʿqwbat labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 362,
+    "arabic_name": "المتمنين لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Almtmnyn labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 363,
+    "arabic_name": "المحتضرين لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Almḥtḍryn labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 364,
+    "arabic_name": "المطر والرعد والبرق لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Almṭr walrʿd walbrq labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 365,
+    "arabic_name": "ذم الغيبة والنميمة لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Dhm alghybh walnmymh labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 366,
+    "arabic_name": "صفة الجنة لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Ṣfh aljnh labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 367,
+    "arabic_name": "صفة النار لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Ṣfh alnar labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 368,
+    "arabic_name": "قصر الأمل لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Qṣr alaml labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 369,
+    "arabic_name": "قضاء الحوائج لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Qḍaʾ alḥwaʾij labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 370,
+    "arabic_name": "محاسبة النفس لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Mḥasbh alnfs labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 371,
+    "arabic_name": "مداراة الناس لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Mdarah alnas labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 372,
+    "arabic_name": "هواتف الجنان لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Hwatf aljnan labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 373,
+    "arabic_name": "الزهد لابن أبي عاصم",
+    "arabic_author": "ابن أبي عاصم",
+    "current_english_name": "Alzhd labn aby ʿaṣm",
+    "current_english_author": "Abn aby ʿaṣm"
+  },
+  {
+    "id": 374,
+    "arabic_name": "الفتن لنعيم بن حماد",
+    "arabic_author": "نعيم بن حماد",
+    "current_english_name": "Alftn lnʿym bn ḥmad",
+    "current_english_author": "Nʿym bn ḥmad"
+  },
+  {
+    "id": 375,
+    "arabic_name": "فضائل القرآن لابن الضريس",
+    "arabic_author": "محمد بن الضريس",
+    "current_english_name": "Fḍaʾil alqrān labn alḍrys",
+    "current_english_author": "Mḥmd bn alḍrys"
+  },
+  {
+    "id": 376,
+    "arabic_name": "تعظيم قدر الصلاة للمروزي",
+    "arabic_author": "محمد بن نصر المروزي",
+    "current_english_name": "Tʿẓym qdr alṣlah llmrwzy",
+    "current_english_author": "Mḥmd bn nṣr almrwzy"
+  },
+  {
+    "id": 377,
+    "arabic_name": "فضائل القرآن للفريابي",
+    "arabic_author": "محمد بن الحسن الفريابي",
+    "current_english_name": "Fḍaʾil alqrān llfryaby",
+    "current_english_author": "Mḥmd bn alḥsn alfryaby"
+  },
+  {
+    "id": 378,
+    "arabic_name": "الأمر بالمعروف والنهي عن المنكر للخلال",
+    "arabic_author": "أبو بكر الخلال",
+    "current_english_name": "Alamr balmʿrwf walnhy ʿn almnkr llkhlal",
+    "current_english_author": "Abw bkr alkhlal"
+  },
+  {
+    "id": 379,
+    "arabic_name": "الحث على التجارة والصناعة للخلال",
+    "arabic_author": "أبو بكر الخلال",
+    "current_english_name": "Alḥth ʿlā altjarh walṣnaʿh llkhlal",
+    "current_english_author": "Abw bkr alkhlal"
+  },
+  {
+    "id": 380,
+    "arabic_name": "أخبار وحكايات للغساني",
+    "arabic_author": "محمد بن الفيض الغساني",
+    "current_english_name": "Akhbar wḥkayat llghsany",
+    "current_english_author": "Mḥmd bn alfyḍ alghsany"
+  },
+  {
+    "id": 381,
+    "arabic_name": "اعتلال القلوب للخرائطي",
+    "arabic_author": "محمد بن جعفر بن سهل الخرائطي",
+    "current_english_name": "Aʿtlal alqlwb llkhraʾiṭy",
+    "current_english_author": "Mḥmd bn jʿfr bn shl alkhraʾiṭy"
+  },
+  {
+    "id": 382,
+    "arabic_name": "شكر الله على نعمه للخرائطي",
+    "arabic_author": "محمد بن جعفر بن سهل الخرائطي",
+    "current_english_name": "Shkr allh ʿlā nʿmh llkhraʾiṭy",
+    "current_english_author": "Mḥmd bn jʿfr bn shl alkhraʾiṭy"
+  },
+  {
+    "id": 383,
+    "arabic_name": "المجالسة وجواهر العلم للدينوري",
+    "arabic_author": "أبو بكر الدينوري",
+    "current_english_name": "Almjalsh wjwahr alʿlm lldynwry",
+    "current_english_author": "Abw bkr aldynwry"
+  },
+  {
+    "id": 384,
+    "arabic_name": "الزهد وصفة الزاهدين لابن الأعرابي",
+    "arabic_author": "ابن الأعرابي",
+    "current_english_name": "Alzhd wṣfh alzahdyn labn alaʿraby",
+    "current_english_author": "Abn alaʿraby"
+  },
+  {
+    "id": 385,
+    "arabic_name": "أخلاق العلماء للآجري",
+    "arabic_author": "الآجري",
+    "current_english_name": "Akhlaq alʿlmaʾ llājry",
+    "current_english_author": "Alājry"
+  },
+  {
+    "id": 386,
+    "arabic_name": "الدعاء للطبراني",
+    "arabic_author": "سليمان بن أحمد الطبراني",
+    "current_english_name": "Aldʿaʾ llṭbrany",
+    "current_english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 387,
+    "arabic_name": "عمل اليوم والليلة لابن السني",
+    "arabic_author": "ابن السني",
+    "current_english_name": "ʿml alywm wallylh labn alsny",
+    "current_english_author": "Abn alsny"
+  },
+  {
+    "id": 388,
+    "arabic_name": "التوبيخ والتنبيه",
+    "arabic_author": "أبو الشيخ الأصبهاني",
+    "current_english_name": "Altwbykh waltnbyh",
+    "current_english_author": "Abw alshykh alaṣbhany"
+  },
+  {
+    "id": 389,
+    "arabic_name": "تنبيه الغافلين بأحاديث سيد الأنبياء والمرسلين لسمرقندي",
+    "arabic_author": "نصر بن محمد بن إبراهيم",
+    "current_english_name": "Tnbyh alghaflyn baḥadyth syd alanbyaʾ walmrslyn lsmrqndy",
+    "current_english_author": "Nṣr bn mḥmd bn ibrahym"
+  },
+  {
+    "id": 390,
+    "arabic_name": "بحر الفوائد المسمى بمعاني الأخيار للكلاباذي",
+    "arabic_author": "محمد بن إسحاق الكلاباذي",
+    "current_english_name": "Bḥr alfwaʾid almsmā bmʿany alakhyar llklabadhy",
+    "current_english_author": "Mḥmd bn isḥaq alklabadhy"
+  },
+  {
+    "id": 391,
+    "arabic_name": "الترغيب في فضائل الأعمال لابن شاهين",
+    "arabic_author": "ابن شاهين",
+    "current_english_name": "Altrghyb fy fḍaʾil alaʿmal labn shahyn",
+    "current_english_author": "Abn shahyn"
+  },
+  {
+    "id": 392,
+    "arabic_name": "العزلة للخطابي",
+    "arabic_author": "أبو سليمان الخطابي",
+    "current_english_name": "Alʿzlh llkhṭaby",
+    "current_english_author": "Abw slyman alkhṭaby"
+  },
+  {
+    "id": 393,
+    "arabic_name": "الجليس الصالح الكافي والأنيس الناصح الشافي المعافى بن زكريا",
+    "arabic_author": "المعافى بن زكريا",
+    "current_english_name": "Aljlys alṣalḥ alkafy walanys alnaṣḥ alshafy almʿafā bn zkrya",
+    "current_english_author": "Almʿafā bn zkrya"
+  },
+  {
+    "id": 394,
+    "arabic_name": "صفة الجنة لأبي نعيم",
+    "arabic_author": "أبو نعيم الأصبهاني",
+    "current_english_name": "Ṣfh aljnh laby nʿym",
+    "current_english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 395,
+    "arabic_name": "فضائل القرآن وتلاوته للرازي",
+    "arabic_author": "أبو الفضل الرازي",
+    "current_english_name": "Fḍaʾil alqrān wtlawth llrazy",
+    "current_english_author": "Abw alfḍl alrazy"
+  },
+  {
+    "id": 396,
+    "arabic_name": "الدعوات الكبير للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Aldʿwat alkbyr llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 397,
+    "arabic_name": "الزهد الكبير للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Alzhd alkbyr llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 398,
+    "arabic_name": "فضائل الأوقات للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Fḍaʾil alawqat llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 399,
+    "arabic_name": "جامع بيان العلم وفضله لابن عبد البر",
+    "arabic_author": "ابن عبد البر القرطبي",
+    "current_english_name": "Jamiʿ byan alʿlm wfḍlh labn ʿbd albr",
+    "current_english_author": "Abn ʿbd albr alqrṭby"
+  },
+  {
+    "id": 400,
+    "arabic_name": "اقتضاء العلم العمل للخطيب",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Aqtḍaʾ alʿlm alʿml llkhṭyb",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 401,
+    "arabic_name": "الزهد والرقائق للخطيب البغدادي",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Alzhd walrqaʾiq llkhṭyb albghdady",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 402,
+    "arabic_name": "الفقيه والمتفقه للخطيب",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Alfqyh walmtfqh llkhṭyb",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 403,
+    "arabic_name": "البر والصلة لابن الجوزي",
+    "arabic_author": "ابن الجوزي",
+    "current_english_name": "Albr walṣlh labn aljwzy",
+    "current_english_author": "Abn aljwzy"
+  },
+  {
+    "id": 404,
+    "arabic_name": "الثبات عند الممات لابن الجوزي",
+    "arabic_author": "ابن الجوزي",
+    "current_english_name": "Althbat ʿnd almmat labn aljwzy",
+    "current_english_author": "Abn aljwzy"
+  },
+  {
+    "id": 405,
+    "arabic_name": "ذم الهوى لابن الجوزي",
+    "arabic_author": "ابن الجوزي",
+    "current_english_name": "Dhm alhwā labn aljwzy",
+    "current_english_author": "Abn aljwzy"
+  },
+  {
+    "id": 406,
+    "arabic_name": "مثير الغرام الساكن إلى أشرف الأماكن لابن الجوزي",
+    "arabic_author": "ابن الجوزي",
+    "current_english_name": "Mthyr alghram alsakn ilā ashrf alamakn labn aljwzy",
+    "current_english_author": "Abn aljwzy"
+  },
+  {
+    "id": 407,
+    "arabic_name": "الترغيب في الدعاء والحث عليه لعبد الغني المقدسي",
+    "arabic_author": "عبد الغني بن عبد الواحد المقدسي",
+    "current_english_name": "Altrghyb fy aldʿaʾ walḥth ʿlyh lʿbd alghny almqdsy",
+    "current_english_author": "ʿbd alghny bn ʿbd alwaḥd almqdsy"
+  },
+  {
+    "id": 408,
+    "arabic_name": "صفة النفاق ونعت المنافقين لأبي نعيم",
+    "arabic_author": "أبو نعيم الأصبهاني",
+    "current_english_name": "Ṣfh alnfaq wnʿt almnafqyn laby nʿym",
+    "current_english_author": "Abw nʿym alaṣbhany"
+  },
+  {
+    "id": 409,
+    "arabic_name": "روضة العقلاء لابن حبان",
+    "arabic_author": "أبو حاتم بن حبان",
+    "current_english_name": "Rwḍh alʿqlaʾ labn ḥban",
+    "current_english_author": "Abw ḥatm bn ḥban"
+  },
+  {
+    "id": 410,
+    "arabic_name": "التبصرة لابن الجوزي",
+    "arabic_author": "ابن الجوزي",
+    "current_english_name": "Altbṣrh labn aljwzy",
+    "current_english_author": "Abn aljwzy"
+  },
+  {
+    "id": 411,
+    "arabic_name": "الأدب لابن أبي شيبة",
+    "arabic_author": "ابن ابي شيبة",
+    "current_english_name": "Aladb labn aby shybh",
+    "current_english_author": "Abn aby shybh"
+  },
+  {
+    "id": 412,
+    "arabic_name": "الورع لأحمد  رواية المروزي",
+    "arabic_author": "أحمد بن حنبل",
+    "current_english_name": "Alwrʿ laḥmd rwayh almrwzy",
+    "current_english_author": "Aḥmd bn ḥnbl"
+  },
+  {
+    "id": 413,
+    "arabic_name": "الورع لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Alwrʿ labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 414,
+    "arabic_name": "مكارم الأخلاق لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Mkarm alakhlaq labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 415,
+    "arabic_name": "اصطناع المعروف",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Aṣṭnaʿ almʿrwf",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 416,
+    "arabic_name": "التواضع والخمول لابن أبي الدنيا",
+    "arabic_author": "ابن أبي الدنيا",
+    "current_english_name": "Altwaḍʿ walkhmwl labn aby aldnya",
+    "current_english_author": "Abn aby aldnya"
+  },
+  {
+    "id": 417,
+    "arabic_name": "المروءة لابن المرزبان",
+    "arabic_author": "محمد بن خلف بن المرزبان",
+    "current_english_name": "Almrwʾh labn almrzban",
+    "current_english_author": "Mḥmd bn khlf bn almrzban"
+  },
+  {
+    "id": 418,
+    "arabic_name": "مساوئ الأخلاق للخرائطي",
+    "arabic_author": "محمد بن جعفر بن سهل الخرائطي",
+    "current_english_name": "Msawʾi alakhlaq llkhraʾiṭy",
+    "current_english_author": "Mḥmd bn jʿfr bn shl alkhraʾiṭy"
+  },
+  {
+    "id": 419,
+    "arabic_name": "مكارم الأخلاق للخرائطي",
+    "arabic_author": "محمد بن جعفر بن سهل الخرائطي",
+    "current_english_name": "Mkarm alakhlaq llkhraʾiṭy",
+    "current_english_author": "Mḥmd bn jʿfr bn shl alkhraʾiṭy"
+  },
+  {
+    "id": 420,
+    "arabic_name": "مكارم الأخلاق للطبراني",
+    "arabic_author": "سليمان بن أحمد الطبراني",
+    "current_english_name": "Mkarm alakhlaq llṭbrany",
+    "current_english_author": "Slyman bn aḥmd alṭbrany"
+  },
+  {
+    "id": 421,
+    "arabic_name": "آداب الصحبة للسلمي",
+    "arabic_author": "أبو عبد الرحمن السلمي",
+    "current_english_name": "Adab alṣḥbh llslmy",
+    "current_english_author": "Abw ʿbd alrḥmn alslmy"
+  },
+  {
+    "id": 422,
+    "arabic_name": "الآداب للبيهقي",
+    "arabic_author": "البيهقي",
+    "current_english_name": "Alādab llbyhqy",
+    "current_english_author": "Albyhqy"
+  },
+  {
+    "id": 423,
+    "arabic_name": "البخلاء للخطيب البغدادي",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Albkhlaʾ llkhṭyb albghdady",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 424,
+    "arabic_name": "التطفيل للخطيب البغدادي",
+    "arabic_author": "الخطيب البغدادي",
+    "current_english_name": "Altṭfyl llkhṭyb albghdady",
+    "current_english_author": "Alkhṭyb albghdady"
+  },
+  {
+    "id": 425,
+    "arabic_name": "القصاص والمذكرين لابن الجوزي",
+    "arabic_author": "ابن الجوزي",
+    "current_english_name": "Alqṣaṣ walmdhkryn labn aljwzy",
+    "current_english_author": "Abn aljwzy"
+  }
+]

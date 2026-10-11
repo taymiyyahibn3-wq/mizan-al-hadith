@@ -1,0 +1,2127 @@
+[
+  {
+    "id": 1,
+    "english_name": "Sahih al-Bukhari",
+    "english_author": "Imam Muhammad ibn Isma'il al-Bukhari"
+  },
+  {
+    "id": 2,
+    "english_name": "Sahih Muslim",
+    "english_author": "Imam Muslim ibn al-Hajjaj"
+  },
+  {
+    "id": 3,
+    "english_name": "Jami' al-Tirmidhi",
+    "english_author": "Imam Muhammad ibn 'Isa al-Tirmidhi"
+  },
+  {
+    "id": 4,
+    "english_name": "Sunan Abi Dawud",
+    "english_author": "Imam Sulayman ibn al-Ash'ath al-Sijistani"
+  },
+  {
+    "id": 5,
+    "english_name": "Sunan al-Nasa'i",
+    "english_author": "Imam Ahmad ibn Shu'ayb al-Nasa'i"
+  },
+  {
+    "id": 6,
+    "english_name": "Sunan Ibn Majah",
+    "english_author": "Imam Muhammad ibn Yazid Ibn Majah al-Qazwini"
+  },
+  {
+    "id": 7,
+    "english_name": "Sunan al-Darimi",
+    "english_author": "Abu Muhammad Abdullah ibn Abd al-Rahman al-Darimi"
+  },
+  {
+    "id": 8,
+    "english_name": "Muwatta Malik, narration of Yahya al-Laythi",
+    "english_author": "Imam Malik ibn Anas"
+  },
+  {
+    "id": 9,
+    "english_name": "Musnad Ahmad ibn Hanbal",
+    "english_author": "Imam Ahmad ibn Hanbal"
+  },
+  {
+    "id": 10,
+    "english_name": "Sahih Ibn Khuzaymah",
+    "english_author": "Ibn Khuzaymah"
+  },
+  {
+    "id": 11,
+    "english_name": "Sahih Ibn Hibban",
+    "english_author": "Abu Hatim Muhammad ibn Hibban"
+  },
+  {
+    "id": 12,
+    "english_name": "al-Mustadrak 'ala al-Sahihayn",
+    "english_author": "al-Hakim al-Naysaburi"
+  },
+  {
+    "id": 13,
+    "english_name": "Mustakhraj Abi 'Awanah",
+    "english_author": "Abu 'Awanah al-Isfarayini"
+  },
+  {
+    "id": 14,
+    "english_name": "al-Musnad al-Mustakhraj 'ala Sahih Muslim by Abu Nu'aym",
+    "english_author": "Abu Nu'aym al-Asbahani"
+  },
+  {
+    "id": 15,
+    "english_name": "al-Ahadith al-Mukhtarah",
+    "english_author": "Diya al-Din al-Maqdisi"
+  },
+  {
+    "id": 16,
+    "english_name": "Mukhtasar al-ahkam al-mstkhrj ala Jami' al-Tirmidhi",
+    "english_author": "al-Tusi"
+  },
+  {
+    "id": 17,
+    "english_name": "al-Sunan al-Kubra by al-Nasa'i",
+    "english_author": "al-Nasa'i"
+  },
+  {
+    "id": 18,
+    "english_name": "Sunan Sa'id ibn Mansur",
+    "english_author": "Sa'id ibn Mansur"
+  },
+  {
+    "id": 19,
+    "english_name": "al-mntqa min al-snn al-msndah",
+    "english_author": "Ibn al-Jarud al-Naysaburi"
+  },
+  {
+    "id": 20,
+    "english_name": "Sunan al-Daraqutni",
+    "english_author": "al-Daraqutni"
+  },
+  {
+    "id": 21,
+    "english_name": "al-Sunan al-Sughra by al-Bayhaqi",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 22,
+    "english_name": "al-Sunan al-Kubra by al-Bayhaqi",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 23,
+    "english_name": "al-Madkhal ila al-snn al-Kubra llbyhqy",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 24,
+    "english_name": "Ma'rifat al-Sunan wa al-Athar by al-Bayhaqi",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 25,
+    "english_name": "Muwatta Malik, narration of Muhammad ibn al-Hasan al-Shaybani",
+    "english_author": "Imam Malik ibn Anas"
+  },
+  {
+    "id": 26,
+    "english_name": "Muwatta Malik, narration of Abu Mus'ab al-Zuhri",
+    "english_author": "Imam Malik ibn Anas"
+  },
+  {
+    "id": 27,
+    "english_name": "Muwatta Abdullah ibn Wahb",
+    "english_author": "Abdullah ibn Wahb ibn Muslim"
+  },
+  {
+    "id": 28,
+    "english_name": "al-Sunan al-Ma'thurah, narration of al-Muzani",
+    "english_author": "Imam al-Shafi'i"
+  },
+  {
+    "id": 29,
+    "english_name": "Musnad Abi Dawud al-Tayalisi",
+    "english_author": "Abu Dawud al-Tayalisi"
+  },
+  {
+    "id": 30,
+    "english_name": "Musnad Ishaq ibn Rahwayh",
+    "english_author": "Ishaq ibn Rahwayh"
+  },
+  {
+    "id": 31,
+    "english_name": "Musnad al-Humaydi",
+    "english_author": "Abdullah ibn al-Zubayr al-Humaydi"
+  },
+  {
+    "id": 32,
+    "english_name": "Musnad Ibn al-Ja'd",
+    "english_author": "Ali ibn al-Ja'd al-Jawhari"
+  },
+  {
+    "id": 33,
+    "english_name": "Musnad al-Shafi'i",
+    "english_author": "Imam al-Shafi'i"
+  },
+  {
+    "id": 34,
+    "english_name": "Musnad Ibn Abi Shaybah",
+    "english_author": "Ibn Abi Shaybah"
+  },
+  {
+    "id": 35,
+    "english_name": "al-Bahr al-Zakhkhar bi-Musnad al-Bazzar",
+    "english_author": "Abu Bakr al-Bazzar"
+  },
+  {
+    "id": 36,
+    "english_name": "al-bhr al-zkhar bmsnd al-Bazzar 10-13",
+    "english_author": "Abu bkr al-Bazzar"
+  },
+  {
+    "id": 37,
+    "english_name": "Musnad Abi Ya'la al-Mawsili",
+    "english_author": "Abu Ya'la al-Mawsili"
+  },
+  {
+    "id": 38,
+    "english_name": "Musnad al-Ruyani",
+    "english_author": "Muhammad ibn Harun al-Ruyani"
+  },
+  {
+    "id": 39,
+    "english_name": "al-msnd llshashy",
+    "english_author": "al-hythm ibn klyb al-Shashi"
+  },
+  {
+    "id": 40,
+    "english_name": "al-Matalib al-'Aliyah bi-Zawa'id al-Masanid al-Thamaniyah",
+    "english_author": "Ibn Hajar al-Asqalani"
+  },
+  {
+    "id": 41,
+    "english_name": "Ithaf al-Khiyrah al-Maharah bi-Zawa’id al-msanyd al-‘shrah",
+    "english_author": "al-Busiri"
+  },
+  {
+    "id": 42,
+    "english_name": "Bughyat al-Bahith an Zawa’id Musnad al-harth",
+    "english_author": "al-Haythami"
+  },
+  {
+    "id": 43,
+    "english_name": "Musnad al-sraj",
+    "english_author": "Muhammad ibn Ishaq al-Khurasani"
+  },
+  {
+    "id": 44,
+    "english_name": "Musnad ‘ayshah labn Abi dawd",
+    "english_author": "Ibn Abi dawd al-Sijistani"
+  },
+  {
+    "id": 45,
+    "english_name": "Musnad al-Shamiyyin by al-Tabarani",
+    "english_author": "Sulayman ibn Ahmad al-Tabarani"
+  },
+  {
+    "id": 46,
+    "english_name": "Musnad al-mwta lljwhry",
+    "english_author": "al-Hasan ibn ‘ly al-Jawhari"
+  },
+  {
+    "id": 47,
+    "english_name": "Musnad Abi hnyfah Riwayat al-Hasakafi",
+    "english_author": "Abu hnyfah"
+  },
+  {
+    "id": 48,
+    "english_name": "Musnad al-Shihab",
+    "english_author": "al-Shihab al-Quda'i"
+  },
+  {
+    "id": 49,
+    "english_name": "Musnad Abdullah ibn al-Mubarak",
+    "english_author": "Abdullah ibn al-Mubarak"
+  },
+  {
+    "id": 50,
+    "english_name": "Musnad Abi hnyfah Riwayat Abi Nu'aym",
+    "english_author": "Abu hnyfah"
+  },
+  {
+    "id": 51,
+    "english_name": "Musnad Sa'd ibn Abi Waqqas lldwrqy",
+    "english_author": "Ahmad ibn Ibrahim al-dwrqy"
+  },
+  {
+    "id": 52,
+    "english_name": "Musnad Abd ibn Humayd",
+    "english_author": "Abd ibn Humayd"
+  },
+  {
+    "id": 53,
+    "english_name": "Musnad Abd Allah ibn ‘mr lltrswsy",
+    "english_author": "Abu amyah al-Tarsusi"
+  },
+  {
+    "id": 54,
+    "english_name": "Musnad Abi bkr al-sdyq llmrwzy",
+    "english_author": "Ahmad ibn ‘ly al-Marwazi"
+  },
+  {
+    "id": 55,
+    "english_name": "Musnad zyd",
+    "english_author": "zyd ibn ‘ly ibn al-Husayn"
+  },
+  {
+    "id": 56,
+    "english_name": "Musnad al-rby‘ ibn hbyb",
+    "english_author": "al-rby‘ ibn hbyb"
+  },
+  {
+    "id": 57,
+    "english_name": "Musnad Imam al-Shafi'i ( Tartib snjr)",
+    "english_author": "al-amyr Sinjar"
+  },
+  {
+    "id": 58,
+    "english_name": "al-Maqsid al-‘ly fi Zawa’id Abi y‘la al-Mawsili Juz’",
+    "english_author": "al-Haythami"
+  },
+  {
+    "id": 59,
+    "english_name": "Kashf al-Astar",
+    "english_author": "nwr al-dyn al-Haythami"
+  },
+  {
+    "id": 60,
+    "english_name": "Musnad ‘qbah ibn ‘amr",
+    "english_author": "al-qasm ibn qtlwbgha al-hnfy"
+  },
+  {
+    "id": 61,
+    "english_name": "Musannaf Abd al-Razzaq",
+    "english_author": "Abd al-Razzaq al-San'ani"
+  },
+  {
+    "id": 62,
+    "english_name": "Musannaf Ibn Abi Shaybah",
+    "english_author": "Ibn Abi Shaybah"
+  },
+  {
+    "id": 63,
+    "english_name": "al-jam‘ lm‘mr ibn Rashid",
+    "english_author": "m‘mr ibn Rashid al-Azdi"
+  },
+  {
+    "id": 64,
+    "english_name": "al-jam‘ fi al-hdyth labn wa-hb",
+    "english_author": "Abd Allah ibn wa-hb ibn Muslim"
+  },
+  {
+    "id": 65,
+    "english_name": "al-Mu'jam al-Saghir by al-Tabarani",
+    "english_author": "Sulayman ibn Ahmad al-Tabarani"
+  },
+  {
+    "id": 66,
+    "english_name": "al-Mu'jam al-Awsat by al-Tabarani",
+    "english_author": "Sulayman ibn Ahmad al-Tabarani"
+  },
+  {
+    "id": 67,
+    "english_name": "al-Mu'jam al-Kabir by al-Tabarani",
+    "english_author": "Sulayman ibn Ahmad al-Tabarani"
+  },
+  {
+    "id": 68,
+    "english_name": "mshykhah Ibn Tahman",
+    "english_author": "Ibrahim ibn Tahman"
+  },
+  {
+    "id": 69,
+    "english_name": "Mu'jam Abi y‘la al-Mawsili",
+    "english_author": "Abu y‘la al-Mawsili"
+  },
+  {
+    "id": 70,
+    "english_name": "Mu'jam Ibn al-A'rabi",
+    "english_author": "Ibn al-A'rabi"
+  },
+  {
+    "id": 71,
+    "english_name": "Mu'jam al-Sahabah labn Qani",
+    "english_author": "Ibn Qani al-Baghdadi"
+  },
+  {
+    "id": 72,
+    "english_name": "Mu'jam Asami shywkh Abi bkr al-Isma'ili",
+    "english_author": "Abu bkr al-Isma'ili"
+  },
+  {
+    "id": 73,
+    "english_name": "Mu'jam Ibn al-Muqri",
+    "english_author": "Abu bkr ibn al-Muqri"
+  },
+  {
+    "id": 74,
+    "english_name": "Mu'jam al-Shuyukh by Ibn Jami' al-Saydawi",
+    "english_author": "Ibn Jami' al-Saydawi"
+  },
+  {
+    "id": 75,
+    "english_name": "al-'Umdah min al-Fawa'id wa-al-athar al-Sihah fi mshykhah Shuhdah",
+    "english_author": "Shuhdah bnt Ahmad ibn al-frj al-Dinuri"
+  },
+  {
+    "id": 76,
+    "english_name": "mshykhah Muhammad al-razy Ibn al-htab",
+    "english_author": "Abu tahr al-Salafi"
+  },
+  {
+    "id": 77,
+    "english_name": "Mu'jam al-sfr llslfy",
+    "english_author": "Abu tahr al-Salafi"
+  },
+  {
+    "id": 78,
+    "english_name": "al-Mu'jam al-Mukhtass by al-Dhahabi",
+    "english_author": "al-Dhahabi"
+  },
+  {
+    "id": 79,
+    "english_name": "al-Muntakhab min Mu'jam shywkh Ibn al-Sam'ani",
+    "english_author": "Ibn al-Sam'ani"
+  },
+  {
+    "id": 80,
+    "english_name": "Mu'jam ashab al-qady Abi ‘ly al-sdfy",
+    "english_author": "Ibn al-abar al-Quda'i"
+  },
+  {
+    "id": 81,
+    "english_name": "mshykhah Ibn jma‘ah",
+    "english_author": "Ibn jma‘ah"
+  },
+  {
+    "id": 82,
+    "english_name": "mshykhah Ibn al-bkhary",
+    "english_author": "Ahmad ibn Muhammad al-Zahiri al-hnfy"
+  },
+  {
+    "id": 83,
+    "english_name": "Mu'jam al-Shuyukh al-Kabir lldhhby",
+    "english_author": "al-Dhahabi"
+  },
+  {
+    "id": 84,
+    "english_name": "Mu'jam al-Shuyukh ltaj al-dyn al-sbky",
+    "english_author": "al-sbky"
+  },
+  {
+    "id": 85,
+    "english_name": "shyfah hmam ibn mnbh",
+    "english_author": "hmam ibn mnbh"
+  },
+  {
+    "id": 86,
+    "english_name": "hdyth Isma'il ibn j‘fr",
+    "english_author": "Isma'il ibn j‘fr"
+  },
+  {
+    "id": 87,
+    "english_name": "Juz’ Abi jhm al-Baghdadi",
+    "english_author": "Abu jhm al-Baghdadi"
+  },
+  {
+    "id": 88,
+    "english_name": "hdyth yhya ibn m‘yn Riwayat Abi bkr al-Marwazi",
+    "english_author": "yhya ibn m‘yn"
+  },
+  {
+    "id": 89,
+    "english_name": "Juz’ min hdyth lwyn al-msysy",
+    "english_author": "Muhammad ibn slyman lwyn al-msysy"
+  },
+  {
+    "id": 90,
+    "english_name": "hdyth hsham ibn ‘mar",
+    "english_author": "hsham ibn ‘mar"
+  },
+  {
+    "id": 91,
+    "english_name": "Juz’ hnbl ibn Ishaq",
+    "english_author": "hnbl ibn Ishaq"
+  },
+  {
+    "id": 92,
+    "english_name": "al-awayl labn Abi ‘asm",
+    "english_author": "Ibn Abi ‘asm"
+  },
+  {
+    "id": 93,
+    "english_name": "al-mfaryd an rswl Allah sla Allah ‘lyh wa-slm laby y‘la al-Mawsili",
+    "english_author": "Abu y‘la al-Mawsili"
+  },
+  {
+    "id": 94,
+    "english_name": "al-jz’ al-hady ‘shr min fwayd Ibn al-bkhtry",
+    "english_author": "Abu j‘fr ibn al-bkhtry"
+  },
+  {
+    "id": 95,
+    "english_name": "al-jz’ al-rab‘ min hdyth Ibn al-bkhtry",
+    "english_author": "Abu j‘fr ibn al-bkhtry"
+  },
+  {
+    "id": 96,
+    "english_name": "Juz’ fyh stah mjals min amaly Ibn al-bkhtry",
+    "english_author": "Abu j‘fr ibn al-bkhtry"
+  },
+  {
+    "id": 97,
+    "english_name": "fwayd Abi Muhammad al-fakhy",
+    "english_author": "al-fakhy"
+  },
+  {
+    "id": 98,
+    "english_name": "al-Fawa'id al-shhyr balghylanyat laby bkr al-Shafi'i",
+    "english_author": "Abu bkr al-Shafi'i"
+  },
+  {
+    "id": 99,
+    "english_name": "trq hdyth min kdhb ‘ly mt‘mda lltbrany",
+    "english_author": "slyman ibn Ahmad al-Tabarani"
+  },
+  {
+    "id": 100,
+    "english_name": "Juz' al-Alf Dinar by al-Qati'i",
+    "english_author": "Abu Bakr al-Qati'i"
+  },
+  {
+    "id": 101,
+    "english_name": "Juz’ ma rwah Abi al-zbyr an ghyr jabr",
+    "english_author": "Abu al-shykh al-Asbahani"
+  },
+  {
+    "id": 102,
+    "english_name": "fwayd Ibn hyan",
+    "english_author": "Abu al-shykh al-Asbahani"
+  },
+  {
+    "id": 103,
+    "english_name": "ghrayb Malik ibn Anas",
+    "english_author": "Muhammad ibn al-mzfr al-Bazzar"
+  },
+  {
+    "id": 104,
+    "english_name": "hdyth Abi al-fdl al-zhry",
+    "english_author": "al-Hasan ibn ‘ly al-Jawhari"
+  },
+  {
+    "id": 105,
+    "english_name": "al-Fawa'id al-mntqaah an al-Shuyukh al-‘waly llhrby",
+    "english_author": "‘ly ibn ‘mr al-hrby"
+  },
+  {
+    "id": 106,
+    "english_name": "Juz’ Abi al-tahr",
+    "english_author": "Abu al-tahr al-dhhly"
+  },
+  {
+    "id": 107,
+    "english_name": "Juz’ fyh ma antqa Ibn mrdwyh ala Abi al-qasm al-Tabarani labn mrdwyh",
+    "english_author": "Ahmad ibn mwsa Ibn mrdwyh"
+  },
+  {
+    "id": 108,
+    "english_name": "al-arb‘wn fi shywkh al-swfyah llmalyny",
+    "english_author": "Ahmad ibn Muhammad al-malyny"
+  },
+  {
+    "id": 109,
+    "english_name": "fwayd tmam al-razy",
+    "english_author": "tmam ibn Muhammad al-razy"
+  },
+  {
+    "id": 110,
+    "english_name": "fwayd al-‘raqyyn llnqash",
+    "english_author": "‘ly ibn ‘mrw al-nqash"
+  },
+  {
+    "id": 111,
+    "english_name": "al-arb‘wn al-Sughra llbyhqy",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 112,
+    "english_name": "al-mhrwanyat wa-al-fwayd al-mntkhbah al-Sihah wa-al-ghrayb lywsf ibn Muhammad",
+    "english_author": "ywsf ibn Muhammad al-mhrwany"
+  },
+  {
+    "id": 113,
+    "english_name": "al-arb‘yn al-mrtbah ala tbqat al-arb‘yn labn al-mfdl al-Maqdisi",
+    "english_author": "‘ly ibn al-mfdl al-Maqdisi"
+  },
+  {
+    "id": 114,
+    "english_name": "Juz’ min hdyth Abi bkr ibn al-Muqri",
+    "english_author": "Muhammad ibn Abd al-rhmn al-Muqri"
+  },
+  {
+    "id": 115,
+    "english_name": "‘waly Malik ibn Anas Riwayat Ibn al-hajb",
+    "english_author": "‘mr ibn al-hajb al-amyny"
+  },
+  {
+    "id": 116,
+    "english_name": "‘waly Malik ibn Anas laby Ahmad al-Hakim",
+    "english_author": "Abu Ahmad al-Hakim"
+  },
+  {
+    "id": 117,
+    "english_name": "al-awayl",
+    "english_author": "Abu ‘rwbah al-hrany"
+  },
+  {
+    "id": 118,
+    "english_name": "Juz’ min nskhah Ibrahim ibn Sa'd",
+    "english_author": "Abd al-whab ibn mndh"
+  },
+  {
+    "id": 119,
+    "english_name": "al-jz’ al-awl wa-al-thany min fwayd Ibn bshran",
+    "english_author": "Abu al-Husayn ibn bshran"
+  },
+  {
+    "id": 120,
+    "english_name": "al-Athar al-mrwyah fi al-at‘mah al-‘tryah",
+    "english_author": "Ibn bshkwal"
+  },
+  {
+    "id": 121,
+    "english_name": "al-arb‘wn hdytha min al-msawaah",
+    "english_author": "Ibn Asakir al-Dimashqi"
+  },
+  {
+    "id": 122,
+    "english_name": "al-tywryat",
+    "english_author": "Abu al-Hasan al-tywry"
+  },
+  {
+    "id": 123,
+    "english_name": "Juz’ Abi al-‘bas ibn ‘sm",
+    "english_author": "Abu al-‘bas ibn ‘sm"
+  },
+  {
+    "id": 124,
+    "english_name": "Juz’ al-Hasan ibn rshyq",
+    "english_author": "al-Hasan ibn rshyq"
+  },
+  {
+    "id": 125,
+    "english_name": "fwayd Ibn akhy mymy al-dqaq",
+    "english_author": "Abu al-Husayn al-Baghdadi"
+  },
+  {
+    "id": 126,
+    "english_name": "ahadyth ‘fan ibn Muslim",
+    "english_author": "‘fan ibn Muslim al-sfar"
+  },
+  {
+    "id": 127,
+    "english_name": "Juz’ Abi ‘thman s‘dan ibn nsr ibn Mansur al-mkhrmy",
+    "english_author": "s‘dan ibn nsr ibn Mansur al-mkhrmy al-Bazzar"
+  },
+  {
+    "id": 128,
+    "english_name": "al-jz’ al-thany min Musnad Abi hryrah",
+    "english_author": "Ibrahim ibn hrb al-‘skry"
+  },
+  {
+    "id": 129,
+    "english_name": "al-Ahadith al-mayah llhafz al-‘lamah Muhammad ibn ‘ly ibn twlwn",
+    "english_author": "Muhammad ibn ‘ly ibn twlwn"
+  },
+  {
+    "id": 130,
+    "english_name": "Bughyat al-mltms",
+    "english_author": "al-‘layy"
+  },
+  {
+    "id": 131,
+    "english_name": "nzm al-aly balmayah al-‘waly",
+    "english_author": "Ibn hjr al-Asqalani"
+  },
+  {
+    "id": 132,
+    "english_name": "al-amaly fi athar al-Sahabah l‘bd al-rzaq al-sn‘any",
+    "english_author": "Abd al-rzaq al-sn‘any"
+  },
+  {
+    "id": 133,
+    "english_name": "amaly Abi Ishaq",
+    "english_author": "Ibrahim ibn Abd al-smd al-hashmy"
+  },
+  {
+    "id": 134,
+    "english_name": "amaly al-mhamly Riwayat Ibn yhya al-by‘",
+    "english_author": "al-Husayn ibn Isma'il al-mhamly"
+  },
+  {
+    "id": 135,
+    "english_name": "amaly al-zjaj",
+    "english_author": "Abd al-rhmn ibn Ishaq"
+  },
+  {
+    "id": 136,
+    "english_name": "amaly Ibn sm‘wn al-wa‘z",
+    "english_author": "Ibn sm‘wn al-wa‘z"
+  },
+  {
+    "id": 137,
+    "english_name": "amaly Ibn bshran",
+    "english_author": "Abu al-qasm ibn bshran"
+  },
+  {
+    "id": 138,
+    "english_name": "al-amaly al-khmysyah llshjry",
+    "english_author": "yhya ibn al-Husayn al-shjry al-jrjany"
+  },
+  {
+    "id": 139,
+    "english_name": "amaly Ibn bshran ( mjals akhra )",
+    "english_author": "Abd al-mlk ibn bshran"
+  },
+  {
+    "id": 140,
+    "english_name": "mjals min amaly Abi Abd Allah ibn mndh",
+    "english_author": "Abu Abd Allah ibn mndh"
+  },
+  {
+    "id": 141,
+    "english_name": "akhtlaf al-hdyth llshaf‘y",
+    "english_author": "al-Shafi'i"
+  },
+  {
+    "id": 142,
+    "english_name": "ghryb al-hdyth llhrwy",
+    "english_author": "al-qasm ibn slam al-hrwy"
+  },
+  {
+    "id": 143,
+    "english_name": "al-mrasyl m‘ al-asanyd laby dawd",
+    "english_author": "Abu dawd al-Sijistani"
+  },
+  {
+    "id": 144,
+    "english_name": "tawyl mkhtlf al-hdyth labn qtybah",
+    "english_author": "Abd Allah ibn Muslim"
+  },
+  {
+    "id": 145,
+    "english_name": "ghryb al-hdyth llhrby",
+    "english_author": "Ibrahim ibn Ishaq al-hrby"
+  },
+  {
+    "id": 146,
+    "english_name": "al-dlayl fi ghryb al-hdyth",
+    "english_author": "al-qasm ibn thabt al-srqsty"
+  },
+  {
+    "id": 147,
+    "english_name": "al-mrasyl labn Abi hatm",
+    "english_author": "Ibn Abi hatm al-razy"
+  },
+  {
+    "id": 148,
+    "english_name": "al-mhdth al-fasl byn al-rway wa-al-wa‘y",
+    "english_author": "al-ramhrmzy"
+  },
+  {
+    "id": 149,
+    "english_name": "amthal al-hdyth llramhrmzy",
+    "english_author": "al-ramhrmzy"
+  },
+  {
+    "id": 150,
+    "english_name": "amthal al-hdyth laby al-shykh al-Asbahani",
+    "english_author": "Abu al-shykh al-Asbahani"
+  },
+  {
+    "id": 151,
+    "english_name": "naskh al-hdyth wa-mnswkhh labn shahyn",
+    "english_author": "Ibn shahyn"
+  },
+  {
+    "id": 152,
+    "english_name": "ghryb al-hdyth llkhtaby",
+    "english_author": "al-khtaby al-bsty"
+  },
+  {
+    "id": 153,
+    "english_name": "tshyfat al-Muhaddithin",
+    "english_author": "al-Hasan ibn Abd Allah ibn shl al-‘skry"
+  },
+  {
+    "id": 154,
+    "english_name": "Ma'rifat ‘lwm al-hdyth llhakm",
+    "english_author": "al-Hakim al-Naysaburi"
+  },
+  {
+    "id": 155,
+    "english_name": "al-jam‘ lakhlaq al-rawy wa-adab al-sam‘ llkhtyb",
+    "english_author": "al-khtyb al-Baghdadi"
+  },
+  {
+    "id": 156,
+    "english_name": "al-kfayah fi ‘lm al-rwayah llkhtyb",
+    "english_author": "al-khtyb al-Baghdadi"
+  },
+  {
+    "id": 157,
+    "english_name": "tqyyd al-‘lm llkhtyb",
+    "english_author": "al-khtyb al-Baghdadi"
+  },
+  {
+    "id": 158,
+    "english_name": "tlkhys al-mtshabh fi al-rsm",
+    "english_author": "al-khtyb al-Baghdadi"
+  },
+  {
+    "id": 159,
+    "english_name": "shrf ashab al-hdyth llkhtyb",
+    "english_author": "al-khtyb al-Baghdadi"
+  },
+  {
+    "id": 160,
+    "english_name": "mwdh awham al-jm‘ wa-al-tfryq llkhtyb",
+    "english_author": "al-khtyb al-Baghdadi"
+  },
+  {
+    "id": 161,
+    "english_name": "al-ilma‘ ila ‘lm aswl al-rwayah lqady ‘yad",
+    "english_author": "al-qady ‘yad ibn mwsa al-yhsby"
+  },
+  {
+    "id": 162,
+    "english_name": "adb al-imla’ wa-al-astmla’ labn al-Sam'ani",
+    "english_author": "Abd al-krym ibn Muhammad al-Sam'ani"
+  },
+  {
+    "id": 163,
+    "english_name": "ghwamd al-asma’ al-Mubhamah labn bshkwal",
+    "english_author": "Ibn bshkwal"
+  },
+  {
+    "id": 164,
+    "english_name": "al-a‘tbar fi al-naskh wa-al-mnswkh min al-Athar llhazmy",
+    "english_author": "Muhammad ibn mwsa al-hazmy"
+  },
+  {
+    "id": 165,
+    "english_name": "i‘lam al-‘alm b‘d rswkhh bnaskh al-hdyth wa-mnswkhh",
+    "english_author": "Ibn al-Jawzi"
+  },
+  {
+    "id": 166,
+    "english_name": "tghlyq al-t‘lyq labn hjr",
+    "english_author": "Ibn hjr al-Asqalani"
+  },
+  {
+    "id": 167,
+    "english_name": "itharah al-Fawa'id",
+    "english_author": "Ibn Abd al-br"
+  },
+  {
+    "id": 168,
+    "english_name": "al-Iman labn Abi Shaybah",
+    "english_author": "Ibn aby Shaybah"
+  },
+  {
+    "id": 169,
+    "english_name": "al-Radd ala al-jhmyah lldarmy",
+    "english_author": "Abd Allah ibn Abd al-rhmn al-Darimi"
+  },
+  {
+    "id": 170,
+    "english_name": "khlq af‘al al-‘bad llbkhary",
+    "english_author": "Muhammad ibn Isma'il al-bkhary"
+  },
+  {
+    "id": 171,
+    "english_name": "nqd Imam Abi Sa'id ala al-mrysy al-‘nyd",
+    "english_author": "‘thman ibn Sa'id al-Darimi"
+  },
+  {
+    "id": 172,
+    "english_name": "al-snah labn Abi ‘asm",
+    "english_author": "Ibn Abi ‘asm"
+  },
+  {
+    "id": 173,
+    "english_name": "al-bd‘ labn wa-dah",
+    "english_author": "Ibn wa-dah al-mrwany"
+  },
+  {
+    "id": 174,
+    "english_name": "al-snah l‘bd Allah ibn Ahmad",
+    "english_author": "Abd Allah ibn Ahmad ibn hnbl"
+  },
+  {
+    "id": 175,
+    "english_name": "al-snah llmrwzy",
+    "english_author": "Muhammad ibn nsr al-Marwazi"
+  },
+  {
+    "id": 176,
+    "english_name": "al-qdr llfryaby",
+    "english_author": "Muhammad ibn al-Hasan al-fryaby"
+  },
+  {
+    "id": 177,
+    "english_name": "Sifat al-nfaq wa-dhm al-Munafiqin llfryaby",
+    "english_author": "Muhammad ibn al-Hasan al-fryaby"
+  },
+  {
+    "id": 178,
+    "english_name": "al-twhyd labn khzymah",
+    "english_author": "Ibn khzymah"
+  },
+  {
+    "id": 179,
+    "english_name": "al-snah laby bkr ibn al-khlal",
+    "english_author": "Abu bkr al-khlal"
+  },
+  {
+    "id": 180,
+    "english_name": "al-shry‘ah llajry",
+    "english_author": "al-ajry"
+  },
+  {
+    "id": 181,
+    "english_name": "al-‘zmah",
+    "english_author": "Abu al-shykh al-Asbahani"
+  },
+  {
+    "id": 182,
+    "english_name": "al-ruya lldarqtny",
+    "english_author": "al-Daraqutni"
+  },
+  {
+    "id": 183,
+    "english_name": "shrh mdhahb ahl al-snah labn shahyn",
+    "english_author": "Ibn shahyn"
+  },
+  {
+    "id": 184,
+    "english_name": "al-ibanah al-Kubra labn btah",
+    "english_author": "Ibn btah al-‘kbry"
+  },
+  {
+    "id": 185,
+    "english_name": "al-Iman labn mndh",
+    "english_author": "Muhammad ibn Ishaq ibn mndh"
+  },
+  {
+    "id": 186,
+    "english_name": "al-twhyd labn mndh",
+    "english_author": "Muhammad ibn Ishaq ibn mndh"
+  },
+  {
+    "id": 187,
+    "english_name": "shrh aswl a‘tqad ahl al-snah wa-al-jma‘ah llalkayy",
+    "english_author": "hbah Allah al-lalkayy"
+  },
+  {
+    "id": 188,
+    "english_name": "kramat awlya’ Allah ‘z wa-jl llalkayy",
+    "english_author": "hbah Allah al-lalkayy"
+  },
+  {
+    "id": 189,
+    "english_name": "al-snn al-wardah fi al-Fitan lldany",
+    "english_author": "‘thman ibn Sa'id al-dany"
+  },
+  {
+    "id": 190,
+    "english_name": "al-a‘tqad ila sbyl al-rshad llbyhqy",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 191,
+    "english_name": "al-asma’ wa-al-sfat llbyhqy",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 192,
+    "english_name": "al-b‘th wa-al-nshwr llbyhqy",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 193,
+    "english_name": "al-qda’ wa-al-qdr llbyhqy",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 194,
+    "english_name": "ithbat ‘dhab al-qbr wa-sual al-mlkyn",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 195,
+    "english_name": "sh‘b al-Iman llbyhqy",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 196,
+    "english_name": "Dham al-klam wa-ahlh l‘bd Allah al-ansary",
+    "english_author": "Abd Allah ibn Muhammad al-ansary"
+  },
+  {
+    "id": 197,
+    "english_name": "tbyyn kdhb al-mftry fyma nsb ila al-ash‘ry",
+    "english_author": "Ibn Asakir al-Dimashqi"
+  },
+  {
+    "id": 198,
+    "english_name": "tlbys iblys labn al-Jawzi",
+    "english_author": "Ibn al-Jawzi"
+  },
+  {
+    "id": 199,
+    "english_name": "al-‘lw ll‘ly al-ghfar al-Dhahabi",
+    "english_author": "al-Dhahabi"
+  },
+  {
+    "id": 200,
+    "english_name": "Ahl al-Milal wa al-Riddah min al-Jami' li al-Khallal",
+    "english_author": "al-Khallal"
+  },
+  {
+    "id": 201,
+    "english_name": "al-hjah fi Bayan al-mhjah wa-shrh ‘qydah ahl al-snah 2",
+    "english_author": "qwam al-snah al-Asbahani"
+  },
+  {
+    "id": 202,
+    "english_name": "al-mnask ls‘yd ibn Abi ‘rwbah",
+    "english_author": "Sa'id ibn Abi ‘rwbah"
+  },
+  {
+    "id": 203,
+    "english_name": "al-mdwnah al-Kubra lmalk ibn Anas",
+    "english_author": "Malik ibn Anas"
+  },
+  {
+    "id": 204,
+    "english_name": "al-jhad labn al-Mubarak",
+    "english_author": "Abd Allah ibn al-Mubarak"
+  },
+  {
+    "id": 205,
+    "english_name": "al-Athar laby ywsf",
+    "english_author": "y‘qwb ibn Ibrahim"
+  },
+  {
+    "id": 206,
+    "english_name": "al-Athar lmhmd ibn al-Hasan al-shybany",
+    "english_author": "Muhammad ibn al-Hasan al-shybany"
+  },
+  {
+    "id": 207,
+    "english_name": "al-khraj laby ywsf",
+    "english_author": "y‘qwb ibn Ibrahim"
+  },
+  {
+    "id": 208,
+    "english_name": "al-syr laby Ishaq al-fzary",
+    "english_author": "Abu Ishaq al-fzary"
+  },
+  {
+    "id": 209,
+    "english_name": "al-khraj lyhya ibn adm",
+    "english_author": "yhya ibn adm"
+  },
+  {
+    "id": 210,
+    "english_name": "al-am llshaf‘y",
+    "english_author": "al-Shafi'i"
+  },
+  {
+    "id": 211,
+    "english_name": "al-amwal llqasm ibn slam",
+    "english_author": "al-qasm ibn slam al-hrwy"
+  },
+  {
+    "id": 212,
+    "english_name": "al-thwr llqasm ibn slam",
+    "english_author": "al-qasm ibn slam al-hrwy"
+  },
+  {
+    "id": 213,
+    "english_name": "al-qda’ lsrbj ibn ywns al-Baghdadi",
+    "english_author": "sryj ibn ywns"
+  },
+  {
+    "id": 214,
+    "english_name": "al-ashrbah lahmd ibn hnbl",
+    "english_author": "Ahmad ibn hnbl"
+  },
+  {
+    "id": 215,
+    "english_name": "al-amwal labn znjwyh",
+    "english_author": "Ibn znjwyh"
+  },
+  {
+    "id": 216,
+    "english_name": "al-qra’ah khlf Imam llbkhary",
+    "english_author": "Muhammad ibn Isma'il al-bkhary"
+  },
+  {
+    "id": 217,
+    "english_name": "islah al-mal labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 218,
+    "english_name": "al-jhad labn Abi ‘asm",
+    "english_author": "Ibn Abi ‘asm"
+  },
+  {
+    "id": 219,
+    "english_name": "al-dyat labn Abi ‘asm",
+    "english_author": "Ibn Abi ‘asm"
+  },
+  {
+    "id": 220,
+    "english_name": "Mukhtasar Qiyam al-Layl llmrwzy",
+    "english_author": "Muhammad ibn nsr al-Marwazi"
+  },
+  {
+    "id": 221,
+    "english_name": "al-syam llfryaby",
+    "english_author": "Muhammad ibn al-Hasan al-fryaby"
+  },
+  {
+    "id": 222,
+    "english_name": "Ahkam al-‘ydyn llfryaby",
+    "english_author": "Muhammad ibn al-Hasan al-fryaby"
+  },
+  {
+    "id": 223,
+    "english_name": "thdhyb al-Athar lltbry",
+    "english_author": "Ibn jryr al-Tabari"
+  },
+  {
+    "id": 224,
+    "english_name": "al-trjl min Masa'il Imam Ahmad",
+    "english_author": "Abu bkr al-khlal"
+  },
+  {
+    "id": 225,
+    "english_name": "al-wqwf min Masa'il Imam Ahmad",
+    "english_author": "Abu bkr al-khlal"
+  },
+  {
+    "id": 226,
+    "english_name": "shrh al-snah",
+    "english_author": "al-Husayn ibn ms‘wd al-bghwy"
+  },
+  {
+    "id": 227,
+    "english_name": "al-Awsat fi al-snn wa-al-ijma‘ wa-al-akhtlaf labn al-mndhr",
+    "english_author": "Muhammad ibn Ibrahim ibn al-mndhr"
+  },
+  {
+    "id": 228,
+    "english_name": "al-iqna‘ labn al-mndhr",
+    "english_author": "Muhammad ibn Ibrahim ibn al-mndhr"
+  },
+  {
+    "id": 229,
+    "english_name": "shrh m‘any al-Athar llthawy",
+    "english_author": "al-thawy"
+  },
+  {
+    "id": 230,
+    "english_name": "mshkl al-Athar llthawy",
+    "english_author": "al-thawy"
+  },
+  {
+    "id": 231,
+    "english_name": "tthbyt al-Imamah wa-trtyb al-Khilafah laby Nu'aym",
+    "english_author": "Abu Nu'aym al-Asbahani"
+  },
+  {
+    "id": 232,
+    "english_name": "al-mhla balathar labn hzm",
+    "english_author": "Ibn hzm al-Zahiri"
+  },
+  {
+    "id": 233,
+    "english_name": "hjah al-wda‘ labn hzm",
+    "english_author": "Ibn hzm al-Zahiri"
+  },
+  {
+    "id": 234,
+    "english_name": "al-qra’ah khlf Imam llbyhqy",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 235,
+    "english_name": "Bayan Khata min akhta ala al-Shafi'i",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 236,
+    "english_name": "al-Tamhid labn Abd al-br",
+    "english_author": "Ibn Abd al-br al-Qurtubi"
+  },
+  {
+    "id": 237,
+    "english_name": "al-Tahqiq fi Masa'il al-Khilaf labn al-Jawzi",
+    "english_author": "Ibn al-Jawzi"
+  },
+  {
+    "id": 238,
+    "english_name": "Akhbar al-Salah l‘bd al-ghny al-Maqdisi",
+    "english_author": "Abd al-ghny ibn Abd al-wahd al-Maqdisi"
+  },
+  {
+    "id": 239,
+    "english_name": "al-Ziyadat ala ktab al-mzny",
+    "english_author": "Ibn zyad al-Naysaburi"
+  },
+  {
+    "id": 240,
+    "english_name": "al-Awsat fi al-snn",
+    "english_author": "Ibn al-mndhr"
+  },
+  {
+    "id": 241,
+    "english_name": "al-Istidhkar",
+    "english_author": "Ibn Abd al-br al-Qurtubi"
+  },
+  {
+    "id": 242,
+    "english_name": "Ahkam al-Qur’an lljsas",
+    "english_author": "al-jsas al-hnfy"
+  },
+  {
+    "id": 243,
+    "english_name": "al-nsyhah llra‘y wa-al-r‘yah lltbryzy",
+    "english_author": "Abu al-khyr bdl ibn Abi al-m‘mr al-tbryzy"
+  },
+  {
+    "id": 244,
+    "english_name": "tfsyr mjahd",
+    "english_author": "mjahd ibn jbr"
+  },
+  {
+    "id": 245,
+    "english_name": "tfsyr sfyan al-thwry",
+    "english_author": "sfyan al-thwry"
+  },
+  {
+    "id": 246,
+    "english_name": "m‘any al-Qur’an llfra’",
+    "english_author": "Abu zkrya al-fra’"
+  },
+  {
+    "id": 247,
+    "english_name": "tfsyr al-Qur’an l‘bd al-rzaq al-sn‘any",
+    "english_author": "Abd al-rzaq al-sn‘any"
+  },
+  {
+    "id": 248,
+    "english_name": "al-Tafsir min Sunan Sa'id ibn Mansur",
+    "english_author": "Sa'id ibn Mansur"
+  },
+  {
+    "id": 249,
+    "english_name": "Jami' al-byan an tawyl ay al-Qur’an",
+    "english_author": "Ibn jryr al-Tabari"
+  },
+  {
+    "id": 250,
+    "english_name": "tfsyr Ibn Abi hatm",
+    "english_author": "Ibn Abi hatm al-razy"
+  },
+  {
+    "id": 251,
+    "english_name": "tfsyr al-Qur’an al-‘zyz",
+    "english_author": "Ibn Abi zmnyn al-andlsy"
+  },
+  {
+    "id": 252,
+    "english_name": "m‘alm al-tnzyl tfsyr al-bghwy",
+    "english_author": "al-Husayn ibn ms‘wd al-bghwy"
+  },
+  {
+    "id": 253,
+    "english_name": "tfsyr al-Qur’an labn al-mndhr",
+    "english_author": "Muhammad ibn Ibrahim ibn al-mndhr"
+  },
+  {
+    "id": 254,
+    "english_name": "al-jam‘ fi tfsyr al-Qur’an",
+    "english_author": "Abd Allah ibn wa-hb"
+  },
+  {
+    "id": 255,
+    "english_name": "al-wsyt fi tfsyr al-Qur’an al-mjyd",
+    "english_author": "al-wahdy"
+  },
+  {
+    "id": 256,
+    "english_name": "tfsyr yhya ibn slam",
+    "english_author": "yhya ibn slam"
+  },
+  {
+    "id": 257,
+    "english_name": "al-naskh wa-al-mnswkh llqasm ibn slam",
+    "english_author": "al-qasm ibn slam al-hrwy"
+  },
+  {
+    "id": 258,
+    "english_name": "qra’ah al-nby lldwry",
+    "english_author": "hfs ibn ‘mr al-dwry"
+  },
+  {
+    "id": 259,
+    "english_name": "al-msahf labn Abi dawd",
+    "english_author": "Ibn Abi dawd al-Sijistani"
+  },
+  {
+    "id": 260,
+    "english_name": "Ahkam al-Qur’an al-krym llthawy",
+    "english_author": "al-thawy"
+  },
+  {
+    "id": 261,
+    "english_name": "al-naskh wa-al-mnswkh llnhas",
+    "english_author": "Ahmad ibn Muhammad al-nhas"
+  },
+  {
+    "id": 262,
+    "english_name": "asbab al-nzwl al-wahdy",
+    "english_author": "al-wahdy"
+  },
+  {
+    "id": 263,
+    "english_name": "nwaskh al-Qur’an labn al-Jawzi",
+    "english_author": "Ibn al-Jawzi"
+  },
+  {
+    "id": 264,
+    "english_name": "al-shmayl al-mhmdyah lltrmdhy",
+    "english_author": "Muhammad ibn ‘ysa al-Tirmidhi"
+  },
+  {
+    "id": 265,
+    "english_name": "al-dhryah al-tahrah al-nbwyah",
+    "english_author": "Abu bshr al-dwlaby"
+  },
+  {
+    "id": 266,
+    "english_name": "akhlaq al-nby laby al-shykh al-Asbahani",
+    "english_author": "Abu al-shykh al-Asbahani"
+  },
+  {
+    "id": 267,
+    "english_name": "hlyah al-awlya’ laby Nu'aym",
+    "english_author": "Abu Nu'aym al-Asbahani"
+  },
+  {
+    "id": 268,
+    "english_name": "dlayl al-nbwah laby Nu'aym",
+    "english_author": "Abu Nu'aym al-Asbahani"
+  },
+  {
+    "id": 269,
+    "english_name": "dlayl al-nbwah llbyhqy",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 270,
+    "english_name": "dlayl al-nbwah lqwam al-snah",
+    "english_author": "Isma'il ibn Muhammad al-Asbahani"
+  },
+  {
+    "id": 271,
+    "english_name": "‘ywn al-athr",
+    "english_author": "Ibn syd al-nas"
+  },
+  {
+    "id": 272,
+    "english_name": "al-anwar fi shmayl al-nby al-mkhtar",
+    "english_author": "al-Husayn ibn ms‘wd al-bghwy"
+  },
+  {
+    "id": 273,
+    "english_name": "Akhbar mkah llazrqy",
+    "english_author": "Abu al-wlyd al-azrqy"
+  },
+  {
+    "id": 274,
+    "english_name": "al-Tabaqat al-Kubra labn Sa'd",
+    "english_author": "Muhammad ibn Sa'd al-zhry"
+  },
+  {
+    "id": 275,
+    "english_name": "Tarikh khlyfah ibn khyat",
+    "english_author": "khlyfah ibn khyat"
+  },
+  {
+    "id": 276,
+    "english_name": "al-jam‘ fi al-'Ilal wa-m‘rfah al-rjal lahmd ibn hnbl",
+    "english_author": "Ahmad ibn hnbl"
+  },
+  {
+    "id": 277,
+    "english_name": "al-tarykh al-Kabir llbkhary",
+    "english_author": "Muhammad ibn Isma'il al-bkhary"
+  },
+  {
+    "id": 278,
+    "english_name": "Tarikh al-mdynah labn shbah",
+    "english_author": "Ibn shbah al-nmyry"
+  },
+  {
+    "id": 279,
+    "english_name": "Akhbar mkah llfakhy",
+    "english_author": "al-fakhy"
+  },
+  {
+    "id": 280,
+    "english_name": "Masa'il Ahmad laby dawd al-Sijistani",
+    "english_author": "Abu dawd al-Sijistani"
+  },
+  {
+    "id": 281,
+    "english_name": "al-Ma'rifah wa-al-tarykh ly‘qwb ibn sfyan",
+    "english_author": "y‘qwb ibn sfyan"
+  },
+  {
+    "id": 282,
+    "english_name": "ansab al-ashraf llbladhry",
+    "english_author": "Ahmad ibn yhya al-bladhry"
+  },
+  {
+    "id": 283,
+    "english_name": "al-bldan wa-ftwhha wa-ahkamha llbladhry",
+    "english_author": "Ahmad ibn yhya al-bladhry"
+  },
+  {
+    "id": 284,
+    "english_name": "Tarikh Abi zr‘ah al-Dimashqi",
+    "english_author": "Abu zr‘ah al-Dimashqi"
+  },
+  {
+    "id": 285,
+    "english_name": "al-ahad wa-al-mthany labn Abi ‘asm",
+    "english_author": "Ibn Abi ‘asm"
+  },
+  {
+    "id": 286,
+    "english_name": "Tarikh wa-ast laslm ibn shl al-rzaz",
+    "english_author": "aslm ibn shl al-rzaz"
+  },
+  {
+    "id": 287,
+    "english_name": "Tarikh al-Tabari",
+    "english_author": "Ibn jryr al-Tabari"
+  },
+  {
+    "id": 288,
+    "english_name": "al-kny wa-al-asma’ lldwlaby",
+    "english_author": "Abu bshr al-dwlaby"
+  },
+  {
+    "id": 289,
+    "english_name": "Adab al-Shafi'i wa-mnaqbh",
+    "english_author": "Ibn Abi hatm al-razy"
+  },
+  {
+    "id": 290,
+    "english_name": "ktab al-wlaah wa-ktab al-qdaah llkndy",
+    "english_author": "Muhammad ibn ywsf al-kndy"
+  },
+  {
+    "id": 291,
+    "english_name": "al-Thiqat labn Hibban",
+    "english_author": "Abu hatm ibn Hibban"
+  },
+  {
+    "id": 292,
+    "english_name": "al-aghany laby al-frj al-asfhany",
+    "english_author": "Abu al-frj al-asfhany"
+  },
+  {
+    "id": 293,
+    "english_name": "Tarikh darya wa-mn nzl bha min al-Sahabah wa-al-tab‘yn llkhwlany",
+    "english_author": "Abd al-jbar al-khwlany"
+  },
+  {
+    "id": 294,
+    "english_name": "tbqat al-Muhaddithin basbhan wa-al-wardyn ‘lyha",
+    "english_author": "Abu al-shykh al-Asbahani"
+  },
+  {
+    "id": 295,
+    "english_name": "Tarikh jrjan llshmy",
+    "english_author": "hmzah ibn ywsf al-shmy"
+  },
+  {
+    "id": 296,
+    "english_name": "Akhbar asbhan laby Nu'aym",
+    "english_author": "Abu Nu'aym al-Asbahani"
+  },
+  {
+    "id": 297,
+    "english_name": "Ma'rifat al-Sahabah laby Nu'aym",
+    "english_author": "Abu Nu'aym al-Asbahani"
+  },
+  {
+    "id": 298,
+    "english_name": "al-irshad fi Ma'rifat ‘lma’ al-hdyth laby y‘la al-khlyly",
+    "english_author": "Abu y‘la al-khlyly al-Qazwini"
+  },
+  {
+    "id": 299,
+    "english_name": "al-Isti'ab fi Ma'rifat al-ashab labn Abd al-br",
+    "english_author": "Ibn Abd al-br al-Qurtubi"
+  },
+  {
+    "id": 300,
+    "english_name": "al-Asma' al-Mubhamah wa al-Anba' al-Muhkamah",
+    "english_author": "al-Khatib al-Baghdadi"
+  },
+  {
+    "id": 301,
+    "english_name": "Tarikh bghdad llkhtyb al-Baghdadi",
+    "english_author": "al-khtyb al-Baghdadi"
+  },
+  {
+    "id": 302,
+    "english_name": "Siyar al-Salaf al-Salihin lisma‘yl ibn Muhammad al-Asbahani",
+    "english_author": "Isma'il ibn Muhammad al-Asbahani"
+  },
+  {
+    "id": 303,
+    "english_name": "Tarikh dmshq labn ‘sakr",
+    "english_author": "Ibn Asakir al-Dimashqi"
+  },
+  {
+    "id": 304,
+    "english_name": "al-Muntazam fi Tarikh al-amm labn al-Jawzi",
+    "english_author": "Ibn al-Jawzi"
+  },
+  {
+    "id": 305,
+    "english_name": "al-tdwyn fi Akhbar qzwyn llraf‘y",
+    "english_author": "Abd al-krym al-Rafi'i"
+  },
+  {
+    "id": 306,
+    "english_name": "Tarikh al-Islam al-Dhahabi",
+    "english_author": "al-Dhahabi"
+  },
+  {
+    "id": 307,
+    "english_name": "Manaqib Imam Abi hnyfah wa-sahbyh",
+    "english_author": "al-Dhahabi"
+  },
+  {
+    "id": 308,
+    "english_name": "Tarikh Ibn Abi khythmah",
+    "english_author": "Ibn Abi khythmah"
+  },
+  {
+    "id": 309,
+    "english_name": "tbqat al-hnablah",
+    "english_author": "Abi y‘la al-hnbly"
+  },
+  {
+    "id": 310,
+    "english_name": "dhyl Tarikh bghdad labn al-njar",
+    "english_author": "Ibn al-njar"
+  },
+  {
+    "id": 311,
+    "english_name": "asd al-ghabah",
+    "english_author": "‘ly ibn al-athyr"
+  },
+  {
+    "id": 312,
+    "english_name": "al-jrh wa-al-t‘dyl",
+    "english_author": "Ibn Abi hatm al-razy"
+  },
+  {
+    "id": 313,
+    "english_name": "al-fsl llwsl al-mdrj fi al-nql",
+    "english_author": "al-khtyb al-Baghdadi"
+  },
+  {
+    "id": 314,
+    "english_name": "Siyar a‘lam al-nbla’ al-Dhahabi",
+    "english_author": "al-Dhahabi"
+  },
+  {
+    "id": 315,
+    "english_name": "tbqat al-shaf‘yah al-Kubra",
+    "english_author": "al-sbky"
+  },
+  {
+    "id": 316,
+    "english_name": "thdhyb al-kmal llmzy",
+    "english_author": "ywsf al-Mizzi"
+  },
+  {
+    "id": 317,
+    "english_name": "al-tarykh al-Awsat",
+    "english_author": "Muhammad ibn Isma'il al-bkhary"
+  },
+  {
+    "id": 318,
+    "english_name": "ktab al-mhn",
+    "english_author": "Abu al-‘rb al-qyrwany"
+  },
+  {
+    "id": 319,
+    "english_name": "Fada'il al-Sahabah lahmd ibn hnbl",
+    "english_author": "Ahmad ibn hnbl"
+  },
+  {
+    "id": 320,
+    "english_name": "Fada'il ‘thman ibn ‘fan l‘bd Allah ibn Ahmad",
+    "english_author": "Abd Allah ibn Ahmad ibn hnbl"
+  },
+  {
+    "id": 321,
+    "english_name": "Fada'il al-khlfa’ al-rashdyn laby Nu'aym",
+    "english_author": "Abu Nu'aym al-Asbahani"
+  },
+  {
+    "id": 322,
+    "english_name": "Ma'rifat al-Sahabah",
+    "english_author": "Muhammad ibn Ishaq ibn mndh"
+  },
+  {
+    "id": 323,
+    "english_name": "al-Zuhd wa-al-rqayq labn al-Mubarak",
+    "english_author": "Abd Allah ibn al-Mubarak"
+  },
+  {
+    "id": 324,
+    "english_name": "al-Zuhd llm‘afa ibn ‘mran al-Mawsili",
+    "english_author": "al-m‘afa ibn ‘mran"
+  },
+  {
+    "id": 325,
+    "english_name": "al-Du'a lmhmd ibn fdyl al-dby",
+    "english_author": "Muhammad ibn fdyl al-dby"
+  },
+  {
+    "id": 326,
+    "english_name": "al-Zuhd lwky‘ ibn al-jrah",
+    "english_author": "wa-ky‘ ibn al-jrah"
+  },
+  {
+    "id": 327,
+    "english_name": "al-Zuhd lasd ibn mwsa",
+    "english_author": "asd ibn mwsa"
+  },
+  {
+    "id": 328,
+    "english_name": "Fada'il al-Salah llfdl ibn dkyn",
+    "english_author": "al-fdl ibn dkyn"
+  },
+  {
+    "id": 329,
+    "english_name": "Fada'il al-Qur’an llqasm ibn slam",
+    "english_author": "al-qasm ibn slam al-hrwy"
+  },
+  {
+    "id": 330,
+    "english_name": "al-Zuhd ln‘ym ibn hmad",
+    "english_author": "Nu'aym ibn hmad"
+  },
+  {
+    "id": 331,
+    "english_name": "al-‘lm lzhyr ibn hrb",
+    "english_author": "Abu khythmah zhyr ibn hrb al-Nasa'i"
+  },
+  {
+    "id": 332,
+    "english_name": "al-Zuhd lahmd ibn hnbl",
+    "english_author": "Ahmad ibn hnbl"
+  },
+  {
+    "id": 333,
+    "english_name": "al-Zuhd lhnad ibn al-sry",
+    "english_author": "hnad ibn al-sry"
+  },
+  {
+    "id": 334,
+    "english_name": "al-br wa-al-slah llmrwzy",
+    "english_author": "al-Husayn ibn hrb al-Marwazi"
+  },
+  {
+    "id": 335,
+    "english_name": "al-Adab al-mfrd llbkhary",
+    "english_author": "Muhammad ibn Isma'il al-bkhary"
+  },
+  {
+    "id": 336,
+    "english_name": "al-Zuhd laby hatm al-razy",
+    "english_author": "Abu hatm al-razy"
+  },
+  {
+    "id": 337,
+    "english_name": "al-Zuhd laby dawd",
+    "english_author": "Abu dawd al-Sijistani"
+  },
+  {
+    "id": 338,
+    "english_name": "al-amr balm‘rwf wa-al-nhy an al-mnkr labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 339,
+    "english_name": "al-ahwal labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 340,
+    "english_name": "al-awlya’ labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 341,
+    "english_name": "al-ikhwan labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 342,
+    "english_name": "al-jw‘ labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 343,
+    "english_name": "al-Zuhd labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 344,
+    "english_name": "al-shkr llh labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 345,
+    "english_name": "al-frj b‘d al-shdah labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 346,
+    "english_name": "al-mrd wa-al-kfarat labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 347,
+    "english_name": "al-mnamat labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 348,
+    "english_name": "al-'Ayal",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 349,
+    "english_name": "al-Hamm wa-al-hzn labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 350,
+    "english_name": "Hasan al-Zann ballh labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 351,
+    "english_name": "Dham al-mlahy labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 352,
+    "english_name": "mjabw al-d‘wah labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 353,
+    "english_name": "al-ishraf fi mnazl al-ashraf",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 354,
+    "english_name": "al-Tahajjud wa-qyam al-Layl labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 355,
+    "english_name": "al-Tawbah labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 356,
+    "english_name": "al-Hilm labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 357,
+    "english_name": "al-Riqqah wa-al-bka’ labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 358,
+    "english_name": "al-Sabr wa-al-thwab ‘lyh",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 359,
+    "english_name": "al-Samt wa-adab al-lsan",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 360,
+    "english_name": "al-'Aql wa-fdlh labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 361,
+    "english_name": "al-'Uqubat labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 362,
+    "english_name": "al-mtmnyn labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 363,
+    "english_name": "al-Muhtadarin labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 364,
+    "english_name": "al-Matar wa-al-r‘d wa-al-brq labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 365,
+    "english_name": "Dham al-Ghibah wa-al-nmymah labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 366,
+    "english_name": "Sifat al-Jannah labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 367,
+    "english_name": "Sifat al-Nar labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 368,
+    "english_name": "Qasr al-Amal labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 369,
+    "english_name": "Qada al-Hawa'ij labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 370,
+    "english_name": "Muhasabat al-Nafs labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 371,
+    "english_name": "mdaraah al-nas labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 372,
+    "english_name": "hwatf al-jnan labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 373,
+    "english_name": "al-Zuhd labn Abi ‘asm",
+    "english_author": "Ibn Abi ‘asm"
+  },
+  {
+    "id": 374,
+    "english_name": "al-Fitan ln‘ym ibn hmad",
+    "english_author": "Nu'aym ibn hmad"
+  },
+  {
+    "id": 375,
+    "english_name": "Fada'il al-Qur’an labn al-drys",
+    "english_author": "Muhammad ibn al-drys"
+  },
+  {
+    "id": 376,
+    "english_name": "t‘zym qdr al-Salah llmrwzy",
+    "english_author": "Muhammad ibn nsr al-Marwazi"
+  },
+  {
+    "id": 377,
+    "english_name": "Fada'il al-Qur’an llfryaby",
+    "english_author": "Muhammad ibn al-Hasan al-fryaby"
+  },
+  {
+    "id": 378,
+    "english_name": "al-amr balm‘rwf wa-al-nhy an al-mnkr llkhlal",
+    "english_author": "Abu bkr al-khlal"
+  },
+  {
+    "id": 379,
+    "english_name": "al-Hath ala al-tjarah wa-al-sna‘ah llkhlal",
+    "english_author": "Abu bkr al-khlal"
+  },
+  {
+    "id": 380,
+    "english_name": "Akhbar wa-hkayat llghsany",
+    "english_author": "Muhammad ibn al-fyd al-ghsany"
+  },
+  {
+    "id": 381,
+    "english_name": "a‘tlal al-qlwb llkhrayty",
+    "english_author": "Muhammad ibn j‘fr ibn shl al-Khara'iti"
+  },
+  {
+    "id": 382,
+    "english_name": "shkr Allah ala n‘mh llkhrayty",
+    "english_author": "Muhammad ibn j‘fr ibn shl al-Khara'iti"
+  },
+  {
+    "id": 383,
+    "english_name": "al-mjalsah wa-jwahr al-‘lm lldynwry",
+    "english_author": "Abu bkr al-Dinuri"
+  },
+  {
+    "id": 384,
+    "english_name": "al-Zuhd wa-sfah al-zahdyn labn al-A'rabi",
+    "english_author": "Ibn al-A'rabi"
+  },
+  {
+    "id": 385,
+    "english_name": "akhlaq al-‘lma’ llajry",
+    "english_author": "al-ajry"
+  },
+  {
+    "id": 386,
+    "english_name": "al-Du'a lltbrany",
+    "english_author": "slyman ibn Ahmad al-Tabarani"
+  },
+  {
+    "id": 387,
+    "english_name": "‘ml al-ywm wa-al-lylah labn al-sny",
+    "english_author": "Ibn al-sny"
+  },
+  {
+    "id": 388,
+    "english_name": "al-twbykh wa-al-tnbyh",
+    "english_author": "Abu al-shykh al-Asbahani"
+  },
+  {
+    "id": 389,
+    "english_name": "tnbyh al-ghaflyn bahadyth syd al-anbya’ wa-al-mrslyn lsmrqndy",
+    "english_author": "nsr ibn Muhammad ibn Ibrahim"
+  },
+  {
+    "id": 390,
+    "english_name": "bhr al-Fawa'id al-msma bm‘any al-akhyar llklabadhy",
+    "english_author": "Muhammad ibn Ishaq al-klabadhy"
+  },
+  {
+    "id": 391,
+    "english_name": "al-Targhib fi Fada'il al-a‘mal labn shahyn",
+    "english_author": "Ibn shahyn"
+  },
+  {
+    "id": 392,
+    "english_name": "al-‘zlah llkhtaby",
+    "english_author": "Abu slyman al-khtaby"
+  },
+  {
+    "id": 393,
+    "english_name": "al-jlys al-salh al-kafy wa-al-anys al-nash al-shafy al-m‘afa ibn zkrya",
+    "english_author": "al-m‘afa ibn zkrya"
+  },
+  {
+    "id": 394,
+    "english_name": "Sifat al-Jannah laby Nu'aym",
+    "english_author": "Abu Nu'aym al-Asbahani"
+  },
+  {
+    "id": 395,
+    "english_name": "Fada'il al-Qur’an wa-tlawth llrazy",
+    "english_author": "Abu al-fdl al-razy"
+  },
+  {
+    "id": 396,
+    "english_name": "al-d‘wat al-Kabir llbyhqy",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 397,
+    "english_name": "al-Zuhd al-Kabir llbyhqy",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 398,
+    "english_name": "Fada'il al-awqat llbyhqy",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 399,
+    "english_name": "Jami' Bayan al-‘lm wa-fdlh labn Abd al-br",
+    "english_author": "Ibn Abd al-br al-Qurtubi"
+  },
+  {
+    "id": 400,
+    "english_name": "Iqtida' al-'Ilm al-'Amal by al-Khatib",
+    "english_author": "al-Khatib al-Baghdadi"
+  },
+  {
+    "id": 401,
+    "english_name": "al-Zuhd wa-al-rqayq llkhtyb al-Baghdadi",
+    "english_author": "al-khtyb al-Baghdadi"
+  },
+  {
+    "id": 402,
+    "english_name": "al-fqyh wa-al-mtfqh llkhtyb",
+    "english_author": "al-khtyb al-Baghdadi"
+  },
+  {
+    "id": 403,
+    "english_name": "al-br wa-al-slah labn al-Jawzi",
+    "english_author": "Ibn al-Jawzi"
+  },
+  {
+    "id": 404,
+    "english_name": "al-thbat ‘nd al-mmat labn al-Jawzi",
+    "english_author": "Ibn al-Jawzi"
+  },
+  {
+    "id": 405,
+    "english_name": "Dham al-Hawa labn al-Jawzi",
+    "english_author": "Ibn al-Jawzi"
+  },
+  {
+    "id": 406,
+    "english_name": "Muthir al-Gharam al-Sakin ila Ashraf al-Amakin labn al-Jawzi",
+    "english_author": "Ibn al-Jawzi"
+  },
+  {
+    "id": 407,
+    "english_name": "al-Targhib fi al-Du'a wa-al-hth ‘lyh l‘bd al-ghny al-Maqdisi",
+    "english_author": "Abd al-ghny ibn Abd al-wahd al-Maqdisi"
+  },
+  {
+    "id": 408,
+    "english_name": "Sifat al-nfaq wa-n‘t al-Munafiqin laby Nu'aym",
+    "english_author": "Abu Nu'aym al-Asbahani"
+  },
+  {
+    "id": 409,
+    "english_name": "Rawdah al-Uqala labn Hibban",
+    "english_author": "Abu hatm ibn Hibban"
+  },
+  {
+    "id": 410,
+    "english_name": "al-Tabsirah labn al-Jawzi",
+    "english_author": "Ibn al-Jawzi"
+  },
+  {
+    "id": 411,
+    "english_name": "al-Adab labn Abi Shaybah",
+    "english_author": "Ibn aby Shaybah"
+  },
+  {
+    "id": 412,
+    "english_name": "al-Wara lahmd Riwayat al-Marwazi",
+    "english_author": "Ahmad ibn hnbl"
+  },
+  {
+    "id": 413,
+    "english_name": "al-Wara labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 414,
+    "english_name": "Makarim al-Akhlaq labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 415,
+    "english_name": "Istina al-Ma'ruf",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 416,
+    "english_name": "al-Tawadu wa-al-khmwl labn Abi al-dnya",
+    "english_author": "Ibn Abi al-dnya"
+  },
+  {
+    "id": 417,
+    "english_name": "al-Muru’ah labn al-Marzubani",
+    "english_author": "Muhammad ibn khlf ibn al-Marzubani"
+  },
+  {
+    "id": 418,
+    "english_name": "Masawi al-Akhlaq llkhrayty",
+    "english_author": "Muhammad ibn j‘fr ibn shl al-Khara'iti"
+  },
+  {
+    "id": 419,
+    "english_name": "Makarim al-Akhlaq llkhrayty",
+    "english_author": "Muhammad ibn j‘fr ibn shl al-Khara'iti"
+  },
+  {
+    "id": 420,
+    "english_name": "Makarim al-Akhlaq lltbrany",
+    "english_author": "slyman ibn Ahmad al-Tabarani"
+  },
+  {
+    "id": 421,
+    "english_name": "Adab al-Suhbah llslmy",
+    "english_author": "Abu Abd al-rhmn al-Sulami"
+  },
+  {
+    "id": 422,
+    "english_name": "al-Adab llbyhqy",
+    "english_author": "al-Bayhaqi"
+  },
+  {
+    "id": 423,
+    "english_name": "al-Bukhala llkhtyb al-Baghdadi",
+    "english_author": "al-khtyb al-Baghdadi"
+  },
+  {
+    "id": 424,
+    "english_name": "al-Tatifil llkhtyb al-Baghdadi",
+    "english_author": "al-khtyb al-Baghdadi"
+  },
+  {
+    "id": 425,
+    "english_name": "al-Qussas wa al-Mudhakkirin by Ibn al-Jawzi",
+    "english_author": "Ibn al-Jawzi"
+  }
+]

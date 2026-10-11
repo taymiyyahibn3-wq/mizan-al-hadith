@@ -1,0 +1,413 @@
+[
+  {
+    "candidate": "al-Bukhari",
+    "arabic_name": "البخاري",
+    "full_name": "Muḥammad ibn Ismāʿīl al-Bukhārī",
+    "death_year_ah": 256,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      1125
+    ],
+    "narrator_aqwal_count": 4783,
+    "sample_aqwal": [
+      {
+        "qawl": "ذكره في الأوسط  وقال  كنيته أبو إسماعيل  كان شعبة سيء الرأي فيه",
+        "narrator": "أبان بن فيروز"
+      },
+      {
+        "qawl": "صدوق الحديث",
+        "narrator": "أبان بن عبد الله بن أبي حازم بن صخر بن العيلة"
+      },
+      {
+        "qawl": "ذكره في التاريخ الكبير وقال  روى عن علي",
+        "narrator": "أبو أرطأة"
+      }
+    ]
+  },
+  {
+    "candidate": "Ahmad ibn Hanbal",
+    "arabic_name": "أحمد بن حنبل",
+    "full_name": "Aḥmad ibn Muḥammad ibn Ḥanbal",
+    "death_year_ah": 241,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      751,
+      1758,
+      1921
+    ],
+    "narrator_aqwal_count": 1963,
+    "sample_aqwal": [
+      {
+        "qawl": "كان من الستة أو السبعة الذين كانوا يضبطون الحديث عند شعبة",
+        "narrator": "آدم بن عبد الرحمن بن محمد بن شعيب"
+      },
+      {
+        "qawl": "متروك الحديث  ترك الناس حديثه منذ دهر من الدهر  ومرة  كان منكر الحديث  ومرة  كذاب",
+        "narrator": "أبان بن فيروز"
+      },
+      {
+        "qawl": "ثقة ثبت في الحديث  وكان شعبة يحدث عنه",
+        "narrator": "أبان بن تغلب"
+      }
+    ]
+  },
+  {
+    "candidate": "Yahya ibn Ma'in",
+    "arabic_name": "يحيى بن معين",
+    "full_name": "Yaḥyā ibn Maʿīn",
+    "death_year_ah": 233,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      2821
+    ],
+    "narrator_aqwal_count": 3293,
+    "sample_aqwal": [
+      {
+        "qawl": "ثقة ربما حدث عن قوم ضعفي  ومرة قال في سؤالات عثمان بن طالوت البصري  صدوق  ثقة",
+        "narrator": "آدم بن عبد الرحمن بن محمد بن شعيب"
+      },
+      {
+        "qawl": "ثقة",
+        "narrator": "آدم بن علي"
+      },
+      {
+        "qawl": "ضعيف  ومرة  ليس حديثه بشيء  ومرة  متروك الحديث  ومرة  ليس بثقة  وفي رواية ابن محرز  قال  كان يكذب",
+        "narrator": "أبان بن فيروز"
+      }
+    ]
+  },
+  {
+    "candidate": "Ibn Hajar al-Asqalani",
+    "arabic_name": "ابن حجر العسقلاني",
+    "full_name": "Aḥmad ibn ʿAlī ibn Ḥajar al-ʿAsqalānī",
+    "death_year_ah": 852,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      1011
+    ],
+    "narrator_aqwal_count": 10377,
+    "sample_aqwal": [
+      {
+        "qawl": "صحابي استشهد يوم حنين  وكان شريفا شاعرا",
+        "narrator": "عبد الله بن عبد الملك"
+      },
+      {
+        "qawl": "قال في التقريب  ثقة عابد",
+        "narrator": "آدم بن عبد الرحمن بن محمد بن شعيب"
+      },
+      {
+        "qawl": "قال في التقريب  صدوق",
+        "narrator": "آدم بن سليمان"
+      }
+    ]
+  },
+  {
+    "candidate": "Ali ibn al-Madini",
+    "arabic_name": "علي بن المديني",
+    "full_name": "ʿAlī ibn ʿAbd Allāh ibn al-Madīnī",
+    "death_year_ah": 234,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      2135,
+      2136
+    ],
+    "narrator_aqwal_count": 861,
+    "sample_aqwal": [
+      {
+        "qawl": "ثقة",
+        "narrator": "فضل بن العلاء"
+      },
+      {
+        "qawl": "ثقة",
+        "narrator": "قاسم بن ربيعة بن جوشن"
+      },
+      {
+        "qawl": "إسناده مجهول",
+        "narrator": "قاسم بن فياض بن عبد الرحمن بن جندة"
+      }
+    ]
+  },
+  {
+    "candidate": "Abu Zur'ah al-Razi",
+    "arabic_name": "أبو زرعة الرازي",
+    "full_name": "ʿUbayd Allāh ibn ʿAbd al-Karīm al-Rāzī (Abū Zurʿah)",
+    "death_year_ah": 264,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      466
+    ],
+    "narrator_aqwal_count": 1703,
+    "sample_aqwal": [
+      {
+        "qawl": "ترك حديثه  فقيل له  كان يتعمد الكذب  قال  لا  كان يسمع الحديث من أنس ومن شهر ومن الحسن  فلا يميز بينهم",
+        "narrator": "أبان بن فيروز"
+      },
+      {
+        "qawl": "ثقة",
+        "narrator": "أبان بن صالح بن عمير بن عبيد"
+      },
+      {
+        "qawl": "مجهول",
+        "narrator": "أبان بن طارق"
+      }
+    ]
+  },
+  {
+    "candidate": "Abu Hatim al-Razi",
+    "arabic_name": "أبو حاتم الرازي",
+    "full_name": "Muḥammad ibn Idrīs al-Rāzī (Abū Ḥātim)",
+    "death_year_ah": 277,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      429
+    ],
+    "narrator_aqwal_count": 5227,
+    "sample_aqwal": [
+      {
+        "qawl": "ثقة صدوق  ومرة  ثقة مأمون متعبد من خيار عباد الله",
+        "narrator": "آدم بن عبد الرحمن بن محمد بن شعيب"
+      },
+      {
+        "qawl": "صالح",
+        "narrator": "آدم بن سليمان"
+      },
+      {
+        "qawl": "شيخ",
+        "narrator": "آدم بن علي"
+      }
+    ]
+  },
+  {
+    "candidate": "al-Daraqutni",
+    "arabic_name": "الدارقطني",
+    "full_name": "ʿAlī ibn ʿUmar al-Dāraquṭnī",
+    "death_year_ah": 385,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      1264
+    ],
+    "narrator_aqwal_count": 2984,
+    "sample_aqwal": [
+      {
+        "qawl": "ثقة",
+        "narrator": "آدم بن عبد الرحمن بن محمد بن شعيب"
+      },
+      {
+        "qawl": "ذكره في السنن  وقال  متروك الحديث",
+        "narrator": "أبان بن فيروز"
+      },
+      {
+        "qawl": "ضعيف",
+        "narrator": "أبان بن عبد الله بن أبي حازم بن صخر بن العيلة"
+      }
+    ]
+  },
+  {
+    "candidate": "al-Dhahabi",
+    "arabic_name": "الذهبي",
+    "full_name": "Muḥammad ibn Aḥmad al-Dhahabī",
+    "death_year_ah": 748,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      1268
+    ],
+    "narrator_aqwal_count": 11501,
+    "sample_aqwal": [
+      {
+        "qawl": "له صحبة",
+        "narrator": "عبد الله بن عبد الملك"
+      },
+      {
+        "qawl": "ثقة)",
+        "narrator": "آدم بن علي"
+      },
+      {
+        "qawl": "من المهاجرات الأول",
+        "narrator": "آمنة بنت محصن بن حرثان بن قيس بن مرة"
+      }
+    ]
+  },
+  {
+    "candidate": "Ibn Abi Hatim",
+    "arabic_name": "ابن أبي حاتم الرازي",
+    "full_name": "ʿAbd al-Raḥmān ibn Muḥammad ibn Abī Ḥātim",
+    "death_year_ah": 327,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      924
+    ],
+    "narrator_aqwal_count": 3845,
+    "sample_aqwal": [
+      {
+        "qawl": "ذكره في الجرح والتعديل وقال  قال أبي  روى عن علي  روى إسماعيل بن سميع عن بكير الطويل عنه",
+        "narrator": "أبو أرطأة"
+      },
+      {
+        "qawl": "ذكره في الجرح والتعديل وقال  قال أبي  روى عن أنس  وروى عنه أبو إسحاق الهمداني",
+        "narrator": "أبو أسماء"
+      },
+      {
+        "qawl": "ذكره في الجرح والتعديل وقال  قال أبي  رأى النبي صلى الله عليه وسلم يحتجم روى شريك عن أبي جعفر الفراء عنه",
+        "narrator": "أبو آمنة"
+      }
+    ]
+  },
+  {
+    "candidate": "Ibn Hibban",
+    "arabic_name": "ابن حبان",
+    "full_name": "Muḥammad ibn Ḥibbān al-Bustī",
+    "death_year_ah": 354,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      431
+    ],
+    "narrator_aqwal_count": 12250,
+    "sample_aqwal": [
+      {
+        "qawl": "ذكره في الثقات ",
+        "narrator": "آدم بن عبد الرحمن بن محمد بن شعيب"
+      },
+      {
+        "qawl": "ذكره في الثقات ",
+        "narrator": "آدم بن سليمان"
+      },
+      {
+        "qawl": "ذكره في الثقات",
+        "narrator": "آدم بن علي"
+      }
+    ]
+  },
+  {
+    "candidate": "al-Tirmidhi",
+    "arabic_name": "الترمذي",
+    "full_name": "Muḥammad ibn ʿĪsā al-Tirmidhī",
+    "death_year_ah": 279,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      621
+    ],
+    "narrator_aqwal_count": 238,
+    "sample_aqwal": [
+      {
+        "qawl": "ثقة",
+        "narrator": "أبان بن إسحاق"
+      },
+      {
+        "qawl": "حسن حديثه",
+        "narrator": "سعد بن الأخرم"
+      },
+      {
+        "qawl": "مجهول",
+        "narrator": "أبو الجارية"
+      }
+    ]
+  },
+  {
+    "candidate": "Abu Dawud",
+    "arabic_name": "أبو داود",
+    "full_name": "Sulaymān ibn al-Ashʿath al-Sijistānī",
+    "death_year_ah": 275,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      459
+    ],
+    "narrator_aqwal_count": 1206,
+    "sample_aqwal": [
+      {
+        "qawl": "ثقة",
+        "narrator": "آدم بن عبد الرحمن بن محمد بن شعيب"
+      },
+      {
+        "qawl": "لا يكتب حديثه",
+        "narrator": "أبان بن فيروز"
+      },
+      {
+        "qawl": "ثقة أنكر في آخر أيامه",
+        "narrator": "أبان بن صمعة"
+      }
+    ]
+  },
+  {
+    "candidate": "al-Nasa'i",
+    "arabic_name": "النسائي",
+    "full_name": "Aḥmad ibn Shuʿayb al-Nasāʾī",
+    "death_year_ah": 303,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      717,
+      767,
+      1630,
+      1900
+    ],
+    "narrator_aqwal_count": 2735,
+    "sample_aqwal": [
+      {
+        "qawl": "ذكره في الصحابة",
+        "narrator": "أحزاب بن أسيد"
+      },
+      {
+        "qawl": "رجل صدق",
+        "narrator": "أحمد بن الحجاج"
+      },
+      {
+        "qawl": "وثقه",
+        "narrator": "أنيس بن محمد بن سمعان"
+      }
+    ]
+  },
+  {
+    "candidate": "Malik ibn Anas",
+    "arabic_name": "مالك بن أنس",
+    "full_name": "Mālik ibn Anas",
+    "death_year_ah": 179,
+    "exists_in_hadith_grades": false,
+    "hadith_grade_count": 0,
+    "exists_in_alems": true,
+    "alem_ids": [
+      2289
+    ],
+    "narrator_aqwal_count": 76,
+    "sample_aqwal": [
+      {
+        "qawl": "ما رأيت مثله",
+        "narrator": "أبو بكر بن محمد بن عمرو بن حزم بن زيد بن لوذان بن حارثة بن عدي بن زيد بن ثعلبة بن زيد مناة"
+      },
+      {
+        "qawl": "لا أعرفه",
+        "narrator": "أبو يزيد"
+      },
+      {
+        "qawl": "لم أر عند المحدثين غيره  ولكنه أحمق يدفع كتبه إلى هؤلاء العراقيين",
+        "narrator": "أنس بن عياض بن ضمرة"
+      }
+    ]
+  }
+]
