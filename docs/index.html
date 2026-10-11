@@ -169,6 +169,20 @@
     .badge-green { background: #d1fae5; color: #065f46; }
     .badge-blue { background: #dbeafe; color: #1e40af; }
     .badge-gold { background: #fef3c7; color: #92400e; }
+    .badge-rose { background: #fee2e2; color: #991b1b; }
+    .filter-select {
+      padding: 0.6rem 0.9rem;
+      border: 1px solid var(--border-dark);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      background: #fff;
+      color: var(--text-main);
+      outline: none;
+      cursor: pointer;
+    }
+    .filter-select:focus {
+      border-color: var(--primary);
+    }
 
     /* Stat Cards Grid */
     .stat-grid {
@@ -573,72 +587,54 @@
       <div class="section-header">
         <div>
           <h3>Dataset Provenance & Attribution Register</h3>
-          <p style="font-size:0.85rem; color:var(--text-muted);">Exhaustive attribution and licensing records for all primary corpora, crosswalks, and commentary sources.</p>
+          <p style="font-size:0.85rem; color:var(--text-muted);">Exhaustive attribution and licensing records for all 18 primary corpora, grading datasets, commentaries, crosswalks, and AI indices.</p>
         </div>
       </div>
+      <div class="filter-bar">
+        <input type="text" id="provSearch" class="search-input" placeholder="Search by dataset name, author, local path, license, or keyword (e.g. 'Jumaah', 'HadithPro', 'Bukhari', 'CC-BY')..." oninput="filterProvenanceTable()">
+        <select id="provCategory" class="filter-select" onchange="filterProvenanceTable()">
+          <option value="ALL">All Categories</option>
+          <option value="Corpus">Primary Corpus</option>
+          <option value="Grading">Authenticity Gradings</option>
+          <option value="Commentary">Commentaries</option>
+          <option value="Translation">English Translations</option>
+          <option value="Crosswalk">Concordance Crosswalks</option>
+          <option value="Narrators">Narrator Demographics</option>
+          <option value="Topology">Isnād Multigraph</option>
+          <option value="Search">Search & Indexing</option>
+          <option value="AI / Vector">AI & Vector Embeddings</option>
+        </select>
+        <select id="provStatus" class="filter-select" onchange="filterProvenanceTable()">
+          <option value="ALL">All Statuses</option>
+          <option value="VERIFIED">Verified Only</option>
+          <option value="LICENSE REVIEW REQUIRED">License Review Required</option>
+        </select>
+      </div>
       <div class="endpoint-table-container">
-        <table class="data-table">
+        <table class="data-table" id="provTable">
           <thead>
             <tr>
-              <th>Dataset / Resource</th>
-              <th>Local Path</th>
-              <th>Size</th>
-              <th>Upstream Source & URL</th>
-              <th>License & Permission</th>
+              <th style="width:190px;">Dataset / Resource</th>
+              <th style="width:110px;">Category</th>
+              <th style="width:160px;">Local Path & Size</th>
+              <th>Creator & Verified Upstream URL</th>
+              <th style="width:180px;">License & Redistribution</th>
+              <th style="width:130px;">Verification</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td><strong>Canonical Hadith KG</strong></td>
-              <td><code>data/hadith-kg.db</code></td>
-              <td>1.64 GB</td>
-              <td>Al-Maktaba al-Shamelah & Open IKG (<a href="https://al-maktaba.org" target="_blank">al-maktaba.org</a>)</td>
-              <td>Public Domain (Classical Islamic Heritage)</td>
-            </tr>
-            <tr>
-              <td><strong>Numbering Concordance</strong></td>
-              <td><code>data/hadith_numbering.db</code></td>
-              <td>35.09 MB</td>
-              <td>Darussalam, Fu'ad 'Abd al-Baqi, Wensinck (<a href="https://sunnah.com" target="_blank">sunnah.com</a>)</td>
-              <td>Open Scholarly Concordance Metadata</td>
-            </tr>
-            <tr>
-              <td><strong>Isnād Topology Graph</strong></td>
-              <td><code>data/isnad_network.db</code></td>
-              <td>52.09 MB</td>
-              <td>Computed Multigraph (298,655 directed edges)</td>
-              <td>Mīzān Scholarly Topology Model</td>
-            </tr>
-            <tr>
-              <td><strong>English Translation Corpus</strong></td>
-              <td><code>data/hadith_translations.db</code></td>
-              <td>24.05 MB</td>
-              <td>Academic translations via Sunnah.com</td>
-              <td>Academic & Educational Fair Use</td>
-            </tr>
-            <tr>
-              <td><strong>Classical Commentary Corpus</strong></td>
-              <td><code>data/hadith_commentaries.db</code></td>
-              <td>9.05 MB</td>
-              <td>*Fatḥ al-Bārī*, *Sharḥ Muslim*, *ʿAwn al-Maʿbūd*</td>
-              <td>Public Domain (Historical Classical Texts)</td>
-            </tr>
-            <tr>
-              <td><strong>Master Scholar Judgments</strong></td>
-              <td><code>data/classical_scholar_evidence.db</code></td>
-              <td>2.43 MB</td>
-              <td>Primary verdicts of al-Tirmidhi, al-Bukhari, Ibn Hajar</td>
-              <td>Public Domain (Classical Historical Rulings)</td>
-            </tr>
-            <tr>
-              <td><strong>Modern Takhrij References</strong></td>
-              <td><code>data/citation_enrichment.db</code></td>
-              <td>9.25 MB</td>
-              <td>Zubair Ali Zai & al-Albani verified citations</td>
-              <td>Research Data / Educational Fair Use</td>
-            </tr>
+          <tbody id="provTableBody">
+            <!-- Dynamically populated from PROVENANCE_DATA -->
           </tbody>
         </table>
+      </div>
+      <div style="margin-top:1.25rem; padding:1rem; background:var(--bg-card); border:1px solid var(--border); border-radius:8px; font-size:0.85rem; color:var(--text-muted);">
+        <strong>Attribution & Academic Integrity Notice:</strong> Mīzān al-Ḥadīth complies with CC-BY-4.0 attribution terms for Emaad Jumaah's Hadith Knowledge Graph, ODbL 1.0 for Open-Hadith-Data classical commentaries, and Zenodo DOI 10.5281/zenodo.19453612 for Ali Bin Shahid's Itqan narrator database. Modern English translations are maintained strictly under educational fair use. Complete details:
+        <span style="display:inline-block; margin-left:0.5rem;">
+          <a href="data/dataset-inventory.md" target="_blank" style="color:var(--primary); font-weight:600; text-decoration:none; margin-right:0.75rem;">📋 Dataset Inventory</a>
+          <a href="data/provenance-and-attribution.md" target="_blank" style="color:var(--primary); font-weight:600; text-decoration:none; margin-right:0.75rem;">🏛️ Provenance Register</a>
+          <a href="data/external-services.md" target="_blank" style="color:var(--primary); font-weight:600; text-decoration:none; margin-right:0.75rem;">🌐 External APIs</a>
+          <a href="data/licensing-and-redistribution.md" target="_blank" style="color:var(--primary); font-weight:600; text-decoration:none;">⚖️ Licensing Directive</a>
+        </span>
       </div>
     </section>
 
@@ -785,24 +781,33 @@
         ]
       },
       lineage: {
-        title: "Data Lineage & Provenance Flow",
-        desc: "Traces primary sources from classical historical origins through digital ingestion, index compilation, and user features.",
+        title: "Data Lineage & Verified Upstream Graph",
+        desc: "Forensic source-to-application data flow tracing verified upstream projects, canonical databases, and derived indices.",
         nodes: [
-          { id: "src_shamela", label: "Al-Maktaba al-Shamelah", x: 50, y: 80, w: 180, h: 45, color: "#475569", text: "#fff", sub: "Upstream", path: "al-maktaba.org", access: "Public Domain", status: "VERIFIED", desc: "Historical classical texts and commentaries (Bukhari, Muslim, Fath al-Bari)." },
-          { id: "src_sunnah", label: "Sunnah.com Concordance", x: 50, y: 180, w: 180, h: 45, color: "#475569", text: "#fff", sub: "Upstream", path: "sunnah.com", access: "Open Concordance", status: "VERIFIED", desc: "Darussalam and Fu'ad 'Abd al-Baqi numbering crosswalk references." },
-          { id: "src_geo", label: "Mu'jam al-Buldan Gazetteer", x: 50, y: 280, w: 180, h: 45, color: "#475569", text: "#fff", sub: "Upstream", path: "Yaqut al-Hamawi", access: "Historical Facts", status: "VERIFIED", desc: "Coordinates for 12 canonical Islamic transmission centers." },
-          { id: "proc_norm", label: "Orthographic Normalization", x: 290, y: 80, w: 190, h: 45, color: "#c5a059", text: "#072217", sub: "Ingestion", path: "scripts/build_*.py", access: "Preprocessing", status: "VERIFIED", desc: "Arabic diacritics stripping, hamzah normalization, and FTS5 indexing." },
-          { id: "proc_cross", label: "Offset & Alias Mapping", x: 290, y: 180, w: 190, h: 45, color: "#c5a059", text: "#072217", sub: "Ingestion", path: "reference_resolver.py", access: "Deterministic", status: "VERIFIED", desc: "Crosswalk alignment linking Darussalam numbering to canonical hadith IDs." },
-          { id: "proc_topo", label: "Isnād Topology Compiler", x: 290, y: 280, w: 190, h: 45, color: "#c5a059", text: "#072217", sub: "Compiler", path: "build_isnad_network.py", access: "Graph Engine", status: "VERIFIED", desc: "Compiles 4.4M narrator transmission links into 298k directed multigraph edges." },
-          { id: "out_fe", label: "Mīzān Full-Stack Application", x: 560, y: 180, w: 220, h: 70, color: "#0d3826", text: "#fff", sub: "Platform", path: "mizan-web", access: "Live Application", status: "VERIFIED", desc: "Powers the canonical library, isnad graphs, diff viewer, and Ask Mīzān assistant." }
+          { id: "src_jumaah", label: "Emaad Jumaah KG", x: 40, y: 35, w: 180, h: 44, color: "#475569", text: "#fff", sub: "Upstream (CC-BY-4.0)", path: "emadjumaah/hadith", access: "Hugging Face", status: "VERIFIED", desc: "Structured Hadith Knowledge Graph (715k hadiths, 577k sanads, 49.8k rawis, 127k jarh statements)." },
+          { id: "src_hadithpro", label: "HadithPro Gradings", x: 40, y: 105, w: 180, h: 44, color: "#475569", text: "#fff", sub: "Upstream (Open Data)", path: "unkn4wn/hadith-pro", access: "GitHub", status: "VERIFIED", desc: "65,420 multi-scholar evaluations (Zubair Ali Zai, al-Albani, Arnaut, Abu Ghuddah, Abdul Hamid)." },
+          { id: "src_itqan", label: "Itqan Narrator DB", x: 40, y: 175, w: 180, h: 44, color: "#475569", text: "#fff", sub: "Upstream (Open Access)", path: "Ali Bin Shahid (Zenodo)", access: "DOI 10.5281/zenodo.19453612", status: "VERIFIED", desc: "115k narrator profiles, 49.8k English transliterated names, 128k name variants, 91k grades." },
+          { id: "src_hashim", label: "Open-Hadith-Data", x: 40, y: 245, w: 180, h: 44, color: "#475569", text: "#fff", sub: "Upstream (ODbL 1.0)", path: "mhashim6/Open-Hadith-Data", access: "GitHub", status: "VERIFIED", desc: "6 classical commentaries (Fath al-Bari, Sharh Muslim, Tuhfat al-Ahwadhi, Awn al-Ma'bud, Hashiyat al-Sindi)." },
+          { id: "src_shamela", label: "Shamela & Sunnah.com", x: 40, y: 315, w: 180, h: 44, color: "#475569", text: "#fff", sub: "Upstream (Mixed)", path: "shamela.ws / sunnah.com", access: "Public / Fair Use", status: "VERIFIED", desc: "Umdat al-Qari, 31,488 translations (Fair Use), and 18-edition concordance crosswalks." },
+          { id: "src_geo", label: "Mu'jam al-Buldan", x: 40, y: 385, w: 180, h: 44, color: "#475569", text: "#fff", sub: "Upstream (Public Domain)", path: "Yaqut al-Hamawi (d. 626 AH)", access: "Classical Geography", status: "VERIFIED", desc: "Demographic coordinates for 12 canonical Islamic transmission centers." },
+
+          { id: "proc_canon", label: "Canonical Knowledge DB", x: 285, y: 65, w: 200, h: 50, color: "#0d3826", text: "#fff", sub: "Canonical (1.64 GB)", path: "data/hadith-kg.db", access: "mode=ro SQLite", status: "VERIFIED", desc: "Master relational knowledge graph with B-tree indices and strict read-only URI invariants." },
+          { id: "proc_enrich", label: "Scholarly Enrichment DBs", x: 285, y: 185, w: 200, h: 50, color: "#c5a059", text: "#072217", sub: "Enrichment (125 MB)", path: "commentaries + numbering + rijal", access: "mode=ro SQLite", status: "VERIFIED", desc: "Relational shuruh, 18-edition concordances, 3,462 frozen classical evaluations, and 14k Zubair takhrij links." },
+          { id: "proc_derived", label: "Topology & Search Indexes", x: 285, y: 305, w: 200, h: 50, color: "#165b3e", text: "#fff", sub: "Derived (385 MB)", path: "isnad_network.db + FTS5 + Vectors", access: "Compiled Indexes", status: "VERIFIED", desc: "298k isnad edges, Arabic and English FTS5 virtual tables, and 20.7k Gemini vector embeddings." },
+
+          { id: "out_fe", label: "Mīzān Full-Stack Platform", x: 550, y: 165, w: 240, h: 88, color: "#072217", text: "#fff", sub: "Application Platform", path: "mizan-web (FastAPI + Next.js)", access: "Bilingual Platform", status: "VERIFIED", desc: "Interactive library, isnad graph visualizers, matn diff viewer, Ask Mīzān assistant, and isolated workspace." }
         ],
         edges: [
-          { from: "src_shamela", to: "proc_norm", label: "Raw Mutun" },
-          { from: "src_sunnah", to: "proc_cross", label: "Concordance" },
-          { from: "src_geo", to: "proc_topo", label: "Coordinates" },
-          { from: "proc_norm", to: "out_fe", label: "FTS Index" },
-          { from: "proc_cross", to: "out_fe", label: "Lookup Key" },
-          { from: "proc_topo", to: "out_fe", label: "Graph Nodes" }
+          { from: "src_jumaah", to: "proc_canon", label: "Mutun & Asanid" },
+          { from: "src_hadithpro", to: "proc_canon", label: "65k Grades" },
+          { from: "src_itqan", to: "proc_enrich", label: "49.8k Narrators" },
+          { from: "src_hashim", to: "proc_enrich", label: "Commentaries" },
+          { from: "src_shamela", to: "proc_enrich", label: "Crosswalk & Trans" },
+          { from: "src_geo", to: "proc_derived", label: "Hub Coordinates" },
+          { from: "proc_canon", to: "proc_derived", label: "Graph Derivation" },
+          { from: "proc_canon", to: "out_fe", label: "Canonical APIs" },
+          { from: "proc_enrich", to: "out_fe", label: "Bilingual APIs" },
+          { from: "proc_derived", to: "out_fe", label: "Graphs & Vectors" }
         ]
       },
       askmizan: {
@@ -1057,10 +1062,275 @@
       renderApiTable(filtered);
     }
 
+    // ---------------------------------------------------------------------------
+    // Populate Provenance Explorer Table
+    // ---------------------------------------------------------------------------
+    const PROVENANCE_DATA = [
+      {
+        id: "src-hkg-jumaah",
+        name: "Hadith Knowledge Graph",
+        cat: "Corpus",
+        path: "data/hadith-kg.db",
+        size: "1.64 GB",
+        creator: "Emaad Jumaah",
+        url: "https://huggingface.co/datasets/emadjumaah/hadith-kg",
+        license: "CC-BY-4.0",
+        redist: "Allowed (with attribution)",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-hadithpro-grades",
+        name: "HadithPro Authenticity Gradings",
+        cat: "Grading",
+        path: "data/hadith-kg.db (hadith_grades)",
+        size: "65,420 rows",
+        creator: "HadithPro (unkn4wn) / Scholars",
+        url: "https://github.com/unkn4wn/hadith-pro",
+        license: "Open Data / GPL",
+        redist: "Allowed",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-hadithpro-concordance",
+        name: "HadithPro Cross-Collection Index",
+        cat: "Crosswalk",
+        path: "data/hadith-kg.db (hadith_pro_hadiths)",
+        size: "21,187 rows",
+        creator: "HadithPro (unkn4wn)",
+        url: "https://github.com/unkn4wn/hadith-pro",
+        license: "Open Data",
+        redist: "Allowed",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-classical-evaluations",
+        name: "Classical Authorial Evaluations",
+        cat: "Grading",
+        path: "data/classical_scholar_evidence.db",
+        size: "2.43 MB (3,462 rows)",
+        creator: "al-Tirmidhi, Abu Dawud, al-Nasa'i",
+        url: "Classical Heritage / Frozen Phase 4",
+        license: "Public Domain / CC-BY-4.0",
+        redist: "Allowed",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-takhrij-enrichment",
+        name: "Zubair Ali Zai Takhrij Concordance",
+        cat: "Crosswalk",
+        path: "data/citation_enrichment.db",
+        size: "9.25 MB (14,398 rows)",
+        creator: "Darussalam / Hafiz Zubair Ali Zai",
+        url: "https://islamicurdubooks.com",
+        license: "Academic Fair Use",
+        redist: "Allowed for Metadata",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-commentary-hashim",
+        name: "Open-Hadith-Data Commentaries (6 Works)",
+        cat: "Commentary",
+        path: "data/hadith_commentaries.db",
+        size: "9.05 MB (1,202 rows)",
+        creator: "Muhammad Hashim / Classical Authors",
+        url: "https://github.com/mhashim6/Open-Hadith-Data",
+        license: "ODbL 1.0 (Data) / Public Domain (Text)",
+        redist: "Allowed (ODbL terms)",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-commentary-shamela",
+        name: "Umdat al-Qari & Irshad al-Sari",
+        cat: "Commentary",
+        path: "data/hadith_commentaries.db",
+        size: "9.05 MB",
+        creator: "Al-Maktaba al-Shamela / al-Ayni & al-Qastallani",
+        url: "https://shamela.ws/book/8302",
+        license: "Public Domain (Classical 9th/10th c. AH)",
+        redist: "Allowed (Non-Commercial)",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-translations-en",
+        name: "English Translation Corpus",
+        cat: "Translation",
+        path: "data/hadith_translations.db",
+        size: "24.05 MB (31,488 rows)",
+        creator: "Sunnah.com / Dr. Muhsin Khan, Siddiqui, etc.",
+        url: "https://sunnah.com",
+        license: "Educational Fair Use (Modern Copyright)",
+        redist: "Restricted (No Bulk Commercial)",
+        status: "LICENSE REVIEW REQUIRED"
+      },
+      {
+        id: "src-numbering-crosswalk",
+        name: "18-Edition Multi-Numbering Crosswalk",
+        cat: "Crosswalk",
+        path: "data/hadith_numbering.db",
+        size: "35.09 MB (95,598 rows)",
+        creator: "Darussalam, Shamela, Sunnah.com, Abd al-Baqi",
+        url: "https://sunnah.com",
+        license: "Open Scholarly Metadata",
+        redist: "Allowed",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-itqan-narrators",
+        name: "Itqan Narrator Database",
+        cat: "Narrators",
+        path: "data/english_enrichment.db",
+        size: "52.2 MB (49,844 rawis)",
+        creator: "Ali Bin Shahid (DOI 10.5281/zenodo.19453612)",
+        url: "https://github.com/r3genesi5/Itqan",
+        license: "Open Access (Zenodo)",
+        redist: "Allowed (with attribution)",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-isnad-network",
+        name: "Isnād Topological Multigraph",
+        cat: "Topology",
+        path: "data/isnad_network.db",
+        size: "52.09 MB (298,655 edges)",
+        creator: "Mīzān al-Ḥadīth Topology Compiler",
+        url: "Synthetic Derived Multigraph",
+        license: "MIT License",
+        redist: "Allowed",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-fts-arabic",
+        name: "Arabic Full-Text Search FTS5 Index",
+        cat: "Search",
+        path: "data/hadith-search-index.db",
+        size: "248.5 MB",
+        creator: "Mīzān al-Ḥadīth Search Engine",
+        url: "Derived Application Artifact",
+        license: "MIT License",
+        redist: "Allowed",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-fts-english",
+        name: "English Translation FTS5 Index",
+        cat: "Search",
+        path: "data/english_translation_fts.db",
+        size: "32.8 MB",
+        creator: "Mīzān al-Ḥadīth Search Engine",
+        url: "Derived Application Artifact",
+        license: "MIT License",
+        redist: "Allowed locally",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-vector-gemini",
+        name: "Grounded Semantic Meaning Index",
+        cat: "AI / Vector",
+        path: "data/derived_semantic_index.db",
+        size: "85.1 MB (20,744 vectors)",
+        creator: "Mīzān / Google Gemini Embeddings",
+        url: "Derived Cache (768-dim float32)",
+        license: "Derived Cache",
+        redist: "Allowed",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-vector-gemma2",
+        name: "EmbeddingGemma-2 Vector Store",
+        cat: "AI / Vector",
+        path: "data/derived_embeddinggemma2_768d.db",
+        size: "20.4 KB (270M Architecture)",
+        creator: "Google DeepMind / Mīzān",
+        url: "https://huggingface.co/google/embeddinggemma-2",
+        license: "Apache 2.0 / MIT",
+        redist: "Allowed",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-geo-gazetteer",
+        name: "Historical Islamic Gazetteer",
+        cat: "Topology",
+        path: "mizan-web/frontend/src/app/isnad/geoData.ts",
+        size: "12 Hubs",
+        creator: "Yāqūt al-Ḥamawī (d. 626 AH) / Mīzān",
+        url: "Mu'jam al-Buldan (Public Domain)",
+        license: "Public Domain / MIT",
+        redist: "Allowed",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-benchmarks",
+        name: "Ask Mīzān & Embedding Benchmarks",
+        cat: "AI / Vector",
+        path: "data/benchmarks/",
+        size: "JSONL Evaluation Suites",
+        creator: "Mīzān al-Ḥadīth Research Team",
+        url: "Automated Regression Test Suite",
+        license: "MIT License",
+        redist: "Allowed",
+        status: "VERIFIED"
+      },
+      {
+        id: "src-workspace-ledger",
+        name: "Ask Mīzān State & Audit Ledger",
+        cat: "Search",
+        path: "data/ask_mizan.db",
+        size: "37.2 MB",
+        creator: "Mīzān Application Runtime",
+        url: "Isolated State Database",
+        license: "MIT License",
+        redist: "Allowed",
+        status: "VERIFIED"
+      }
+    ];
+
+    function renderProvenanceTable(list) {
+      const tbody = document.getElementById("provTableBody");
+      if (!tbody) return;
+      tbody.innerHTML = "";
+      list.forEach(item => {
+        const tr = document.createElement("tr");
+        const statusClass = item.status === "VERIFIED" ? "badge-green" : (item.status.includes("REVIEW") ? "badge-gold" : "badge-blue");
+        const urlDisplay = item.url.startsWith("http") 
+          ? `<a href="${item.url}" target="_blank" style="color:var(--primary); font-weight:600; text-decoration:none;">${item.creator} ↗</a>`
+          : `<span>${item.creator}</span> <small style="color:var(--text-muted); display:block;">${item.url}</small>`;
+        
+        tr.innerHTML = `
+          <td><strong>${item.name}</strong><br><small style="font-family:var(--font-mono); color:var(--text-muted);">${item.id}</small></td>
+          <td><span class="badge-pill badge-blue" style="font-size:0.7rem;">${item.cat}</span></td>
+          <td><code>${item.path}</code><br><small style="color:var(--text-muted);">${item.size}</small></td>
+          <td>${urlDisplay}</td>
+          <td><span style="font-weight:600;">${item.license}</span><br><small style="color:var(--text-muted);">${item.redist}</small></td>
+          <td><span class="badge-pill ${statusClass}" style="font-size:0.7rem;">${item.status}</span></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function filterProvenanceTable() {
+      const q = (document.getElementById("provSearch").value || "").toLowerCase();
+      const cat = document.getElementById("provCategory").value;
+      const stat = document.getElementById("provStatus").value;
+
+      const filtered = PROVENANCE_DATA.filter(item => {
+        const matchesQuery = !q || 
+          item.name.toLowerCase().includes(q) || 
+          item.id.toLowerCase().includes(q) || 
+          item.creator.toLowerCase().includes(q) || 
+          item.path.toLowerCase().includes(q) || 
+          item.license.toLowerCase().includes(q);
+        const matchesCat = cat === "ALL" || item.cat === cat;
+        const matchesStat = stat === "ALL" || item.status === stat;
+        return matchesQuery && matchesCat && matchesStat;
+      });
+      renderProvenanceTable(filtered);
+    }
+
     // Initialize on page load
     window.addEventListener("DOMContentLoaded", () => {
       loadGraph("architecture");
       renderApiTable(SAMPLE_ENDPOINTS);
+      renderProvenanceTable(PROVENANCE_DATA);
     });
   </script>
 </body>

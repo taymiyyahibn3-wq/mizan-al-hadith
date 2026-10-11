@@ -27,7 +27,8 @@ dist/
 !.yarn/versions
 
 # Canonical, Derived, Cache & Workspace Databases (STRICTLY FORBIDDEN FROM TRACKING)
-data/
+/data/
+!docs/data/
 database/
 *.db
 *.db-shm

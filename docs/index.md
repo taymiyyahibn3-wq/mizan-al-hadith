@@ -47,6 +47,7 @@ docs/
 │   ├── dataset-inventory.md                   # Forensic inventory of all databases & records
 │   ├── schemas-and-relationships.md           # DDL definitions, primary keys & foreign keys
 │   ├── provenance-and-attribution.md          # Upstream source registry & classical attributions
+│   ├── external-services.md                   # Runtime and offline external APIs & hosted models
 │   ├── translations.md                        # English translation corpus & FTS alignment
 │   └── licensing-and-redistribution.md        # Asset licenses, redistribution rules & fair use
 │

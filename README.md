@@ -257,14 +257,24 @@ cd mizan-web/frontend && npx tsc --noEmit
 
 ## 📜 Dataset Provenance & Attribution
 
-- Classical Arabic texts were composed centuries ago by historical authors and reside in the **Public Domain**.
-- Digital text transcription normalized from Al-Maktaba al-Shamelah ([al-maktaba.org](https://al-maktaba.org)) and Open Islamic Knowledge Graph.
-- Standard concordance references derived from recognized editions ([sunnah.com](https://sunnah.com)).
-- Historical geographical gazetteer derived from Yāqūt al-Ḥamawī (*Muʿjam al-Buldān*).
+Mīzān al-Ḥadīth combines canonical classical literature with modern computational knowledge graphs, multi-scholar authenticity gradings, and academic concordances. The project adheres to strict academic attribution:
 
-For complete provenance, hashes, and licenses, see:  
-👉 **[docs/data/provenance-and-attribution.md](docs/data/provenance-and-attribution.md)**  
-👉 **[docs/data/licensing-and-redistribution.md](docs/data/licensing-and-redistribution.md)**
+1. **Primary Hadith Knowledge Graph:** Compiled and relationalized by **Emaad Jumaah (Emad Jumaah)** ([GitHub](https://github.com/emadjumaah/hadith) · [Hugging Face](https://huggingface.co/datasets/emadjumaah/hadith-kg)), licensed under **CC-BY-4.0**. Original classical texts (*mutūn* and *asānīd*) composed by historical authors reside in the universal Public Domain.
+2. **HadithPro Authenticity Gradings:** Multi-scholar evaluations (65,420 records) sourced from the **HadithPro Project** ([GitHub](https://github.com/unkn4wn/hadith-pro)), preserving explicit scholar attributions (Ḥāfiẓ Zubair ʿAlī Zaʾī, Shaykh al-Albānī, Shaykh Shuʿayb al-Arnāʾūṭ, and others).
+3. **Classical Commentary Corpus:** Excerpts from 8 classical works across two verified digital traditions:
+   - Six works (*Fatḥ al-Bārī*, *al-Minhāj Sharḥ Ṣaḥīḥ Muslim*, *Tuḥfat al-Aḥwadhī*, *ʿAwn al-Maʿbūd*, and *Ḥāshiyat al-Sindī* on Nasāʾī and Ibn Mājah) digitized via Muhammad Hashim's **Open-Hadith-Data** ([GitHub](https://github.com/mhashim6/Open-Hadith-Data)), licensed under **ODbL 1.0** (classical texts: Public Domain).
+   - Two works (*ʿUmdat al-Qārī* and *Irshād al-Sārī*) sourced via **Al-Maktaba al-Shamela** ([shamela.ws](https://shamela.ws)).
+4. **English Translation Corpus:** 31,488 academic translations aligned via the **Sunnah.com Open Hadith Project** ([sunnah.com](https://sunnah.com)). Modern publisher translations (Darussalam, etc.) are utilized strictly under **Academic & Educational Fair Use**; commercial redistribution is restricted.
+5. **Multi-Edition Numbering & Concordance:** 95,598 mappings across 18 publication schemes, standardizing references from al-Maktabah al-Shāmilah, Darussalam, Sunnah.com, and Fu'ād ʿAbd al-Bāqī.
+6. **Itqan Narrator Database:** 49,844 scholarly transliterations, 128k name variants, and 91k narrator grades compiled by **Ali Bin Shahid** ([GitHub](https://github.com/r3genesi5/Itqan) · [DOI 10.5281/zenodo.19453612](https://doi.org/10.5281/zenodo.19453612)).
+7. **Classical Scholar Evidence:** 3,462 frozen authorial evaluations directly recorded in the classical corpora of Imam al-Tirmidhī, Imam Abū Dāwūd, and Imam al-Nasāʾī.
+8. **Historical Geographic Gazetteer:** Transmission hubs and coordinates mapped from Yāqūt al-Ḥamawī (*Muʿjam al-Buldān*) and classical biographical demographics.
+
+📖 **Detailed Registers & Governance Documentation:**
+- 📋 **[Complete Forensic Dataset Inventory](docs/data/dataset-inventory.md)** — Exhaustive 13-column schema with record counts, transformations, and licenses.
+- 🏛️ **[Dedicated Provenance & Attribution Register](docs/data/provenance-and-attribution.md)** — Detailed 14-section source lineage and methodological guarantees.
+- 🌐 **[External APIs & Hosted Services Register](docs/data/external-services.md)** — Google Gemini, OpenAI, Anthropic, and Ollama offline runtime specifications.
+- ⚖️ **[Licensing & Redistribution Directive](docs/data/licensing-and-redistribution.md)** — Full IP audit and redistribution constraints matrix.
 
 ---
 
