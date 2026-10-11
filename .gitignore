@@ -80,6 +80,17 @@ current_v32.txt
 openapi_extracted.json
 db_stats.json
 
+# Internal Development, Validation Logs & Sprint Drafts (Preserved Locally)
+validation/
+[0-1][0-9]_*.md
+FRONTEND_AUDIT.md
+docs/embeddinggemma2_*.md
+docs/phase6*.md
+docs/phase7*.md
+docs/ask-mizan/
+docs/ask-mizan-critical-fixes/
+docs/research-workspace/
+
 # Operating System & IDE Artifacts
 .DS_Store
 Thumbs.db
@@ -88,3 +99,4 @@ Thumbs.db
 *.swp
 *.swo
 *~
+

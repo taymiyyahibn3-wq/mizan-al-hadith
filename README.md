@@ -49,6 +49,8 @@ It bridges fourteen centuries of traditional Islamic transmission sciences (*ʿI
 
 - 📊 **[Interactive Architecture & Graph Explorer](docs/index.html)** *(7 Interactive Visualizers, SVG Canvas, Node Inspector)*
 - 📖 **[Documentation Portal Master Index](docs/index.md)**
+- 📽️ **[Public Showcase & Presentation Suite](docs/showcase/README.md)** *(Approved Slide Decks, 1080p Video, UI Showcase)*
+- 📈 **[Evaluation Benchmarks & Methodology](docs/benchmarks/README.md)** *(FTS5 Lexical, Hybrid Retrieval v2, Grounding Metrics)*
 - 🏗️ **[System Architecture](docs/architecture/system-overview.md)** · **[Frontend Guide](docs/architecture/frontend-architecture.md)** · **[Backend Guide](docs/architecture/backend-architecture.md)**
 - ⚡ **[REST API Reference (95 Endpoints)](docs/api/endpoint-reference.md)**
 - 📜 **[Dataset Provenance & Attribution Register](docs/data/provenance-and-attribution.md)**

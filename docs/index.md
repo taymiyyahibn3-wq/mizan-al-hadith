@@ -67,6 +67,12 @@ docs/
 │   ├── ask-mizan-pipeline.mmd                 # Multi-tier Ask Mīzān retrieval & synthesis
 │   └── research-workspace.mmd                 # Workspace data model & entity relationships
 │
+├── showcase/                                  # Approved presentation decks, videos & visual demos
+│   └── README.md                              # Presentation 01, Presentation 02 & 1080p video showcase
+│
+├── benchmarks/                                # Validated methodology & empirical evaluations
+│   └── README.md                              # FTS5 lexical, hybrid retrieval v2 & grounding metrics
+│
 └── github-publication/                        # Release audits & publication reports
     ├── REPOSITORY_AUDIT.md                    # Forensic inventory of real codebase & assets
     ├── SECURITY_AND_PRIVACY_AUDIT.md          # Cryptographic secret scan & privacy certification
